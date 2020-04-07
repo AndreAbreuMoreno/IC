@@ -48,15 +48,18 @@ const taxa_exploracao = 0.3
 """FUNCOES"""
 # Funcao executa a acao
 
-function escolheAcao(arq, estado)
+function escolheAcao(arq, estado, Q)
       println(arq, "\nEscolhe acao")
       key = calculaKey(estado)
-      println(arq, "key: ", key)
-
+      println(arq, "key: ", key, "typeof: ", typeof(key[3]))
+      println(arq, "valor: ", Q[3117121137])
       epsilon = rand()
       if epsilon > taxa_exploracao
-            return melhorAcao(key)
+            println(arq, "melhor acao")
+            acao = melhorAcao(arq,key, Q)
+            return acao
       else
+            println(arq, "aleatorio")
             num = rand(1:3)
             while key[num] == 0
                   num = rand(1:3)
@@ -159,7 +162,7 @@ end
 
 function executaAcao(arq, estado,acao,linhat1, linhat2)
       acao = acao%10
-      println(arq, "acao: ", acao, conjuntoAcao[acao])
+      println(arq, "acao: ", acao," ", conjuntoAcao[acao])
       # ESTADO 1
       proximo_estado = zeros(10)
       if acao == ENTER_LONG
@@ -234,9 +237,9 @@ function calculaRecompensa(proximo_estado, estado, acao, linhat0)
       if estado[1] == NPOS
             recompensa = 0
       elseif estado[1] == LONG
-            recompensa = (linhat0[4] - estado[10])/estado[10]
+            recompensa = (linhat0[4] - proximo_estado[10])/proximo_estado[10]
       elseif estado[1] == SHORT
-            recompensa = (estado[10] - linhat0[4])/estado[10]
+            recompensa = (proximo_estado[10] - linhat0[4])/proximo_estado[10]
       end
       return recompensa
 end
@@ -267,8 +270,9 @@ function  calculaKey(estado)
       return convert(Array{Int64},[key1,key2,key3])
 end
 
-function melhorAcao(key)
+function melhorAcao(arq, key, Q)
       if key[3] != 0
+            println(arq, "key3")
             if Q[key[1]] > Q[key[2]]
                   if Q[key[1]] > Q[key[3]]
                         return key[1]
@@ -279,8 +283,11 @@ function melhorAcao(key)
             else return key[3]
             end
       elseif Q[key[1]] > Q[key[2]]
-                  return key[1]
-      else return key[2]
+            println(arq, "key1")
+            return key[1]
+      else
+            println(arq, "key2")
+            return key[2]
       end
 end
 
@@ -356,108 +363,61 @@ function criaQ(iteracao)
 
             vals = zeros(size(keys))
             Q = Dict(zip(keys, vals))
-            return Q
+
+      else
+
+            chave = open("dict/chave$(iteracao).txt", "r")
+            valor = open("dict/valor$(iteracao).txt", "r")
+            dic = open("dict/dicionario.txt", "w")
+            keys= []
+            vals = []
+            while !eof(chave)
+
+                  k = parse.(Int64,readline(chave))
+                  v = parse.(Float64,readline(valor))
+                  append!(keys, k)
+                  append!(vals, v)
+            end
+            Q = Dict(zip(keys, vals))
+            for (k,v) in Q
+                  println(dic, "k:", k, "v: ",v, " typeofk: ", typeof(k))
+            end
+            close(dic)
+            close(chave)
+            close(valor)
       end
+      return Q
 end
-""" Inicializa todos os valores de Q(e,a) arbitrariamente """
-# Q = zeros(1728,3)
-# # INICIALIZACAO DA MATRIZ Q
-# a1 = 0
-# b1 = 0
-# c1 = 0
-# d1 = 0
-# e1 = 0
-# f1 = 0
-# g1 = 0
-# h1 = 0
-# i1 = 0
-# keys = []
-# vals = []
-# for a in [1 2 3]
-#       a1 = a*1000000000
-#       for b in [1 2]
-#             b1 = b*100000000
-#             for c in [1 2]
-#                   c1 = c*10000000
-#                   for d in [1 2 3 7]
-#                         d1 = d*1000000
-#                         for e in [ 1 2]
-#                               e1 = e*100000
-#                               for f in [1 2]
-#                                     f1 = f*10000
-#                                     for g in [1 2]
-#                                           g1 = g*1000
-#                                           for h in [1 2]
-#                                                 h1 = h*100
-#                                                 for i in [1 2 3]
-#                                                       i1 = i*10
-#                                                       num = a1 + b1 + c1 + d1 + e1 + f1 + g1 + h1 + i1
-#                                                       if a == 1
-#                                                             aux = num + 2
-#                                                             append!(keys,aux)
-#                                                             append!(vals,rand()*0.00001)
-#                                                             aux = num + 3
-#                                                             append!(keys,aux)
-#                                                             append!(vals,rand()*0.00001)
-#                                                       elseif a == 2
-#                                                             aux = num + 5
-#                                                             append!(keys,aux)
-#                                                             append!(vals,rand()*0.00001)
-#                                                             aux = num + 6
-#                                                             append!(keys,aux)
-#                                                             append!(vals,rand()*0.00001)
-#                                                       elseif a == 3
-#                                                             aux = num + 1
-#                                                             append!(keys,aux)
-#                                                             append!(vals,rand()*0.00001)
-#                                                             aux = num + 4
-#                                                             append!(keys,aux)
-#                                                             append!(vals,rand()*0.00001)
-#                                                             aux = num + 7
-#                                                             append!(keys,aux)
-#                                                             append!(vals,rand()*0.00001)
-#                                                       end
-#                                                       append!(vals,rand()*0.0001)
-#                                                 end
-#                                           end
-#                                     end
-#                               end
-#                         end
-#                   end
-#             end
-#       end
-# end
 
-# vals = zeros(size(keys))
-# Q = Dict(zip(keys, vals))
-
-
-
-
-""" para cada iteracao """
+#******************************************************************
+""" Verifica de qual iteracao esta iniciando """
 it = open("dict/iteracao.txt", "r")
 iteracao = parse(Int64,readline(it))
 close(it)
 
+""" Inicializa todos os valores de Q(e,a) arbitrariamente """
 Q = criaQ(iteracao)
 
-qtd_iteracao = 300000
-# criar loop das itearcoes
+""" Define quantas iteraçoes serao realizadas """
+qtd_iteracao = 20000
+
+
+""" Para cada episodio """
+
 while iteracao < qtd_iteracao
-      global iteracao
-      global linhas
-      global dados1
-
-      dados = open("dados/training.csv", "r")
-      result = open("saida/resultado$(iteracao).txt", "w")
-
-
-
       println("iteracao", iteracao)
-      """ Inicializa estado e """
-      estado = zeros(Int64,10)
-      proximo_estado = zeros(10)
+      global iteracao
+      global cont = 1    #variavel para verificar quantos estados já se passaram na iteracao atual
+      n = iteracao%5
       recompensa = 0
+
+      # Abre arquivos de leitura e escrita
+      global dados = open("dados/training.csv", "r")
+      result = open("saida/resultado$(n).txt", "w")
+
+      """ Inicializa estado e o proximo_estado"""
+      estado = zeros(Int64,10)
+      proximo_estado = zeros(Int64, 10)
 
       cabecalho = readline(dados)
       linhat3 = split(readline(dados),"\t")
@@ -468,40 +428,24 @@ while iteracao < qtd_iteracao
       linhat1 = parse.(Float32,linhat1[3:8])
       linhat0= split(readline(dados),"\t")
       linhat0= parse.(Float32,linhat0[3:8])
-      cont = 1
-      global cont
-      global dados
-
       primeiroEstado(estado, linhat0, linhat1, linhat2, linhat3)
+      # Imprime o primeiro estado em result
       printEstado(result, estado)
 
-      #""" Execucao do algoritmo """
       """ Escolhe a acao """
-      acao = escolheAcao(result, estado)
+      acao = escolheAcao(result, estado, Q)
 
-      println(result, "*************** \nestado", cont, "\n")
-while !eof(dados)
-      # """ Repeat """
-
-            # global linhat0
-            # global linhat1
-            # global linhat2
-            # global estado
-            # global recompensa
-            # global acao
-      """ Executa a açao """
-
-            # ATUALIZA O ESTADO
+      println(result, "***************")
+      println(result, "estado ", cont, "\n")
+      """ REPEAT """
+      while !eof(dados)
+            """ Executa a açao """
             linhat2 = linhat1
             linhat1 = linhat0
             linhat0=split(readline(dados),"\t")
             linhat0= parse.(Float32,linhat0[3:8])
             proximo_estado = executaAcao(result, estado, acao,linhat1, linhat2)
-
-            # IMPRIME DADOS
-            # println("atual", estado)
-            # println("proximo ", proximo_estado)
-            printdados(linhat0, linhat1, linhat2, proximo_estado)
+            # IMPRIME ESTADO E PROXIMO ESTADO
             println(result, "                    1     2   3   4   5    6     7     8    9")
             print(result, "        ")
             printEstado(result, estado)
@@ -509,39 +453,35 @@ while !eof(dados)
             print(result, "proximo ")
             printEstado(result, proximo_estado)
 
-            """ Calcula recompensa"""
+            """ Calcula recompensa r(proximo estado)"""
             recompensa = calculaRecompensa(proximo_estado, estado,acao, linhat0)
 
             """Escolhe a proxima acao"""
-            proxima_acao = escolheAcao(result, proximo_estado)
+            proxima_acao = escolheAcao(result, proximo_estado, Q)
 
-
-            # CALCULA A RECOMPENSA
             println(result, "recompensa: ", recompensa, " estado: ", estado[10], " valor atual: ", linhat0[4])
 
-            # Q_atual = get(Q, acao, -1)
-            # Q_proximo = get(Q, proxima_acao, -1)
-            # println(result, "Q_atual: ", Q_atual, " Q_proximo: ", Q_proximo)
-            # Q_atualizado = Q_atual + taxa_aprendizado*(recompensa + fator_desconto*Q_proximo - Q_atual)
-            # aux = Dict(acao => Q_atual)
-            # merge!(Q, aux)
-            # teste = get(Q, acao, -1)
+            """ Atualiza Q(e,a) """
             antes = Q[acao]
             proximo = Q[proxima_acao]
-            Q[acao] = Q[acao] + taxa_aprendizado*(recompensa + fator_desconto*Q[proxima_acao] - Q[acao])
+            Q[acao] = Q[acao] + taxa_aprendizado * (recompensa + fator_desconto* Q[proxima_acao] - Q[acao])
+            println(result, "antes: ", antes," proximo: ", proximo, " teste dict: ", Q[acao])
 
-            teste = Q[acao]
-
-            println(result, "antes: ", antes," proximo: ", proximo, " teste dict: ", teste)
-
+            """ atualiza estado e acao """
             estado = proximo_estado
             acao = proxima_acao
-            println(result,"\n**************\nestado", cont, "\n")
+
+            println(result, "***************")
+            println(result, "estado ", cont, "\n")
       end
       iteracao = iteracao + 1
+
+      """ Salva Status a cada 1000 iteracoes"""
       if iteracao%1000 == 0
+            println("imprimiu um dict")
             chave = open("dict/chave$(iteracao).txt", "w")
-            valor = open("dict/valoar$(iteracao).txt", "w")
+            println(chave, "teste")
+            valor = open("dict/valor$(iteracao).txt", "w")
 
             for (k,v) in Q
                       println(chave, k)
@@ -549,14 +489,17 @@ while !eof(dados)
             end
             it = open("dict/iteracao.txt", "w")
             println(it, iteracao)
+
             close(it)
+            close(chave)
+            close(valor)
       end
-      close(result)
       close(dados)
 end
 
 
 #***********************************************
+""" Testa algoritmo"""
 estado = zeros(Int64,10)
 proximo_estado = zeros(Int64,10)
 dados = open("dados/teste.csv", "r")
@@ -587,7 +530,7 @@ while !eof(dados)
       global historico
       global historico_acumulado
       key = calculaKey(estado)
-      acao = melhorAcao(key)
+      acao = melhorAcao(test, key, Q)
       println(test, "key: ", key)
       if key[3] == 0
             println(test, "1 ", Q[key[1]]," 2 ", Q[key[2]], " acao: ", acao%10, conjuntoAcao[acao%10])
@@ -602,7 +545,7 @@ while !eof(dados)
       recompensa = recompensa + r
       append!(historico_acumulado, recompensa)
       println(test, "recompensa: ", recompensa)
-      proximo_estado = executaAcao(result, estado, acao,linhat1, linhat2)
+      proximo_estado = executaAcao(test, estado, acao,linhat1, linhat2)
       estado = proximo_estado
 
 
