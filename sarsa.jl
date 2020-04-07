@@ -45,16 +45,15 @@ const fator_desconto    = 0.7
 """FUNCOES"""
 # Funcao executa a acao
 
-function escolheAcao(arq, estado, Q, iteracao)
+function escolheAcao(arq, estado, dict, iteracao)
       println(arq, "\nEscolhe acao")
       key = calculaKey(estado)
-      println(arq, "key: ", key, "typeof: ", typeof(key[3]))
-      println(arq, "valor: ", Q[3117121137])
+      println(arq, "key: ", key)
       epsilon = rand()
       taxa_exploracao = exp(log(0.5) + iteracao*(log(0.0001)-log(0.5))/300000)
       if epsilon > taxa_exploracao
             println(arq, "melhor acao")
-            acao = melhorAcao(arq,key, Q)
+            acao = melhorAcao(arq,key, dict)
             return acao
       else
             println(arq, "aleatorio")
@@ -260,19 +259,19 @@ function  calculaKey(estado)
       return convert(Array{Int64},[key1,key2,key3])
 end
 
-function melhorAcao(arq, key, Q)
+function melhorAcao(arq, key, dict)
       if key[3] != 0
             println(arq, "key3")
-            if Q[key[1]] > Q[key[2]]
-                  if Q[key[1]] > Q[key[3]]
+            if dict[key[1]] > dict[key[2]]
+                  if dict[key[1]] > dict[key[3]]
                         return key[1]
                   else return key[3]
                   end
-            elseif Q[key[2]] > Q[key[3]]
+            elseif dict[key[2]] > dict[key[3]]
                   return key[2]
             else return key[3]
             end
-      elseif Q[key[1]] > Q[key[2]]
+      elseif dict[key[1]] > dict[key[2]]
             println(arq, "key1")
             return key[1]
       else
@@ -283,7 +282,6 @@ end
 
 function criaQ(iteracao)
       if iteracao == 0
-            Q = zeros(1728,3)
             # INICIALIZACAO DA MATRIZ Q
             a1 = 0
             b1 = 0
@@ -351,9 +349,12 @@ function criaQ(iteracao)
                   end
             end
 
-            vals = zeros(size(keys))
-            Q = Dict(zip(keys, vals))
-
+            # vals = zeros(size(keys))
+            funcao_e_a = Dict(zip(keys, vals))
+            for (k,v) in funcao_e_a
+                      println(k," ", v)
+            end
+            return funcao_e_a
       else
 
             chave = open("dict/chave$(iteracao).txt", "r")
@@ -368,15 +369,16 @@ function criaQ(iteracao)
                   append!(keys, k)
                   append!(vals, v)
             end
-            Q = Dict(zip(keys, vals))
-            for (k,v) in Q
+            funcao_e_a = Dict(zip(keys, vals))
+            for (k,v) in funcao_e_a
                   println(dic, "k:", k, "v: ",v, " typeofk: ", typeof(k))
             end
             close(dic)
             close(chave)
             close(valor)
+            return funcao_e_a
       end
-      return Q
+
 end
 
 #******************************************************************
@@ -386,7 +388,7 @@ iteracao = parse(Int64,readline(it))
 close(it)
 
 """ Inicializa todos os valores de Q(e,a) arbitrariamente """
-Q = criaQ(iteracao)
+funcao_e_a = criaQ(iteracao)
 
 """ Define quantas iteraçoes serao realizadas """
 qtd_iteracao = 20000
@@ -398,6 +400,7 @@ while iteracao < qtd_iteracao
       println("iteracao", iteracao)
       global iteracao
       global cont = 1    #variavel para verificar quantos estados já se passaram na iteracao atual
+      global funcao_e_a
       n = iteracao%5
       recompensa = 0
 
@@ -423,7 +426,7 @@ while iteracao < qtd_iteracao
       printEstado(result, estado)
 
       """ Escolhe a acao """
-      acao = escolheAcao(result, estado, Q, iteracao)
+      acao = escolheAcao(result, estado, funcao_e_a, iteracao)
 
       println(result, "***************")
       println(result, "estado ", cont, "\n")
@@ -447,15 +450,15 @@ while iteracao < qtd_iteracao
             recompensa = calculaRecompensa(proximo_estado, estado,acao, linhat0)
 
             """Escolhe a proxima acao"""
-            proxima_acao = escolheAcao(result, proximo_estado, Q, iteracao)
+            proxima_acao = escolheAcao(result, proximo_estado, funcao_e_a, iteracao)
 
             println(result, "recompensa: ", recompensa, " estado: ", estado[10], " valor atual: ", linhat0[4])
 
             """ Atualiza Q(e,a) """
-            antes = Q[acao]
-            proximo = Q[proxima_acao]
-            Q[acao] = Q[acao] + taxa_aprendizado * (recompensa + fator_desconto* Q[proxima_acao] - Q[acao])
-            println(result, "antes: ", antes," proximo: ", proximo, " teste dict: ", Q[acao])
+            antes = funcao_e_a[acao]
+            proximo = funcao_e_a[proxima_acao]
+            funcao_e_a[acao] = funcao_e_a[acao] + taxa_aprendizado * (recompensa + fator_desconto* funcao_e_a[proxima_acao] - funcao_e_a[acao])
+            println(result, "antes: ", antes," proximo: ", proximo, " teste dict: ", funcao_e_a[acao])
 
             """ atualiza estado e acao """
             estado = proximo_estado
@@ -467,13 +470,12 @@ while iteracao < qtd_iteracao
       iteracao = iteracao + 1
 
       """ Salva Status a cada 1000 iteracoes"""
-      if iteracao%1000 == 0
+      if iteracao%10 == 0
             println("imprimiu um dict")
             chave = open("dict/chave$(iteracao).txt", "w")
-            println(chave, "teste")
             valor = open("dict/valor$(iteracao).txt", "w")
 
-            for (k,v) in Q
+            for (k,v) in funcao_e_a
                       println(chave, k)
                       println(valor, v)
             end
@@ -521,11 +523,11 @@ while !eof(dados)
       global historico
       global historico_acumulado
       key = calculaKey(estado)
-      acao = melhorAcao(test, key, Q)
+      acao = melhorAcao(test, key, funcao_e_a)
       println(test, "key: ", key)
       if key[3] == 0
-            println(test, "1 ", Q[key[1]]," 2 ", Q[key[2]], " acao: ", acao%10, conjuntoAcao[acao%10])
-      else println(test, "1 ", Q[key[1]]," 2 ", Q[key[2]]," 3 ", Q[key[3]]," acao: ", acao%10, conjuntoAcao[acao%10])
+            println(test, "1 ", funcao_e_a[key[1]]," 2 ", funcao_e_a[key[2]], " acao: ", acao%10, conjuntoAcao[acao%10])
+      else println(test, "1 ", funcao_e_a[key[1]]," 2 ", funcao_e_a[key[2]]," 3 ", funcao_e_a[key[3]]," acao: ", acao%10, conjuntoAcao[acao%10])
       end
       linhat2 = linhat1
       linhat1 = linhat0
