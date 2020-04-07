@@ -40,7 +40,7 @@ conjuntoAcao = ["ENTER_LONG", "STAY_LONG", "EXIT_LONG", "ENTER_SHORT", "STAY_SHO
 
 const taxa_aprendizado  = 0.007
 const fator_desconto    = 0.7
-const taxa_exploracao = 0.3
+
 
 # """ Leitura e escrita de arquivos  """
 # dados = open("dados/BPAC11.csv", "r")
@@ -48,12 +48,13 @@ const taxa_exploracao = 0.3
 """FUNCOES"""
 # Funcao executa a acao
 
-function escolheAcao(arq, estado, Q)
+function escolheAcao(arq, estado, Q, iteracao)
       println(arq, "\nEscolhe acao")
       key = calculaKey(estado)
       println(arq, "key: ", key, "typeof: ", typeof(key[3]))
       println(arq, "valor: ", Q[3117121137])
       epsilon = rand()
+      taxa_exploracao = exp(log(0.5) + iteracao*(log(0.0001)-log(0.5))/300000)
       if epsilon > taxa_exploracao
             println(arq, "melhor acao")
             acao = melhorAcao(arq,key, Q)
@@ -167,13 +168,13 @@ function executaAcao(arq, estado,acao,linhat1, linhat2)
       proximo_estado = zeros(10)
       if acao == ENTER_LONG
             proximo_estado[1] = LONG
-            proximo_estado[10] = (linhat1[2] + linhat1[3])/2
+            proximo_estado[10] = linhat1[4]
       elseif acao == EXIT_LONG || acao == EXIT_SHORT
             proximo_estado[1] = NPOS
             proximo_estado[10] = 0
       elseif acao == ENTER_SHORT
             proximo_estado[1] = SHORT
-            proximo_estado[10] = (linhat1[2] + linhat1[3])/2
+            proximo_estado[10] = linhat1[4]
       elseif acao == STAY_LONG || acao == STAY_SHORT || acao == NOPa
             proximo_estado[1] = estado[1]
             proximo_estado[10] = estado[10]
@@ -433,7 +434,7 @@ while iteracao < qtd_iteracao
       printEstado(result, estado)
 
       """ Escolhe a acao """
-      acao = escolheAcao(result, estado, Q)
+      acao = escolheAcao(result, estado, Q, iteracao)
 
       println(result, "***************")
       println(result, "estado ", cont, "\n")
@@ -457,7 +458,7 @@ while iteracao < qtd_iteracao
             recompensa = calculaRecompensa(proximo_estado, estado,acao, linhat0)
 
             """Escolhe a proxima acao"""
-            proxima_acao = escolheAcao(result, proximo_estado, Q)
+            proxima_acao = escolheAcao(result, proximo_estado, Q, iteracao)
 
             println(result, "recompensa: ", recompensa, " estado: ", estado[10], " valor atual: ", linhat0[4])
 
