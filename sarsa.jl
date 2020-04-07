@@ -42,9 +42,6 @@ const taxa_aprendizado  = 0.007
 const fator_desconto    = 0.7
 
 
-# """ Leitura e escrita de arquivos  """
-# dados = open("dados/BPAC11.csv", "r")
-
 """FUNCOES"""
 # Funcao executa a acao
 
@@ -223,14 +220,6 @@ function executaAcao(arq, estado,acao,linhat1, linhat2)
       else proximo_estado[9] = DOWN
       end
       return proximo_estado
-end
-
-function printdados(linhat0, linhat1, linhat2, proximo_estado)
-      # println(result, "atual. close - open: ", linhat0[4], " ", linhat0[1], " ",linhat0[4] - linhat0[1])
-      # println(result, "t1. close - open: ", linhat1[4], " ",linhat1[1], " ",linhat1[4] - linhat1[1])
-      # println(result, "6. vol. ticket t1 - ticket t2: ", linhat1[5], " ", linhat2[5], " ",linhat1[5] - linhat2[5])
-      # println(result, "8. t1. media: ",(linhat1[3] + linhat1[2])/2, " close: ",linhat1[4])
-      # println(result, "9. estado: ", proximo_estado[1], "valor: ", proximo_estado[10], "closet1: ", linhat1[4] )
 end
 
 function calculaRecompensa(proximo_estado, estado, acao, linhat0)
@@ -495,6 +484,7 @@ while iteracao < qtd_iteracao
             close(chave)
             close(valor)
       end
+      close(result)
       close(dados)
 end
 
@@ -557,3 +547,6 @@ println(hist, historico)
 println(hist2, historico_acumulado)
 
 close(dados)
+close(test)
+close(hist)
+close(hist2)
