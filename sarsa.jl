@@ -226,9 +226,9 @@ function calculaRecompensa(proximo_estado, estado, acao, linhat0)
       if estado[1] == NPOS
             recompensa = 0
       elseif estado[1] == LONG
-            recompensa = (linhat0[4] - proximo_estado[10])/proximo_estado[10]
+            recompensa = (linhat0[4] - estado[10])/estado[10]
       elseif estado[1] == SHORT
-            recompensa = (proximo_estado[10] - linhat0[4])/proximo_estado[10]
+            recompensa = (estado[10] - linhat0[4])/estado[10]
       end
       return recompensa
 end
@@ -391,7 +391,7 @@ close(it)
 funcao_e_a = criaQ(iteracao)
 
 """ Define quantas iteraçoes serao realizadas """
-qtd_iteracao = 20000
+qtd_iteracao = 300000
 
 
 """ Para cada episodio """
@@ -401,13 +401,12 @@ while iteracao < qtd_iteracao
       global iteracao
       global cont = 1    #variavel para verificar quantos estados já se passaram na iteracao atual
       global funcao_e_a
-      n = iteracao%5
+      n = iteracao%10
       recompensa = 0
 
       # Abre arquivos de leitura e escrita
       global dados = open("dados/training.csv", "r")
       result = open("saida/resultado$(n).txt", "w")
-
       """ Inicializa estado e o proximo_estado"""
       estado = zeros(Int64,10)
       proximo_estado = zeros(Int64, 10)
@@ -470,7 +469,7 @@ while iteracao < qtd_iteracao
       iteracao = iteracao + 1
 
       """ Salva Status a cada 1000 iteracoes"""
-      if iteracao%10 == 0
+      if iteracao%500 == 0
             println("imprimiu um dict")
             chave = open("dict/chave$(iteracao).txt", "w")
             valor = open("dict/valor$(iteracao).txt", "w")
