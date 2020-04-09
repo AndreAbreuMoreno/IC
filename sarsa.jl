@@ -1,5 +1,3 @@
-
-
 #""" lendos dados csv"""
 using DelimitedFiles
 using DataFrames
@@ -45,7 +43,7 @@ const fator_desconto    = 0.7
 """FUNCOES"""
 # Funcao executa a acao
 
-function escolheAcao(arq, estado, dict, iteracao)
+function escolheAcao(arq, estado)
       println(arq, "\nEscolhe acao")
       key = calculaKey(estado)
       println(arq, "key: ", key)
@@ -53,7 +51,7 @@ function escolheAcao(arq, estado, dict, iteracao)
       taxa_exploracao = exp(log(0.5) + iteracao*(log(0.0001)-log(0.5))/300000)
       if epsilon > taxa_exploracao
             println(arq, "melhor acao")
-            acao = melhorAcao(arq,key, dict)
+            acao = melhorAcao(arq,key)
             return acao
       else
             println(arq, "aleatorio")
@@ -259,19 +257,19 @@ function  calculaKey(estado)
       return convert(Array{Int64},[key1,key2,key3])
 end
 
-function melhorAcao(arq, key, dict)
+function melhorAcao(arq, key)
       if key[3] != 0
             println(arq, "key3")
-            if dict[key[1]] > dict[key[2]]
-                  if dict[key[1]] > dict[key[3]]
+            if Q_e_a[key[1]] > Q_e_a[key[2]]
+                  if Q_e_a[key[1]] > Q_e_a[key[3]]
                         return key[1]
                   else return key[3]
                   end
-            elseif dict[key[2]] > dict[key[3]]
+            elseif Q_e_a[key[2]] > Q_e_a[key[3]]
                   return key[2]
             else return key[3]
             end
-      elseif dict[key[1]] > dict[key[2]]
+      elseif Q_e_a[key[1]] > Q_e_a[key[2]]
             println(arq, "key1")
             return key[1]
       else
@@ -350,11 +348,8 @@ function criaQ(iteracao)
             end
 
             # vals = zeros(size(keys))
-            funcao_e_a = Dict(zip(keys, vals))
-            for (k,v) in funcao_e_a
-                      println(k," ", v)
-            end
-            return funcao_e_a
+            Q_e_a = Dict(zip(keys, vals))
+            return Q_e_a
       else
 
             chave = open("dict/chave$(iteracao).txt", "r")
@@ -369,14 +364,14 @@ function criaQ(iteracao)
                   append!(keys, k)
                   append!(vals, v)
             end
-            funcao_e_a = Dict(zip(keys, vals))
-            for (k,v) in funcao_e_a
+            Q_e_a = Dict(zip(keys, vals))
+            for (k,v) in Q_e_a
                   println(dic, "k:", k, "v: ",v, " typeofk: ", typeof(k))
             end
             close(dic)
             close(chave)
             close(valor)
-            return funcao_e_a
+            return Q_e_a
       end
 
 end
@@ -388,7 +383,7 @@ iteracao = parse(Int64,readline(it))
 close(it)
 
 """ Inicializa todos os valores de Q(e,a) arbitrariamente """
-funcao_e_a = criaQ(iteracao)
+Q_e_a = criaQ(iteracao)
 
 """ Define quantas iteraçoes serao realizadas """
 qtd_iteracao = 300000
@@ -401,7 +396,7 @@ while iteracao < qtd_iteracao
       global iteracao
       global cont = 1    #variavel para verificar quantos estados já se passaram na iteracao atual
       global funcao_e_a
-      n = iteracao%10
+      n = iteracao%5
       recompensa = 0
 
       # Abre arquivos de leitura e escrita
@@ -425,7 +420,7 @@ while iteracao < qtd_iteracao
       printEstado(result, estado)
 
       """ Escolhe a acao """
-      acao = escolheAcao(result, estado, funcao_e_a, iteracao)
+      acao = escolheAcao(result, estado)
 
       println(result, "***************")
       println(result, "estado ", cont, "\n")
@@ -449,15 +444,15 @@ while iteracao < qtd_iteracao
             recompensa = calculaRecompensa(proximo_estado, estado,acao, linhat0)
 
             """Escolhe a proxima acao"""
-            proxima_acao = escolheAcao(result, proximo_estado, funcao_e_a, iteracao)
+            proxima_acao = escolheAcao(result, proximo_estado)
 
             println(result, "recompensa: ", recompensa, " estado: ", estado[10], " valor atual: ", linhat0[4])
 
             """ Atualiza Q(e,a) """
-            antes = funcao_e_a[acao]
-            proximo = funcao_e_a[proxima_acao]
-            funcao_e_a[acao] = funcao_e_a[acao] + taxa_aprendizado * (recompensa + fator_desconto* funcao_e_a[proxima_acao] - funcao_e_a[acao])
-            println(result, "antes: ", antes," proximo: ", proximo, " teste dict: ", funcao_e_a[acao])
+            antes = Q_e_a[acao]
+            proximo = Q_e_a[proxima_acao]
+            Q_e_a[acao] = Q_e_a[acao] + taxa_aprendizado * (recompensa + fator_desconto* Q_e_a[proxima_acao] - Q_e_a[acao])
+            println(result, "antes: ", antes," proximo: ", proximo, " teste dict: ", Q_e_a[acao])
 
             """ atualiza estado e acao """
             estado = proximo_estado
@@ -474,7 +469,7 @@ while iteracao < qtd_iteracao
             chave = open("dict/chave$(iteracao).txt", "w")
             valor = open("dict/valor$(iteracao).txt", "w")
 
-            for (k,v) in funcao_e_a
+            for (k,v) in Q_e_a
                       println(chave, k)
                       println(valor, v)
             end
@@ -522,11 +517,11 @@ while !eof(dados)
       global historico
       global historico_acumulado
       key = calculaKey(estado)
-      acao = melhorAcao(test, key, funcao_e_a)
+      acao = melhorAcao(test, key)
       println(test, "key: ", key)
       if key[3] == 0
-            println(test, "1 ", funcao_e_a[key[1]]," 2 ", funcao_e_a[key[2]], " acao: ", acao%10, conjuntoAcao[acao%10])
-      else println(test, "1 ", funcao_e_a[key[1]]," 2 ", funcao_e_a[key[2]]," 3 ", funcao_e_a[key[3]]," acao: ", acao%10, conjuntoAcao[acao%10])
+            println(test, "1 ", Q_e_a[key[1]]," 2 ", Q_e_a[key[2]], " acao: ", acao%10, conjuntoAcao[acao%10])
+      else println(test, "1 ", Q_e_a[key[1]]," 2 ", Q_e_a[key[2]]," 3 ", Q_e_a[key[3]]," acao: ", acao%10, conjuntoAcao[acao%10])
       end
       linhat2 = linhat1
       linhat1 = linhat0

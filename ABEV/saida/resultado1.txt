@@ -1,0 +1,1647 @@
+estado1 = [NPOS, UP, DOWN, NOP, DOWN, UP, MAX, MIN, NPOS] 0
+
+Escolhe acao
+key: [3127211231, 3127211234, 3127211237]
+melhor acao
+key3
+***************
+estado 1
+
+acao: 4 ENTER_SHORT
+                    1     2   3   4   5    6     7     8    9
+        estado1 = [NPOS, UP, DOWN, NOP, DOWN, UP, MAX, MIN, NPOS] 0
+proximo estado2 = [SHORT, DOWN, UP, SELL, UP, UP, MIN, MAX, UP] 18.670000076293945
+
+Escolhe acao
+key: [2212112115, 2212112116, 0]
+aleatorio
+num 2 key: 2212112116
+recompensa: 0 estado: 0 valor atual: 11.37
+antes: 0.4462422521158311 proximo: 0.6103602542101738 teste dict: 0.4461093215966501
+***************
+estado 2
+
+acao: 6 EXIT_SHORT
+                    1     2   3   4   5    6     7     8    9
+        estado2 = [SHORT, DOWN, UP, SELL, UP, UP, MIN, MAX, UP] 18.670000076293945
+proximo estado3 = [NPOS, UP, DOWN, BUY, UP, DOWN, MAX, MIN, NPOS] 0.0
+
+Escolhe acao
+key: [3121121231, 3121121234, 3121121237]
+aleatorio
+num 3 key: 3121121237
+recompensa: 0.5291912198214693 estado: 18.670000076293945 valor atual: 8.79
+antes: 0.6103602542101738 proximo: 0.047322556605495794 teste dict: 0.6100239514968198
+***************
+estado 3
+
+acao: 7 NOPa
+                    1     2   3   4   5    6     7     8    9
+        estado3 = [NPOS, UP, DOWN, BUY, UP, DOWN, MAX, MIN, NPOS] 0.0
+proximo estado4 = [NPOS, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, NPOS] 0.0
+
+Escolhe acao
+key: [3227222231, 3227222234, 3227222237]
+melhor acao
+key3
+recompensa: 0 estado: 0.0 valor atual: 13.78
+antes: 0.047322556605495794 proximo: 0.277673326069746 teste dict: 0.04835189800699908
+***************
+estado 4
+
+acao: 1 ENTER_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado4 = [NPOS, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, NPOS] 0.0
+proximo estado5 = [LONG, DOWN, DOWN, BUY, DOWN, UP, MIN, MIN, UP] 13.779999732971191
+
+Escolhe acao
+key: [1221212212, 1221212213, 0]
+melhor acao
+key1
+recompensa: 0 estado: 0.0 valor atual: 5.05
+antes: 0.277673326069746 proximo: 0.4838071385362624 teste dict: 0.27810026776608543
+***************
+estado 5
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado5 = [LONG, DOWN, DOWN, BUY, DOWN, UP, MIN, MIN, UP] 13.779999732971191
+proximo estado6 = [LONG, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, UP] 13.779999732971191
+
+Escolhe acao
+key: [1227122212, 1227122213, 0]
+aleatorio
+num 1 key: 1227122212
+recompensa: -0.48476051943277554 estado: 13.779999732971191 valor atual: 7.1
+antes: 0.4838071385362624 proximo: 0.31947687657669593 teste dict: 0.47859260162570494
+***************
+estado 6
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado6 = [LONG, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, UP] 13.779999732971191
+proximo estado7 = [LONG, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, UP] 13.779999732971191
+
+Escolhe acao
+key: [1227212212, 1227212213, 0]
+melhor acao
+key1
+recompensa: -0.5537010003960724 estado: 13.779999732971191 valor atual: 6.15
+antes: 0.31947687657669593 proximo: 0.320698603205197 teste dict: 0.31493605459359203
+***************
+estado 7
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado7 = [LONG, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, UP] 13.779999732971191
+proximo estado8 = [LONG, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, UP] 13.779999732971191
+
+Escolhe acao
+key: [1227122212, 1227122213, 0]
+aleatorio
+num 1 key: 1227122212
+recompensa: -0.5791001231402572 estado: 13.779999732971191 valor atual: 5.8
+antes: 0.320698603205197 proximo: 0.31493605459359203 teste dict: 0.3159431987882874
+***************
+estado 8
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado8 = [LONG, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, UP] 13.779999732971191
+proximo estado9 = [LONG, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, UP] 13.779999732971191
+
+Escolhe acao
+key: [1227222212, 1227222213, 0]
+melhor acao
+key1
+recompensa: -0.6552975259763795 estado: 13.779999732971191 valor atual: 4.75
+antes: 0.31493605459359203 proximo: 0.29881431221419846 teste dict: 0.3096086096594518
+***************
+estado 9
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado9 = [LONG, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, UP] 13.779999732971191
+proximo estado10 = [LONG, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, UP] 13.779999732971191
+
+Escolhe acao
+key: [1227212212, 1227212213, 0]
+aleatorio
+num 1 key: 1227212212
+recompensa: -0.8004354097757986 estado: 13.779999732971191 valor atual: 2.75
+antes: 0.29881431221419846 proximo: 0.3159431987882874 teste dict: 0.2926676858343311
+***************
+estado 10
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado10 = [LONG, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, UP] 13.779999732971191
+proximo estado11 = [LONG, DOWN, DOWN, NOP, UP, UP, MIN, MIN, UP] 13.779999732971191
+
+Escolhe acao
+key: [1227112212, 1227112213, 0]
+aleatorio
+num 1 key: 1227112212
+recompensa: -0.4898403232194717 estado: 13.779999732971191 valor atual: 7.03
+antes: 0.3159431987882874 proximo: 0.4382154763841543 teste dict: 0.3124499699685155
+***************
+estado 11
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado11 = [LONG, DOWN, DOWN, NOP, UP, UP, MIN, MIN, UP] 13.779999732971191
+proximo estado12 = [LONG, DOWN, DOWN, NOP, UP, UP, MIN, MIN, UP] 13.779999732971191
+
+Escolhe acao
+key: [1227112212, 1227112213, 0]
+melhor acao
+key1
+recompensa: -0.12191577533065959 estado: 13.779999732971191 valor atual: 12.1
+antes: 0.4382154763841543 proximo: 0.4382154763841543 teste dict: 0.43644181345643296
+***************
+estado 12
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado12 = [LONG, DOWN, DOWN, NOP, UP, UP, MIN, MIN, UP] 13.779999732971191
+proximo estado13 = [LONG, DOWN, DOWN, NOP, UP, UP, MIN, MIN, UP] 13.779999732971191
+
+Escolhe acao
+key: [1227112212, 1227112213, 0]
+aleatorio
+num 2 key: 1227112213
+recompensa: 0.11393328584339657 estado: 13.779999732971191 valor atual: 15.35
+antes: 0.43644181345643296 proximo: 0.2946251750697885 teste dict: 0.43562791712098364
+***************
+estado 13
+
+acao: 3 EXIT_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado13 = [LONG, DOWN, DOWN, NOP, UP, UP, MIN, MIN, UP] 13.779999732971191
+proximo estado14 = [NPOS, DOWN, UP, SELL, UP, DOWN, MIN, MAX, NPOS] 0.0
+
+Escolhe acao
+key: [3212122131, 3212122134, 3212122137]
+aleatorio
+num 1 key: 3212122131
+recompensa: -0.021770696411340086 estado: 13.779999732971191 valor atual: 13.48
+antes: 0.2946251750697885 proximo: 0.3774705327536763 teste dict: 0.29426000957991366
+***************
+estado 14
+
+acao: 1 ENTER_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado14 = [NPOS, DOWN, UP, SELL, UP, DOWN, MIN, MAX, NPOS] 0.0
+proximo estado15 = [LONG, UP, DOWN, BUY, DOWN, UP, MAX, MIN, UP] 13.479999542236328
+
+Escolhe acao
+key: [1121211212, 1121211213, 0]
+melhor acao
+key1
+recompensa: 0 estado: 0.0 valor atual: 7.5
+antes: 0.3774705327536763 proximo: 0.6231295049379991 teste dict: 0.37788157359859675
+***************
+estado 15
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado15 = [LONG, UP, DOWN, BUY, DOWN, UP, MAX, MIN, UP] 13.479999542236328
+proximo estado16 = [LONG, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, UP] 13.479999542236328
+
+Escolhe acao
+key: [1227122212, 1227122213, 0]
+melhor acao
+key1
+recompensa: -0.1928783023804221 estado: 13.479999542236328 valor atual: 10.88
+antes: 0.6231295049379991 proximo: 0.3096086096594518 teste dict: 0.6189345324741015
+***************
+estado 16
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado16 = [LONG, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, UP] 13.479999542236328
+proximo estado17 = [LONG, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, UP] 13.479999542236328
+
+Escolhe acao
+key: [1227212212, 1227212213, 0]
+melhor acao
+key1
+recompensa: -0.22477743589511393 estado: 13.479999542236328 valor atual: 10.45
+antes: 0.3096086096594518 proximo: 0.3124499699685155 teste dict: 0.3073989121934156
+***************
+estado 17
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado17 = [LONG, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, UP] 13.479999542236328
+proximo estado18 = [LONG, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, UP] 13.479999542236328
+
+Escolhe acao
+key: [1227122212, 1227122213, 0]
+melhor acao
+key1
+recompensa: -0.44213648098693126 estado: 13.479999542236328 valor atual: 7.52
+antes: 0.3124499699685155 proximo: 0.3073989121934156 teste dict: 0.3086741194815751
+***************
+estado 18
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado18 = [LONG, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, UP] 13.479999542236328
+proximo estado19 = [LONG, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, UP] 13.479999542236328
+
+Escolhe acao
+key: [1227222212, 1227222213, 0]
+aleatorio
+num 2 key: 1227222213
+recompensa: -0.02596435012469929 estado: 13.479999542236328 valor atual: 13.13
+antes: 0.3073989121934156 proximo: 0.17147260685979526 teste dict: 0.3059055851308018
+***************
+estado 19
+
+acao: 3 EXIT_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado19 = [LONG, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, UP] 13.479999542236328
+proximo estado20 = [NPOS, DOWN, DOWN, SELL, DOWN, UP, MIN, MIN, NPOS] 0.0
+
+Escolhe acao
+key: [3222212231, 3222212234, 3222212237]
+aleatorio
+num 2 key: 3222212234
+recompensa: 0.019287851462248786 estado: 13.479999542236328 valor atual: 13.74
+antes: 0.17147260685979526 proximo: -0.10397396466890081 teste dict: 0.16989784114513481
+***************
+estado 20
+
+acao: 4 ENTER_SHORT
+                    1     2   3   4   5    6     7     8    9
+        estado20 = [NPOS, DOWN, DOWN, SELL, DOWN, UP, MIN, MIN, NPOS] 0.0
+proximo estado21 = [SHORT, DOWN, UP, SELL, UP, DOWN, MIN, MAX, UP] 13.739999771118164
+
+Escolhe acao
+key: [2212122115, 2212122116, 0]
+melhor acao
+key1
+recompensa: 0 estado: 0.0 valor atual: 9.21
+antes: -0.10397396466890081 proximo: 0.45835334145110396 teste dict: -0.10100021554310809
+***************
+estado 21
+
+acao: 5 STAY_SHORT
+                    1     2   3   4   5    6     7     8    9
+        estado21 = [SHORT, DOWN, UP, SELL, UP, DOWN, MIN, MAX, UP] 13.739999771118164
+proximo estado22 = [SHORT, UP, DOWN, NOP, DOWN, UP, MAX, MIN, UP] 13.739999771118164
+
+Escolhe acao
+key: [2127211215, 2127211216, 0]
+aleatorio
+num 1 key: 2127211215
+recompensa: 0.15502184497253294 estado: 13.739999771118164 valor atual: 11.61
+antes: 0.45835334145110396 proximo: 0.41873965870835583 teste dict: 0.4582818453034249
+***************
+estado 22
+
+acao: 5 STAY_SHORT
+                    1     2   3   4   5    6     7     8    9
+        estado22 = [SHORT, UP, DOWN, NOP, DOWN, UP, MAX, MIN, UP] 13.739999771118164
+proximo estado23 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, UP] 13.739999771118164
+
+Escolhe acao
+key: [2227122215, 2227122216, 0]
+melhor acao
+key2
+recompensa: 0.023289643388267472 estado: 13.739999771118164 valor atual: 13.42
+antes: 0.41873965870835583 proximo: 0.35175908255631955 teste dict: 0.4176951281056412
+***************
+estado 23
+
+acao: 6 EXIT_SHORT
+                    1     2   3   4   5    6     7     8    9
+        estado23 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, UP] 13.739999771118164
+proximo estado24 = [NPOS, DOWN, DOWN, BUY, DOWN, UP, MIN, MAX, NPOS] 0.0
+
+Escolhe acao
+key: [3221212131, 3221212134, 3221212137]
+aleatorio
+num 2 key: 3221212134
+recompensa: 0.4614264760817228 estado: 13.739999771118164 valor atual: 7.4
+antes: 0.35175908255631955 proximo: 0.0016828595511643924 teste dict: 0.35253500032279805
+***************
+estado 24
+
+acao: 4 ENTER_SHORT
+                    1     2   3   4   5    6     7     8    9
+        estado24 = [NPOS, DOWN, DOWN, BUY, DOWN, UP, MIN, MAX, NPOS] 0.0
+proximo estado25 = [SHORT, DOWN, DOWN, SELL, UP, DOWN, MAX, MIN, UP] 7.400000095367432
+
+Escolhe acao
+key: [2222121215, 2222121216, 0]
+aleatorio
+num 2 key: 2222121216
+recompensa: 0 estado: 0.0 valor atual: 5.29
+antes: 0.0016828595511643924 proximo: 0.0314645881683559 teste dict: 0.0018252560163311857
+***************
+estado 25
+
+acao: 6 EXIT_SHORT
+                    1     2   3   4   5    6     7     8    9
+        estado25 = [SHORT, DOWN, DOWN, SELL, UP, DOWN, MAX, MIN, UP] 7.400000095367432
+proximo estado26 = [NPOS, DOWN, DOWN, BUY, DOWN, DOWN, MIN, MIN, NPOS] 0.0
+
+Escolhe acao
+key: [3221222231, 3221222234, 3221222237]
+melhor acao
+key3
+recompensa: -0.06486486660641765 estado: 7.400000095367432 valor atual: 7.88
+antes: 0.0314645881683559 proximo: 0.2658929819279295 teste dict: 0.03209315759637934
+***************
+estado 26
+
+acao: 1 ENTER_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado26 = [NPOS, DOWN, DOWN, BUY, DOWN, DOWN, MIN, MIN, NPOS] 0.0
+proximo estado27 = [LONG, DOWN, DOWN, BUY, DOWN, UP, MIN, MIN, UP] 7.880000114440918
+
+Escolhe acao
+key: [1221212212, 1221212213, 0]
+aleatorio
+num 1 key: 1221212212
+recompensa: 0 estado: 0.0 valor atual: 9.6
+antes: 0.2658929819279295 proximo: 0.47859260162570494 teste dict: 0.26637683480239993
+***************
+estado 27
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado27 = [LONG, DOWN, DOWN, BUY, DOWN, UP, MIN, MIN, UP] 7.880000114440918
+proximo estado28 = [LONG, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, DOWN] 7.880000114440918
+
+Escolhe acao
+key: [1227122222, 1227122223, 0]
+melhor acao
+key1
+recompensa: 0.157360374760114 estado: 7.880000114440918 valor atual: 9.12
+antes: 0.47859260162570494 proximo: 1.0552254315524923 teste dict: 0.481514580652253
+***************
+estado 28
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado28 = [LONG, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, DOWN] 7.880000114440918
+proximo estado29 = [LONG, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, DOWN] 7.880000114440918
+
+Escolhe acao
+key: [1227212222, 1227212223, 0]
+aleatorio
+num 2 key: 1227212223
+recompensa: 0.6243654828478409 estado: 7.880000114440918 valor atual: 12.8
+antes: 1.0552254315524923 proximo: 0.4986748824833556 teste dict: 1.054652918835728
+***************
+estado 29
+
+acao: 3 EXIT_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado29 = [LONG, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, DOWN] 7.880000114440918
+proximo estado30 = [NPOS, DOWN, DOWN, SELL, UP, UP, MIN, MIN, NPOS] 0.0
+
+Escolhe acao
+key: [3222112231, 3222112234, 3222112237]
+aleatorio
+num 3 key: 3222112237
+recompensa: -0.506345171521591 estado: 7.880000114440918 valor atual: 3.89
+antes: 0.4986748824833556 proximo: 0.1767488460657369 teste dict: 0.4925058114510431
+***************
+estado 30
+
+acao: 7 NOPa
+                    1     2   3   4   5    6     7     8    9
+        estado30 = [NPOS, DOWN, DOWN, SELL, UP, UP, MIN, MIN, NPOS] 0.0
+proximo estado31 = [NPOS, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, NPOS] 0.0
+
+Escolhe acao
+key: [3227122231, 3227122234, 3227122237]
+aleatorio
+num 3 key: 3227122237
+recompensa: 0 estado: 0.0 valor atual: 9.27
+antes: 0.1767488460657369 proximo: 0.16477933869584502 teste dict: 0.1763190229028864
+***************
+estado 31
+
+acao: 7 NOPa
+                    1     2   3   4   5    6     7     8    9
+        estado31 = [NPOS, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, NPOS] 0.0
+proximo estado32 = [NPOS, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, NPOS] 0.0
+
+Escolhe acao
+key: [3227222231, 3227222234, 3227222237]
+aleatorio
+num 3 key: 3227222237
+recompensa: 0 estado: 0.0 valor atual: 7.06
+antes: 0.16477933869584502 proximo: 0.1893030876062707 teste dict: 0.16455346845424482
+***************
+estado 32
+
+acao: 7 NOPa
+                    1     2   3   4   5    6     7     8    9
+        estado32 = [NPOS, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, NPOS] 0.0
+proximo estado33 = [NPOS, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, NPOS] 0.0
+
+Escolhe acao
+key: [3227212231, 3227212234, 3227212237]
+melhor acao
+key3
+recompensa: 0 estado: 0.0 valor atual: 6.78
+antes: 0.1893030876062707 proximo: 0.4436174495776648 teste dict: 0.19015169149595737
+***************
+estado 33
+
+acao: 1 ENTER_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado33 = [NPOS, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, NPOS] 0.0
+proximo estado34 = [LONG, DOWN, DOWN, BUY, UP, DOWN, MIN, MIN, UP] 6.78000020980835
+
+Escolhe acao
+key: [1221122212, 1221122213, 0]
+aleatorio
+num 2 key: 1221122213
+recompensa: 0 estado: 0.0 valor atual: 6.9
+antes: 0.4436174495776648 proximo: 0.5526975036995606 teste dict: 0.443220345198749
+***************
+estado 34
+
+acao: 3 EXIT_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado34 = [LONG, DOWN, DOWN, BUY, UP, DOWN, MIN, MIN, UP] 6.78000020980835
+proximo estado35 = [NPOS, DOWN, DOWN, SELL, DOWN, DOWN, MIN, MIN, NPOS] 0.0
+
+Escolhe acao
+key: [3222222231, 3222222234, 3222222237]
+aleatorio
+num 1 key: 3222222231
+recompensa: -0.2197640415703527 estado: 6.78000020980835 valor atual: 5.29
+antes: 0.5526975036995606 proximo: 0.2898636116409673 teste dict: 0.548710604579712
+***************
+estado 35
+
+acao: 1 ENTER_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado35 = [NPOS, DOWN, DOWN, SELL, DOWN, DOWN, MIN, MIN, NPOS] 0.0
+proximo estado36 = [LONG, DOWN, DOWN, BUY, DOWN, DOWN, MIN, MIN, UP] 5.289999961853027
+
+Escolhe acao
+key: [1221222212, 1221222213, 0]
+melhor acao
+key1
+recompensa: 0 estado: 0.0 valor atual: 6.89
+antes: 0.2898636116409673 proximo: 0.6001275813934974 teste dict: 0.29077519150830866
+***************
+estado 36
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado36 = [LONG, DOWN, DOWN, BUY, DOWN, DOWN, MIN, MIN, UP] 5.289999961853027
+proximo estado37 = [LONG, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, DOWN] 5.289999961853027
+
+Escolhe acao
+key: [1227222222, 1227222223, 0]
+melhor acao
+key1
+recompensa: 0.5236295799127704 estado: 5.289999961853027 valor atual: 8.06
+antes: 0.6001275813934974 proximo: 1.0401495930802542 teste dict: 0.6046888283892256
+***************
+estado 37
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado37 = [LONG, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, DOWN] 5.289999961853027
+proximo estado38 = [LONG, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, DOWN] 5.289999961853027
+
+Escolhe acao
+key: [1227212222, 1227212223, 0]
+melhor acao
+key1
+recompensa: 0.2797731625228706 estado: 5.289999961853027 valor atual: 6.77
+antes: 1.0401495930802542 proximo: 0.9773853032949948 teste dict: 1.039616146052498
+***************
+estado 38
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado38 = [LONG, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, DOWN] 5.289999961853027
+proximo estado39 = [LONG, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, DOWN] 5.289999961853027
+
+Escolhe acao
+key: [1227122222, 1227122223, 0]
+melhor acao
+key1
+recompensa: 1.5236295799127704 estado: 5.289999961853027 valor atual: 13.35
+antes: 0.9773853032949948 proximo: 1.054652918835728 teste dict: 0.9863768125336143
+***************
+estado 39
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado39 = [LONG, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, DOWN] 5.289999961853027
+proximo estado40 = [LONG, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, DOWN] 5.289999961853027
+
+Escolhe acao
+key: [1227222222, 1227222223, 0]
+melhor acao
+key1
+recompensa: 0.6030244996950586 estado: 5.289999961853027 valor atual: 8.48
+antes: 1.054652918835728 proximo: 1.039616146052498 teste dict: 1.0565856390174007
+***************
+estado 40
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado40 = [LONG, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, DOWN] 5.289999961853027
+proximo estado41 = [LONG, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, DOWN] 5.289999961853027
+
+Escolhe acao
+key: [1227222222, 1227222223, 0]
+melhor acao
+key1
+recompensa: 0.41776938640521927 estado: 5.289999961853027 valor atual: 7.5
+antes: 1.039616146052498 proximo: 1.039616146052498 teste dict: 1.0403573378506243
+***************
+estado 41
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado41 = [LONG, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, DOWN] 5.289999961853027
+proximo estado42 = [LONG, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, DOWN] 5.289999961853027
+
+Escolhe acao
+key: [1227212222, 1227212223, 0]
+melhor acao
+key1
+recompensa: 1.241965924801788 estado: 5.289999961853027 valor atual: 11.86
+antes: 1.0403573378506243 proximo: 0.9863768125336143 teste dict: 1.0466018443406973
+***************
+estado 42
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado42 = [LONG, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, DOWN] 5.289999961853027
+proximo estado43 = [LONG, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, DOWN] 5.289999961853027
+
+Escolhe acao
+key: [1227122222, 1227122223, 0]
+aleatorio
+num 1 key: 1227122222
+recompensa: 1.1134216230238976 estado: 5.289999961853027 valor atual: 11.18
+antes: 0.9863768125336143 proximo: 1.0565856390174007 teste dict: 0.9924433958382316
+***************
+estado 43
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado43 = [LONG, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, DOWN] 5.289999961853027
+proximo estado44 = [LONG, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, DOWN] 5.289999961853027
+
+Escolhe acao
+key: [1227212222, 1227212223, 0]
+melhor acao
+key1
+recompensa: 0.5085066307407273 estado: 5.289999961853027 valor atual: 7.98
+antes: 1.0565856390174007 proximo: 0.9924433958382316 teste dict: 1.0576120585990714
+***************
+estado 44
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado44 = [LONG, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, DOWN] 5.289999961853027
+proximo estado45 = [LONG, DOWN, DOWN, NOP, UP, UP, MIN, MIN, DOWN] 5.289999961853027
+
+Escolhe acao
+key: [1227112222, 1227112223, 0]
+melhor acao
+key1
+recompensa: 0.44234407740302045 estado: 5.289999961853027 valor atual: 7.63
+antes: 0.9924433958382316 proximo: 1.4877956565791335 teste dict: 0.9958828993264228
+***************
+estado 45
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado45 = [LONG, DOWN, DOWN, NOP, UP, UP, MIN, MIN, DOWN] 5.289999961853027
+proximo estado46 = [LONG, DOWN, DOWN, NOP, UP, UP, MIN, MIN, DOWN] 5.289999961853027
+
+Escolhe acao
+key: [1227112222, 1227112223, 0]
+melhor acao
+key1
+recompensa: 1.196597347703709 estado: 5.289999961853027 valor atual: 11.62
+antes: 1.4877956565791335 proximo: 1.4877956565791335 teste dict: 1.4930474671342433
+***************
+estado 46
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado46 = [LONG, DOWN, DOWN, NOP, UP, UP, MIN, MIN, DOWN] 5.289999961853027
+proximo estado47 = [LONG, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, DOWN] 5.289999961853027
+
+Escolhe acao
+key: [1227122222, 1227122223, 0]
+aleatorio
+num 2 key: 1227122223
+recompensa: 0.48960305694986106 estado: 5.289999961853027 valor atual: 7.88
+antes: 1.4930474671342433 proximo: 0.825747591251307 teste dict: 1.490069519460084
+***************
+estado 47
+
+acao: 3 EXIT_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado47 = [LONG, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, DOWN] 5.289999961853027
+proximo estado48 = [NPOS, DOWN, DOWN, SELL, DOWN, DOWN, MIN, MIN, NPOS] 0.0
+
+Escolhe acao
+key: [3222222231, 3222222234, 3222222237]
+melhor acao
+key3
+recompensa: 0.4347826478866739 estado: 5.289999961853027 valor atual: 7.59
+antes: 0.825747591251307 proximo: 0.29077519150830866 teste dict: 0.8244356350861454
+***************
+estado 48
+
+acao: 1 ENTER_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado48 = [NPOS, DOWN, DOWN, SELL, DOWN, DOWN, MIN, MIN, NPOS] 0.0
+proximo estado49 = [LONG, DOWN, DOWN, BUY, DOWN, UP, MIN, MIN, UP] 7.590000152587891
+
+Escolhe acao
+key: [1221212212, 1221212213, 0]
+aleatorio
+num 1 key: 1221212212
+recompensa: 0 estado: 0.0 valor atual: 10.8
+antes: 0.29077519150830866 proximo: 0.481514580652253 teste dict: 0.29109918661294654
+***************
+estado 49
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado49 = [LONG, DOWN, DOWN, BUY, DOWN, UP, MIN, MIN, UP] 7.590000152587891
+proximo estado50 = [LONG, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, DOWN] 7.590000152587891
+
+Escolhe acao
+key: [1227122222, 1227122223, 0]
+aleatorio
+num 2 key: 1227122223
+recompensa: 0.3346508446362794 estado: 7.590000152587891 valor atual: 10.13
+antes: 0.481514580652253 proximo: 0.8244356350861454 teste dict: 0.4845262691120633
+***************
+estado 50
+
+acao: 3 EXIT_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado50 = [LONG, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, DOWN] 7.590000152587891
+proximo estado51 = [NPOS, DOWN, DOWN, SELL, DOWN, DOWN, MIN, MIN, NPOS] 0.0
+
+Escolhe acao
+key: [3222222231, 3222222234, 3222222237]
+aleatorio
+num 3 key: 3222222237
+recompensa: 0.17391299977433478 estado: 7.590000152587891 valor atual: 8.91
+antes: 0.8244356350861454 proximo: 0.19915803730640358 teste dict: 0.8208578510217641
+***************
+estado 51
+
+acao: 7 NOPa
+                    1     2   3   4   5    6     7     8    9
+        estado51 = [NPOS, DOWN, DOWN, SELL, DOWN, DOWN, MIN, MIN, NPOS] 0.0
+proximo estado52 = [NPOS, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, NPOS] 0.0
+
+Escolhe acao
+key: [3227212231, 3227212234, 3227212237]
+aleatorio
+num 2 key: 3227212234
+recompensa: 0 estado: 0.0 valor atual: 13.42
+antes: 0.19915803730640358 proximo: -0.09925950854540576 teste dict: 0.19727755945338626
+***************
+estado 52
+
+acao: 4 ENTER_SHORT
+                    1     2   3   4   5    6     7     8    9
+        estado52 = [NPOS, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, NPOS] 0.0
+proximo estado53 = [SHORT, DOWN, DOWN, SELL, UP, DOWN, MIN, MIN, UP] 13.420000076293945
+
+Escolhe acao
+key: [2222122215, 2222122216, 0]
+aleatorio
+num 2 key: 2222122216
+recompensa: 0 estado: 0.0 valor atual: 8.78
+antes: -0.09925950854540576 proximo: -0.14692799096531803 teste dict: -0.09928463914131798
+***************
+estado 53
+
+acao: 6 EXIT_SHORT
+                    1     2   3   4   5    6     7     8    9
+        estado53 = [SHORT, DOWN, DOWN, SELL, UP, DOWN, MIN, MIN, UP] 13.420000076293945
+proximo estado54 = [NPOS, DOWN, DOWN, BUY, DOWN, UP, MIN, MIN, NPOS] 0.0
+
+Escolhe acao
+key: [3221212231, 3221212234, 3221212237]
+aleatorio
+num 1 key: 3221212231
+recompensa: 0.4821162615682755 estado: 13.420000076293945 valor atual: 6.95
+antes: -0.14692799096531803 proximo: 0.4494855452556045 teste dict: -0.1403222020258304
+***************
+estado 54
+
+acao: 1 ENTER_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado54 = [NPOS, DOWN, DOWN, BUY, DOWN, UP, MIN, MIN, NPOS] 0.0
+proximo estado55 = [LONG, DOWN, DOWN, BUY, UP, DOWN, MIN, MIN, UP] 6.949999809265137
+
+Escolhe acao
+key: [1221122212, 1221122213, 0]
+melhor acao
+key1
+recompensa: 0 estado: 0.0 valor atual: 9.43
+antes: 0.4494855452556045 proximo: 0.7847886651154578 teste dict: 0.45018461089788103
+***************
+estado 55
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado55 = [LONG, DOWN, DOWN, BUY, UP, DOWN, MIN, MIN, UP] 6.949999809265137
+proximo estado56 = [LONG, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, DOWN] 6.949999809265137
+
+Escolhe acao
+key: [1227222222, 1227222223, 0]
+melhor acao
+key1
+recompensa: 1.0201439348438712 estado: 6.949999809265137 valor atual: 14.04
+antes: 0.7847886651154578 proximo: 1.0466018443406973 teste dict: 0.7915645010408261
+***************
+estado 56
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado56 = [LONG, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, DOWN] 6.949999809265137
+proximo estado57 = [LONG, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, DOWN] 6.949999809265137
+
+Escolhe acao
+key: [1227212222, 1227212223, 0]
+aleatorio
+num 2 key: 1227212223
+recompensa: 0.3755396664719524 estado: 6.949999809265137 valor atual: 9.56
+antes: 1.0466018443406973 proximo: 0.4925058114510431 teste dict: 1.0443176875717262
+***************
+estado 57
+
+acao: 3 EXIT_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado57 = [LONG, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, DOWN] 6.949999809265137
+proximo estado58 = [NPOS, DOWN, DOWN, SELL, UP, DOWN, MIN, MIN, NPOS] 0.0
+
+Escolhe acao
+key: [3222122231, 3222122234, 3222122237]
+aleatorio
+num 2 key: 3222122234
+recompensa: 0.7482014319385949 estado: 6.949999809265137 valor atual: 12.15
+antes: 0.4925058114510431 proximo: 0.059855763101036234 teste dict: 0.49458897403365104
+***************
+estado 58
+
+acao: 4 ENTER_SHORT
+                    1     2   3   4   5    6     7     8    9
+        estado58 = [NPOS, DOWN, DOWN, SELL, UP, DOWN, MIN, MIN, NPOS] 0.0
+proximo estado59 = [SHORT, DOWN, DOWN, SELL, DOWN, UP, MIN, MIN, UP] 12.149999618530273
+
+Escolhe acao
+key: [2222212215, 2222212216, 0]
+aleatorio
+num 2 key: 2222212216
+recompensa: 0 estado: 0.0 valor atual: 8.46
+antes: 0.059855763101036234 proximo: 0.1346174165749328 teste dict: 0.06009639810054615
+***************
+estado 59
+
+acao: 6 EXIT_SHORT
+                    1     2   3   4   5    6     7     8    9
+        estado59 = [SHORT, DOWN, DOWN, SELL, DOWN, UP, MIN, MIN, UP] 12.149999618530273
+proximo estado60 = [NPOS, DOWN, DOWN, BUY, UP, UP, MIN, MIN, NPOS] 0.0
+
+Escolhe acao
+key: [3221112231, 3221112234, 3221112237]
+aleatorio
+num 1 key: 3221112231
+recompensa: 0.176954706669394 estado: 12.149999618530273 valor atual: 10.0
+antes: 0.1346174165749328 proximo: 0.48304429484953854 teste dict: 0.13728069465035678
+***************
+estado 60
+
+acao: 1 ENTER_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado60 = [NPOS, DOWN, DOWN, BUY, UP, UP, MIN, MIN, NPOS] 0.0
+proximo estado61 = [LONG, DOWN, DOWN, BUY, UP, UP, MIN, MIN, UP] 10.0
+
+Escolhe acao
+key: [1221112212, 1221112213, 0]
+melhor acao
+key1
+recompensa: 0 estado: 0.0 valor atual: 11.11
+antes: 0.48304429484953854 proximo: 0.9119649634885013 teste dict: 0.4841316131066854
+***************
+estado 61
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado61 = [LONG, DOWN, DOWN, BUY, UP, UP, MIN, MIN, UP] 10.0
+proximo estado62 = [LONG, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, DOWN] 10.0
+
+Escolhe acao
+key: [1227122222, 1227122223, 0]
+melhor acao
+key1
+recompensa: 0.3659999847412109 estado: 10.0 valor atual: 13.66
+antes: 0.9119649634885013 proximo: 1.0576120585990714 teste dict: 0.9133255077244057
+***************
+estado 62
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado62 = [LONG, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, DOWN] 10.0
+proximo estado63 = [LONG, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, DOWN] 10.0
+
+Escolhe acao
+key: [1227222222, 1227222223, 0]
+aleatorio
+num 1 key: 1227222222
+recompensa: 0.3239999771118164 estado: 10.0 valor atual: 13.24
+antes: 1.0576120585990714 proximo: 1.0443176875717262 teste dict: 1.057593930697762
+***************
+estado 63
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado63 = [LONG, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, DOWN] 10.0
+proximo estado64 = [LONG, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, DOWN] 10.0
+
+Escolhe acao
+key: [1227212222, 1227212223, 0]
+aleatorio
+num 1 key: 1227212222
+recompensa: 0.7889999389648438 estado: 10.0 valor atual: 17.89
+antes: 1.0443176875717262 proximo: 0.9958828993264228 teste dict: 1.0474102895381774
+***************
+estado 64
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado64 = [LONG, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, DOWN] 10.0
+proximo estado65 = [LONG, DOWN, UP, NOP, UP, DOWN, MIN, MAX, DOWN] 10.0
+
+Escolhe acao
+key: [1217122122, 1217122123, 0]
+melhor acao
+key1
+recompensa: -0.18199996948242186 estado: 10.0 valor atual: 8.18
+antes: 0.9958828993264228 proximo: 0.5788755445262647 teste dict: 0.9904742094129396
+***************
+estado 65
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado65 = [LONG, DOWN, UP, NOP, UP, DOWN, MIN, MAX, DOWN] 10.0
+proximo estado66 = [LONG, UP, DOWN, NOP, DOWN, UP, MAX, MIN, UP] 10.0
+
+Escolhe acao
+key: [1127211212, 1127211213, 0]
+aleatorio
+num 2 key: 1127211213
+recompensa: 0.1260000228881836 estado: 10.0 valor atual: 11.26
+antes: 0.5788755445262647 proximo: -0.03626811929685908 teste dict: 0.5755277020902435
+***************
+estado 66
+
+acao: 3 EXIT_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado66 = [LONG, UP, DOWN, NOP, DOWN, UP, MAX, MIN, UP] 10.0
+proximo estado67 = [NPOS, DOWN, DOWN, SELL, UP, UP, MIN, MIN, NPOS] 0.0
+
+Escolhe acao
+key: [3222112231, 3222112234, 3222112237]
+melhor acao
+key3
+recompensa: -0.03599996566772461 estado: 10.0 valor atual: 9.64
+antes: -0.03626811929685908 proximo: 0.47181821110167094 teste dict: -0.033954332987056954
+***************
+estado 67
+
+acao: 1 ENTER_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado67 = [NPOS, DOWN, DOWN, SELL, UP, UP, MIN, MIN, NPOS] 0.0
+proximo estado68 = [LONG, DOWN, DOWN, BUY, UP, UP, MIN, MIN, UP] 9.640000343322754
+
+Escolhe acao
+key: [1221112212, 1221112213, 0]
+aleatorio
+num 1 key: 1221112212
+recompensa: 0 estado: 0.0 valor atual: 5.7
+antes: 0.47181821110167094 proximo: 0.9133255077244057 teste dict: 0.4729907786118088
+***************
+estado 68
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado68 = [LONG, DOWN, DOWN, BUY, UP, UP, MIN, MIN, UP] 9.640000343322754
+proximo estado69 = [LONG, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, UP] 9.640000343322754
+
+Escolhe acao
+key: [1227122212, 1227122213, 0]
+aleatorio
+num 1 key: 1227122212
+recompensa: -0.13381741866291105 estado: 9.640000343322754 valor atual: 8.35
+antes: 0.9133255077244057 proximo: 0.3059055851308018 teste dict: 0.9074944446068354
+***************
+estado 69
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado69 = [LONG, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, UP] 9.640000343322754
+proximo estado70 = [LONG, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, UP] 9.640000343322754
+
+Escolhe acao
+key: [1227212212, 1227212213, 0]
+melhor acao
+key1
+recompensa: 0.2634854638373934 estado: 9.640000343322754 valor atual: 12.18
+antes: 0.3059055851308018 proximo: 0.3086741194815751 teste dict: 0.30712114746720764
+***************
+estado 70
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado70 = [LONG, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, UP] 9.640000343322754
+proximo estado71 = [LONG, DOWN, DOWN, NOP, UP, UP, MIN, MIN, DOWN] 9.640000343322754
+
+Escolhe acao
+key: [1227112222, 1227112223, 0]
+aleatorio
+num 2 key: 1227112223
+recompensa: 0.10580907341936649 estado: 9.640000343322754 valor atual: 10.66
+antes: 0.3086741194815751 proximo: 1.0315930668106852 teste dict: 0.312308870186512
+***************
+estado 71
+
+acao: 3 EXIT_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado71 = [LONG, DOWN, DOWN, NOP, UP, UP, MIN, MIN, DOWN] 9.640000343322754
+proximo estado72 = [NPOS, DOWN, DOWN, SELL, UP, DOWN, MIN, MIN, NPOS] 0.0
+
+Escolhe acao
+key: [3222122231, 3222122234, 3222122237]
+melhor acao
+key3
+recompensa: 0.12966804517448233 estado: 9.640000343322754 valor atual: 10.89
+antes: 1.0315930668106852 proximo: 0.2839930797656233 teste dict: 1.0266711577500833
+***************
+estado 72
+
+acao: 1 ENTER_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado72 = [NPOS, DOWN, DOWN, SELL, UP, DOWN, MIN, MIN, NPOS] 0.0
+proximo estado73 = [LONG, DOWN, DOWN, BUY, DOWN, UP, MIN, MIN, UP] 10.890000343322754
+
+Escolhe acao
+key: [1221212212, 1221212213, 0]
+melhor acao
+key1
+recompensa: 0 estado: 0.0 valor atual: 6.27
+antes: 0.2839930797656233 proximo: 0.4845262691120633 teste dict: 0.28437930692591307
+***************
+estado 73
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado73 = [LONG, DOWN, DOWN, BUY, DOWN, UP, MIN, MIN, UP] 10.890000343322754
+proximo estado74 = [LONG, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, UP] 10.890000343322754
+
+Escolhe acao
+key: [1227122212, 1227122213, 0]
+melhor acao
+key1
+recompensa: -0.2038567674049717 estado: 10.890000343322754 valor atual: 8.67
+antes: 0.4845262691120633 proximo: 0.30712114746720764 teste dict: 0.4812124814790334
+***************
+estado 74
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado74 = [LONG, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, UP] 10.890000343322754
+proximo estado75 = [LONG, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, UP] 10.890000343322754
+
+Escolhe acao
+key: [1227222212, 1227222213, 0]
+melhor acao
+key1
+recompensa: -0.3030303109915209 estado: 10.890000343322754 valor atual: 7.59
+antes: 0.30712114746720764 proximo: 0.2926676858343311 teste dict: 0.3042841589185848
+***************
+estado 75
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado75 = [LONG, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, UP] 10.890000343322754
+proximo estado76 = [LONG, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, UP] 10.890000343322754
+
+Escolhe acao
+key: [1227212212, 1227212213, 0]
+aleatorio
+num 1 key: 1227212212
+recompensa: -0.22681360781988394 estado: 10.890000343322754 valor atual: 8.42
+antes: 0.2926676858343311 proximo: 0.312308870186512 teste dict: 0.2905616302426655
+***************
+estado 76
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado76 = [LONG, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, UP] 10.890000343322754
+proximo estado77 = [LONG, DOWN, DOWN, NOP, UP, UP, MIN, MIN, UP] 10.890000343322754
+
+Escolhe acao
+key: [1227112212, 1227112213, 0]
+melhor acao
+key1
+recompensa: -0.07805329244006017 estado: 10.890000343322754 valor atual: 10.04
+antes: 0.312308870186512 proximo: 0.43562791712098364 teste dict: 0.3117109118420188
+***************
+estado 77
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado77 = [LONG, DOWN, DOWN, NOP, UP, UP, MIN, MIN, UP] 10.890000343322754
+proximo estado78 = [LONG, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, UP] 10.890000343322754
+
+Escolhe acao
+key: [1227122212, 1227122213, 0]
+aleatorio
+num 1 key: 1227122212
+recompensa: 2.5922862900432637 estado: 10.890000343322754 valor atual: 39.12
+antes: 0.43562791712098364 proximo: 0.3042841589185848 teste dict: 0.45221551811014066
+***************
+estado 78
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado78 = [LONG, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, UP] 10.890000343322754
+proximo estado79 = [LONG, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, DOWN] 10.890000343322754
+
+Escolhe acao
+key: [1217222122, 1217222123, 0]
+melhor acao
+key1
+recompensa: 2.133149481745019 estado: 10.890000343322754 valor atual: 34.12
+antes: 0.3042841589185848 proximo: 0.9646363453456615 teste dict: 0.32181293427056357
+***************
+estado 79
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado79 = [LONG, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, DOWN] 10.890000343322754
+proximo estado80 = [LONG, UP, UP, NOP, DOWN, UP, MAX, MAX, DOWN] 10.890000343322754
+
+Escolhe acao
+key: [1117211122, 1117211123, 0]
+melhor acao
+key1
+recompensa: 0.45087233173713304 estado: 10.890000343322754 valor atual: 15.8
+antes: 0.9646363453456615 proximo: 1.1516030055174367 teste dict: 0.9666828519774372
+***************
+estado 80
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado80 = [LONG, UP, UP, NOP, DOWN, UP, MAX, MAX, DOWN] 10.890000343322754
+proximo estado81 = [LONG, UP, UP, NOP, UP, UP, MAX, MAX, DOWN] 10.890000343322754
+
+Escolhe acao
+key: [1117111122, 1117111123, 0]
+melhor acao
+key1
+recompensa: 0.3875114031508733 estado: 10.890000343322754 valor atual: 15.11
+antes: 1.1516030055174367 proximo: 0.6618454577336335 teste dict: 1.1494974070437656
+***************
+estado 81
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado81 = [LONG, UP, UP, NOP, UP, UP, MAX, MAX, DOWN] 10.890000343322754
+proximo estado82 = [LONG, UP, UP, NOP, UP, DOWN, MAX, MAX, DOWN] 10.890000343322754
+
+Escolhe acao
+key: [1117121122, 1117121123, 0]
+aleatorio
+num 2 key: 1117121123
+recompensa: 0.2708906993812852 estado: 10.890000343322754 valor atual: 13.84
+antes: 0.6618454577336335 proximo: 0.027550997224672667 teste dict: 0.6592437743115679
+***************
+estado 82
+
+acao: 3 EXIT_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado82 = [LONG, UP, UP, NOP, UP, DOWN, MAX, MAX, DOWN] 10.890000343322754
+proximo estado83 = [NPOS, UP, DOWN, SELL, DOWN, DOWN, MAX, MAX, NPOS] 0.0
+
+Escolhe acao
+key: [3122221131, 3122221134, 3122221137]
+aleatorio
+num 1 key: 3122221131
+recompensa: -0.2001836764415216 estado: 10.890000343322754 valor atual: 8.71
+antes: 0.027550997224672667 proximo: 0.04063508673849178 teste dict: 0.026155966434027917
+***************
+estado 83
+
+acao: 1 ENTER_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado83 = [NPOS, UP, DOWN, SELL, DOWN, DOWN, MAX, MAX, NPOS] 0.0
+proximo estado84 = [LONG, DOWN, DOWN, BUY, DOWN, UP, MAX, MIN, UP] 8.710000038146973
+
+Escolhe acao
+key: [1221211212, 1221211213, 0]
+aleatorio
+num 1 key: 1221211212
+recompensa: 0 estado: 0.0 valor atual: 11.12
+antes: 0.04063508673849178 proximo: 0.47537075694391956 teste dict: 0.042679957840347546
+***************
+estado 84
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado84 = [LONG, DOWN, DOWN, BUY, DOWN, UP, MAX, MIN, UP] 8.710000038146973
+proximo estado85 = [LONG, DOWN, DOWN, NOP, UP, UP, MIN, MIN, DOWN] 8.710000038146973
+
+Escolhe acao
+key: [1227112222, 1227112223, 0]
+aleatorio
+num 1 key: 1227112222
+recompensa: -0.16647529310156237 estado: 8.710000038146973 valor atual: 7.26
+antes: 0.47537075694391956 proximo: 1.490069519460084 teste dict: 0.4781791752389556
+***************
+estado 85
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado85 = [LONG, DOWN, DOWN, NOP, UP, UP, MIN, MIN, DOWN] 8.710000038146973
+proximo estado86 = [LONG, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, UP] 8.710000038146973
+
+Escolhe acao
+key: [1227122212, 1227122213, 0]
+aleatorio
+num 2 key: 1227122213
+recompensa: 0.9265213103506948 estado: 8.710000038146973 valor atual: 16.78
+antes: 1.490069519460084 proximo: 0.1236965849099055 teste dict: 1.4867307952623767
+***************
+estado 86
+
+acao: 3 EXIT_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado86 = [LONG, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, UP] 8.710000038146973
+proximo estado87 = [NPOS, DOWN, UP, SELL, DOWN, DOWN, MIN, MAX, NPOS] 0.0
+
+Escolhe acao
+key: [3212222131, 3212222134, 3212222137]
+aleatorio
+num 2 key: 3212222134
+recompensa: -0.1423651254333552 estado: 8.710000038146973 valor atual: 7.47
+antes: 0.1236965849099055 proximo: 0.25356279787108044 teste dict: 0.12307661064707097
+***************
+estado 87
+
+acao: 4 ENTER_SHORT
+                    1     2   3   4   5    6     7     8    9
+        estado87 = [NPOS, DOWN, UP, SELL, DOWN, DOWN, MIN, MAX, NPOS] 0.0
+proximo estado88 = [SHORT, UP, DOWN, SELL, DOWN, UP, MAX, MIN, UP] 7.46999979019165
+
+Escolhe acao
+key: [2122211215, 2122211216, 0]
+melhor acao
+key2
+recompensa: 0 estado: 0.0 valor atual: 4.99
+antes: 0.25356279787108044 proximo: 0.31120808345852036 teste dict: 0.2533127778949296
+***************
+estado 88
+
+acao: 6 EXIT_SHORT
+                    1     2   3   4   5    6     7     8    9
+        estado88 = [SHORT, UP, DOWN, SELL, DOWN, UP, MAX, MIN, UP] 7.46999979019165
+proximo estado89 = [NPOS, DOWN, DOWN, BUY, UP, DOWN, MIN, MIN, NPOS] 0.0
+
+Escolhe acao
+key: [3221122231, 3221122234, 3221122237]
+aleatorio
+num 2 key: 3221122234
+recompensa: -0.08299871215663494 estado: 7.46999979019165 valor atual: 8.09
+antes: 0.31120808345852036 proximo: 0.06572728868868095 teste dict: 0.30877069960378883
+***************
+estado 89
+
+acao: 4 ENTER_SHORT
+                    1     2   3   4   5    6     7     8    9
+        estado89 = [NPOS, DOWN, DOWN, BUY, UP, DOWN, MIN, MIN, NPOS] 0.0
+proximo estado90 = [SHORT, DOWN, DOWN, SELL, DOWN, UP, MIN, MIN, UP] 8.09000015258789
+
+Escolhe acao
+key: [2222212215, 2222212216, 0]
+melhor acao
+key2
+recompensa: 0 estado: 0.0 valor atual: 7.72
+antes: 0.06572728868868095 proximo: 0.13728069465035678 teste dict: 0.06593987307164693
+***************
+estado 90
+
+acao: 6 EXIT_SHORT
+                    1     2   3   4   5    6     7     8    9
+        estado90 = [SHORT, DOWN, DOWN, SELL, DOWN, UP, MIN, MIN, UP] 8.09000015258789
+proximo estado91 = [NPOS, DOWN, DOWN, BUY, UP, DOWN, MIN, MIN, NPOS] 0.0
+
+Escolhe acao
+key: [3221122231, 3221122234, 3221122237]
+melhor acao
+key3
+recompensa: -0.27564888753716266 estado: 8.09000015258789 valor atual: 10.32
+antes: 0.13728069465035678 proximo: 0.2509527778480426 teste dict: 0.13561985618649955
+***************
+estado 91
+
+acao: 1 ENTER_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado91 = [NPOS, DOWN, DOWN, BUY, UP, DOWN, MIN, MIN, NPOS] 0.0
+proximo estado92 = [LONG, DOWN, DOWN, BUY, DOWN, DOWN, MIN, MIN, UP] 10.319999694824219
+
+Escolhe acao
+key: [1221222212, 1221222213, 0]
+melhor acao
+key1
+recompensa: 0 estado: 0.0 valor atual: 10.92
+antes: 0.2509527778480426 proximo: 0.6046888283892256 teste dict: 0.2521590836622135
+***************
+estado 92
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado92 = [LONG, DOWN, DOWN, BUY, DOWN, DOWN, MIN, MIN, UP] 10.319999694824219
+proximo estado93 = [LONG, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, DOWN] 10.319999694824219
+
+Escolhe acao
+key: [1227212222, 1227212223, 0]
+aleatorio
+num 2 key: 1227212223
+recompensa: -0.26356587893658656 estado: 10.319999694824219 valor atual: 7.6
+antes: 0.6046888283892256 proximo: 0.49458897403365104 teste dict: 0.6010345314107097
+***************
+estado 93
+
+acao: 3 EXIT_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado93 = [LONG, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, DOWN] 10.319999694824219
+proximo estado94 = [NPOS, DOWN, DOWN, SELL, UP, UP, MIN, MIN, NPOS] 0.0
+
+Escolhe acao
+key: [3222112231, 3222112234, 3222112237]
+melhor acao
+key3
+recompensa: -0.6288759654104533 estado: 10.319999694824219 valor atual: 3.83
+antes: 0.49458897403365104 proximo: 0.4729907786118088 teste dict: 0.48904237427274017
+***************
+estado 94
+
+acao: 1 ENTER_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado94 = [NPOS, DOWN, DOWN, SELL, UP, UP, MIN, MIN, NPOS] 0.0
+proximo estado95 = [LONG, DOWN, DOWN, BUY, UP, DOWN, MIN, MIN, UP] 3.8299999237060547
+
+Escolhe acao
+key: [1221122212, 1221122213, 0]
+aleatorio
+num 2 key: 1221122213
+recompensa: 0 estado: 0.0 valor atual: 3.5
+antes: 0.4729907786118088 proximo: 0.548710604579712 teste dict: 0.47236852512396676
+***************
+estado 95
+
+acao: 3 EXIT_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado95 = [LONG, DOWN, DOWN, BUY, UP, DOWN, MIN, MIN, UP] 3.8299999237060547
+proximo estado96 = [NPOS, DOWN, DOWN, SELL, DOWN, UP, MIN, MIN, NPOS] 0.0
+
+Escolhe acao
+key: [3222212231, 3222212234, 3222212237]
+aleatorio
+num 1 key: 3222212231
+recompensa: 1.9477807276111878 estado: 3.8299999237060547 valor atual: 11.29
+antes: 0.548710604579712 proximo: 0.4553619017208098 teste dict: 0.5607353687593642
+***************
+estado 96
+
+acao: 1 ENTER_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado96 = [NPOS, DOWN, DOWN, SELL, DOWN, UP, MIN, MIN, NPOS] 0.0
+proximo estado97 = [LONG, DOWN, DOWN, BUY, UP, DOWN, MIN, MIN, UP] 11.289999961853027
+
+Escolhe acao
+key: [1221122212, 1221122213, 0]
+melhor acao
+key1
+recompensa: 0 estado: 0.0 valor atual: 8.31
+antes: 0.4553619017208098 proximo: 0.7915645010408261 teste dict: 0.4560530344638642
+***************
+estado 97
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado97 = [LONG, DOWN, DOWN, BUY, UP, DOWN, MIN, MIN, UP] 11.289999961853027
+proximo estado98 = [LONG, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, UP] 11.289999961853027
+
+Escolhe acao
+key: [1227212212, 1227212213, 0]
+aleatorio
+num 2 key: 1227212213
+recompensa: -0.5358724722034345 estado: 11.289999961853027 valor atual: 5.24
+antes: 0.7915645010408261 proximo: 0.09828784185907516 teste dict: 0.7827540526532257
+***************
+estado 98
+
+acao: 3 EXIT_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado98 = [LONG, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, UP] 11.289999961853027
+proximo estado99 = [NPOS, DOWN, DOWN, SELL, UP, DOWN, MIN, MIN, NPOS] 0.0
+
+Escolhe acao
+key: [3222122231, 3222122234, 3222122237]
+melhor acao
+key3
+recompensa: 0.24623558391180989 estado: 11.289999961853027 valor atual: 14.07
+antes: 0.09828784185907516 proximo: 0.28437930692591307 teste dict: 0.10071693465738128
+***************
+estado 99
+
+acao: 1 ENTER_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado99 = [NPOS, DOWN, DOWN, SELL, UP, DOWN, MIN, MIN, NPOS] 0.0
+proximo estado100 = [LONG, DOWN, UP, BUY, DOWN, DOWN, MIN, MAX, UP] 14.069999694824219
+
+Escolhe acao
+key: [1211222112, 1211222113, 0]
+melhor acao
+key2
+recompensa: 0 estado: 0.0 valor atual: 11.61
+antes: 0.28437930692591307 proximo: -0.27941865814094397 teste dict: 0.28101950035254103
+***************
+estado 100
+
+acao: 3 EXIT_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado100 = [LONG, DOWN, UP, BUY, DOWN, DOWN, MIN, MAX, UP] 14.069999694824219
+proximo estado101 = [NPOS, UP, DOWN, SELL, DOWN, UP, MAX, MIN, NPOS] 0.0
+
+Escolhe acao
+key: [3122211231, 3122211234, 3122211237]
+melhor acao
+key3
+recompensa: -0.1940298224200093 estado: 14.069999694824219 valor atual: 11.34
+antes: -0.27941865814094397 proximo: 0.50052743743576 teste dict: -0.2763683518474622
+***************
+estado 101
+
+acao: 1 ENTER_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado101 = [NPOS, UP, DOWN, SELL, DOWN, UP, MAX, MIN, NPOS] 0.0
+proximo estado102 = [LONG, DOWN, DOWN, BUY, UP, DOWN, MIN, MIN, UP] 11.34000015258789
+
+Escolhe acao
+key: [1221122212, 1221122213, 0]
+aleatorio
+num 2 key: 1221122213
+recompensa: 0 estado: 0.0 valor atual: 8.04
+antes: 0.50052743743576 proximo: 0.5607353687593642 teste dict: 0.49977134868063056
+***************
+estado 102
+
+acao: 3 EXIT_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado102 = [LONG, DOWN, DOWN, BUY, UP, DOWN, MIN, MIN, UP] 11.34000015258789
+proximo estado103 = [NPOS, DOWN, DOWN, SELL, DOWN, DOWN, MIN, MIN, NPOS] 0.0
+
+Escolhe acao
+key: [3222222231, 3222222234, 3222222237]
+melhor acao
+key3
+recompensa: -0.31569663805419496 estado: 11.34000015258789 valor atual: 7.76
+antes: 0.5607353687593642 proximo: 0.29109918661294654 teste dict: 0.5560267307260728
+***************
+estado 103
+
+acao: 1 ENTER_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado103 = [NPOS, DOWN, DOWN, SELL, DOWN, DOWN, MIN, MIN, NPOS] 0.0
+proximo estado104 = [LONG, DOWN, DOWN, BUY, DOWN, DOWN, MIN, MIN, UP] 7.760000228881836
+
+Escolhe acao
+key: [1221222212, 1221222213, 0]
+aleatorio
+num 2 key: 1221222213
+recompensa: 0 estado: 0.0 valor atual: 13.29
+antes: 0.29109918661294654 proximo: 0.43049542357632764 teste dict: 0.2911709198821799
+***************
+estado 104
+
+acao: 3 EXIT_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado104 = [LONG, DOWN, DOWN, BUY, DOWN, DOWN, MIN, MIN, UP] 7.760000228881836
+proximo estado105 = [NPOS, DOWN, DOWN, SELL, DOWN, UP, MIN, MIN, NPOS] 0.0
+
+Escolhe acao
+key: [3222212231, 3222212234, 3222212237]
+melhor acao
+key3
+recompensa: 0.6597937802247771 estado: 7.760000228881836 valor atual: 12.88
+antes: 0.43049542357632764 proximo: 0.4560530344638642 teste dict: 0.4343351719417397
+***************
+estado 105
+
+acao: 1 ENTER_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado105 = [NPOS, DOWN, DOWN, SELL, DOWN, UP, MIN, MIN, NPOS] 0.0
+proximo estado106 = [LONG, DOWN, DOWN, BUY, UP, DOWN, MIN, MIN, UP] 12.880000114440918
+
+Escolhe acao
+key: [1221122212, 1221122213, 0]
+aleatorio
+num 2 key: 1221122213
+recompensa: 0 estado: 0.0 valor atual: 13.7
+antes: 0.4560530344638642 proximo: 0.5560267307260728 teste dict: 0.4555851942031749
+***************
+estado 106
+
+acao: 3 EXIT_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado106 = [LONG, DOWN, DOWN, BUY, UP, DOWN, MIN, MIN, UP] 12.880000114440918
+proximo estado107 = [NPOS, DOWN, DOWN, SELL, DOWN, DOWN, MIN, MIN, NPOS] 0.0
+
+Escolhe acao
+key: [3222222231, 3222222234, 3222222237]
+aleatorio
+num 1 key: 3222222231
+recompensa: 0.2484471879528426 estado: 12.880000114440918 valor atual: 16.08
+antes: 0.5560267307260728 proximo: 0.2911709198821799 teste dict: 0.5553004114340828
+***************
+estado 107
+
+acao: 1 ENTER_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado107 = [NPOS, DOWN, DOWN, SELL, DOWN, DOWN, MIN, MIN, NPOS] 0.0
+proximo estado108 = [LONG, DOWN, UP, BUY, DOWN, DOWN, MIN, MAX, UP] 16.079999923706055
+
+Escolhe acao
+key: [1211222112, 1211222113, 0]
+melhor acao
+key2
+recompensa: 0 estado: 0.0 valor atual: 10.17
+antes: 0.2911709198821799 proximo: -0.2763683518474622 teste dict: 0.2877785185189521
+***************
+estado 108
+
+acao: 3 EXIT_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado108 = [LONG, DOWN, UP, BUY, DOWN, DOWN, MIN, MAX, UP] 16.079999923706055
+proximo estado109 = [NPOS, UP, DOWN, SELL, DOWN, UP, MAX, MIN, NPOS] 0.0
+
+Escolhe acao
+key: [3122211231, 3122211234, 3122211237]
+melhor acao
+key3
+recompensa: -0.24626866025720026 estado: 16.079999923706055 valor atual: 12.12
+antes: -0.2763683518474622 proximo: 0.49977134868063056 teste dict: -0.2737087743977953
+***************
+estado 109
+
+acao: 1 ENTER_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado109 = [NPOS, UP, DOWN, SELL, DOWN, UP, MAX, MIN, NPOS] 0.0
+proximo estado110 = [LONG, DOWN, DOWN, BUY, UP, UP, MIN, MIN, UP] 12.119999885559082
+
+Escolhe acao
+key: [1221112212, 1221112213, 0]
+melhor acao
+key1
+recompensa: 0 estado: 0.0 valor atual: 5.58
+antes: 0.49977134868063056 proximo: 0.9074944446068354 teste dict: 0.5007196720184396
+***************
+estado 110
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado110 = [LONG, DOWN, DOWN, BUY, UP, UP, MIN, MIN, UP] 12.119999885559082
+proximo estado111 = [LONG, DOWN, DOWN, NOP, UP, UP, MIN, MIN, UP] 12.119999885559082
+
+Escolhe acao
+key: [1227112212, 1227112213, 0]
+aleatorio
+num 2 key: 1227112213
+recompensa: -0.18234323919261555 estado: 12.119999885559082 valor atual: 9.91
+antes: 0.9074944446068354 proximo: 0.29426000957991366 teste dict: 0.9013074548671808
+***************
+estado 111
+
+acao: 3 EXIT_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado111 = [LONG, DOWN, DOWN, NOP, UP, UP, MIN, MIN, UP] 12.119999885559082
+proximo estado112 = [NPOS, DOWN, DOWN, SELL, UP, UP, MIN, MIN, NPOS] 0.0
+
+Escolhe acao
+key: [3222112231, 3222112234, 3222112237]
+aleatorio
+num 2 key: 3222112234
+recompensa: -0.4232673401716189 estado: 12.119999885559082 valor atual: 6.99
+antes: 0.29426000957991366 proximo: -0.122359753955565 teste dict: 0.28863775533727065
+***************
+estado 112
+
+acao: 4 ENTER_SHORT
+                    1     2   3   4   5    6     7     8    9
+        estado112 = [NPOS, DOWN, DOWN, SELL, UP, UP, MIN, MIN, NPOS] 0.0
+proximo estado113 = [SHORT, DOWN, DOWN, SELL, UP, DOWN, MIN, MIN, UP] 6.989999771118164
+
+Escolhe acao
+key: [2222122215, 2222122216, 0]
+melhor acao
+key2
+recompensa: 0 estado: 0.0 valor atual: 6.54
+antes: -0.122359753955565 proximo: -0.1403222020258304 teste dict: -0.12219081446780261
+***************
+estado 113
+
+acao: 6 EXIT_SHORT
+                    1     2   3   4   5    6     7     8    9
+        estado113 = [SHORT, DOWN, DOWN, SELL, UP, DOWN, MIN, MIN, UP] 6.989999771118164
+proximo estado114 = [NPOS, DOWN, DOWN, BUY, DOWN, DOWN, MIN, MIN, NPOS] 0.0
+
+Escolhe acao
+key: [3221222231, 3221222234, 3221222237]
+melhor acao
+key3
+recompensa: -0.7024320469507934 estado: 6.989999771118164 valor atual: 11.9
+antes: -0.1403222020258304 proximo: 0.26637683480239993 teste dict: -0.1429517244497734
+***************
+estado 114
+
+acao: 1 ENTER_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado114 = [NPOS, DOWN, DOWN, BUY, DOWN, DOWN, MIN, MIN, NPOS] 0.0
+proximo estado115 = [LONG, DOWN, DOWN, BUY, DOWN, UP, MIN, MIN, UP] 11.899999618530273
+
+Escolhe acao
+key: [1221212212, 1221212213, 0]
+melhor acao
+key1
+recompensa: 0 estado: 0.0 valor atual: 9.25
+antes: 0.26637683480239993 proximo: 0.4812124814790334 teste dict: 0.2668701381180304
+***************
+estado 115
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado115 = [LONG, DOWN, DOWN, BUY, DOWN, UP, MIN, MIN, UP] 11.899999618530273
+proximo estado116 = [LONG, DOWN, DOWN, NOP, UP, UP, MIN, MIN, UP] 11.899999618530273
+
+Escolhe acao
+key: [1227112212, 1227112213, 0]
+aleatorio
+num 1 key: 1227112212
+recompensa: -0.2915965903016608 estado: 11.899999618530273 valor atual: 8.43
+antes: 0.4812124814790334 proximo: 0.45221551811014066 teste dict: 0.47801867401530823
+***************
+estado 116
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado116 = [LONG, DOWN, DOWN, NOP, UP, UP, MIN, MIN, UP] 11.899999618530273
+proximo estado117 = [LONG, DOWN, DOWN, NOP, UP, UP, MIN, MIN, UP] 11.899999618530273
+
+Escolhe acao
+key: [1227112212, 1227112213, 0]
+aleatorio
+num 1 key: 1227112212
+recompensa: -0.48319325272995295 estado: 11.899999618530273 valor atual: 6.15
+antes: 0.45221551811014066 proximo: 0.45221551811014066 teste dict: 0.4478835127529997
+***************
+estado 117
+
+acao: 2 STAY_LONG
+                    1     2   3   4   5    6     7     8    9
+        estado117 = [LONG, DOWN, DOWN, NOP, UP, UP, MIN, MIN, UP] 11.899999618530273
+proximo estado118 = [LONG, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, UP] 11.899999618530273
+
+Escolhe acao
+key: [1227122212, 1227122213, 0]
+aleatorio
+num 1 key: 1227122212
+recompensa: -0.1386554345733718 estado: 11.899999618530273 valor atual: 10.25
+antes: 0.4478835127529997 proximo: 0.32181293427056357 teste dict: 0.4453546234996409
+***************
+estado 118
+
