@@ -1,2675 +1,2290 @@
 
 Escolhe acao
-key: [3217212131, 3217212134, 3217212137]
-i: 0.03797994901321357
-i: 0.020963929306063042
-i: 0.019277547456218524
-melhor acao
+key: [3127221231, 3127221234, 3127221237]
 key 3 != 0
-1
+key 2
+melhor acao
 ***************
 estado 1
 
-linha t1 Float32[27.15, 27.85, 27.07, 27.14, 3.21, 3.21]
-linha t0 Float32[27.15, 27.43, 26.28, 26.43, 4.7, 4.7]
-acao: 1 ENTER_LONG
-linha t1 Float32[27.15, 27.85, 27.07, 27.14, 3.21, 3.21]
-linha t0 Float32[27.15, 27.43, 26.28, 26.43, 4.7, 4.7]
+acao: 4 - ENTER_SHORT
+linha t1 Float32[27.02, 27.33, 26.9, 27.17, 4.79, 4.79]
+linha t0 Float32[27.15, 27.85, 27.07, 27.14, 3.21, 3.21]
                     1     2   3   4   5    6     7     8    9
-        estado1 = [NPOS, DOWN, UP, NOP, DOWN, UP, MIN, MAX, NPOS] 0
-proximo estado2 = [LONG, UP, DOWN, BUY, UP, DOWN, MAX, MIN, UP] 27.139999389648438
-preco atual: 26.43
+        estado1 = [NPOS, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, NPOS] 0
+recompensa: 0 estado: 0 valor atual: 27.17
+proximo estado2 = [SHORT, DOWN, UP, SELL, DOWN, UP, MIN, MAX, UP] 0.0
+prox recompensa: 0.0011041843 estado: 0.0 valor prox: 27.14
+preco atual: 27.17 preco proximo: 27.14
 
 Escolhe acao
-key: [1121121212, 1121121213, 0]
-i: 0.0050758714574378975
-i: 0.05751966670445026
+key: [2212212115, 2212212116, 0]
+key1
 melhor acao
-key2
-recompensa: 0 estado: 0 valor atual: 26.43
-antes: 0.03797994901321357 proximo: 0.05751966670445026 teste dict: 0.03799593573697288
+antes: 0.08120636194754641 proximo: 0.19159740325585486 teste dict: 0.08158447398003693
 ***************
 estado 2
 
-linha t1 Float32[27.15, 27.43, 26.28, 26.43, 4.7, 4.7]
-linha t0 Float32[26.7, 26.77, 26.38, 26.52, 2.92, 2.92]
-acao: 3 EXIT_LONG
-linha t1 Float32[27.15, 27.43, 26.28, 26.43, 4.7, 4.7]
-linha t0 Float32[26.7, 26.77, 26.38, 26.52, 2.92, 2.92]
+acao: 5 - STAY_SHORT
+linha t1 Float32[27.15, 27.85, 27.07, 27.14, 3.21, 3.21]
+linha t0 Float32[27.15, 27.43, 26.28, 26.43, 4.7, 4.7]
                     1     2   3   4   5    6     7     8    9
-        estado2 = [LONG, UP, DOWN, BUY, UP, DOWN, MAX, MIN, UP] 27.139999389648438
-proximo estado3 = [NPOS, DOWN, DOWN, SELL, DOWN, UP, MIN, MIN, NPOS] 0.0
-preco atual: 26.52
+        estado2 = [SHORT, DOWN, UP, SELL, DOWN, UP, MIN, MAX, UP] 0.0
+recompensa: 0.0011041843 estado: 0.0 valor atual: 27.14
+proximo estado3 = [SHORT, UP, DOWN, NOP, UP, DOWN, MAX, MIN, UP] 0.0
+prox recompensa: 0.027235914 estado: 0.0 valor prox: 26.43
+preco atual: 27.14 preco proximo: 26.43
 
 Escolhe acao
-key: [3222212231, 3222212234, 3222212237]
-i: 0.00024744476527676664
-i: 0.07771020231760695
-i: 0.019707833117273515
+key: [2127121215, 2127121216, 0]
+key1
 melhor acao
-key 3 != 0
-key2
-recompensa: -0.02284447110640841 estado: 27.139999389648438 valor atual: 26.52
-antes: 0.05751966670445026 proximo: 0.07771020231760695 teste dict: 0.05733789773113052
+antes: 0.19159740325585486 proximo: 0.23630909860088903 teste dict: 0.19160478741436035
 ***************
 estado 3
 
-linha t1 Float32[26.7, 26.77, 26.38, 26.52, 2.92, 2.92]
-linha t0 Float32[26.7, 26.8, 26.26, 26.26, 837.23, 837.23]
-acao: 4 ENTER_SHORT
-linha t1 Float32[26.7, 26.77, 26.38, 26.52, 2.92, 2.92]
-linha t0 Float32[26.7, 26.8, 26.26, 26.26, 837.23, 837.23]
+acao: 5 - STAY_SHORT
+linha t1 Float32[27.15, 27.43, 26.28, 26.43, 4.7, 4.7]
+linha t0 Float32[26.7, 26.77, 26.38, 26.52, 2.92, 2.92]
                     1     2   3   4   5    6     7     8    9
-        estado3 = [NPOS, DOWN, DOWN, SELL, DOWN, UP, MIN, MIN, NPOS] 0.0
-proximo estado4 = [SHORT, DOWN, DOWN, SELL, UP, DOWN, MIN, MIN, UP] 26.520000457763672
-preco atual: 26.26
+        estado3 = [SHORT, UP, DOWN, NOP, UP, DOWN, MAX, MIN, UP] 0.0
+recompensa: 0.027235914 estado: 0.0 valor atual: 26.43
+proximo estado4 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, DOWN] 0.0
+prox recompensa: 0.02392343 estado: 0.0 valor prox: 26.52
+preco atual: 26.43 preco proximo: 26.52
 
 Escolhe acao
-key: [2222122215, 2222122216, 0]
-i: 0.025196381656065116
-i: 0.1181985830547489
+key: [2227212225, 2227212226, 0]
+key1
 melhor acao
-key2
-recompensa: -0.02284447110640841 estado: 0.0 valor atual: 26.26
-antes: 0.07771020231760695 proximo: 0.1181985830547489 teste dict: 0.0775854926606071
+antes: 0.23630909860088903 proximo: 0.2634646505224611 teste dict: 0.2361133757123856
 ***************
 estado 4
 
-linha t1 Float32[26.7, 26.8, 26.26, 26.26, 837.23, 837.23]
-linha t0 Float32[26.83, 27.19, 26.65, 27.13, 3.48, 3.48]
-acao: 6 EXIT_SHORT
-linha t1 Float32[26.7, 26.8, 26.26, 26.26, 837.23, 837.23]
-linha t0 Float32[26.83, 27.19, 26.65, 27.13, 3.48, 3.48]
+acao: 5 - STAY_SHORT
+linha t1 Float32[26.7, 26.77, 26.38, 26.52, 2.92, 2.92]
+linha t0 Float32[26.7, 26.8, 26.26, 26.26, 0.83723, 0.83723]
                     1     2   3   4   5    6     7     8    9
-        estado4 = [SHORT, DOWN, DOWN, SELL, UP, DOWN, MIN, MIN, UP] 26.520000457763672
-proximo estado5 = [NPOS, DOWN, DOWN, BUY, DOWN, UP, MIN, MIN, NPOS] 0.0
-preco atual: 27.13
+        estado4 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, DOWN] 0.0
+recompensa: 0.02392343 estado: 0.0 valor atual: 26.52
+proximo estado5 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, UP] 0.0
+prox recompensa: 0.03349282 estado: 0.0 valor prox: 26.26
+preco atual: 26.52 preco proximo: 26.26
 
 Escolhe acao
-key: [3221212231, 3221212234, 3221212237]
-i: 0.06715540518960131
-i: 0.09095064808466291
-i: 0.10544023564703166
+key: [2227122215, 2227122216, 0]
+key1
 melhor acao
-key 3 != 0
-key3
-recompensa: -0.04584593009862928 estado: 26.520000457763672 valor atual: 27.13
-antes: 0.1181985830547489 proximo: 0.10544023564703166 teste dict: 0.1175669286173457
+antes: 0.2634646505224611 proximo: 0.39184747124524755 teste dict: 0.26377490030722894
 ***************
 estado 5
 
-linha t1 Float32[26.83, 27.19, 26.65, 27.13, 3.48, 3.48]
-linha t0 Float32[27.11, 27.66, 26.74, 27.53, 4.04, 4.04]
-acao: 7 NOPa
-linha t1 Float32[26.83, 27.19, 26.65, 27.13, 3.48, 3.48]
-linha t0 Float32[27.11, 27.66, 26.74, 27.53, 4.04, 4.04]
+acao: 5 - STAY_SHORT
+linha t1 Float32[26.7, 26.8, 26.26, 26.26, 0.83723, 0.83723]
+linha t0 Float32[26.83, 27.19, 26.65, 27.13, 3.48, 3.48]
                     1     2   3   4   5    6     7     8    9
-        estado5 = [NPOS, DOWN, DOWN, BUY, DOWN, UP, MIN, MIN, NPOS] 0.0
-proximo estado6 = [NPOS, DOWN, UP, NOP, UP, DOWN, MIN, MAX, NPOS] 0.0
-preco atual: 27.53
+        estado5 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, UP] 0.0
+recompensa: 0.03349282 estado: 0.0 valor atual: 26.26
+proximo estado6 = [SHORT, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, DOWN] 0.0
+prox recompensa: 0.0014722457 estado: 0.0 valor prox: 27.13
+preco atual: 26.26 preco proximo: 27.13
 
 Escolhe acao
-key: [3217122131, 3217122134, 3217122137]
-i: 0.014653288885991572
-i: 0.13515458673628472
-i: 0.018171017227186587
+key: [2227222225, 2227222226, 0]
+key1
 melhor acao
-key 3 != 0
-key2
-recompensa: -0.04584593009862928 estado: 0.0 valor atual: 27.53
-antes: 0.10544023564703166 proximo: 0.13515458673628472 teste dict: 0.10504348996181982
+antes: 0.39184747124524755 proximo: 0.33670855280433 teste dict: 0.390764716574955
 ***************
 estado 6
 
-linha t1 Float32[27.11, 27.66, 26.74, 27.53, 4.04, 4.04]
-linha t0 Float32[27.67, 27.84, 27.38, 27.84, 2.98, 2.98]
-acao: 4 ENTER_SHORT
-linha t1 Float32[27.11, 27.66, 26.74, 27.53, 4.04, 4.04]
-linha t0 Float32[27.67, 27.84, 27.38, 27.84, 2.98, 2.98]
+acao: 5 - STAY_SHORT
+linha t1 Float32[26.83, 27.19, 26.65, 27.13, 3.48, 3.48]
+linha t0 Float32[27.11, 27.66, 26.74, 27.53, 4.04, 4.04]
                     1     2   3   4   5    6     7     8    9
-        estado6 = [NPOS, DOWN, UP, NOP, UP, DOWN, MIN, MAX, NPOS] 0.0
-proximo estado7 = [SHORT, UP, UP, SELL, DOWN, UP, MAX, MAX, UP] 27.530000686645508
-preco atual: 27.84
-
-Escolhe acao
-key: [2112211115, 2112211116, 0]
-i: 0.21167302675531652
-i: 0.10666960419768458
-melhor acao
-key1
-recompensa: -0.04584593009862928 estado: 0.0 valor atual: 27.84
-antes: 0.13515458673628472 proximo: 0.21167302675531652 teste dict: 0.13492478094954138
-***************
-estado 7
-
-linha t1 Float32[27.67, 27.84, 27.38, 27.84, 2.98, 2.98]
-linha t0 Float32[27.86, 27.99, 27.41, 27.55, 1.84, 1.84]
-acao: 5 STAY_SHORT
-linha t1 Float32[27.67, 27.84, 27.38, 27.84, 2.98, 2.98]
-linha t0 Float32[27.86, 27.99, 27.41, 27.55, 1.84, 1.84]
-                    1     2   3   4   5    6     7     8    9
-        estado7 = [SHORT, UP, UP, SELL, DOWN, UP, MAX, MAX, UP] 27.530000686645508
-proximo estado8 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, DOWN] 27.530000686645508
-preco atual: 27.55
-
-Escolhe acao
-key: [2117121125, 2117121126, 0]
-i: 0.15607954036690913
-i: 0.07399061369861706
-melhor acao
-key1
-recompensa: -0.04657235762918652 estado: 27.530000686645508 valor atual: 27.55
-antes: 0.21167302675531652 proximo: 0.15607954036690913 teste dict: 0.21063009881242284
-***************
-estado 8
-
-linha t1 Float32[27.86, 27.99, 27.41, 27.55, 1.84, 1.84]
-linha t0 Float32[27.67, 27.75, 27.19, 27.3, 2.93, 2.93]
-acao: 5 STAY_SHORT
-linha t1 Float32[27.86, 27.99, 27.41, 27.55, 1.84, 1.84]
-linha t0 Float32[27.67, 27.75, 27.19, 27.3, 2.93, 2.93]
-                    1     2   3   4   5    6     7     8    9
-        estado8 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, DOWN] 27.530000686645508
-proximo estado9 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, DOWN] 27.530000686645508
-preco atual: 27.3
-
-Escolhe acao
-key: [2127221225, 2127221226, 0]
-i: 0.04904798483552675
-i: 0.05687613905446602
-melhor acao
-key2
-recompensa: -0.03821778284355885 estado: 27.530000686645508 valor atual: 27.3
-antes: 0.15607954036690913 proximo: 0.05687613905446602 teste dict: 0.15499815218580273
-***************
-estado 9
-
-linha t1 Float32[27.67, 27.75, 27.19, 27.3, 2.93, 2.93]
-linha t0 Float32[27.15, 27.52, 27.02, 27.39, 1.88, 1.88]
-acao: 6 EXIT_SHORT
-linha t1 Float32[27.67, 27.75, 27.19, 27.3, 2.93, 2.93]
-linha t0 Float32[27.15, 27.52, 27.02, 27.39, 1.88, 1.88]
-                    1     2   3   4   5    6     7     8    9
-        estado9 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, DOWN] 27.530000686645508
-proximo estado10 = [NPOS, DOWN, DOWN, BUY, DOWN, UP, MIN, MIN, NPOS] 0.0
-preco atual: 27.39
-
-Escolhe acao
-key: [3221212231, 3221212234, 3221212237]
-i: 0.06715540518960131
-i: 0.09095064808466291
-i: 0.10504348996181982
-melhor acao
-key 3 != 0
-key3
-recompensa: -0.033132374434361705 estado: 27.530000686645508 valor atual: 27.39
-antes: 0.05687613905446602 proximo: 0.10504348996181982 teste dict: 0.05676079256085714
-***************
-estado 10
-
-linha t1 Float32[27.15, 27.52, 27.02, 27.39, 1.88, 1.88]
-linha t0 Float32[27.4, 27.4, 26.95, 27.16, 2.36, 2.36]
-acao: 7 NOPa
-linha t1 Float32[27.15, 27.52, 27.02, 27.39, 1.88, 1.88]
-linha t0 Float32[27.4, 27.4, 26.95, 27.16, 2.36, 2.36]
-                    1     2   3   4   5    6     7     8    9
-        estado10 = [NPOS, DOWN, DOWN, BUY, DOWN, UP, MIN, MIN, NPOS] 0.0
-proximo estado11 = [NPOS, DOWN, UP, NOP, UP, DOWN, MIN, MAX, NPOS] 0.0
-preco atual: 27.16
-
-Escolhe acao
-key: [3217122131, 3217122134, 3217122137]
-i: 0.014653288885991572
-i: 0.13492478094954138
-i: 0.018171017227186587
-melhor acao
-key 3 != 0
-key2
-recompensa: -0.033132374434361705 estado: 0.0 valor atual: 27.16
-antes: 0.10504348996181982 proximo: 0.13492478094954138 teste dict: 0.1047373903376993
-***************
-estado 11
-
-linha t1 Float32[27.4, 27.4, 26.95, 27.16, 2.36, 2.36]
-linha t0 Float32[27.14, 27.14, 26.77, 26.77, 1.84, 1.84]
-acao: 4 ENTER_SHORT
-linha t1 Float32[27.4, 27.4, 26.95, 27.16, 2.36, 2.36]
-linha t0 Float32[27.14, 27.14, 26.77, 26.77, 1.84, 1.84]
-                    1     2   3   4   5    6     7     8    9
-        estado11 = [NPOS, DOWN, UP, NOP, UP, DOWN, MIN, MAX, NPOS] 0.0
-proximo estado12 = [SHORT, UP, DOWN, SELL, DOWN, UP, MAX, MIN, UP] 27.15999984741211
-preco atual: 26.77
-
-Escolhe acao
-key: [2122211215, 2122211216, 0]
-i: 0.044133563880446536
-i: 0.148236943361178
-melhor acao
-key2
-recompensa: -0.033132374434361705 estado: 0.0 valor atual: 26.77
-antes: 0.13492478094954138 proximo: 0.148236943361178 teste dict: 0.13447474188432385
-***************
-estado 12
-
-linha t1 Float32[27.14, 27.14, 26.77, 26.77, 1.84, 1.84]
-linha t0 Float32[26.84, 27.06, 26.68, 26.96, 1.57, 1.57]
-acao: 6 EXIT_SHORT
-linha t1 Float32[27.14, 27.14, 26.77, 26.77, 1.84, 1.84]
-linha t0 Float32[26.84, 27.06, 26.68, 26.96, 1.57, 1.57]
-                    1     2   3   4   5    6     7     8    9
-        estado12 = [SHORT, UP, DOWN, SELL, DOWN, UP, MAX, MIN, UP] 27.15999984741211
-proximo estado13 = [NPOS, DOWN, DOWN, BUY, UP, DOWN, MIN, MIN, NPOS] 0.0
-preco atual: 26.96
-
-Escolhe acao
-key: [3221122231, 3221122234, 3221122237]
-i: 0.061261333693383276
-i: 0.22262593236817546
-i: 0.09970296860711234
-melhor acao
-key 3 != 0
-key2
-recompensa: -0.025768576052068642 estado: 27.15999984741211 valor atual: 26.96
-antes: 0.148236943361178 proximo: 0.22262593236817546 teste dict: 0.14810977179388932
-***************
-estado 13
-
-linha t1 Float32[26.84, 27.06, 26.68, 26.96, 1.57, 1.57]
-linha t0 Float32[26.86, 27.97, 26.67, 27.93, 3.27, 3.27]
-acao: 4 ENTER_SHORT
-linha t1 Float32[26.84, 27.06, 26.68, 26.96, 1.57, 1.57]
-linha t0 Float32[26.86, 27.97, 26.67, 27.93, 3.27, 3.27]
-                    1     2   3   4   5    6     7     8    9
-        estado13 = [NPOS, DOWN, DOWN, BUY, UP, DOWN, MIN, MIN, NPOS] 0.0
-proximo estado14 = [SHORT, DOWN, UP, SELL, DOWN, DOWN, MIN, MAX, UP] 26.959999084472656
-preco atual: 27.93
-
-Escolhe acao
-key: [2212222115, 2212222116, 0]
-i: 0.17271835224169546
-i: 0.05463682863467379
-melhor acao
-key1
-recompensa: -0.025768576052068642 estado: 0.0 valor atual: 27.93
-antes: 0.22262593236817546 proximo: 0.17271835224169546 teste dict: 0.22173349073521806
-***************
-estado 14
-
-linha t1 Float32[26.86, 27.97, 26.67, 27.93, 3.27, 3.27]
-linha t0 Float32[28.14, 28.2, 27.43, 27.61, 2.52, 2.52]
-acao: 5 STAY_SHORT
-linha t1 Float32[26.86, 27.97, 26.67, 27.93, 3.27, 3.27]
-linha t0 Float32[28.14, 28.2, 27.43, 27.61, 2.52, 2.52]
-                    1     2   3   4   5    6     7     8    9
-        estado14 = [SHORT, DOWN, UP, SELL, DOWN, DOWN, MIN, MAX, UP] 26.959999084472656
-proximo estado15 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MAX, DOWN] 26.959999084472656
-preco atual: 27.61
-
-Escolhe acao
-key: [2117211125, 2117211126, 0]
-i: 0.1456499554349659
-i: 0.10982453892594879
-melhor acao
-key1
-recompensa: -0.04987842575355725 estado: 26.959999084472656 valor atual: 27.61
-antes: 0.17271835224169546 proximo: 0.1456499554349659 teste dict: 0.17187385957736
-***************
-estado 15
-
-linha t1 Float32[28.14, 28.2, 27.43, 27.61, 2.52, 2.52]
-linha t0 Float32[27.97, 28.24, 27.79, 27.9, 2.72, 2.72]
-acao: 5 STAY_SHORT
-linha t1 Float32[28.14, 28.2, 27.43, 27.61, 2.52, 2.52]
-linha t0 Float32[27.97, 28.24, 27.79, 27.9, 2.72, 2.72]
-                    1     2   3   4   5    6     7     8    9
-        estado15 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MAX, DOWN] 26.959999084472656
-proximo estado16 = [SHORT, UP, DOWN, NOP, UP, DOWN, MAX, MIN, DOWN] 26.959999084472656
-preco atual: 27.9
-
-Escolhe acao
-key: [2127121225, 2127121226, 0]
-i: 0.04801936796993506
-i: 0.12852182403936752
-melhor acao
-key2
-recompensa: -0.0847449155895677 estado: 26.959999084472656 valor atual: 27.9
-antes: 0.1456499554349659 proximo: 0.12852182403936752 teste dict: 0.14466694827558707
-***************
-estado 16
-
-linha t1 Float32[27.97, 28.24, 27.79, 27.9, 2.72, 2.72]
-linha t0 Float32[27.93, 28.0, 27.58, 27.82, 1.87, 1.87]
-acao: 6 EXIT_SHORT
-linha t1 Float32[27.97, 28.24, 27.79, 27.9, 2.72, 2.72]
-linha t0 Float32[27.93, 28.0, 27.58, 27.82, 1.87, 1.87]
-                    1     2   3   4   5    6     7     8    9
-        estado16 = [SHORT, UP, DOWN, NOP, UP, DOWN, MAX, MIN, DOWN] 26.959999084472656
-proximo estado17 = [NPOS, DOWN, DOWN, BUY, DOWN, UP, MIN, MIN, NPOS] 0.0
-preco atual: 27.82
-
-Escolhe acao
-key: [3221212231, 3221212234, 3221212237]
-i: 0.06715540518960131
-i: 0.09095064808466291
-i: 0.1047373903376993
-melhor acao
-key 3 != 0
-key3
-recompensa: -0.11664404910425952 estado: 26.959999084472656 valor atual: 27.82
-antes: 0.12852182403936752 proximo: 0.1047373903376993 teste dict: 0.12731887614001686
-***************
-estado 17
-
-linha t1 Float32[27.93, 28.0, 27.58, 27.82, 1.87, 1.87]
-linha t0 Float32[27.83, 28.06, 27.72, 27.95, 1.16, 1.16]
-acao: 7 NOPa
-linha t1 Float32[27.93, 28.0, 27.58, 27.82, 1.87, 1.87]
-linha t0 Float32[27.83, 28.06, 27.72, 27.95, 1.16, 1.16]
-                    1     2   3   4   5    6     7     8    9
-        estado17 = [NPOS, DOWN, DOWN, BUY, DOWN, UP, MIN, MIN, NPOS] 0.0
-proximo estado18 = [NPOS, DOWN, DOWN, NOP, UP, DOWN, MIN, MAX, NPOS] 0.0
-preco atual: 27.95
-
-Escolhe acao
-key: [3227122131, 3227122134, 3227122137]
-i: 0.014663374216241993
-i: 0.14138952955271952
-i: 0.017721255860589927
-melhor acao
-key 3 != 0
-key2
-recompensa: -0.11664404910425952 estado: 0.0 valor atual: 27.95
-antes: 0.1047373903376993 proximo: 0.14138952955271952 teste dict: 0.1038805289564139
-***************
-estado 18
-
-linha t1 Float32[27.83, 28.06, 27.72, 27.95, 1.16, 1.16]
-linha t0 Float32[28.07, 28.17, 27.72, 27.84, 1.89, 1.89]
-acao: 4 ENTER_SHORT
-linha t1 Float32[27.83, 28.06, 27.72, 27.95, 1.16, 1.16]
-linha t0 Float32[28.07, 28.17, 27.72, 27.84, 1.89, 1.89]
-                    1     2   3   4   5    6     7     8    9
-        estado18 = [NPOS, DOWN, DOWN, NOP, UP, DOWN, MIN, MAX, NPOS] 0.0
-proximo estado19 = [SHORT, DOWN, UP, SELL, DOWN, DOWN, MAX, MAX, UP] 27.950000762939453
-preco atual: 27.84
-
-Escolhe acao
-key: [2212221115, 2212221116, 0]
-i: 0.2711022594258135
-i: 0.04907647702374576
-melhor acao
-key1
-recompensa: -0.11664404910425952 estado: 0.0 valor atual: 27.84
-antes: 0.14138952955271952 proximo: 0.2711022594258135 teste dict: 0.14091169557330716
-***************
-estado 19
-
-linha t1 Float32[28.07, 28.17, 27.72, 27.84, 1.89, 1.89]
-linha t0 Float32[27.76, 27.96, 27.49, 27.58, 3.13, 3.13]
-acao: 5 STAY_SHORT
-linha t1 Float32[28.07, 28.17, 27.72, 27.84, 1.89, 1.89]
-linha t0 Float32[27.76, 27.96, 27.49, 27.58, 3.13, 3.13]
-                    1     2   3   4   5    6     7     8    9
-        estado19 = [SHORT, DOWN, UP, SELL, DOWN, DOWN, MAX, MAX, UP] 27.950000762939453
-proximo estado20 = [SHORT, UP, DOWN, NOP, DOWN, UP, MAX, MIN, UP] 27.950000762939453
-preco atual: 27.58
-
-Escolhe acao
-key: [2127211215, 2127211216, 0]
-i: 0.4178929817298023
-i: 0.29094051444860175
-melhor acao
-key1
-recompensa: -0.10340609457353891 estado: 27.950000762939453 valor atual: 27.58
-antes: 0.2711022594258135 proximo: 0.4178929817298023 teste dict: 0.2705283765582941
-***************
-estado 20
-
-linha t1 Float32[27.76, 27.96, 27.49, 27.58, 3.13, 3.13]
-linha t0 Float32[27.7, 27.77, 27.38, 27.38, 2.41, 2.41]
-acao: 5 STAY_SHORT
-linha t1 Float32[27.76, 27.96, 27.49, 27.58, 3.13, 3.13]
-linha t0 Float32[27.7, 27.77, 27.38, 27.38, 2.41, 2.41]
-                    1     2   3   4   5    6     7     8    9
-        estado20 = [SHORT, UP, DOWN, NOP, DOWN, UP, MAX, MIN, UP] 27.950000762939453
-proximo estado21 = [SHORT, DOWN, DOWN, NOP, UP, UP, MIN, MIN, UP] 27.950000762939453
-preco atual: 27.38
-
-Escolhe acao
-key: [2227112215, 2227112216, 0]
-i: 0.39079680806901873
-i: 0.26130075732517394
-melhor acao
-key1
-recompensa: -0.08301247787895012 estado: 27.950000762939453 valor atual: 27.38
-antes: 0.4178929817298023 proximo: 0.39079680806901873 teste dict: 0.41630154787207924
-***************
-estado 21
-
-linha t1 Float32[27.7, 27.77, 27.38, 27.38, 2.41, 2.41]
-linha t0 Float32[27.37, 28.05, 27.18, 28.05, 4.4, 4.4]
-acao: 5 STAY_SHORT
-linha t1 Float32[27.7, 27.77, 27.38, 27.38, 2.41, 2.41]
-linha t0 Float32[27.37, 28.05, 27.18, 28.05, 4.4, 4.4]
-                    1     2   3   4   5    6     7     8    9
-        estado21 = [SHORT, DOWN, DOWN, NOP, UP, UP, MIN, MIN, UP] 27.950000762939453
-proximo estado22 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, UP] 27.950000762939453
-preco atual: 28.05
-
-Escolhe acao
-key: [2227122215, 2227122216, 0]
-i: 0.3823285580462637
-i: 0.22555065893239773
-melhor acao
-key1
-recompensa: -0.08659024071943232 estado: 27.950000762939453 valor atual: 28.05
-antes: 0.39079680806901873 proximo: 0.3823285580462637 teste dict: 0.38932850866192625
-***************
-estado 22
-
-linha t1 Float32[27.37, 28.05, 27.18, 28.05, 4.4, 4.4]
-linha t0 Float32[28.36, 28.99, 28.17, 28.79, 2.94, 2.94]
-acao: 5 STAY_SHORT
-linha t1 Float32[27.37, 28.05, 27.18, 28.05, 4.4, 4.4]
-linha t0 Float32[28.36, 28.99, 28.17, 28.79, 2.94, 2.94]
-                    1     2   3   4   5    6     7     8    9
-        estado22 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, UP] 27.950000762939453
-proximo estado23 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, DOWN] 27.950000762939453
-preco atual: 28.79
+        estado6 = [SHORT, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, DOWN] 0.0
+recompensa: 0.0014722457 estado: 0.0 valor atual: 27.13
+proximo estado7 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, DOWN] 0.0
+prox recompensa: -0.01324993 estado: 0.0 valor prox: 27.53
+preco atual: 27.13 preco proximo: 27.53
 
 Escolhe acao
 key: [2217212125, 2217212126, 0]
-i: 0.14716786480492763
-i: 0.047975206322933645
-melhor acao
 key1
-recompensa: -0.1166439126213557 estado: 27.950000762939453 valor atual: 28.79
-antes: 0.3823285580462637 proximo: 0.14716786480492763 teste dict: 0.3795568732891345
+melhor acao
+antes: 0.33670855280433 proximo: 0.24942978239368238 teste dict: 0.3354810493584683
+***************
+estado 7
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[27.11, 27.66, 26.74, 27.53, 4.04, 4.04]
+linha t0 Float32[27.67, 27.84, 27.38, 27.84, 2.98, 2.98]
+                    1     2   3   4   5    6     7     8    9
+        estado7 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, DOWN] 0.0
+recompensa: -0.01324993 estado: 0.0 valor atual: 27.53
+proximo estado8 = [SHORT, UP, UP, NOP, UP, UP, MAX, MAX, DOWN] 0.0
+prox recompensa: -0.024659554 estado: 0.0 valor prox: 27.84
+preco atual: 27.53 preco proximo: 27.84
+
+Escolhe acao
+key: [2117111125, 2117111126, 0]
+key1
+melhor acao
+antes: 0.24942978239368238 proximo: 0.1735469242067962 teste dict: 0.24836153697074076
+***************
+estado 8
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[27.67, 27.84, 27.38, 27.84, 2.98, 2.98]
+linha t0 Float32[27.86, 27.99, 27.41, 27.55, 1.84, 1.84]
+                    1     2   3   4   5    6     7     8    9
+        estado8 = [SHORT, UP, UP, NOP, UP, UP, MAX, MAX, DOWN] 0.0
+recompensa: -0.024659554 estado: 0.0 valor atual: 27.84
+proximo estado9 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, UP] 0.0
+prox recompensa: -0.013985983 estado: 0.0 valor prox: 27.55
+preco atual: 27.84 preco proximo: 27.55
+
+Escolhe acao
+key: [2117121115, 2117121116, 0]
+key1
+melhor acao
+antes: 0.1735469242067962 proximo: 0.2666448230749817 teste dict: 0.1735407534887436
+***************
+estado 9
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[27.86, 27.99, 27.41, 27.55, 1.84, 1.84]
+linha t0 Float32[27.67, 27.75, 27.19, 27.3, 2.93, 2.93]
+                    1     2   3   4   5    6     7     8    9
+        estado9 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, UP] 0.0
+recompensa: -0.013985983 estado: 0.0 valor atual: 27.55
+proximo estado10 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 0.0
+prox recompensa: -0.004784658 estado: 0.0 valor prox: 27.3
+preco atual: 27.55 preco proximo: 27.3
+
+Escolhe acao
+key: [2127221215, 2127221216, 0]
+key1
+melhor acao
+antes: 0.2666448230749817 proximo: 0.29327005371862225 teste dict: 0.2661818399700792
+***************
+estado 10
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[27.67, 27.75, 27.19, 27.3, 2.93, 2.93]
+linha t0 Float32[27.15, 27.52, 27.02, 27.39, 1.88, 1.88]
+                    1     2   3   4   5    6     7     8    9
+        estado10 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 0.0
+recompensa: -0.004784658 estado: 0.0 valor atual: 27.3
+proximo estado11 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, DOWN] 0.0
+prox recompensa: -0.008097141 estado: 0.0 valor prox: 27.39
+preco atual: 27.3 preco proximo: 27.39
+
+Escolhe acao
+key: [2227212225, 2227212226, 0]
+key1
+melhor acao
+antes: 0.29327005371862225 proximo: 0.26377490030722894 teste dict: 0.2924529803667487
+***************
+estado 11
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[27.15, 27.52, 27.02, 27.39, 1.88, 1.88]
+linha t0 Float32[27.4, 27.4, 26.95, 27.16, 2.36, 2.36]
+                    1     2   3   4   5    6     7     8    9
+        estado11 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, DOWN] 0.0
+recompensa: -0.008097141 estado: 0.0 valor atual: 27.39
+proximo estado12 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MAX, UP] 0.0
+prox recompensa: 0.00036806142 estado: 0.0 valor prox: 27.16
+preco atual: 27.39 preco proximo: 27.16
+
+Escolhe acao
+key: [2217122115, 2217122116, 0]
+key1
+melhor acao
+antes: 0.26377490030722894 proximo: 0.3634348299654829 teste dict: 0.26371188310182997
+***************
+estado 12
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[27.4, 27.4, 26.95, 27.16, 2.36, 2.36]
+linha t0 Float32[27.14, 27.14, 26.77, 26.77, 1.84, 1.84]
+                    1     2   3   4   5    6     7     8    9
+        estado12 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MAX, UP] 0.0
+recompensa: 0.00036806142 estado: 0.0 valor atual: 27.16
+proximo estado13 = [SHORT, UP, DOWN, NOP, DOWN, UP, MAX, MIN, UP] 0.0
+prox recompensa: 0.014722106 estado: 0.0 valor prox: 26.77
+preco atual: 27.16 preco proximo: 26.77
+
+Escolhe acao
+key: [2127211215, 2127211216, 0]
+key1
+melhor acao
+antes: 0.3634348299654829 proximo: 0.3347044621040845 teste dict: 0.36263389276236335
+***************
+estado 13
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[27.14, 27.14, 26.77, 26.77, 1.84, 1.84]
+linha t0 Float32[26.84, 27.06, 26.68, 26.96, 1.57, 1.57]
+                    1     2   3   4   5    6     7     8    9
+        estado13 = [SHORT, UP, DOWN, NOP, DOWN, UP, MAX, MIN, UP] 0.0
+recompensa: 0.014722106 estado: 0.0 valor atual: 26.77
+proximo estado14 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, DOWN] 0.0
+prox recompensa: 0.0077291494 estado: 0.0 valor prox: 26.96
+preco atual: 26.77 preco proximo: 26.96
+
+Escolhe acao
+key: [2227122225, 2227122226, 0]
+key1
+melhor acao
+antes: 0.3347044621040845 proximo: 0.2627093805540391 teste dict: 0.33370291088003545
+***************
+estado 14
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[26.84, 27.06, 26.68, 26.96, 1.57, 1.57]
+linha t0 Float32[26.86, 27.97, 26.67, 27.93, 3.27, 3.27]
+                    1     2   3   4   5    6     7     8    9
+        estado14 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, DOWN] 0.0
+recompensa: 0.0077291494 estado: 0.0 valor atual: 26.96
+proximo estado15 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, DOWN] 0.0
+prox recompensa: -0.027972037 estado: 0.0 valor prox: 27.93
+preco atual: 26.96 preco proximo: 27.93
+
+Escolhe acao
+key: [2217222125, 2217222126, 0]
+key2
+melhor acao
+antes: 0.2627093805540391 proximo: -0.11234692615969522 teste dict: 0.2601241106931698
+***************
+estado 15
+
+acao: 6 - EXIT_SHORT
+linha t1 Float32[26.86, 27.97, 26.67, 27.93, 3.27, 3.27]
+linha t0 Float32[28.14, 28.2, 27.43, 27.61, 2.52, 2.52]
+                    1     2   3   4   5    6     7     8    9
+        estado15 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, DOWN] 0.0
+recompensa: -0.027972037 estado: 0.0 valor atual: 27.93
+proximo estado16 = [NPOS, UP, UP, BUY, DOWN, UP, MAX, MAX, NPOS] 0.0
+prox recompensa: -0.016194351 estado: 0.0 valor prox: 27.61
+preco atual: 27.93 preco proximo: 27.61
+
+Escolhe acao
+key: [3111211131, 3111211134, 3111211137]
+key 3 != 0
+key 2
+melhor acao
+antes: -0.11234692615969522 proximo: 0.1766037806920246 teste dict: -0.11080849960830876
+***************
+estado 16
+
+acao: 4 - ENTER_SHORT
+linha t1 Float32[28.14, 28.2, 27.43, 27.61, 2.52, 2.52]
+linha t0 Float32[27.97, 28.24, 27.79, 27.9, 2.72, 2.72]
+                    1     2   3   4   5    6     7     8    9
+        estado16 = [NPOS, UP, UP, BUY, DOWN, UP, MAX, MAX, NPOS] 0.0
+recompensa: -0.016194351 estado: 0.0 valor atual: 27.61
+proximo estado17 = [SHORT, UP, DOWN, SELL, UP, DOWN, MAX, MIN, DOWN] 0.0
+prox recompensa: -0.010503405 estado: 0.0 valor prox: 27.9
+preco atual: 27.61 preco proximo: 27.9
+
+Escolhe acao
+key: [2122121225, 2122121226, 0]
+key1
+melhor acao
+antes: 0.1766037806920246 proximo: 0.5231500799673243 teste dict: 0.1778574657856039
+***************
+estado 17
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[27.97, 28.24, 27.79, 27.9, 2.72, 2.72]
+linha t0 Float32[27.93, 28.0, 27.58, 27.82, 1.87, 1.87]
+                    1     2   3   4   5    6     7     8    9
+        estado17 = [SHORT, UP, DOWN, SELL, UP, DOWN, MAX, MIN, DOWN] 0.0
+recompensa: -0.010503405 estado: 0.0 valor atual: 27.9
+proximo estado18 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, UP] 0.0
+prox recompensa: -0.0076059066 estado: 0.0 valor prox: 27.82
+preco atual: 27.9 preco proximo: 27.82
+
+Escolhe acao
+key: [2227212215, 2227212216, 0]
+key1
+melhor acao
+antes: 0.5231500799673243 proximo: 0.34368684366792385 teste dict: 0.5211188535954945
+***************
+estado 18
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[27.93, 28.0, 27.58, 27.82, 1.87, 1.87]
+linha t0 Float32[27.83, 28.06, 27.72, 27.95, 1.16, 1.16]
+                    1     2   3   4   5    6     7     8    9
+        estado18 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, UP] 0.0
+recompensa: -0.0076059066 estado: 0.0 valor atual: 27.82
+proximo estado19 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MAX, DOWN] 0.0
+prox recompensa: -0.012314384 estado: 0.0 valor prox: 27.95
+preco atual: 27.82 preco proximo: 27.95
+
+Escolhe acao
+key: [2227122125, 2227122126, 0]
+key2
+melhor acao
+antes: 0.34368684366792385 proximo: 0.11759293531120583 teste dict: 0.3417710404581703
+***************
+estado 19
+
+acao: 6 - EXIT_SHORT
+linha t1 Float32[27.83, 28.06, 27.72, 27.95, 1.16, 1.16]
+linha t0 Float32[28.07, 28.17, 27.72, 27.84, 1.89, 1.89]
+                    1     2   3   4   5    6     7     8    9
+        estado19 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MAX, DOWN] 0.0
+recompensa: -0.012314384 estado: 0.0 valor atual: 27.95
+proximo estado20 = [NPOS, DOWN, UP, BUY, DOWN, DOWN, MAX, MAX, NPOS] 0.0
+prox recompensa: -0.008330299 estado: 0.0 valor prox: 27.84
+preco atual: 27.95 preco proximo: 27.84
+
+Escolhe acao
+key: [3211221131, 3211221134, 3211221137]
+key 3 != 0
+key 2
+melhor acao
+antes: 0.11759293531120583 proximo: 0.20278257484892453 teste dict: 0.11770510729067336
+***************
+estado 20
+
+acao: 4 - ENTER_SHORT
+linha t1 Float32[28.07, 28.17, 27.72, 27.84, 1.89, 1.89]
+linha t0 Float32[27.76, 27.96, 27.49, 27.58, 3.13, 3.13]
+                    1     2   3   4   5    6     7     8    9
+        estado20 = [NPOS, DOWN, UP, BUY, DOWN, DOWN, MAX, MAX, NPOS] 0.0
+recompensa: -0.008330299 estado: 0.0 valor atual: 27.84
+proximo estado21 = [SHORT, UP, DOWN, SELL, DOWN, UP, MAX, MIN, UP] 0.0
+prox recompensa: 0.009339089 estado: 0.0 valor prox: 27.58
+preco atual: 27.84 preco proximo: 27.58
+
+Escolhe acao
+key: [2122211215, 2122211216, 0]
+key1
+melhor acao
+antes: 0.20278257484892453 proximo: 0.25859755164506104 teste dict: 0.20269559844806123
+***************
+estado 21
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[27.76, 27.96, 27.49, 27.58, 3.13, 3.13]
+linha t0 Float32[27.7, 27.77, 27.38, 27.38, 2.41, 2.41]
+                    1     2   3   4   5    6     7     8    9
+        estado21 = [SHORT, UP, DOWN, SELL, DOWN, UP, MAX, MIN, UP] 0.0
+recompensa: 0.009339089 estado: 0.0 valor atual: 27.58
+proximo estado22 = [SHORT, DOWN, DOWN, NOP, UP, UP, MIN, MIN, UP] 0.0
+prox recompensa: 0.016523024 estado: 0.0 valor prox: 27.38
+preco atual: 27.58 preco proximo: 27.38
+
+Escolhe acao
+key: [2227112215, 2227112216, 0]
+key1
+melhor acao
+antes: 0.25859755164506104 proximo: 0.2907405624439533 teste dict: 0.25832765870799196
+***************
+estado 22
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[27.7, 27.77, 27.38, 27.38, 2.41, 2.41]
+linha t0 Float32[27.37, 28.05, 27.18, 28.05, 4.4, 4.4]
+                    1     2   3   4   5    6     7     8    9
+        estado22 = [SHORT, DOWN, DOWN, NOP, UP, UP, MIN, MIN, UP] 0.0
+recompensa: 0.016523024 estado: 0.0 valor atual: 27.38
+proximo estado23 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, DOWN] 0.0
+prox recompensa: -0.0075430707 estado: 0.0 valor prox: 28.05
+preco atual: 27.38 preco proximo: 28.05
+
+Escolhe acao
+key: [2227122225, 2227122226, 0]
+key1
+melhor acao
+antes: 0.2907405624439533 proximo: 0.2601241106931698 teste dict: 0.2899271851542899
 ***************
 estado 23
 
-linha t1 Float32[28.36, 28.99, 28.17, 28.79, 2.94, 2.94]
-linha t0 Float32[28.64, 29.77, 28.64, 29.51, 3.15, 3.15]
-acao: 5 STAY_SHORT
-linha t1 Float32[28.36, 28.99, 28.17, 28.79, 2.94, 2.94]
-linha t0 Float32[28.64, 29.77, 28.64, 29.51, 3.15, 3.15]
+acao: 5 - STAY_SHORT
+linha t1 Float32[27.37, 28.05, 27.18, 28.05, 4.4, 4.4]
+linha t0 Float32[28.36, 28.99, 28.17, 28.79, 2.94, 2.94]
                     1     2   3   4   5    6     7     8    9
-        estado23 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, DOWN] 27.950000762939453
-proximo estado24 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, DOWN] 27.950000762939453
-preco atual: 29.51
+        estado23 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, DOWN] 0.0
+recompensa: -0.0075430707 estado: 0.0 valor atual: 28.05
+proximo estado24 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, DOWN] 0.0
+prox recompensa: -0.034123592 estado: 0.0 valor prox: 28.79
+preco atual: 28.05 preco proximo: 28.79
 
 Escolhe acao
-key: [2117121125, 2117121126, 0]
-i: 0.15499815218580273
-i: 0.07399061369861706
-melhor acao
+key: [2217212125, 2217212126, 0]
 key1
-recompensa: -0.17245784547859117 estado: 27.950000762939453 valor atual: 29.51
-antes: 0.14716786480492763 proximo: 0.15499815218580273 teste dict: 0.14568997577865345
+melhor acao
+antes: 0.2601241106931698 proximo: 0.24836153697074076 teste dict: 0.25928134830492344
 ***************
 estado 24
 
-linha t1 Float32[28.64, 29.77, 28.64, 29.51, 3.15, 3.15]
-linha t0 Float32[29.72, 29.98, 29.44, 29.86, 5.65, 5.65]
-acao: 5 STAY_SHORT
-linha t1 Float32[28.64, 29.77, 28.64, 29.51, 3.15, 3.15]
-linha t0 Float32[29.72, 29.98, 29.44, 29.86, 5.65, 5.65]
+acao: 5 - STAY_SHORT
+linha t1 Float32[28.36, 28.99, 28.17, 28.79, 2.94, 2.94]
+linha t0 Float32[28.64, 29.77, 28.64, 29.51, 3.15, 3.15]
                     1     2   3   4   5    6     7     8    9
-        estado24 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, DOWN] 27.950000762939453
-proximo estado25 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MAX, DOWN] 27.950000762939453
-preco atual: 29.86
+        estado24 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, DOWN] 0.0
+recompensa: -0.034123592 estado: 0.0 valor atual: 28.79
+proximo estado25 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, DOWN] 0.0
+prox recompensa: -0.059985634 estado: 0.0 valor prox: 29.51
+preco atual: 28.79 preco proximo: 29.51
 
 Escolhe acao
-key: [2117211125, 2117211126, 0]
-i: 0.14466694827558707
-i: 0.10982453892594879
-melhor acao
+key: [2117121125, 2117121126, 0]
 key1
-recompensa: -0.24079415300187001 estado: 27.950000762939453 valor atual: 29.86
-antes: 0.15499815218580273 proximo: 0.14466694827558707 teste dict: 0.15293647409603942
+melhor acao
+antes: 0.24836153697074076 proximo: 0.21348736158946546 teste dict: 0.24724919484615743
 ***************
 estado 25
 
-linha t1 Float32[29.72, 29.98, 29.44, 29.86, 5.65, 5.65]
-linha t0 Float32[29.76, 29.89, 29.55, 29.77, 3.34, 3.34]
-acao: 5 STAY_SHORT
-linha t1 Float32[29.72, 29.98, 29.44, 29.86, 5.65, 5.65]
-linha t0 Float32[29.76, 29.89, 29.55, 29.77, 3.34, 3.34]
+acao: 5 - STAY_SHORT
+linha t1 Float32[28.64, 29.77, 28.64, 29.51, 3.15, 3.15]
+linha t0 Float32[29.72, 29.98, 29.44, 29.86, 5.65, 5.65]
                     1     2   3   4   5    6     7     8    9
-        estado25 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MAX, DOWN] 27.950000762939453
-proximo estado26 = [SHORT, UP, UP, NOP, UP, UP, MAX, MAX, DOWN] 27.950000762939453
-preco atual: 29.77
+        estado25 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, DOWN] 0.0
+recompensa: -0.059985634 estado: 0.0 valor atual: 29.51
+proximo estado26 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MAX, DOWN] 0.0
+prox recompensa: -0.07255749 estado: 0.0 valor prox: 29.86
+preco atual: 29.51 preco proximo: 29.86
 
 Escolhe acao
-key: [2117111125, 2117111126, 0]
-i: 0.0
-i: 0.0
-melhor acao
+key: [2117211125, 2117211126, 0]
 key1
-recompensa: -0.3059104193755534 estado: 27.950000762939453 valor atual: 29.77
-antes: 0.14466694827558707 proximo: 0.0 teste dict: 0.1415129067020291
+melhor acao
+antes: 0.21348736158946546 proximo: 0.1659741290055507 teste dict: 0.21229832088431033
 ***************
 estado 26
 
-linha t1 Float32[29.76, 29.89, 29.55, 29.77, 3.34, 3.34]
-linha t0 Float32[29.73, 29.86, 29.32, 29.53, 2.73, 2.73]
-acao: 5 STAY_SHORT
-linha t1 Float32[29.76, 29.89, 29.55, 29.77, 3.34, 3.34]
-linha t0 Float32[29.73, 29.86, 29.32, 29.53, 2.73, 2.73]
+acao: 5 - STAY_SHORT
+linha t1 Float32[29.72, 29.98, 29.44, 29.86, 5.65, 5.65]
+linha t0 Float32[29.76, 29.89, 29.55, 29.77, 3.34, 3.34]
                     1     2   3   4   5    6     7     8    9
-        estado26 = [SHORT, UP, UP, NOP, UP, UP, MAX, MAX, DOWN] 27.950000762939453
-proximo estado27 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, DOWN] 27.950000762939453
-preco atual: 29.53
+        estado26 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MAX, DOWN] 0.0
+recompensa: -0.07255749 estado: 0.0 valor atual: 29.86
+proximo estado27 = [SHORT, UP, UP, NOP, UP, UP, MAX, MAX, UP] 0.0
+prox recompensa: -0.069324724 estado: 0.0 valor prox: 29.77
+preco atual: 29.86 preco proximo: 29.77
 
 Escolhe acao
-key: [2117121125, 2117121126, 0]
-i: 0.15293647409603942
-i: 0.07399061369861706
-melhor acao
+key: [2117111115, 2117111116, 0]
 key1
-recompensa: -0.36243993209746606 estado: 27.950000762939453 valor atual: 29.53
-antes: 0.0 proximo: 0.15293647409603942 teste dict: -0.0017876908016116692
+melhor acao
+antes: 0.1659741290055507 proximo: 0.3996028775919356 teste dict: 0.16628509113207893
 ***************
 estado 27
 
-linha t1 Float32[29.73, 29.86, 29.32, 29.53, 2.73, 2.73]
-linha t0 Float32[29.73, 29.81, 29.2, 29.2, 2.01, 2.01]
-acao: 5 STAY_SHORT
-linha t1 Float32[29.73, 29.86, 29.32, 29.53, 2.73, 2.73]
-linha t0 Float32[29.73, 29.81, 29.2, 29.2, 2.01, 2.01]
+acao: 5 - STAY_SHORT
+linha t1 Float32[29.76, 29.89, 29.55, 29.77, 3.34, 3.34]
+linha t0 Float32[29.73, 29.86, 29.32, 29.53, 2.73, 2.73]
                     1     2   3   4   5    6     7     8    9
-        estado27 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, DOWN] 27.950000762939453
-proximo estado28 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, DOWN] 27.950000762939453
-preco atual: 29.2
+        estado27 = [SHORT, UP, UP, NOP, UP, UP, MAX, MAX, UP] 0.0
+recompensa: -0.069324724 estado: 0.0 valor atual: 29.77
+proximo estado28 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, UP] 0.0
+prox recompensa: -0.06070404 estado: 0.0 valor prox: 29.53
+preco atual: 29.77 preco proximo: 29.53
 
 Escolhe acao
-key: [2127221225, 2127221226, 0]
-i: 0.04904798483552675
-i: 0.05676079256085714
+key: [2117121115, 2117121116, 0]
+key1
 melhor acao
-key2
-recompensa: -0.40716265001801255 estado: 27.950000762939453 valor atual: 29.2
-antes: 0.15293647409603942 proximo: 0.05676079256085714 teste dict: 0.14929390811078924
+antes: 0.3996028775919356 proximo: 0.2661818399700792 teste dict: 0.3976850201757386
 ***************
 estado 28
 
-linha t1 Float32[29.73, 29.81, 29.2, 29.2, 2.01, 2.01]
-linha t0 Float32[28.96, 29.15, 28.62, 28.98, 3.62, 3.62]
-acao: 6 EXIT_SHORT
-linha t1 Float32[29.73, 29.81, 29.2, 29.2, 2.01, 2.01]
-linha t0 Float32[28.96, 29.15, 28.62, 28.98, 3.62, 3.62]
+acao: 5 - STAY_SHORT
+linha t1 Float32[29.73, 29.86, 29.32, 29.53, 2.73, 2.73]
+linha t0 Float32[29.73, 29.81, 29.2, 29.2, 2.01, 2.01]
                     1     2   3   4   5    6     7     8    9
-        estado28 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, DOWN] 27.950000762939453
-proximo estado29 = [NPOS, DOWN, DOWN, BUY, DOWN, DOWN, MIN, MIN, NPOS] 0.0
-preco atual: 28.98
+        estado28 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, UP] 0.0
+recompensa: -0.06070404 estado: 0.0 valor atual: 29.53
+proximo estado29 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 0.0
+prox recompensa: -0.048850596 estado: 0.0 valor prox: 29.2
+preco atual: 29.53 preco proximo: 29.2
 
 Escolhe acao
-key: [3221222231, 3221222234, 3221222237]
-i: 0.09389693998565454
-i: 0.3029229441595915
-i: 0.11971693790226359
+key: [2127221215, 2127221216, 0]
+key1
 melhor acao
-key 3 != 0
-key2
-recompensa: -0.44401412591001366 estado: 27.950000762939453 valor atual: 28.98
-antes: 0.05676079256085714 proximo: 0.3029229441595915 teste dict: 0.054739690557943047
+antes: 0.2661818399700792 proximo: 0.2924529803667487 teste dict: 0.26540963252242816
 ***************
 estado 29
 
-linha t1 Float32[28.96, 29.15, 28.62, 28.98, 3.62, 3.62]
-linha t0 Float32[28.63, 28.63, 27.86, 27.88, 4.38, 4.38]
-acao: 4 ENTER_SHORT
-linha t1 Float32[28.96, 29.15, 28.62, 28.98, 3.62, 3.62]
-linha t0 Float32[28.63, 28.63, 27.86, 27.88, 4.38, 4.38]
+acao: 5 - STAY_SHORT
+linha t1 Float32[29.73, 29.81, 29.2, 29.2, 2.01, 2.01]
+linha t0 Float32[28.96, 29.15, 28.62, 28.98, 3.62, 3.62]
                     1     2   3   4   5    6     7     8    9
-        estado29 = [NPOS, DOWN, DOWN, BUY, DOWN, DOWN, MIN, MIN, NPOS] 0.0
-proximo estado30 = [SHORT, DOWN, UP, SELL, DOWN, UP, MIN, MAX, UP] 28.979999542236328
-preco atual: 27.88
+        estado29 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 0.0
+recompensa: -0.048850596 estado: 0.0 valor atual: 29.2
+proximo estado30 = [SHORT, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, UP] 0.0
+prox recompensa: -0.040948253 estado: 0.0 valor prox: 28.98
+preco atual: 29.2 preco proximo: 28.98
 
 Escolhe acao
-key: [2212212115, 2212212116, 0]
-i: 0.058304505086764054
-i: 0.11554711465329537
+key: [2227222215, 2227222216, 0]
+key1
 melhor acao
-key2
-recompensa: -0.44401412591001366 estado: 0.0 valor atual: 27.88
-antes: 0.3029229441595915 proximo: 0.11554711465329537 teste dict: 0.2982605655309054
+antes: 0.2924529803667487 proximo: 0.3897377266707354 teste dict: 0.2920288865929934
 ***************
 estado 30
 
-linha t1 Float32[28.63, 28.63, 27.86, 27.88, 4.38, 4.38]
-linha t0 Float32[27.6, 28.26, 27.56, 27.92, 2.97, 2.97]
-acao: 6 EXIT_SHORT
-linha t1 Float32[28.63, 28.63, 27.86, 27.88, 4.38, 4.38]
-linha t0 Float32[27.6, 28.26, 27.56, 27.92, 2.97, 2.97]
+acao: 5 - STAY_SHORT
+linha t1 Float32[28.96, 29.15, 28.62, 28.98, 3.62, 3.62]
+linha t0 Float32[28.63, 28.63, 27.86, 27.88, 4.38, 4.38]
                     1     2   3   4   5    6     7     8    9
-        estado30 = [SHORT, DOWN, UP, SELL, DOWN, UP, MIN, MAX, UP] 28.979999542236328
-proximo estado31 = [NPOS, UP, DOWN, BUY, UP, UP, MAX, MIN, NPOS] 0.0
-preco atual: 27.92
+        estado30 = [SHORT, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, UP] 0.0
+recompensa: -0.040948253 estado: 0.0 valor atual: 28.98
+proximo estado31 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, UP] 0.0
+prox recompensa: -0.001436746 estado: 0.0 valor prox: 27.88
+preco atual: 28.98 preco proximo: 27.88
 
 Escolhe acao
-key: [3121111231, 3121111234, 3121111237]
-i: 0.10373438029816498
-i: 0.1116347229142113
-i: 0.2396397579718975
+key: [2217212115, 2217212116, 0]
+key1
 melhor acao
-key 3 != 0
-key3
-recompensa: -0.4074371941403113 estado: 28.979999542236328 valor atual: 27.92
-antes: 0.11554711465329537 proximo: 0.2396397579718975 teste dict: 0.11306045930580241
+antes: 0.3897377266707354 proximo: 0.1925278333352974 teste dict: 0.38794289174551794
 ***************
 estado 31
 
-linha t1 Float32[27.6, 28.26, 27.56, 27.92, 2.97, 2.97]
-linha t0 Float32[27.92, 28.12, 27.78, 27.98, 2.51, 2.51]
-acao: 7 NOPa
-linha t1 Float32[27.6, 28.26, 27.56, 27.92, 2.97, 2.97]
-linha t0 Float32[27.92, 28.12, 27.78, 27.98, 2.51, 2.51]
+acao: 5 - STAY_SHORT
+linha t1 Float32[28.63, 28.63, 27.86, 27.88, 4.38, 4.38]
+linha t0 Float32[27.6, 28.26, 27.56, 27.92, 2.97, 2.97]
                     1     2   3   4   5    6     7     8    9
-        estado31 = [NPOS, UP, DOWN, BUY, UP, UP, MAX, MIN, NPOS] 0.0
-proximo estado32 = [NPOS, DOWN, UP, NOP, UP, DOWN, MIN, MAX, NPOS] 0.0
-preco atual: 27.98
+        estado31 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, UP] 0.0
+recompensa: -0.001436746 estado: 0.0 valor atual: 27.88
+proximo estado32 = [SHORT, UP, DOWN, NOP, UP, UP, MAX, MIN, DOWN] 0.0
+prox recompensa: -0.0028735604 estado: 0.0 valor prox: 27.92
+preco atual: 27.88 preco proximo: 27.92
 
 Escolhe acao
-key: [3217122131, 3217122134, 3217122137]
-i: 0.014653288885991572
-i: 0.13447474188432385
-i: 0.018171017227186587
+key: [2127111225, 2127111226, 0]
+key1
 melhor acao
-key 3 != 0
-key2
-recompensa: -0.4074371941403113 estado: 0.0 valor atual: 27.98
-antes: 0.2396397579718975 proximo: 0.13447474188432385 teste dict: 0.2357691455423452
+antes: 0.1925278333352974 proximo: 0.3526701631165311 teste dict: 0.1928881073783253
 ***************
 estado 32
 
-linha t1 Float32[27.92, 28.12, 27.78, 27.98, 2.51, 2.51]
-linha t0 Float32[27.79, 28.04, 27.73, 27.92, 3.08, 3.08]
-acao: 4 ENTER_SHORT
-linha t1 Float32[27.92, 28.12, 27.78, 27.98, 2.51, 2.51]
-linha t0 Float32[27.79, 28.04, 27.73, 27.92, 3.08, 3.08]
+acao: 5 - STAY_SHORT
+linha t1 Float32[27.6, 28.26, 27.56, 27.92, 2.97, 2.97]
+linha t0 Float32[27.92, 28.12, 27.78, 27.98, 2.51, 2.51]
                     1     2   3   4   5    6     7     8    9
-        estado32 = [NPOS, DOWN, UP, NOP, UP, DOWN, MIN, MAX, NPOS] 0.0
-proximo estado33 = [SHORT, UP, UP, SELL, DOWN, DOWN, MAX, MAX, UP] 27.979999542236328
-preco atual: 27.92
-
-Escolhe acao
-key: [2112221115, 2112221116, 0]
-i: 0.10419136261886187
-i: 0.0758270808892544
-melhor acao
-key1
-recompensa: -0.4074371941403113 estado: 0.0 valor atual: 27.92
-antes: 0.13447474188432385 proximo: 0.10419136261886187 teste dict: 0.13119189600898382
-***************
-estado 33
-
-linha t1 Float32[27.79, 28.04, 27.73, 27.92, 3.08, 3.08]
-linha t0 Float32[28.08, 28.73, 28.01, 28.46, 4.64, 4.64]
-acao: 5 STAY_SHORT
-linha t1 Float32[27.79, 28.04, 27.73, 27.92, 3.08, 3.08]
-linha t0 Float32[28.08, 28.73, 28.01, 28.46, 4.64, 4.64]
-                    1     2   3   4   5    6     7     8    9
-        estado33 = [SHORT, UP, UP, SELL, DOWN, DOWN, MAX, MAX, UP] 27.979999542236328
-proximo estado34 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MAX, UP] 27.979999542236328
-preco atual: 28.46
-
-Escolhe acao
-key: [2117211115, 2117211116, 0]
-i: 0.390659874992003
-i: 0.2687830975881346
-melhor acao
-key1
-recompensa: -0.4245922888540107 estado: 27.979999542236328 valor atual: 28.46
-antes: 0.10419136261886187 proximo: 0.390659874992003 teste dict: 0.10240411044601258
-***************
-estado 34
-
-linha t1 Float32[28.08, 28.73, 28.01, 28.46, 4.64, 4.64]
-linha t0 Float32[28.37, 28.45, 27.62, 27.76, 4.92, 4.92]
-acao: 5 STAY_SHORT
-linha t1 Float32[28.08, 28.73, 28.01, 28.46, 4.64, 4.64]
-linha t0 Float32[28.37, 28.45, 27.62, 27.76, 4.92, 4.92]
-                    1     2   3   4   5    6     7     8    9
-        estado34 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MAX, UP] 27.979999542236328
-proximo estado35 = [SHORT, UP, UP, NOP, UP, UP, MAX, MAX, DOWN] 27.979999542236328
-preco atual: 27.76
-
-Escolhe acao
-key: [2117111125, 2117111126, 0]
-i: -0.0017876908016116692
-i: 0.0
-melhor acao
-key2
-recompensa: -0.4167295541523035 estado: 27.979999542236328 valor atual: 27.76
-antes: 0.390659874992003 proximo: 0.0 teste dict: 0.38500814898799285
-***************
-estado 35
-
-linha t1 Float32[28.37, 28.45, 27.62, 27.76, 4.92, 4.92]
-linha t0 Float32[27.04, 27.31, 26.67, 26.74, 5.85, 5.85]
-acao: 6 EXIT_SHORT
-linha t1 Float32[28.37, 28.45, 27.62, 27.76, 4.92, 4.92]
-linha t0 Float32[27.04, 27.31, 26.67, 26.74, 5.85, 5.85]
-                    1     2   3   4   5    6     7     8    9
-        estado35 = [SHORT, UP, UP, NOP, UP, UP, MAX, MAX, DOWN] 27.979999542236328
-proximo estado36 = [NPOS, UP, DOWN, BUY, UP, UP, MAX, MIN, NPOS] 0.0
-preco atual: 26.74
-
-Escolhe acao
-key: [3121111231, 3121111234, 3121111237]
-i: 0.10373438029816498
-i: 0.1116347229142113
-i: 0.2357691455423452
-melhor acao
-key 3 != 0
-key3
-recompensa: -0.3724121920577702 estado: 27.979999542236328 valor atual: 26.74
-antes: 0.0 proximo: 0.2357691455423452 teste dict: -0.0014516165312469
-***************
-estado 36
-
-linha t1 Float32[27.04, 27.31, 26.67, 26.74, 5.85, 5.85]
-linha t0 Float32[26.67, 26.91, 26.35, 26.69, 5.42, 5.42]
-acao: 7 NOPa
-linha t1 Float32[27.04, 27.31, 26.67, 26.74, 5.85, 5.85]
-linha t0 Float32[26.67, 26.91, 26.35, 26.69, 5.42, 5.42]
-                    1     2   3   4   5    6     7     8    9
-        estado36 = [NPOS, UP, DOWN, BUY, UP, UP, MAX, MIN, NPOS] 0.0
-proximo estado37 = [NPOS, DOWN, DOWN, NOP, UP, UP, MIN, MIN, NPOS] 0.0
-preco atual: 26.69
-
-Escolhe acao
-key: [3227112231, 3227112234, 3227112237]
-i: 0.02410505582035368
-i: 0.15302370924233957
-i: 0.02611344363123293
-melhor acao
-key 3 != 0
-key2
-recompensa: -0.3724121920577702 estado: 0.0 valor atual: 26.69
-antes: 0.2357691455423452 proximo: 0.15302370924233957 teste dict: 0.23226169235443186
-***************
-estado 37
-
-linha t1 Float32[26.67, 26.91, 26.35, 26.69, 5.42, 5.42]
-linha t0 Float32[26.9, 26.9, 26.52, 26.59, 3.18, 3.18]
-acao: 4 ENTER_SHORT
-linha t1 Float32[26.67, 26.91, 26.35, 26.69, 5.42, 5.42]
-linha t0 Float32[26.9, 26.9, 26.52, 26.59, 3.18, 3.18]
-                    1     2   3   4   5    6     7     8    9
-        estado37 = [NPOS, DOWN, DOWN, NOP, UP, UP, MIN, MIN, NPOS] 0.0
-proximo estado38 = [SHORT, DOWN, UP, SELL, UP, DOWN, MIN, MAX, UP] 26.690000534057617
-preco atual: 26.59
-
-Escolhe acao
-key: [2212122115, 2212122116, 0]
-i: 0.2190323660517736
-i: 0.06959366055158282
-melhor acao
-key1
-recompensa: -0.3724121920577702 estado: 0.0 valor atual: 26.59
-antes: 0.15302370924233957 proximo: 0.2190323660517736 teste dict: 0.1504189165268925
-***************
-estado 38
-
-linha t1 Float32[26.9, 26.9, 26.52, 26.59, 3.18, 3.18]
-linha t0 Float32[26.34, 26.74, 25.99, 26.04, 2.88, 2.88]
-acao: 5 STAY_SHORT
-linha t1 Float32[26.9, 26.9, 26.52, 26.59, 3.18, 3.18]
-linha t0 Float32[26.34, 26.74, 25.99, 26.04, 2.88, 2.88]
-                    1     2   3   4   5    6     7     8    9
-        estado38 = [SHORT, DOWN, UP, SELL, UP, DOWN, MIN, MAX, UP] 26.690000534057617
-proximo estado39 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 26.690000534057617
-preco atual: 26.04
-
-Escolhe acao
-key: [2127221215, 2127221216, 0]
-i: 0.37844828755501714
-i: 0.2092275156380711
-melhor acao
-key1
-recompensa: -0.3480585163168932 estado: 26.690000534057617 valor atual: 26.04
-antes: 0.2190323660517736 proximo: 0.37844828755501714 teste dict: 0.21691712648421252
-***************
-estado 39
-
-linha t1 Float32[26.34, 26.74, 25.99, 26.04, 2.88, 2.88]
-linha t0 Float32[25.99, 26.23, 25.41, 26.2, 3.96, 3.96]
-acao: 5 STAY_SHORT
-linha t1 Float32[26.34, 26.74, 25.99, 26.04, 2.88, 2.88]
-linha t0 Float32[25.99, 26.23, 25.41, 26.2, 3.96, 3.96]
-                    1     2   3   4   5    6     7     8    9
-        estado39 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 26.690000534057617
-proximo estado40 = [SHORT, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, UP] 26.690000534057617
-preco atual: 26.2
-
-Escolhe acao
-key: [2227222215, 2227222216, 0]
-i: 0.4705567498686212
-i: 0.31543168904972907
-melhor acao
-key1
-recompensa: -0.3296995893287539 estado: 26.690000534057617 valor atual: 26.2
-antes: 0.37844828755501714 proximo: 0.4705567498686212 teste dict: 0.375796980491187
-***************
-estado 40
-
-linha t1 Float32[25.99, 26.23, 25.41, 26.2, 3.96, 3.96]
-linha t0 Float32[26.6, 26.65, 25.63, 25.63, 3.97, 3.97]
-acao: 5 STAY_SHORT
-linha t1 Float32[25.99, 26.23, 25.41, 26.2, 3.96, 3.96]
-linha t0 Float32[26.6, 26.65, 25.63, 25.63, 3.97, 3.97]
-                    1     2   3   4   5    6     7     8    9
-        estado40 = [SHORT, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, UP] 26.690000534057617
-proximo estado41 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, UP] 26.690000534057617
-preco atual: 25.63
-
-Escolhe acao
-key: [2217212115, 2217212116, 0]
-i: 0.33694284937669294
-i: 0.1921936645757265
-melhor acao
-key1
-recompensa: -0.2899842895130642 estado: 26.690000534057617 valor atual: 25.63
-antes: 0.4705567498686212 proximo: 0.33694284937669294 teste dict: 0.4668839825548952
-***************
-estado 41
-
-linha t1 Float32[26.6, 26.65, 25.63, 25.63, 3.97, 3.97]
-linha t0 Float32[25.97, 26.38, 25.55, 26.38, 3.38, 3.38]
-acao: 5 STAY_SHORT
-linha t1 Float32[26.6, 26.65, 25.63, 25.63, 3.97, 3.97]
-linha t0 Float32[25.97, 26.38, 25.55, 26.38, 3.38, 3.38]
-                    1     2   3   4   5    6     7     8    9
-        estado41 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, UP] 26.690000534057617
-proximo estado42 = [SHORT, UP, DOWN, NOP, UP, UP, MAX, MIN, UP] 26.690000534057617
-preco atual: 26.38
-
-Escolhe acao
-key: [2127111215, 2127111216, 0]
-i: 0.4192514906653027
-i: 0.294496344437503
-melhor acao
-key1
-recompensa: -0.2783694012744731 estado: 26.690000534057617 valor atual: 26.38
-antes: 0.33694284937669294 proximo: 0.4192514906653027 teste dict: 0.33468999592639476
-***************
-estado 42
-
-linha t1 Float32[25.97, 26.38, 25.55, 26.38, 3.38, 3.38]
-linha t0 Float32[26.03, 26.21, 25.51, 25.68, 2.59, 2.59]
-acao: 5 STAY_SHORT
-linha t1 Float32[25.97, 26.38, 25.55, 26.38, 3.38, 3.38]
-linha t0 Float32[26.03, 26.21, 25.51, 25.68, 2.59, 2.59]
-                    1     2   3   4   5    6     7     8    9
-        estado42 = [SHORT, UP, DOWN, NOP, UP, UP, MAX, MIN, UP] 26.690000534057617
-proximo estado43 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MAX, UP] 26.690000534057617
-preco atual: 25.68
-
-Escolhe acao
-key: [2217122115, 2217122116, 0]
-i: 0.3666548754546256
-i: 0.23230594232931973
-melhor acao
-key1
-recompensa: -0.2405275051084153 estado: 26.690000534057617 valor atual: 25.68
-antes: 0.4192514906653027 proximo: 0.3666548754546256 teste dict: 0.41642964658461434
-***************
-estado 43
-
-linha t1 Float32[26.03, 26.21, 25.51, 25.68, 2.59, 2.59]
-linha t0 Float32[25.55, 26.07, 25.48, 26.07, 6.72, 6.72]
-acao: 5 STAY_SHORT
-linha t1 Float32[26.03, 26.21, 25.51, 25.68, 2.59, 2.59]
-linha t0 Float32[25.55, 26.07, 25.48, 26.07, 6.72, 6.72]
-                    1     2   3   4   5    6     7     8    9
-        estado43 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MAX, UP] 26.690000534057617
-proximo estado44 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 26.690000534057617
-preco atual: 26.07
-
-Escolhe acao
-key: [2127221215, 2127221216, 0]
-i: 0.375796980491187
-i: 0.2092275156380711
-melhor acao
-key1
-recompensa: -0.21729780009427527 estado: 26.690000534057617 valor atual: 26.07
-antes: 0.3666548754546256 proximo: 0.375796980491187 teste dict: 0.36440861193019014
-***************
-estado 44
-
-linha t1 Float32[25.55, 26.07, 25.48, 26.07, 6.72, 6.72]
-linha t0 Float32[26.25, 27.53, 26.13, 27.53, 4.86, 4.86]
-acao: 5 STAY_SHORT
-linha t1 Float32[25.55, 26.07, 25.48, 26.07, 6.72, 6.72]
-linha t0 Float32[26.25, 27.53, 26.13, 27.53, 4.86, 4.86]
-                    1     2   3   4   5    6     7     8    9
-        estado44 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 26.690000534057617
-proximo estado45 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, UP] 26.690000534057617
-preco atual: 27.53
-
-Escolhe acao
-key: [2217212115, 2217212116, 0]
-i: 0.33468999592639476
-i: 0.1921936645757265
-melhor acao
-key1
-recompensa: -0.24877026677766906 estado: 26.690000534057617 valor atual: 27.53
-antes: 0.375796980491187 proximo: 0.33468999592639476 teste dict: 0.3730649907403443
-***************
-estado 45
-
-linha t1 Float32[26.25, 27.53, 26.13, 27.53, 4.86, 4.86]
-linha t0 Float32[27.1, 28.37, 26.99, 27.52, 6.51, 6.51]
-acao: 5 STAY_SHORT
-linha t1 Float32[26.25, 27.53, 26.13, 27.53, 4.86, 4.86]
-linha t0 Float32[27.1, 28.37, 26.99, 27.52, 6.51, 6.51]
-                    1     2   3   4   5    6     7     8    9
-        estado45 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, UP] 26.690000534057617
-proximo estado46 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, DOWN] 26.690000534057617
-preco atual: 27.52
-
-Escolhe acao
-key: [2117121125, 2117121126, 0]
-i: 0.14929390811078924
-i: 0.07399061369861706
-melhor acao
-key1
-recompensa: -0.27986805273113646 estado: 26.690000534057617 valor atual: 27.52
-antes: 0.33468999592639476 proximo: 0.14929390811078924 teste dict: 0.3311196297355349
-***************
-estado 46
-
-linha t1 Float32[27.1, 28.37, 26.99, 27.52, 6.51, 6.51]
-linha t0 Float32[28.24, 28.9, 28.02, 28.81, 10.24, 10.24]
-acao: 5 STAY_SHORT
-linha t1 Float32[27.1, 28.37, 26.99, 27.52, 6.51, 6.51]
-linha t0 Float32[28.24, 28.9, 28.02, 28.81, 10.24, 10.24]
-                    1     2   3   4   5    6     7     8    9
-        estado46 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, DOWN] 26.690000534057617
-proximo estado47 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MIN, DOWN] 26.690000534057617
-preco atual: 28.81
-
-Escolhe acao
-key: [2117211225, 2117211226, 0]
-i: 0.0
-i: 0.0
-melhor acao
-key1
-recompensa: -0.3592985094364315 estado: 26.690000534057617 valor atual: 28.81
-antes: 0.14929390811078924 proximo: 0.0 teste dict: 0.1457337611879587
-***************
-estado 47
-
-linha t1 Float32[28.24, 28.9, 28.02, 28.81, 10.24, 10.24]
-linha t0 Float32[29.06, 29.37, 28.74, 29.37, 2.77, 2.77]
-acao: 5 STAY_SHORT
-linha t1 Float32[28.24, 28.9, 28.02, 28.81, 10.24, 10.24]
-linha t0 Float32[29.06, 29.37, 28.74, 29.37, 2.77, 2.77]
-                    1     2   3   4   5    6     7     8    9
-        estado47 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MIN, DOWN] 26.690000534057617
-proximo estado48 = [SHORT, UP, UP, NOP, UP, UP, MIN, MAX, DOWN] 26.690000534057617
-preco atual: 29.37
-
-Escolhe acao
-key: [2117112125, 2117112126, 0]
-i: 0.0
-i: 0.0
-melhor acao
-key1
-recompensa: -0.4597106582393505 estado: 26.690000534057617 valor atual: 29.37
-antes: 0.0 proximo: 0.0 teste dict: -0.0032179746076754535
-***************
-estado 48
-
-linha t1 Float32[29.06, 29.37, 28.74, 29.37, 2.77, 2.77]
-linha t0 Float32[28.49, 28.67, 27.91, 28.07, 5.26, 5.26]
-acao: 5 STAY_SHORT
-linha t1 Float32[29.06, 29.37, 28.74, 29.37, 2.77, 2.77]
-linha t0 Float32[28.49, 28.67, 27.91, 28.07, 5.26, 5.26]
-                    1     2   3   4   5    6     7     8    9
-        estado48 = [SHORT, UP, UP, NOP, UP, UP, MIN, MAX, DOWN] 26.690000534057617
-proximo estado49 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, DOWN] 26.690000534057617
-preco atual: 28.07
-
-Escolhe acao
-key: [2117121125, 2117121126, 0]
-i: 0.1457337611879587
-i: 0.07399061369861706
-melhor acao
-key1
-recompensa: -0.5114153840974733 estado: 26.690000534057617 valor atual: 28.07
-antes: 0.0 proximo: 0.1457337611879587 teste dict: -0.002865812258861316
-***************
-estado 49
-
-linha t1 Float32[28.49, 28.67, 27.91, 28.07, 5.26, 5.26]
-linha t0 Float32[28.17, 28.22, 27.16, 27.53, 6.1, 6.1]
-acao: 5 STAY_SHORT
-linha t1 Float32[28.49, 28.67, 27.91, 28.07, 5.26, 5.26]
-linha t0 Float32[28.17, 28.22, 27.16, 27.53, 6.1, 6.1]
-                    1     2   3   4   5    6     7     8    9
-        estado49 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, DOWN] 26.690000534057617
-proximo estado50 = [SHORT, UP, DOWN, NOP, DOWN, UP, MAX, MIN, DOWN] 26.690000534057617
-preco atual: 27.53
-
-Escolhe acao
-key: [2127211225, 2127211226, 0]
-i: 0.05534705918880858
-i: 0.12796180373032137
-melhor acao
-key2
-recompensa: -0.5428878507808671 estado: 26.690000534057617 valor atual: 27.53
-antes: 0.1457337611879587 proximo: 0.12796180373032137 teste dict: 0.14154042274245549
-***************
-estado 50
-
-linha t1 Float32[28.17, 28.22, 27.16, 27.53, 6.1, 6.1]
-linha t0 Float32[27.55, 27.8, 27.26, 27.33, 6.96, 6.96]
-acao: 6 EXIT_SHORT
-linha t1 Float32[28.17, 28.22, 27.16, 27.53, 6.1, 6.1]
-linha t0 Float32[27.55, 27.8, 27.26, 27.33, 6.96, 6.96]
-                    1     2   3   4   5    6     7     8    9
-        estado50 = [SHORT, UP, DOWN, NOP, DOWN, UP, MAX, MIN, DOWN] 26.690000534057617
-proximo estado51 = [NPOS, DOWN, DOWN, BUY, UP, UP, MIN, MIN, NPOS] 0.0
-preco atual: 27.33
-
-Escolhe acao
-key: [3221112231, 3221112234, 3221112237]
-i: 0.08087473895777553
-i: 0.23542202116692598
-i: 0.09916560721335771
-melhor acao
-key 3 != 0
-key2
-recompensa: -0.5668668457918178 estado: 26.690000534057617 valor atual: 27.33
-antes: 0.12796180373032137 proximo: 0.23542202116692598 teste dict: 0.12425157108738434
-***************
-estado 51
-
-linha t1 Float32[27.55, 27.8, 27.26, 27.33, 6.96, 6.96]
-linha t0 Float32[27.72, 28.09, 27.44, 27.89, 6.48, 6.48]
-acao: 4 ENTER_SHORT
-linha t1 Float32[27.55, 27.8, 27.26, 27.33, 6.96, 6.96]
-linha t0 Float32[27.72, 28.09, 27.44, 27.89, 6.48, 6.48]
-                    1     2   3   4   5    6     7     8    9
-        estado51 = [NPOS, DOWN, DOWN, BUY, UP, UP, MIN, MIN, NPOS] 0.0
-proximo estado52 = [SHORT, DOWN, DOWN, SELL, UP, UP, MIN, MIN, UP] 27.329999923706055
-preco atual: 27.89
-
-Escolhe acao
-key: [2222112215, 2222112216, 0]
-i: 0.2676017090572505
-i: 0.1161177753176385
-melhor acao
-key1
-recompensa: -0.5668668457918178 estado: 0.0 valor atual: 27.89
-antes: 0.23542202116692598 proximo: 0.2676017090572505 teste dict: 0.2311172474725953
-***************
-estado 52
-
-linha t1 Float32[27.72, 28.09, 27.44, 27.89, 6.48, 6.48]
-linha t0 Float32[27.79, 27.93, 26.55, 26.55, 5.81, 5.81]
-acao: 5 STAY_SHORT
-linha t1 Float32[27.72, 28.09, 27.44, 27.89, 6.48, 6.48]
-linha t0 Float32[27.79, 27.93, 26.55, 26.55, 5.81, 5.81]
-                    1     2   3   4   5    6     7     8    9
-        estado52 = [SHORT, DOWN, DOWN, SELL, UP, UP, MIN, MIN, UP] 27.329999923706055
-proximo estado53 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MAX, DOWN] 27.329999923706055
-preco atual: 26.55
+        estado32 = [SHORT, UP, DOWN, NOP, UP, UP, MAX, MIN, DOWN] 0.0
+recompensa: -0.0028735604 estado: 0.0 valor atual: 27.92
+proximo estado33 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MAX, DOWN] 0.0
+prox recompensa: -0.0050287135 estado: 0.0 valor prox: 27.98
+preco atual: 27.92 preco proximo: 27.98
 
 Escolhe acao
 key: [2217122125, 2217122126, 0]
-i: 0.0837111483927697
-i: 0.05884699202857298
-melhor acao
 key1
-recompensa: -0.5383267547262143 estado: 27.329999923706055 valor atual: 26.55
-antes: 0.2676017090572505 proximo: 0.0837111483927697 teste dict: 0.26237039443789084
-***************
-estado 53
-
-linha t1 Float32[27.79, 27.93, 26.55, 26.55, 5.81, 5.81]
-linha t0 Float32[25.64, 26.47, 25.59, 26.41, 10.31, 10.31]
-acao: 5 STAY_SHORT
-linha t1 Float32[27.79, 27.93, 26.55, 26.55, 5.81, 5.81]
-linha t0 Float32[25.64, 26.47, 25.59, 26.41, 10.31, 10.31]
-                    1     2   3   4   5    6     7     8    9
-        estado53 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MAX, DOWN] 27.329999923706055
-proximo estado54 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 27.329999923706055
-preco atual: 26.41
-
-Escolhe acao
-key: [2127221215, 2127221216, 0]
-i: 0.3730649907403443
-i: 0.2092275156380711
 melhor acao
-key1
-recompensa: -0.5046641100550763 estado: 27.329999923706055 valor atual: 26.41
-antes: 0.0837111483927697 proximo: 0.3730649907403443 teste dict: 0.08142054003826248
+antes: 0.3526701631165311 proximo: 0.272310362238553 teste dict: 0.3515005917552225
 ***************
-estado 54
+estado 33
 
-linha t1 Float32[25.64, 26.47, 25.59, 26.41, 10.31, 10.31]
-linha t0 Float32[26.0, 26.51, 26.0, 26.4, 4.72, 4.72]
-acao: 5 STAY_SHORT
-linha t1 Float32[25.64, 26.47, 25.59, 26.41, 10.31, 10.31]
-linha t0 Float32[26.0, 26.51, 26.0, 26.4, 4.72, 4.72]
+acao: 5 - STAY_SHORT
+linha t1 Float32[27.92, 28.12, 27.78, 27.98, 2.51, 2.51]
+linha t0 Float32[27.79, 28.04, 27.73, 27.92, 3.08, 3.08]
                     1     2   3   4   5    6     7     8    9
-        estado54 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 27.329999923706055
-proximo estado55 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, UP] 27.329999923706055
-preco atual: 26.4
-
-Escolhe acao
-key: [2217212115, 2217212116, 0]
-i: 0.3311196297355349
-i: 0.1921936645757265
-melhor acao
-key1
-recompensa: -0.47063555872789176 estado: 27.329999923706055 valor atual: 26.4
-antes: 0.3730649907403443 proximo: 0.3311196297355349 teste dict: 0.3687815730797708
-***************
-estado 55
-
-linha t1 Float32[26.0, 26.51, 26.0, 26.4, 4.72, 4.72]
-linha t0 Float32[26.16, 26.59, 26.16, 26.59, 4.11, 4.11]
-acao: 5 STAY_SHORT
-linha t1 Float32[26.0, 26.51, 26.0, 26.4, 4.72, 4.72]
-linha t0 Float32[26.16, 26.59, 26.16, 26.59, 4.11, 4.11]
-                    1     2   3   4   5    6     7     8    9
-        estado55 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, UP] 27.329999923706055
-proximo estado56 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, UP] 27.329999923706055
-preco atual: 26.59
-
-Escolhe acao
-key: [2117121115, 2117121116, 0]
-i: 0.28265744129452275
-i: 0.17076877195498516
-melhor acao
-key1
-recompensa: -0.4435590942864745 estado: 27.329999923706055 valor atual: 26.59
-antes: 0.3311196297355349 proximo: 0.28265744129452275 teste dict: 0.327081900129724
-***************
-estado 56
-
-linha t1 Float32[26.16, 26.59, 26.16, 26.59, 4.11, 4.11]
-linha t0 Float32[26.54, 27.3, 26.22, 27.13, 5.06, 5.06]
-acao: 5 STAY_SHORT
-linha t1 Float32[26.16, 26.59, 26.16, 26.59, 4.11, 4.11]
-linha t0 Float32[26.54, 27.3, 26.22, 27.13, 5.06, 5.06]
-                    1     2   3   4   5    6     7     8    9
-        estado56 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, UP] 27.329999923706055
-proximo estado57 = [SHORT, UP, UP, NOP, DOWN, DOWN, MAX, MAX, UP] 27.329999923706055
-preco atual: 27.13
+        estado33 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MAX, DOWN] 0.0
+recompensa: -0.0050287135 estado: 0.0 valor atual: 27.98
+proximo estado34 = [SHORT, UP, UP, NOP, DOWN, DOWN, MAX, MAX, UP] 0.0
+prox recompensa: -0.0028735604 estado: 0.0 valor prox: 27.92
+preco atual: 27.98 preco proximo: 27.92
 
 Escolhe acao
 key: [2117221115, 2117221116, 0]
-i: 0.24681505961459424
-i: 0.17470917367561473
-melhor acao
 key1
-recompensa: -0.43624110074466066 estado: 27.329999923706055 valor atual: 27.13
-antes: 0.28265744129452275 proximo: 0.24681505961459424 teste dict: 0.27883454529235996
+melhor acao
+antes: 0.272310362238553 proximo: 0.1573631736140542 teste dict: 0.2711551543306959
 ***************
-estado 57
+estado 34
 
-linha t1 Float32[26.54, 27.3, 26.22, 27.13, 5.06, 5.06]
-linha t0 Float32[27.08, 27.24, 26.25, 26.25, 4.52, 4.52]
-acao: 5 STAY_SHORT
-linha t1 Float32[26.54, 27.3, 26.22, 27.13, 5.06, 5.06]
-linha t0 Float32[27.08, 27.24, 26.25, 26.25, 4.52, 4.52]
+acao: 5 - STAY_SHORT
+linha t1 Float32[27.79, 28.04, 27.73, 27.92, 3.08, 3.08]
+linha t0 Float32[28.08, 28.73, 28.01, 28.46, 4.64, 4.64]
                     1     2   3   4   5    6     7     8    9
-        estado57 = [SHORT, UP, UP, NOP, DOWN, DOWN, MAX, MAX, UP] 27.329999923706055
-proximo estado58 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MAX, UP] 27.329999923706055
-preco atual: 26.25
+        estado34 = [SHORT, UP, UP, NOP, DOWN, DOWN, MAX, MAX, UP] 0.0
+recompensa: -0.0028735604 estado: 0.0 valor atual: 27.92
+proximo estado35 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MAX, DOWN] 0.0
+prox recompensa: -0.022270076 estado: 0.0 valor prox: 28.46
+preco atual: 27.92 preco proximo: 28.46
 
 Escolhe acao
-key: [2117211115, 2117211116, 0]
-i: 0.38500814898799285
-i: 0.2687830975881346
-melhor acao
+key: [2117211125, 2117211126, 0]
 key1
-recompensa: -0.3967240891558951 estado: 27.329999923706055 valor atual: 26.25
-antes: 0.24681505961459424 proximo: 0.38500814898799285 teste dict: 0.24419682550324198
+melhor acao
+antes: 0.1573631736140542 proximo: 0.16628509113207893 teste dict: 0.15692053781346507
 ***************
-estado 58
+estado 35
 
-linha t1 Float32[27.08, 27.24, 26.25, 26.25, 4.52, 4.52]
-linha t0 Float32[25.63, 26.3, 25.63, 26.15, 8.02, 8.02]
-acao: 5 STAY_SHORT
-linha t1 Float32[27.08, 27.24, 26.25, 26.25, 4.52, 4.52]
-linha t0 Float32[25.63, 26.3, 25.63, 26.15, 8.02, 8.02]
+acao: 5 - STAY_SHORT
+linha t1 Float32[28.08, 28.73, 28.01, 28.46, 4.64, 4.64]
+linha t0 Float32[28.37, 28.45, 27.62, 27.76, 4.92, 4.92]
                     1     2   3   4   5    6     7     8    9
-        estado58 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MAX, UP] 27.329999923706055
-proximo estado59 = [SHORT, UP, DOWN, NOP, UP, DOWN, MAX, MIN, UP] 27.329999923706055
-preco atual: 26.15
+        estado35 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MAX, DOWN] 0.0
+recompensa: -0.022270076 estado: 0.0 valor atual: 28.46
+proximo estado36 = [SHORT, UP, UP, NOP, UP, UP, MAX, MAX, UP] 0.0
+prox recompensa: 0.0028735604 estado: 0.0 valor prox: 27.76
+preco atual: 28.46 preco proximo: 27.76
 
 Escolhe acao
-key: [2127121215, 2127121216, 0]
-i: 0.3533014661933856
-i: 0.1894598628504435
-melhor acao
+key: [2117111115, 2117111116, 0]
 key1
-recompensa: -0.3535480807962226 estado: 27.329999923706055 valor atual: 26.15
-antes: 0.38500814898799285 proximo: 0.3533014661933856 teste dict: 0.38156943256385095
-***************
-estado 59
-
-linha t1 Float32[25.63, 26.3, 25.63, 26.15, 8.02, 8.02]
-linha t0 Float32[26.07, 27.48, 26.03, 26.65, 13.95, 13.95]
-acao: 5 STAY_SHORT
-linha t1 Float32[25.63, 26.3, 25.63, 26.15, 8.02, 8.02]
-linha t0 Float32[26.07, 27.48, 26.03, 26.65, 13.95, 13.95]
-                    1     2   3   4   5    6     7     8    9
-        estado59 = [SHORT, UP, DOWN, NOP, UP, DOWN, MAX, MIN, UP] 27.329999923706055
-proximo estado60 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, UP] 27.329999923706055
-preco atual: 26.65
-
-Escolhe acao
-key: [2217212115, 2217212116, 0]
-i: 0.327081900129724
-i: 0.1921936645757265
 melhor acao
-key1
-recompensa: -0.328666986501526 estado: 27.329999923706055 valor atual: 26.65
-antes: 0.3533014661933856 proximo: 0.327081900129724 teste dict: 0.35013038833515686
+antes: 0.16628509113207893 proximo: 0.3976850201757386 teste dict: 0.16708986701591153
 ***************
-estado 60
+estado 36
 
-linha t1 Float32[26.07, 27.48, 26.03, 26.65, 13.95, 13.95]
-linha t0 Float32[26.69, 26.78, 25.97, 26.12, 14.89, 14.89]
-acao: 5 STAY_SHORT
-linha t1 Float32[26.07, 27.48, 26.03, 26.65, 13.95, 13.95]
-linha t0 Float32[26.69, 26.78, 25.97, 26.12, 14.89, 14.89]
+acao: 5 - STAY_SHORT
+linha t1 Float32[28.37, 28.45, 27.62, 27.76, 4.92, 4.92]
+linha t0 Float32[27.04, 27.31, 26.67, 26.74, 5.85, 5.85]
                     1     2   3   4   5    6     7     8    9
-        estado60 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, UP] 27.329999923706055
-proximo estado61 = [SHORT, UP, UP, NOP, UP, UP, MAX, MIN, UP] 27.329999923706055
-preco atual: 26.12
-
-Escolhe acao
-key: [2117111215, 2117111216, 0]
-i: 0.0
-i: 0.0
-melhor acao
-key1
-recompensa: -0.2843933279632725 estado: 27.329999923706055 valor atual: 26.12
-antes: 0.327081900129724 proximo: 0.0 teste dict: 0.32280157353307304
-***************
-estado 61
-
-linha t1 Float32[26.69, 26.78, 25.97, 26.12, 14.89, 14.89]
-linha t0 Float32[26.12, 26.82, 25.92, 26.65, 20.62, 20.62]
-acao: 5 STAY_SHORT
-linha t1 Float32[26.69, 26.78, 25.97, 26.12, 14.89, 14.89]
-linha t0 Float32[26.12, 26.82, 25.92, 26.65, 20.62, 20.62]
-                    1     2   3   4   5    6     7     8    9
-        estado61 = [SHORT, UP, UP, NOP, UP, UP, MAX, MIN, UP] 27.329999923706055
-proximo estado62 = [SHORT, UP, DOWN, NOP, UP, UP, MIN, MIN, UP] 27.329999923706055
-preco atual: 26.65
-
-Escolhe acao
-key: [2127112215, 2127112216, 0]
-i: 0.0
-i: 0.0
-melhor acao
-key1
-recompensa: -0.2595122336685759 estado: 27.329999923706055 valor atual: 26.65
-antes: 0.0 proximo: 0.0 teste dict: -0.0018165856356800313
-***************
-estado 62
-
-linha t1 Float32[26.12, 26.82, 25.92, 26.65, 20.62, 20.62]
-linha t0 Float32[26.82, 26.85, 26.5, 26.5, 10.43, 10.43]
-acao: 5 STAY_SHORT
-linha t1 Float32[26.12, 26.82, 25.92, 26.65, 20.62, 20.62]
-linha t0 Float32[26.82, 26.85, 26.5, 26.5, 10.43, 10.43]
-                    1     2   3   4   5    6     7     8    9
-        estado62 = [SHORT, UP, DOWN, NOP, UP, UP, MIN, MIN, UP] 27.329999923706055
-proximo estado63 = [SHORT, DOWN, UP, NOP, UP, UP, MIN, MAX, UP] 27.329999923706055
-preco atual: 26.5
-
-Escolhe acao
-key: [2217112115, 2217112116, 0]
-i: 0.2880781522398353
-i: 0.2174289692856667
-melhor acao
-key1
-recompensa: -0.22914267911229827 estado: 27.329999923706055 valor atual: 26.5
-antes: 0.0 proximo: 0.2880781522398353 teste dict: -0.00019241580781089498
-***************
-estado 63
-
-linha t1 Float32[26.82, 26.85, 26.5, 26.5, 10.43, 10.43]
-linha t0 Float32[26.5, 27.26, 26.5, 27.26, 38.43, 38.43]
-acao: 5 STAY_SHORT
-linha t1 Float32[26.82, 26.85, 26.5, 26.5, 10.43, 10.43]
-linha t0 Float32[26.5, 27.26, 26.5, 27.26, 38.43, 38.43]
-                    1     2   3   4   5    6     7     8    9
-        estado63 = [SHORT, DOWN, UP, NOP, UP, UP, MIN, MAX, UP] 27.329999923706055
-proximo estado64 = [SHORT, UP, DOWN, NOP, UP, DOWN, MAX, MIN, UP] 27.329999923706055
-preco atual: 27.26
-
-Escolhe acao
-key: [2127121215, 2127121216, 0]
-i: 0.35013038833515686
-i: 0.1894598628504435
-melhor acao
-key1
-recompensa: -0.22658140230953103 estado: 27.329999923706055 valor atual: 27.26
-antes: 0.2880781522398353 proximo: 0.35013038833515686 teste dict: 0.286191174260832
-***************
-estado 64
-
-linha t1 Float32[26.5, 27.26, 26.5, 27.26, 38.43, 38.43]
-linha t0 Float32[27.18, 27.55, 26.67, 26.78, 15.39, 15.39]
-acao: 5 STAY_SHORT
-linha t1 Float32[26.5, 27.26, 26.5, 27.26, 38.43, 38.43]
-linha t0 Float32[27.18, 27.55, 26.67, 26.78, 15.39, 15.39]
-                    1     2   3   4   5    6     7     8    9
-        estado64 = [SHORT, UP, DOWN, NOP, UP, DOWN, MAX, MIN, UP] 27.329999923706055
-proximo estado65 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, UP] 27.329999923706055
-preco atual: 26.78
-
-Escolhe acao
-key: [2217212115, 2217212116, 0]
-i: 0.32280157353307304
-i: 0.1921936645757265
-melhor acao
-key1
-recompensa: -0.206457024753881 estado: 27.329999923706055 valor atual: 26.78
-antes: 0.35013038833515686 proximo: 0.32280157353307304 teste dict: 0.34781600415384567
-***************
-estado 65
-
-linha t1 Float32[27.18, 27.55, 26.67, 26.78, 15.39, 15.39]
-linha t0 Float32[26.96, 27.18, 26.74, 26.96, 6.69, 6.69]
-acao: 5 STAY_SHORT
-linha t1 Float32[27.18, 27.55, 26.67, 26.78, 15.39, 15.39]
-linha t0 Float32[26.96, 27.18, 26.74, 26.96, 6.69, 6.69]
-                    1     2   3   4   5    6     7     8    9
-        estado65 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, UP] 27.329999923706055
-proximo estado66 = [SHORT, UP, DOWN, NOP, UP, DOWN, MAX, MIN, UP] 27.329999923706055
-preco atual: 26.96
-
-Escolhe acao
-key: [2127121215, 2127121216, 0]
-i: 0.34781600415384567
-i: 0.1894598628504435
-melhor acao
-key1
-recompensa: -0.19291875763839303 estado: 27.329999923706055 valor atual: 26.96
-antes: 0.32280157353307304 proximo: 0.34781600415384567 teste dict: 0.3208958296352266
-***************
-estado 66
-
-linha t1 Float32[26.96, 27.18, 26.74, 26.96, 6.69, 6.69]
-linha t0 Float32[26.88, 27.22, 26.87, 26.92, 7.25, 7.25]
-acao: 5 STAY_SHORT
-linha t1 Float32[26.96, 27.18, 26.74, 26.96, 6.69, 6.69]
-linha t0 Float32[26.88, 27.22, 26.87, 26.92, 7.25, 7.25]
-                    1     2   3   4   5    6     7     8    9
-        estado66 = [SHORT, UP, DOWN, NOP, UP, DOWN, MAX, MIN, UP] 27.329999923706055
-proximo estado67 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, UP] 27.329999923706055
-preco atual: 26.92
-
-Escolhe acao
-key: [2217222115, 2217222116, 0]
-i: 0.36208671862949776
-i: 0.24747284421176508
-melhor acao
-key1
-recompensa: -0.1779169336882775 estado: 27.329999923706055 valor atual: 26.92
-antes: 0.34781600415384567 proximo: 0.36208671862949776 teste dict: 0.34591009851023535
-***************
-estado 67
-
-linha t1 Float32[26.88, 27.22, 26.87, 26.92, 7.25, 7.25]
-linha t0 Float32[27.13, 27.19, 26.2, 26.77, 12.64, 12.64]
-acao: 5 STAY_SHORT
-linha t1 Float32[26.88, 27.22, 26.87, 26.92, 7.25, 7.25]
-linha t0 Float32[27.13, 27.19, 26.2, 26.77, 12.64, 12.64]
-                    1     2   3   4   5    6     7     8    9
-        estado67 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, UP] 27.329999923706055
-proximo estado68 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MIN, UP] 27.329999923706055
-preco atual: 26.77
-
-Escolhe acao
-key: [2117211215, 2117211216, 0]
-i: 0.0
-i: 0.0
-melhor acao
-key1
-recompensa: -0.15742664947658092 estado: 27.329999923706055 valor atual: 26.77
-antes: 0.36208671862949776 proximo: 0.0 teste dict: 0.3584501250527552
-***************
-estado 68
-
-linha t1 Float32[27.13, 27.19, 26.2, 26.77, 12.64, 12.64]
-linha t0 Float32[26.67, 26.68, 25.44, 25.7, 12.74, 12.74]
-acao: 5 STAY_SHORT
-linha t1 Float32[27.13, 27.19, 26.2, 26.77, 12.64, 12.64]
-linha t0 Float32[26.67, 26.68, 25.44, 25.7, 12.74, 12.74]
-                    1     2   3   4   5    6     7     8    9
-        estado68 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MIN, UP] 27.329999923706055
-proximo estado69 = [SHORT, UP, DOWN, NOP, UP, UP, MIN, MAX, UP] 27.329999923706055
-preco atual: 25.7
-
-Escolhe acao
-key: [2127112115, 2127112116, 0]
-i: 0.0
-i: 0.0
-melhor acao
-key1
-recompensa: -0.09778526033216531 estado: 27.329999923706055 valor atual: 25.7
-antes: 0.0 proximo: 0.0 teste dict: -0.0006844968223251571
-***************
-estado 69
-
-linha t1 Float32[26.67, 26.68, 25.44, 25.7, 12.74, 12.74]
-linha t0 Float32[25.84, 25.84, 24.3, 24.94, 14.38, 14.38]
-acao: 5 STAY_SHORT
-linha t1 Float32[26.67, 26.68, 25.44, 25.7, 12.74, 12.74]
-linha t0 Float32[25.84, 25.84, 24.3, 24.94, 14.38, 14.38]
-                    1     2   3   4   5    6     7     8    9
-        estado69 = [SHORT, UP, DOWN, NOP, UP, UP, MIN, MAX, UP] 27.329999923706055
-proximo estado70 = [SHORT, DOWN, DOWN, NOP, UP, UP, MAX, MIN, UP] 27.329999923706055
-preco atual: 24.94
-
-Escolhe acao
-key: [2227111215, 2227111216, 0]
-i: 0.2825868948184094
-i: 0.20933651569769546
-melhor acao
-key1
-recompensa: -0.010335593434239301 estado: 27.329999923706055 valor atual: 24.94
-antes: 0.0 proximo: 0.2825868948184094 teste dict: 0.0013123266305705308
-***************
-estado 70
-
-linha t1 Float32[25.84, 25.84, 24.3, 24.94, 14.38, 14.38]
-linha t0 Float32[24.62, 25.55, 24.59, 25.55, 9.18, 9.18]
-acao: 5 STAY_SHORT
-linha t1 Float32[25.84, 25.84, 24.3, 24.94, 14.38, 14.38]
-linha t0 Float32[24.62, 25.55, 24.59, 25.55, 9.18, 9.18]
-                    1     2   3   4   5    6     7     8    9
-        estado70 = [SHORT, DOWN, DOWN, NOP, UP, UP, MAX, MIN, UP] 27.329999923706055
-proximo estado71 = [SHORT, DOWN, DOWN, NOP, UP, UP, MIN, MIN, UP] 27.329999923706055
-preco atual: 25.55
-
-Escolhe acao
-key: [2227112215, 2227112216, 0]
-i: 0.38932850866192625
-i: 0.26130075732517394
-melhor acao
-key1
-recompensa: 0.054794325761316 estado: 27.329999923706055 valor atual: 25.55
-antes: 0.2825868948184094 proximo: 0.38932850866192625 teste dict: 0.28290005652745315
-***************
-estado 71
-
-linha t1 Float32[24.62, 25.55, 24.59, 25.55, 9.18, 9.18]
-linha t0 Float32[25.55, 25.68, 25.21, 25.32, 4.04, 4.04]
-acao: 5 STAY_SHORT
-linha t1 Float32[24.62, 25.55, 24.59, 25.55, 9.18, 9.18]
-linha t0 Float32[25.55, 25.68, 25.21, 25.32, 4.04, 4.04]
-                    1     2   3   4   5    6     7     8    9
-        estado71 = [SHORT, DOWN, DOWN, NOP, UP, UP, MIN, MIN, UP] 27.329999923706055
-proximo estado72 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MAX, UP] 27.329999923706055
-preco atual: 25.32
-
-Escolhe acao
-key: [2217122115, 2217122116, 0]
-i: 0.36440861193019014
-i: 0.23230594232931973
-melhor acao
-key1
-recompensa: 0.12833988867726615 estado: 27.329999923706055 valor atual: 25.32
-antes: 0.38932850866192625 proximo: 0.36440861193019014 teste dict: 0.38928719052049154
-***************
-estado 72
-
-linha t1 Float32[25.55, 25.68, 25.21, 25.32, 4.04, 4.04]
-linha t0 Float32[25.52, 25.52, 25.06, 25.19, 7.65, 7.65]
-acao: 5 STAY_SHORT
-linha t1 Float32[25.55, 25.68, 25.21, 25.32, 4.04, 4.04]
-linha t0 Float32[25.52, 25.52, 25.06, 25.19, 7.65, 7.65]
-                    1     2   3   4   5    6     7     8    9
-        estado72 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MAX, UP] 27.329999923706055
-proximo estado73 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 27.329999923706055
-preco atual: 25.19
-
-Escolhe acao
-key: [2127221215, 2127221216, 0]
-i: 0.3687815730797708
-i: 0.2092275156380711
-melhor acao
-key1
-recompensa: 0.2066420985427042 estado: 27.329999923706055 valor atual: 25.19
-antes: 0.36440861193019014 proximo: 0.3687815730797708 teste dict: 0.3651112760445686
-***************
-estado 73
-
-linha t1 Float32[25.52, 25.52, 25.06, 25.19, 7.65, 7.65]
-linha t0 Float32[25.19, 25.68, 24.9, 25.63, 14.48, 14.48]
-acao: 5 STAY_SHORT
-linha t1 Float32[25.52, 25.52, 25.06, 25.19, 7.65, 7.65]
-linha t0 Float32[25.19, 25.68, 24.9, 25.63, 14.48, 14.48]
-                    1     2   3   4   5    6     7     8    9
-        estado73 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 27.329999923706055
-proximo estado74 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, UP] 27.329999923706055
-preco atual: 25.63
-
-Escolhe acao
-key: [2227212215, 2227212216, 0]
-i: 0.35176167293631994
-i: 0.2536467838550984
-melhor acao
-key1
-recompensa: 0.2688448342794457 estado: 27.329999923706055 valor atual: 25.63
-antes: 0.3687815730797708 proximo: 0.35176167293631994 teste dict: 0.3698056481055565
-***************
-estado 74
-
-linha t1 Float32[25.19, 25.68, 24.9, 25.63, 14.48, 14.48]
-linha t0 Float32[25.71, 25.8, 25.11, 25.23, 13.47, 13.47]
-acao: 5 STAY_SHORT
-linha t1 Float32[25.19, 25.68, 24.9, 25.63, 14.48, 14.48]
-linha t0 Float32[25.71, 25.8, 25.11, 25.23, 13.47, 13.47]
-                    1     2   3   4   5    6     7     8    9
-        estado74 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, UP] 27.329999923706055
-proximo estado75 = [SHORT, DOWN, UP, NOP, UP, UP, MIN, MAX, UP] 27.329999923706055
-preco atual: 25.23
-
-Escolhe acao
-key: [2217112115, 2217112116, 0]
-i: 0.286191174260832
-i: 0.2174289692856667
-melhor acao
-key1
-recompensa: 0.3456834873102562 estado: 27.329999923706055 valor atual: 25.23
-antes: 0.35176167293631994 proximo: 0.286191174260832 teste dict: 0.35312146239081554
-***************
-estado 75
-
-linha t1 Float32[25.71, 25.8, 25.11, 25.23, 13.47, 13.47]
-linha t0 Float32[25.11, 25.34, 24.91, 25.28, 10.17, 10.17]
-acao: 5 STAY_SHORT
-linha t1 Float32[25.71, 25.8, 25.11, 25.23, 13.47, 13.47]
-linha t0 Float32[25.11, 25.34, 24.91, 25.28, 10.17, 10.17]
-                    1     2   3   4   5    6     7     8    9
-        estado75 = [SHORT, DOWN, UP, NOP, UP, UP, MIN, MAX, UP] 27.329999923706055
-proximo estado76 = [SHORT, UP, DOWN, NOP, UP, DOWN, MAX, MIN, UP] 27.329999923706055
-preco atual: 25.28
-
-Escolhe acao
-key: [2127121215, 2127121216, 0]
-i: 0.34591009851023535
-i: 0.1894598628504435
-melhor acao
-key1
-recompensa: 0.4206926070608339 estado: 27.329999923706055 valor atual: 25.28
-antes: 0.286191174260832 proximo: 0.34591009851023535 teste dict: 0.2888276437731322
-***************
-estado 76
-
-linha t1 Float32[25.11, 25.34, 24.91, 25.28, 10.17, 10.17]
-linha t0 Float32[24.89, 25.04, 23.77, 24.36, 7.85, 7.85]
-acao: 5 STAY_SHORT
-linha t1 Float32[25.11, 25.34, 24.91, 25.28, 10.17, 10.17]
-linha t0 Float32[24.89, 25.04, 23.77, 24.36, 7.85, 7.85]
-                    1     2   3   4   5    6     7     8    9
-        estado76 = [SHORT, UP, DOWN, NOP, UP, DOWN, MAX, MIN, UP] 27.329999923706055
-proximo estado77 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, UP] 27.329999923706055
-preco atual: 24.36
-
-Escolhe acao
-key: [2217222115, 2217222116, 0]
-i: 0.3584501250527552
-i: 0.24747284421176508
-melhor acao
-key1
-recompensa: 0.5293643714825496 estado: 27.329999923706055 valor atual: 24.36
-antes: 0.34591009851023535 proximo: 0.3584501250527552 teste dict: 0.34895068403380003
-***************
-estado 77
-
-linha t1 Float32[24.89, 25.04, 23.77, 24.36, 7.85, 7.85]
-linha t0 Float32[24.45, 24.55, 24.22, 24.22, 5.74, 5.74]
-acao: 5 STAY_SHORT
-linha t1 Float32[24.89, 25.04, 23.77, 24.36, 7.85, 7.85]
-linha t0 Float32[24.45, 24.55, 24.22, 24.22, 5.74, 5.74]
-                    1     2   3   4   5    6     7     8    9
-        estado77 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, UP] 27.329999923706055
-proximo estado78 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 27.329999923706055
-preco atual: 24.22
-
-Escolhe acao
-key: [2127221215, 2127221216, 0]
-i: 0.3698056481055565
-i: 0.2092275156380711
-melhor acao
-key1
-recompensa: 0.6431587592993584 estado: 27.329999923706055 valor atual: 24.22
-antes: 0.3584501250527552 proximo: 0.3698056481055565 teste dict: 0.36225513316819863
-***************
-estado 78
-
-linha t1 Float32[24.45, 24.55, 24.22, 24.22, 5.74, 5.74]
-linha t0 Float32[24.18, 24.33, 23.41, 23.5, 10.27, 10.27]
-acao: 5 STAY_SHORT
-linha t1 Float32[24.45, 24.55, 24.22, 24.22, 5.74, 5.74]
-linha t0 Float32[24.18, 24.33, 23.41, 23.5, 10.27, 10.27]
-                    1     2   3   4   5    6     7     8    9
-        estado78 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 27.329999923706055
-proximo estado79 = [SHORT, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, UP] 27.329999923706055
-preco atual: 23.5
-
-Escolhe acao
-key: [2227222215, 2227222216, 0]
-i: 0.4668839825548952
-i: 0.31543168904972907
-melhor acao
-key1
-recompensa: 0.7832977982454914 estado: 27.329999923706055 valor atual: 23.5
-antes: 0.3698056481055565 proximo: 0.4668839825548952 teste dict: 0.374987824671055
-***************
-estado 79
-
-linha t1 Float32[24.18, 24.33, 23.41, 23.5, 10.27, 10.27]
-linha t0 Float32[23.78, 23.99, 23.21, 23.56, 8.47, 8.47]
-acao: 5 STAY_SHORT
-linha t1 Float32[24.18, 24.33, 23.41, 23.5, 10.27, 10.27]
-linha t0 Float32[23.78, 23.99, 23.21, 23.56, 8.47, 8.47]
-                    1     2   3   4   5    6     7     8    9
-        estado79 = [SHORT, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, UP] 27.329999923706055
-proximo estado80 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, UP] 27.329999923706055
-preco atual: 23.56
-
-Escolhe acao
-key: [2227212215, 2227212216, 0]
-i: 0.35312146239081554
-i: 0.2536467838550984
-melhor acao
-key1
-recompensa: 0.9212414670449037 estado: 27.329999923706055 valor atual: 23.56
-antes: 0.4668839825548952 proximo: 0.35312146239081554 teste dict: 0.4717947801120403
-***************
-estado 80
-
-linha t1 Float32[23.78, 23.99, 23.21, 23.56, 8.47, 8.47]
-linha t0 Float32[23.7, 24.09, 23.63, 23.97, 6.5, 6.5]
-acao: 5 STAY_SHORT
-linha t1 Float32[23.78, 23.99, 23.21, 23.56, 8.47, 8.47]
-linha t0 Float32[23.7, 24.09, 23.63, 23.97, 6.5, 6.5]
-                    1     2   3   4   5    6     7     8    9
-        estado80 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, UP] 27.329999923706055
-proximo estado81 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, UP] 27.329999923706055
-preco atual: 23.97
-
-Escolhe acao
-key: [2227122215, 2227122216, 0]
-i: 0.3795568732891345
-i: 0.22555065893239773
-melhor acao
-key1
-recompensa: 1.0441833118942005 estado: 27.329999923706055 valor atual: 23.97
-antes: 0.35312146239081554 proximo: 0.3795568732891345 teste dict: 0.359818724016456
-***************
-estado 81
-
-linha t1 Float32[23.7, 24.09, 23.63, 23.97, 6.5, 6.5]
-linha t0 Float32[23.91, 25.27, 23.76, 25.06, 8.59, 8.59]
-acao: 5 STAY_SHORT
-linha t1 Float32[23.7, 24.09, 23.63, 23.97, 6.5, 6.5]
-linha t0 Float32[23.91, 25.27, 23.76, 25.06, 8.59, 8.59]
-                    1     2   3   4   5    6     7     8    9
-        estado81 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, UP] 27.329999923706055
-proximo estado82 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, UP] 27.329999923706055
-preco atual: 25.06
-
-Escolhe acao
-key: [2217222115, 2217222116, 0]
-i: 0.36225513316819863
-i: 0.24747284421176508
-melhor acao
-key1
-recompensa: 1.127242238498685 estado: 27.329999923706055 valor atual: 25.06
-antes: 0.3795568732891345 proximo: 0.36225513316819863 teste dict: 0.38656572099812553
-***************
-estado 82
-
-linha t1 Float32[23.91, 25.27, 23.76, 25.06, 8.59, 8.59]
-linha t0 Float32[24.92, 26.0, 24.55, 25.36, 7.86, 7.86]
-acao: 5 STAY_SHORT
-linha t1 Float32[23.91, 25.27, 23.76, 25.06, 8.59, 8.59]
-linha t0 Float32[24.92, 26.0, 24.55, 25.36, 7.86, 7.86]
-                    1     2   3   4   5    6     7     8    9
-        estado82 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, UP] 27.329999923706055
-proximo estado83 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MAX, UP] 27.329999923706055
-preco atual: 25.36
-
-Escolhe acao
-key: [2117211115, 2117211116, 0]
-i: 0.38156943256385095
-i: 0.2687830975881346
-melhor acao
-key1
-recompensa: 1.199324174790449 estado: 27.329999923706055 valor atual: 25.36
-antes: 0.36225513316819863 proximo: 0.38156943256385095 teste dict: 0.36998430667911725
-***************
-estado 83
-
-linha t1 Float32[24.92, 26.0, 24.55, 25.36, 7.86, 7.86]
-linha t0 Float32[25.67, 25.85, 25.08, 25.37, 7.44, 7.44]
-acao: 5 STAY_SHORT
-linha t1 Float32[24.92, 26.0, 24.55, 25.36, 7.86, 7.86]
-linha t0 Float32[25.67, 25.85, 25.08, 25.37, 7.44, 7.44]
-                    1     2   3   4   5    6     7     8    9
-        estado83 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MAX, UP] 27.329999923706055
-proximo estado84 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, UP] 27.329999923706055
-preco atual: 25.37
-
-Escolhe acao
-key: [2117121115, 2117121116, 0]
-i: 0.27883454529235996
-i: 0.17076877195498516
-melhor acao
-key1
-recompensa: 1.2710402044261664 estado: 27.329999923706055 valor atual: 25.37
-antes: 0.38156943256385095 proximo: 0.27883454529235996 teste dict: 0.3891620172388197
-***************
-estado 84
-
-linha t1 Float32[25.67, 25.85, 25.08, 25.37, 7.44, 7.44]
-linha t0 Float32[25.58, 25.63, 25.06, 25.15, 7.05, 7.05]
-acao: 5 STAY_SHORT
-linha t1 Float32[25.67, 25.85, 25.08, 25.37, 7.44, 7.44]
-linha t0 Float32[25.58, 25.63, 25.06, 25.15, 7.05, 7.05]
-                    1     2   3   4   5    6     7     8    9
-        estado84 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, UP] 27.329999923706055
-proximo estado85 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 27.329999923706055
-preco atual: 25.15
-
-Escolhe acao
-key: [2127221215, 2127221216, 0]
-i: 0.374987824671055
-i: 0.2092275156380711
-melhor acao
-key1
-recompensa: 1.3508060409157907 estado: 27.329999923706055 valor atual: 25.15
-antes: 0.27883454529235996 proximo: 0.374987824671055 teste dict: 0.28817578610261213
-***************
-estado 85
-
-linha t1 Float32[25.58, 25.63, 25.06, 25.15, 7.05, 7.05]
-linha t0 Float32[25.37, 25.81, 25.19, 25.63, 4.14, 4.14]
-acao: 5 STAY_SHORT
-linha t1 Float32[25.58, 25.63, 25.06, 25.15, 7.05, 7.05]
-linha t0 Float32[25.37, 25.81, 25.19, 25.63, 4.14, 4.14]
-                    1     2   3   4   5    6     7     8    9
-        estado85 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 27.329999923706055
-proximo estado86 = [SHORT, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, UP] 27.329999923706055
-preco atual: 25.63
-
-Escolhe acao
-key: [2227222215, 2227222216, 0]
-i: 0.4717947801120403
-i: 0.31543168904972907
-melhor acao
-key1
-recompensa: 1.413008776652532 estado: 27.329999923706055 valor atual: 25.63
-antes: 0.374987824671055 proximo: 0.4717947801120403 teste dict: 0.38456576575747436
-***************
-estado 86
-
-linha t1 Float32[25.37, 25.81, 25.19, 25.63, 4.14, 4.14]
-linha t0 Float32[25.93, 26.1, 25.68, 25.94, 8.1, 8.1]
-acao: 5 STAY_SHORT
-linha t1 Float32[25.37, 25.81, 25.19, 25.63, 4.14, 4.14]
-linha t0 Float32[25.93, 26.1, 25.68, 25.94, 8.1, 8.1]
-                    1     2   3   4   5    6     7     8    9
-        estado86 = [SHORT, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, UP] 27.329999923706055
-proximo estado87 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, UP] 27.329999923706055
-preco atual: 25.94
-
-Escolhe acao
-key: [2217222115, 2217222116, 0]
-i: 0.36998430667911725
-i: 0.24747284421176508
-melhor acao
-key1
-recompensa: 1.4638686154205063 estado: 27.329999923706055 valor atual: 25.94
-antes: 0.4717947801120403 proximo: 0.36998430667911725 teste dict: 0.4805522200619272
-***************
-estado 87
-
-linha t1 Float32[25.93, 26.1, 25.68, 25.94, 8.1, 8.1]
-linha t0 Float32[26.29, 26.77, 26.11, 26.73, 6.74, 6.74]
-acao: 5 STAY_SHORT
-linha t1 Float32[25.93, 26.1, 25.68, 25.94, 8.1, 8.1]
-linha t0 Float32[26.29, 26.77, 26.11, 26.73, 6.74, 6.74]
-                    1     2   3   4   5    6     7     8    9
-        estado87 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, UP] 27.329999923706055
-proximo estado88 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MAX, UP] 27.329999923706055
-preco atual: 26.73
-
-Escolhe acao
-key: [2117211115, 2117211116, 0]
-i: 0.3891620172388197
-i: 0.2687830975881346
-melhor acao
-key1
-recompensa: 1.485822526256389 estado: 27.329999923706055 valor atual: 26.73
-antes: 0.36998430667911725 proximo: 0.3891620172388197 teste dict: 0.37970206810062834
-***************
-estado 88
-
-linha t1 Float32[26.29, 26.77, 26.11, 26.73, 6.74, 6.74]
-linha t0 Float32[26.56, 26.85, 26.47, 26.51, 3.38, 3.38]
-acao: 5 STAY_SHORT
-linha t1 Float32[26.29, 26.77, 26.11, 26.73, 6.74, 6.74]
-linha t0 Float32[26.56, 26.85, 26.47, 26.51, 3.38, 3.38]
-                    1     2   3   4   5    6     7     8    9
-        estado88 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MAX, UP] 27.329999923706055
-proximo estado89 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, UP] 27.329999923706055
-preco atual: 26.51
-
-Escolhe acao
-key: [2117121115, 2117121116, 0]
-i: 0.28817578610261213
-i: 0.17076877195498516
-melhor acao
-key1
-recompensa: 1.5158261741566201 estado: 27.329999923706055 valor atual: 26.51
-antes: 0.3891620172388197 proximo: 0.28817578610261213 teste dict: 0.39846072768914714
-***************
-estado 89
-
-linha t1 Float32[26.56, 26.85, 26.47, 26.51, 3.38, 3.38]
-linha t0 Float32[26.34, 26.84, 26.34, 26.81, 3.33, 3.33]
-acao: 5 STAY_SHORT
-linha t1 Float32[26.56, 26.85, 26.47, 26.51, 3.38, 3.38]
-linha t0 Float32[26.34, 26.84, 26.34, 26.81, 3.33, 3.33]
-                    1     2   3   4   5    6     7     8    9
-        estado89 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, UP] 27.329999923706055
-proximo estado90 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 27.329999923706055
-preco atual: 26.81
-
-Escolhe acao
-key: [2127221215, 2127221216, 0]
-i: 0.38456576575747436
-i: 0.2092275156380711
-melhor acao
-key1
-recompensa: 1.5348529015336891 estado: 27.329999923706055 valor atual: 26.81
-antes: 0.28817578610261213 proximo: 0.38456576575747436 teste dict: 0.2987868981628413
-***************
-estado 90
-
-linha t1 Float32[26.34, 26.84, 26.34, 26.81, 3.33, 3.33]
-linha t0 Float32[26.92, 27.05, 26.47, 26.47, 4.56, 4.56]
-acao: 5 STAY_SHORT
-linha t1 Float32[26.34, 26.84, 26.34, 26.81, 3.33, 3.33]
-linha t0 Float32[26.92, 27.05, 26.47, 26.47, 4.56, 4.56]
-                    1     2   3   4   5    6     7     8    9
-        estado90 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 27.329999923706055
-proximo estado91 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, UP] 27.329999923706055
-preco atual: 26.47
-
-Escolhe acao
-key: [2217222115, 2217222116, 0]
-i: 0.37970206810062834
-i: 0.24747284421176508
-melhor acao
-key1
-recompensa: 1.5663201760581065 estado: 27.329999923706055 valor atual: 26.47
-antes: 0.38456576575747436 proximo: 0.37970206810062834 teste dict: 0.39469858676327185
-***************
-estado 91
-
-linha t1 Float32[26.92, 27.05, 26.47, 26.47, 4.56, 4.56]
-linha t0 Float32[26.38, 26.59, 26.21, 26.5, 5.28, 5.28]
-acao: 5 STAY_SHORT
-linha t1 Float32[26.92, 27.05, 26.47, 26.47, 4.56, 4.56]
-linha t0 Float32[26.38, 26.59, 26.21, 26.5, 5.28, 5.28]
-                    1     2   3   4   5    6     7     8    9
-        estado91 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, UP] 27.329999923706055
-proximo estado92 = [SHORT, UP, DOWN, NOP, DOWN, UP, MAX, MIN, UP] 27.329999923706055
-preco atual: 26.5
-
-Escolhe acao
-key: [2127211215, 2127211216, 0]
-i: 0.41630154787207924
-i: 0.29094051444860175
-melhor acao
-key1
-recompensa: 1.5966897306143841 estado: 27.329999923706055 valor atual: 26.5
-antes: 0.37970206810062834 proximo: 0.41630154787207924 teste dict: 0.3902608593227978
-***************
-estado 92
-
-linha t1 Float32[26.38, 26.59, 26.21, 26.5, 5.28, 5.28]
-linha t0 Float32[26.4, 26.45, 26.02, 26.11, 4.11, 4.11]
-acao: 5 STAY_SHORT
-linha t1 Float32[26.38, 26.59, 26.21, 26.5, 5.28, 5.28]
-linha t0 Float32[26.4, 26.45, 26.02, 26.11, 4.11, 4.11]
-                    1     2   3   4   5    6     7     8    9
-        estado92 = [SHORT, UP, DOWN, NOP, DOWN, UP, MAX, MIN, UP] 27.329999923706055
-proximo estado93 = [SHORT, DOWN, UP, NOP, UP, UP, MIN, MAX, UP] 27.329999923706055
-preco atual: 26.11
-
-Escolhe acao
-key: [2217112115, 2217112116, 0]
-i: 0.2888276437731322
-i: 0.2174289692856667
-melhor acao
-key1
-recompensa: 1.6413292958086843 estado: 27.329999923706055 valor atual: 26.11
-antes: 0.41630154787207924 proximo: 0.2888276437731322 teste dict: 0.4262919975621238
-***************
-estado 93
-
-linha t1 Float32[26.4, 26.45, 26.02, 26.11, 4.11, 4.11]
-linha t0 Float32[25.76, 25.93, 25.22, 25.24, 4.11, 4.11]
-acao: 5 STAY_SHORT
-linha t1 Float32[26.4, 26.45, 26.02, 26.11, 4.11, 4.11]
-linha t0 Float32[25.76, 25.93, 25.22, 25.24, 4.11, 4.11]
-                    1     2   3   4   5    6     7     8    9
-        estado93 = [SHORT, DOWN, UP, NOP, UP, UP, MIN, MAX, UP] 27.329999923706055
-proximo estado94 = [SHORT, UP, DOWN, NOP, UP, DOWN, MAX, MIN, UP] 27.329999923706055
-preco atual: 25.24
-
-Escolhe acao
-key: [2127121215, 2127121216, 0]
-i: 0.34895068403380003
-i: 0.1894598628504435
-melhor acao
-key1
-recompensa: 1.7178020421834481 estado: 27.329999923706055 valor atual: 25.24
-antes: 0.2888276437731322 proximo: 0.34895068403380003 teste dict: 0.30054032291377003
-***************
-estado 94
-
-linha t1 Float32[25.76, 25.93, 25.22, 25.24, 4.11, 4.11]
-linha t0 Float32[25.23, 25.26, 24.52, 24.75, 5.83, 5.83]
-acao: 5 STAY_SHORT
-linha t1 Float32[25.76, 25.93, 25.22, 25.24, 4.11, 4.11]
-linha t0 Float32[25.23, 25.26, 24.52, 24.75, 5.83, 5.83]
-                    1     2   3   4   5    6     7     8    9
-        estado94 = [SHORT, UP, DOWN, NOP, UP, DOWN, MAX, MIN, UP] 27.329999923706055
-proximo estado95 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, UP] 27.329999923706055
-preco atual: 24.75
-
-Escolhe acao
-key: [2227212215, 2227212216, 0]
-i: 0.359818724016456
-i: 0.2536467838550984
-melhor acao
-key1
-recompensa: 1.8122037959671413 estado: 27.329999923706055 valor atual: 24.75
-antes: 0.34895068403380003 proximo: 0.359818724016456 teste dict: 0.36095656756501404
-***************
-estado 95
-
-linha t1 Float32[25.23, 25.26, 24.52, 24.75, 5.83, 5.83]
-linha t0 Float32[24.78, 25.06, 24.67, 24.86, 2.84, 2.84]
-acao: 5 STAY_SHORT
-linha t1 Float32[25.23, 25.26, 24.52, 24.75, 5.83, 5.83]
-linha t0 Float32[24.78, 25.06, 24.67, 24.86, 2.84, 2.84]
-                    1     2   3   4   5    6     7     8    9
-        estado95 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, UP] 27.329999923706055
-proximo estado96 = [SHORT, DOWN, DOWN, NOP, UP, UP, MIN, MIN, UP] 27.329999923706055
-preco atual: 24.86
-
-Escolhe acao
-key: [2227112215, 2227112216, 0]
-i: 0.38928719052049154
-i: 0.26130075732517394
-melhor acao
-key1
-recompensa: 1.902580646323881 estado: 27.329999923706055 valor atual: 24.86
-antes: 0.359818724016456 proximo: 0.38928719052049154 teste dict: 0.3725255647061584
-***************
-estado 96
-
-linha t1 Float32[24.78, 25.06, 24.67, 24.86, 2.84, 2.84]
-linha t0 Float32[25.31, 25.41, 25.01, 25.25, 3.71, 3.71]
-acao: 5 STAY_SHORT
-linha t1 Float32[24.78, 25.06, 24.67, 24.86, 2.84, 2.84]
-linha t0 Float32[25.31, 25.41, 25.01, 25.25, 3.71, 3.71]
-                    1     2   3   4   5    6     7     8    9
-        estado96 = [SHORT, DOWN, DOWN, NOP, UP, UP, MIN, MIN, UP] 27.329999923706055
-proximo estado97 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MIN, UP] 27.329999923706055
-preco atual: 25.25
-
-Escolhe acao
-key: [2217122215, 2217122216, 0]
-i: 0.45214212302410284
-i: 0.3433625592367945
-melhor acao
-key1
-recompensa: 1.9786874860425985 estado: 27.329999923706055 valor atual: 25.25
-antes: 0.38928719052049154 proximo: 0.45214212302410284 teste dict: 0.4026284889919644
-***************
-estado 97
-
-linha t1 Float32[25.31, 25.41, 25.01, 25.25, 3.71, 3.71]
-linha t0 Float32[25.17, 25.18, 24.76, 25.18, 2.93, 2.93]
-acao: 5 STAY_SHORT
-linha t1 Float32[25.31, 25.41, 25.01, 25.25, 3.71, 3.71]
-linha t0 Float32[25.17, 25.18, 24.76, 25.18, 2.93, 2.93]
-                    1     2   3   4   5    6     7     8    9
-        estado97 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MIN, UP] 27.329999923706055
-proximo estado98 = [SHORT, UP, DOWN, NOP, DOWN, UP, MIN, MAX, UP] 27.329999923706055
-preco atual: 25.18
-
-Escolhe acao
-key: [2127212115, 2127212116, 0]
-i: 0.45498637006928144
-i: 0.31129837218122475
-melhor acao
-key1
-recompensa: 2.057355602564083 estado: 27.329999923706055 valor atual: 25.18
-antes: 0.45214212302410284 proximo: 0.45498637006928144 teste dict: 0.46560805059422217
-***************
-estado 98
-
-linha t1 Float32[25.17, 25.18, 24.76, 25.18, 2.93, 2.93]
-linha t0 Float32[25.09, 25.18, 24.4, 24.43, 3.55, 3.55]
-acao: 5 STAY_SHORT
-linha t1 Float32[25.17, 25.18, 24.76, 25.18, 2.93, 2.93]
-linha t0 Float32[25.09, 25.18, 24.4, 24.43, 3.55, 3.55]
-                    1     2   3   4   5    6     7     8    9
-        estado98 = [SHORT, UP, DOWN, NOP, DOWN, UP, MIN, MAX, UP] 27.329999923706055
-proximo estado99 = [SHORT, DOWN, UP, NOP, UP, DOWN, MAX, MAX, UP] 27.329999923706055
-preco atual: 24.43
-
-Escolhe acao
-key: [2217121115, 2217121116, 0]
-i: 0.0
-i: 0.0
-melhor acao
-key1
-recompensa: 2.1634660901830314 estado: 27.329999923706055 valor atual: 24.43
-antes: 0.45498637006928144 proximo: 0.0 teste dict: 0.4669457281100777
-***************
-estado 99
-
-linha t1 Float32[25.09, 25.18, 24.4, 24.43, 3.55, 3.55]
-linha t0 Float32[24.17, 24.33, 23.95, 24.19, 6.06, 6.06]
-acao: 5 STAY_SHORT
-linha t1 Float32[25.09, 25.18, 24.4, 24.43, 3.55, 3.55]
-linha t0 Float32[24.17, 24.33, 23.95, 24.19, 6.06, 6.06]
-                    1     2   3   4   5    6     7     8    9
-        estado99 = [SHORT, DOWN, UP, NOP, UP, DOWN, MAX, MAX, UP] 27.329999923706055
-proximo estado100 = [SHORT, UP, DOWN, NOP, DOWN, UP, MAX, MIN, UP] 27.329999923706055
-preco atual: 24.19
-
-Escolhe acao
-key: [2127211215, 2127211216, 0]
-i: 0.4262919975621238
-i: 0.29094051444860175
-melhor acao
-key1
-recompensa: 2.278358128178421 estado: 27.329999923706055 valor atual: 24.19
-antes: 0.0 proximo: 0.4262919975621238 teste dict: 0.018037337685303356
-***************
-estado 100
-
-linha t1 Float32[24.17, 24.33, 23.95, 24.19, 6.06, 6.06]
-linha t0 Float32[24.35, 24.8, 24.23, 24.68, 4.8, 4.8]
-acao: 5 STAY_SHORT
-linha t1 Float32[24.17, 24.33, 23.95, 24.19, 6.06, 6.06]
-linha t0 Float32[24.35, 24.8, 24.23, 24.68, 4.8, 4.8]
-                    1     2   3   4   5    6     7     8    9
-        estado100 = [SHORT, UP, DOWN, NOP, DOWN, UP, MAX, MIN, UP] 27.329999923706055
-proximo estado101 = [SHORT, DOWN, UP, NOP, UP, UP, MIN, MAX, UP] 27.329999923706055
-preco atual: 24.68
-
-Escolhe acao
-key: [2217112115, 2217112116, 0]
-i: 0.30054032291377003
-i: 0.2174289692856667
-melhor acao
-key1
-recompensa: 2.3753211587648817 estado: 27.329999923706055 valor atual: 24.68
-antes: 0.4262919975621238 proximo: 0.30054032291377003 teste dict: 0.4414078492728206
-***************
-estado 101
-
-linha t1 Float32[24.35, 24.8, 24.23, 24.68, 4.8, 4.8]
-linha t0 Float32[24.7, 24.78, 24.34, 24.34, 1.53, 1.53]
-acao: 5 STAY_SHORT
-linha t1 Float32[24.35, 24.8, 24.23, 24.68, 4.8, 4.8]
-linha t0 Float32[24.7, 24.78, 24.34, 24.34, 1.53, 1.53]
-                    1     2   3   4   5    6     7     8    9
-        estado101 = [SHORT, DOWN, UP, NOP, UP, UP, MIN, MAX, UP] 27.329999923706055
-proximo estado102 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, UP] 27.329999923706055
-preco atual: 24.34
-
-Escolhe acao
-key: [2117121115, 2117121116, 0]
-i: 0.2987868981628413
-i: 0.17076877195498516
-melhor acao
-key1
-recompensa: 2.4847247364986904 estado: 27.329999923706055 valor atual: 24.34
-antes: 0.30054032291377003 proximo: 0.2987868981628413 teste dict: 0.3172936696098624
-***************
-estado 102
-
-linha t1 Float32[24.7, 24.78, 24.34, 24.34, 1.53, 1.53]
-linha t0 Float32[24.04, 24.31, 23.94, 24.1, 3.51, 3.51]
-acao: 5 STAY_SHORT
-linha t1 Float32[24.7, 24.78, 24.34, 24.34, 1.53, 1.53]
-linha t0 Float32[24.04, 24.31, 23.94, 24.1, 3.51, 3.51]
-                    1     2   3   4   5    6     7     8    9
-        estado102 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, UP] 27.329999923706055
-proximo estado103 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 27.329999923706055
-preco atual: 24.1
-
-Escolhe acao
-key: [2127221215, 2127221216, 0]
-i: 0.39469858676327185
-i: 0.2092275156380711
-melhor acao
-key1
-recompensa: 2.602909864608941 estado: 27.329999923706055 valor atual: 24.1
-antes: 0.2987868981628413 proximo: 0.39469858676327185 teste dict: 0.31684978200310404
-***************
-estado 103
-
-linha t1 Float32[24.04, 24.31, 23.94, 24.1, 3.51, 3.51]
-linha t0 Float32[24.0, 24.35, 24.0, 24.34, 5.67, 5.67]
-acao: 5 STAY_SHORT
-linha t1 Float32[24.04, 24.31, 23.94, 24.1, 3.51, 3.51]
-linha t0 Float32[24.0, 24.35, 24.0, 24.34, 5.67, 5.67]
-                    1     2   3   4   5    6     7     8    9
-        estado103 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 27.329999923706055
-proximo estado104 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MIN, UP] 27.329999923706055
-preco atual: 24.34
-
-Escolhe acao
-key: [2217212215, 2217212216, 0]
-i: 0.0
-i: 0.0
-melhor acao
-key1
-recompensa: 2.7123134423427495 estado: 27.329999923706055 valor atual: 24.34
-antes: 0.39469858676327185 proximo: 0.0 teste dict: 0.4109218907523282
-***************
-estado 104
-
-linha t1 Float32[24.0, 24.35, 24.0, 24.34, 5.67, 5.67]
-linha t0 Float32[24.29, 24.59, 24.05, 24.23, 7.45, 7.45]
-acao: 5 STAY_SHORT
-linha t1 Float32[24.0, 24.35, 24.0, 24.34, 5.67, 5.67]
-linha t0 Float32[24.29, 24.59, 24.05, 24.23, 7.45, 7.45]
-                    1     2   3   4   5    6     7     8    9
-        estado104 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MIN, UP] 27.329999923706055
-proximo estado105 = [SHORT, UP, UP, NOP, UP, UP, MIN, MAX, UP] 27.329999923706055
-preco atual: 24.23
-
-Escolhe acao
-key: [2117112115, 2117112116, 0]
-i: 0.0
-i: 0.0
-melhor acao
-key1
-recompensa: 2.8257419235035117 estado: 27.329999923706055 valor atual: 24.23
-antes: 0.0 proximo: 0.0 teste dict: 0.019780193464524583
-***************
-estado 105
-
-linha t1 Float32[24.29, 24.59, 24.05, 24.23, 7.45, 7.45]
-linha t0 Float32[24.57, 24.93, 24.47, 24.93, 4.2, 4.2]
-acao: 5 STAY_SHORT
-linha t1 Float32[24.29, 24.59, 24.05, 24.23, 7.45, 7.45]
-linha t0 Float32[24.57, 24.93, 24.47, 24.93, 4.2, 4.2]
-                    1     2   3   4   5    6     7     8    9
-        estado105 = [SHORT, UP, UP, NOP, UP, UP, MIN, MAX, UP] 27.329999923706055
-proximo estado106 = [SHORT, UP, DOWN, NOP, UP, UP, MAX, MIN, UP] 27.329999923706055
-preco atual: 24.93
+        estado36 = [SHORT, UP, UP, NOP, UP, UP, MAX, MAX, UP] 0.0
+recompensa: 0.0028735604 estado: 0.0 valor atual: 27.76
+proximo estado37 = [SHORT, UP, DOWN, NOP, UP, UP, MAX, MIN, UP] 0.0
+prox recompensa: 0.03951151 estado: 0.0 valor prox: 26.74
+preco atual: 27.76 preco proximo: 26.74
 
 Escolhe acao
 key: [2127111215, 2127111216, 0]
-i: 0.41642964658461434
-i: 0.294496344437503
-melhor acao
 key1
-recompensa: 2.9135574970574845 estado: 27.329999923706055 valor atual: 24.93
-antes: 0.0 proximo: 0.41642964658461434 teste dict: 0.022435407747667002
+melhor acao
+antes: 0.3976850201757386 proximo: 0.4106056321748777 teste dict: 0.397189773196843
 ***************
-estado 106
+estado 37
 
-linha t1 Float32[24.57, 24.93, 24.47, 24.93, 4.2, 4.2]
-linha t0 Float32[25.09, 25.29, 24.9, 24.97, 3.64, 3.64]
-acao: 5 STAY_SHORT
-linha t1 Float32[24.57, 24.93, 24.47, 24.93, 4.2, 4.2]
-linha t0 Float32[25.09, 25.29, 24.9, 24.97, 3.64, 3.64]
+acao: 5 - STAY_SHORT
+linha t1 Float32[27.04, 27.31, 26.67, 26.74, 5.85, 5.85]
+linha t0 Float32[26.67, 26.91, 26.35, 26.69, 5.42, 5.42]
                     1     2   3   4   5    6     7     8    9
-        estado106 = [SHORT, UP, DOWN, NOP, UP, UP, MAX, MIN, UP] 27.329999923706055
-proximo estado107 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MAX, UP] 27.329999923706055
-preco atual: 24.97
+        estado37 = [SHORT, UP, DOWN, NOP, UP, UP, MAX, MIN, UP] 0.0
+recompensa: 0.03951151 estado: 0.0 valor atual: 26.74
+proximo estado38 = [SHORT, DOWN, DOWN, NOP, UP, UP, MIN, MIN, UP] 0.0
+prox recompensa: 0.041307457 estado: 0.0 valor prox: 26.69
+preco atual: 26.74 preco proximo: 26.69
+
+Escolhe acao
+key: [2227112215, 2227112216, 0]
+key1
+melhor acao
+antes: 0.4106056321748777 proximo: 0.2899271851542899 teste dict: 0.4094411881544494
+***************
+estado 38
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[26.67, 26.91, 26.35, 26.69, 5.42, 5.42]
+linha t0 Float32[26.9, 26.9, 26.52, 26.59, 3.18, 3.18]
+                    1     2   3   4   5    6     7     8    9
+        estado38 = [SHORT, DOWN, DOWN, NOP, UP, UP, MIN, MIN, UP] 0.0
+recompensa: 0.041307457 estado: 0.0 valor atual: 26.69
+proximo estado39 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MAX, UP] 0.0
+prox recompensa: 0.044899426 estado: 0.0 valor prox: 26.59
+preco atual: 26.69 preco proximo: 26.59
 
 Escolhe acao
 key: [2217122115, 2217122116, 0]
-i: 0.3651112760445686
-i: 0.23230594232931973
-melhor acao
 key1
-recompensa: 2.9999095137768292 estado: 27.329999923706055 valor atual: 24.97
-antes: 0.41642964658461434 proximo: 0.3651112760445686 teste dict: 0.43630305090757826
+melhor acao
+antes: 0.2899271851542899 proximo: 0.36263389276236335 teste dict: 0.2899888969175501
 ***************
-estado 107
+estado 39
 
-linha t1 Float32[25.09, 25.29, 24.9, 24.97, 3.64, 3.64]
-linha t0 Float32[24.97, 25.3, 24.83, 25.3, 3.2, 3.2]
-acao: 5 STAY_SHORT
-linha t1 Float32[25.09, 25.29, 24.9, 24.97, 3.64, 3.64]
-linha t0 Float32[24.97, 25.3, 24.83, 25.3, 3.2, 3.2]
+acao: 5 - STAY_SHORT
+linha t1 Float32[26.9, 26.9, 26.52, 26.59, 3.18, 3.18]
+linha t0 Float32[26.34, 26.74, 25.99, 26.04, 2.88, 2.88]
                     1     2   3   4   5    6     7     8    9
-        estado107 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MAX, UP] 27.329999923706055
-proximo estado108 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 27.329999923706055
-preco atual: 25.3
+        estado39 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MAX, UP] 0.0
+recompensa: 0.044899426 estado: 0.0 valor atual: 26.59
+proximo estado40 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 0.0
+prox recompensa: 0.06465515 estado: 0.0 valor prox: 26.04
+preco atual: 26.59 preco proximo: 26.04
 
 Escolhe acao
 key: [2127221215, 2127221216, 0]
-i: 0.4109218907523282
-i: 0.2092275156380711
-melhor acao
 key1
-recompensa: 3.0741868900048726 estado: 27.329999923706055 valor atual: 25.3
-antes: 0.3651112760445686 proximo: 0.4109218907523282 teste dict: 0.3860883226069771
+melhor acao
+antes: 0.36263389276236335 proximo: 0.2920288865929934 teste dict: 0.36197898308978266
 ***************
-estado 108
+estado 40
 
-linha t1 Float32[24.97, 25.3, 24.83, 25.3, 3.2, 3.2]
-linha t0 Float32[25.3, 25.59, 25.24, 25.42, 2.46, 2.46]
-acao: 5 STAY_SHORT
-linha t1 Float32[24.97, 25.3, 24.83, 25.3, 3.2, 3.2]
-linha t0 Float32[25.3, 25.59, 25.24, 25.42, 2.46, 2.46]
+acao: 5 - STAY_SHORT
+linha t1 Float32[26.34, 26.74, 25.99, 26.04, 2.88, 2.88]
+linha t0 Float32[25.99, 26.23, 25.41, 26.2, 3.96, 3.96]
                     1     2   3   4   5    6     7     8    9
-        estado108 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 27.329999923706055
-proximo estado109 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, UP] 27.329999923706055
-preco atual: 25.42
+        estado40 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 0.0
+recompensa: 0.06465515 estado: 0.0 valor atual: 26.04
+proximo estado41 = [SHORT, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, DOWN] 0.0
+prox recompensa: 0.058908023 estado: 0.0 valor prox: 26.2
+preco atual: 26.04 preco proximo: 26.2
 
 Escolhe acao
-key: [2217222115, 2217222116, 0]
-i: 0.3902608593227978
-i: 0.24747284421176508
-melhor acao
+key: [2227222225, 2227222226, 0]
 key1
-recompensa: 3.1440734561499157 estado: 27.329999923706055 valor atual: 25.42
-antes: 0.4109218907523282 proximo: 0.3902608593227978 teste dict: 0.43196622992079303
-***************
-estado 109
-
-linha t1 Float32[25.3, 25.59, 25.24, 25.42, 2.46, 2.46]
-linha t0 Float32[25.74, 25.84, 24.79, 24.79, 7.08, 7.08]
-acao: 5 STAY_SHORT
-linha t1 Float32[25.3, 25.59, 25.24, 25.42, 2.46, 2.46]
-linha t0 Float32[25.74, 25.84, 24.79, 24.79, 7.08, 7.08]
-                    1     2   3   4   5    6     7     8    9
-        estado109 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, UP] 27.329999923706055
-proximo estado110 = [SHORT, UP, UP, NOP, DOWN, DOWN, MAX, MAX, UP] 27.329999923706055
-preco atual: 24.79
-
-Escolhe acao
-key: [2117221115, 2117221116, 0]
-i: 0.24419682550324198
-i: 0.17470917367561473
 melhor acao
-key1
-recompensa: 3.237011583309423 estado: 27.329999923706055 valor atual: 24.79
-antes: 0.3902608593227978 proximo: 0.24419682550324198 teste dict: 0.4113846788356701
+antes: 0.2920288865929934 proximo: 0.3354810493584683 teste dict: 0.2920408976892801
 ***************
-estado 110
+estado 41
 
-linha t1 Float32[25.74, 25.84, 24.79, 24.79, 7.08, 7.08]
-linha t0 Float32[24.79, 25.0, 24.32, 24.51, 4.8, 4.8]
-acao: 5 STAY_SHORT
-linha t1 Float32[25.74, 25.84, 24.79, 24.79, 7.08, 7.08]
-linha t0 Float32[24.79, 25.0, 24.32, 24.51, 4.8, 4.8]
+acao: 5 - STAY_SHORT
+linha t1 Float32[25.99, 26.23, 25.41, 26.2, 3.96, 3.96]
+linha t0 Float32[26.6, 26.65, 25.63, 25.63, 3.97, 3.97]
                     1     2   3   4   5    6     7     8    9
-        estado110 = [SHORT, UP, UP, NOP, DOWN, DOWN, MAX, MAX, UP] 27.329999923706055
-proximo estado111 = [SHORT, UP, DOWN, NOP, DOWN, UP, MAX, MIN, UP] 27.329999923706055
-preco atual: 24.51
-
-Escolhe acao
-key: [2127211215, 2127211216, 0]
-i: 0.4414078492728206
-i: 0.29094051444860175
-melhor acao
-key1
-recompensa: 3.3401948874695577 estado: 27.329999923706055 valor atual: 24.51
-antes: 0.24419682550324198 proximo: 0.4414078492728206 teste dict: 0.26803171039844303
-***************
-estado 111
-
-linha t1 Float32[24.79, 25.0, 24.32, 24.51, 4.8, 4.8]
-linha t0 Float32[24.56, 24.96, 24.56, 24.86, 6.05, 6.05]
-acao: 5 STAY_SHORT
-linha t1 Float32[24.79, 25.0, 24.32, 24.51, 4.8, 4.8]
-linha t0 Float32[24.56, 24.96, 24.56, 24.86, 6.05, 6.05]
-                    1     2   3   4   5    6     7     8    9
-        estado111 = [SHORT, UP, DOWN, NOP, DOWN, UP, MAX, MIN, UP] 27.329999923706055
-proximo estado112 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, UP] 27.329999923706055
-preco atual: 24.86
-
-Escolhe acao
-key: [2227122215, 2227122216, 0]
-i: 0.38656572099812553
-i: 0.22555065893239773
-melhor acao
-key1
-recompensa: 3.4305717378262974 estado: 27.329999923706055 valor atual: 24.86
-antes: 0.4414078492728206 proximo: 0.38656572099812553 teste dict: 0.4642261685255858
-***************
-estado 112
-
-linha t1 Float32[24.56, 24.96, 24.56, 24.86, 6.05, 6.05]
-linha t0 Float32[24.96, 25.14, 24.85, 25.08, 3.95, 3.95]
-acao: 5 STAY_SHORT
-linha t1 Float32[24.56, 24.96, 24.56, 24.86, 6.05, 6.05]
-linha t0 Float32[24.96, 25.14, 24.85, 25.08, 3.95, 3.95]
-                    1     2   3   4   5    6     7     8    9
-        estado112 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, UP] 27.329999923706055
-proximo estado113 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, UP] 27.329999923706055
-preco atual: 25.08
+        estado41 = [SHORT, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, DOWN] 0.0
+recompensa: 0.058908023 estado: 0.0 valor atual: 26.2
+proximo estado42 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, UP] 0.0
+prox recompensa: 0.07938222 estado: 0.0 valor prox: 25.63
+preco atual: 26.2 preco proximo: 25.63
 
 Escolhe acao
 key: [2217212115, 2217212116, 0]
-i: 0.3208958296352266
-i: 0.1921936645757265
-melhor acao
 key1
-recompensa: 3.512898851118689 estado: 27.329999923706055 valor atual: 25.08
-antes: 0.38656572099812553 proximo: 0.3208958296352266 teste dict: 0.41002244247418207
+melhor acao
+antes: 0.3354810493584683 proximo: 0.1928881073783253 teste dict: 0.33463350926805635
 ***************
-estado 113
+estado 42
 
-linha t1 Float32[24.96, 25.14, 24.85, 25.08, 3.95, 3.95]
-linha t0 Float32[25.23, 25.48, 25.08, 25.4, 2.46, 2.46]
-acao: 5 STAY_SHORT
-linha t1 Float32[24.96, 25.14, 24.85, 25.08, 3.95, 3.95]
-linha t0 Float32[25.23, 25.48, 25.08, 25.4, 2.46, 2.46]
+acao: 5 - STAY_SHORT
+linha t1 Float32[26.6, 26.65, 25.63, 25.63, 3.97, 3.97]
+linha t0 Float32[25.97, 26.38, 25.55, 26.38, 3.38, 3.38]
                     1     2   3   4   5    6     7     8    9
-        estado113 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, UP] 27.329999923706055
-proximo estado114 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, UP] 27.329999923706055
-preco atual: 25.4
+        estado42 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, UP] 0.0
+recompensa: 0.07938222 estado: 0.0 valor atual: 25.63
+proximo estado43 = [SHORT, UP, DOWN, NOP, UP, UP, MAX, MIN, DOWN] 0.0
+prox recompensa: 0.052442566 estado: 0.0 valor prox: 26.38
+preco atual: 25.63 preco proximo: 26.38
+
+Escolhe acao
+key: [2127111225, 2127111226, 0]
+key1
+melhor acao
+antes: 0.1928881073783253 proximo: 0.3515005917552225 teste dict: 0.1936273414852
+***************
+estado 43
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[25.97, 26.38, 25.55, 26.38, 3.38, 3.38]
+linha t0 Float32[26.03, 26.21, 25.51, 25.68, 2.59, 2.59]
+                    1     2   3   4   5    6     7     8    9
+        estado43 = [SHORT, UP, DOWN, NOP, UP, UP, MAX, MIN, DOWN] 0.0
+recompensa: 0.052442566 estado: 0.0 valor atual: 26.38
+proximo estado44 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MAX, UP] 0.0
+prox recompensa: 0.077586204 estado: 0.0 valor prox: 25.68
+preco atual: 26.38 preco proximo: 25.68
+
+Escolhe acao
+key: [2217122115, 2217122116, 0]
+key1
+melhor acao
+antes: 0.3515005917552225 proximo: 0.36197898308978266 teste dict: 0.3513568880567708
+***************
+estado 44
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[26.03, 26.21, 25.51, 25.68, 2.59, 2.59]
+linha t0 Float32[25.55, 26.07, 25.48, 26.07, 6.72, 6.72]
+                    1     2   3   4   5    6     7     8    9
+        estado44 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MAX, UP] 0.0
+recompensa: 0.077586204 estado: 0.0 valor atual: 25.68
+proximo estado45 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, DOWN] 0.0
+prox recompensa: 0.0635776 estado: 0.0 valor prox: 26.07
+preco atual: 25.68 preco proximo: 26.07
+
+Escolhe acao
+key: [2127221225, 2127221226, 0]
+key1
+melhor acao
+antes: 0.36197898308978266 proximo: 0.16078714550301018 teste dict: 0.3606780304198833
+***************
+estado 45
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[25.55, 26.07, 25.48, 26.07, 6.72, 6.72]
+linha t0 Float32[26.25, 27.53, 26.13, 27.53, 4.86, 4.86]
+                    1     2   3   4   5    6     7     8    9
+        estado45 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, DOWN] 0.0
+recompensa: 0.0635776 estado: 0.0 valor atual: 26.07
+proximo estado46 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, DOWN] 0.0
+prox recompensa: 0.011135038 estado: 0.0 valor prox: 27.53
+preco atual: 26.07 preco proximo: 27.53
+
+Escolhe acao
+key: [2217212125, 2217212126, 0]
+key1
+melhor acao
+antes: 0.16078714550301018 proximo: 0.24724919484615743 teste dict: 0.16095110180515426
+***************
+estado 46
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[26.25, 27.53, 26.13, 27.53, 4.86, 4.86]
+linha t0 Float32[27.1, 28.37, 26.99, 27.52, 6.51, 6.51]
+                    1     2   3   4   5    6     7     8    9
+        estado46 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, DOWN] 0.0
+recompensa: 0.011135038 estado: 0.0 valor atual: 27.53
+proximo estado47 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, UP] 0.0
+prox recompensa: 0.011494242 estado: 0.0 valor prox: 27.52
+preco atual: 27.53 preco proximo: 27.52
 
 Escolhe acao
 key: [2117121115, 2117121116, 0]
-i: 0.31684978200310404
-i: 0.17076877195498516
-melhor acao
 key1
-recompensa: 3.5835172305758256 estado: 27.329999923706055 valor atual: 25.4
-antes: 0.3208958296352266 proximo: 0.31684978200310404 teste dict: 0.345286743373626
+melhor acao
+antes: 0.24724919484615743 proximo: 0.26540963252242816 teste dict: 0.24689941737317833
 ***************
-estado 114
+estado 47
 
-linha t1 Float32[25.23, 25.48, 25.08, 25.4, 2.46, 2.46]
-linha t0 Float32[25.21, 25.38, 25.07, 25.22, 4.15, 4.15]
-acao: 5 STAY_SHORT
-linha t1 Float32[25.23, 25.48, 25.08, 25.4, 2.46, 2.46]
-linha t0 Float32[25.21, 25.38, 25.07, 25.22, 4.15, 4.15]
+acao: 5 - STAY_SHORT
+linha t1 Float32[27.1, 28.37, 26.99, 27.52, 6.51, 6.51]
+linha t0 Float32[28.24, 28.9, 28.02, 28.81, 10.24, 10.24]
                     1     2   3   4   5    6     7     8    9
-        estado114 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, UP] 27.329999923706055
-proximo estado115 = [SHORT, UP, UP, NOP, DOWN, DOWN, MAX, MAX, UP] 27.329999923706055
-preco atual: 25.22
+        estado47 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, UP] 0.0
+recompensa: 0.011494242 estado: 0.0 valor atual: 27.52
+proximo estado48 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MIN, DOWN] 0.0
+prox recompensa: -0.03484193 estado: 0.0 valor prox: 28.81
+preco atual: 27.52 preco proximo: 28.81
 
 Escolhe acao
-key: [2117221115, 2117221116, 0]
-i: 0.26803171039844303
-i: 0.17470917367561473
-melhor acao
+key: [2117211225, 2117211226, 0]
 key1
-recompensa: 3.6607217902626825 estado: 27.329999923706055 valor atual: 25.22
-antes: 0.31684978200310404 proximo: 0.26803171039844303 teste dict: 0.3415702414418735
+melhor acao
+antes: 0.26540963252242816 proximo: -0.38224462785485835 teste dict: 0.2614348729178649
 ***************
-estado 115
+estado 48
 
-linha t1 Float32[25.21, 25.38, 25.07, 25.22, 4.15, 4.15]
-linha t0 Float32[24.98, 25.05, 24.75, 24.75, 4.8, 4.8]
-acao: 5 STAY_SHORT
-linha t1 Float32[25.21, 25.38, 25.07, 25.22, 4.15, 4.15]
-linha t0 Float32[24.98, 25.05, 24.75, 24.75, 4.8, 4.8]
+acao: 5 - STAY_SHORT
+linha t1 Float32[28.24, 28.9, 28.02, 28.81, 10.24, 10.24]
+linha t0 Float32[29.06, 29.37, 28.74, 29.37, 2.77, 2.77]
                     1     2   3   4   5    6     7     8    9
-        estado115 = [SHORT, UP, UP, NOP, DOWN, DOWN, MAX, MAX, UP] 27.329999923706055
-proximo estado116 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MIN, UP] 27.329999923706055
-preco atual: 24.75
+        estado48 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MIN, DOWN] 0.0
+recompensa: -0.03484193 estado: 0.0 valor atual: 28.81
+proximo estado49 = [SHORT, UP, UP, NOP, UP, UP, MIN, MAX, DOWN] 0.0
+prox recompensa: -0.05495692 estado: 0.0 valor prox: 29.37
+preco atual: 28.81 preco proximo: 29.37
+
+Escolhe acao
+key: [2117112125, 2117112126, 0]
+key2
+melhor acao
+antes: -0.38224462785485835 proximo: 0.607858479609183 teste dict: -0.3769751073529041
+***************
+estado 49
+
+acao: 6 - EXIT_SHORT
+linha t1 Float32[29.06, 29.37, 28.74, 29.37, 2.77, 2.77]
+linha t0 Float32[28.49, 28.67, 27.91, 28.07, 5.26, 5.26]
+                    1     2   3   4   5    6     7     8    9
+        estado49 = [SHORT, UP, UP, NOP, UP, UP, MIN, MAX, DOWN] 0.0
+recompensa: -0.05495692 estado: 0.0 valor atual: 29.37
+proximo estado50 = [NPOS, UP, UP, BUY, UP, DOWN, MAX, MAX, NPOS] 0.0
+prox recompensa: -0.008261478 estado: 0.0 valor prox: 28.07
+preco atual: 29.37 preco proximo: 28.07
+
+Escolhe acao
+key: [3111121131, 3111121134, 3111121137]
+key 3 != 0
+key 2
+melhor acao
+antes: 0.607858479609183 proximo: 0.11465271228703396 teste dict: 0.6041074381991023
+***************
+estado 50
+
+acao: 4 - ENTER_SHORT
+linha t1 Float32[28.49, 28.67, 27.91, 28.07, 5.26, 5.26]
+linha t0 Float32[28.17, 28.22, 27.16, 27.53, 6.1, 6.1]
+                    1     2   3   4   5    6     7     8    9
+        estado50 = [NPOS, UP, UP, BUY, UP, DOWN, MAX, MAX, NPOS] 0.0
+recompensa: -0.008261478 estado: 0.0 valor atual: 28.07
+proximo estado51 = [SHORT, UP, DOWN, SELL, DOWN, UP, MAX, MIN, UP] 0.0
+prox recompensa: 0.019237585 estado: 0.0 valor prox: 27.53
+preco atual: 28.07 preco proximo: 27.53
+
+Escolhe acao
+key: [2122211215, 2122211216, 0]
+key1
+melhor acao
+antes: 0.11465271228703396 proximo: 0.25832765870799196 teste dict: 0.11525061192625428
+***************
+estado 51
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[28.17, 28.22, 27.16, 27.53, 6.1, 6.1]
+linha t0 Float32[27.55, 27.8, 27.26, 27.33, 6.96, 6.96]
+                    1     2   3   4   5    6     7     8    9
+        estado51 = [SHORT, UP, DOWN, SELL, DOWN, UP, MAX, MIN, UP] 0.0
+recompensa: 0.019237585 estado: 0.0 valor atual: 27.53
+proximo estado52 = [SHORT, DOWN, DOWN, NOP, UP, UP, MIN, MIN, UP] 0.0
+prox recompensa: 0.026362658 estado: 0.0 valor prox: 27.33
+preco atual: 27.53 preco proximo: 27.33
+
+Escolhe acao
+key: [2227112215, 2227112216, 0]
+key1
+melhor acao
+antes: 0.25832765870799196 proximo: 0.2899888969175501 teste dict: 0.258124849294761
+***************
+estado 52
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[27.55, 27.8, 27.26, 27.33, 6.96, 6.96]
+linha t0 Float32[27.72, 28.09, 27.44, 27.89, 6.48, 6.48]
+                    1     2   3   4   5    6     7     8    9
+        estado52 = [SHORT, DOWN, DOWN, NOP, UP, UP, MIN, MIN, UP] 0.0
+recompensa: 0.026362658 estado: 0.0 valor atual: 27.33
+proximo estado53 = [SHORT, DOWN, DOWN, NOP, UP, UP, MIN, MIN, DOWN] 0.0
+prox recompensa: 0.006412551 estado: 0.0 valor prox: 27.89
+preco atual: 27.33 preco proximo: 27.89
+
+Escolhe acao
+key: [2227112225, 2227112226, 0]
+key1
+melhor acao
+antes: 0.2899888969175501 proximo: 0.34920436152787904 teste dict: 0.28971496386626283
+***************
+estado 53
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[27.72, 28.09, 27.44, 27.89, 6.48, 6.48]
+linha t0 Float32[27.79, 27.93, 26.55, 26.55, 5.81, 5.81]
+                    1     2   3   4   5    6     7     8    9
+        estado53 = [SHORT, DOWN, DOWN, NOP, UP, UP, MIN, MIN, DOWN] 0.0
+recompensa: 0.006412551 estado: 0.0 valor atual: 27.89
+proximo estado54 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MAX, UP] 0.0
+prox recompensa: 0.054150354 estado: 0.0 valor prox: 26.55
+preco atual: 27.89 preco proximo: 26.55
+
+Escolhe acao
+key: [2217122115, 2217122116, 0]
+key1
+melhor acao
+antes: 0.34920436152787904 proximo: 0.3606780304198833 teste dict: 0.3489063058250614
+***************
+estado 54
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[27.79, 27.93, 26.55, 26.55, 5.81, 5.81]
+linha t0 Float32[25.64, 26.47, 25.59, 26.41, 10.31, 10.31]
+                    1     2   3   4   5    6     7     8    9
+        estado54 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MAX, UP] 0.0
+recompensa: 0.054150354 estado: 0.0 valor atual: 26.55
+proximo estado55 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 0.0
+prox recompensa: 0.059137866 estado: 0.0 valor prox: 26.41
+preco atual: 26.55 preco proximo: 26.41
+
+Escolhe acao
+key: [2127221215, 2127221216, 0]
+key1
+melhor acao
+antes: 0.3606780304198833 proximo: 0.2920408976892801 teste dict: 0.3599982496669285
+***************
+estado 55
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[25.64, 26.47, 25.59, 26.41, 10.31, 10.31]
+linha t0 Float32[26.0, 26.51, 26.0, 26.4, 4.72, 4.72]
+                    1     2   3   4   5    6     7     8    9
+        estado55 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 0.0
+recompensa: 0.059137866 estado: 0.0 valor atual: 26.41
+proximo estado56 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, UP] 0.0
+prox recompensa: 0.059494127 estado: 0.0 valor prox: 26.4
+preco atual: 26.41 preco proximo: 26.4
+
+Escolhe acao
+key: [2217212115, 2217212116, 0]
+key1
+melhor acao
+antes: 0.2920408976892801 proximo: 0.1936273414852 teste dict: 0.29136184426484935
+***************
+estado 56
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[26.0, 26.51, 26.0, 26.4, 4.72, 4.72]
+linha t0 Float32[26.16, 26.59, 26.16, 26.59, 4.11, 4.11]
+                    1     2   3   4   5    6     7     8    9
+        estado56 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, UP] 0.0
+recompensa: 0.059494127 estado: 0.0 valor atual: 26.4
+proximo estado57 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, DOWN] 0.0
+prox recompensa: 0.052725315 estado: 0.0 valor prox: 26.59
+preco atual: 26.4 preco proximo: 26.59
+
+Escolhe acao
+key: [2117121125, 2117121126, 0]
+key1
+melhor acao
+antes: 0.1936273414852 proximo: 0.21229832088431033 teste dict: 0.19368128907279467
+***************
+estado 57
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[26.16, 26.59, 26.16, 26.59, 4.11, 4.11]
+linha t0 Float32[26.54, 27.3, 26.22, 27.13, 5.06, 5.06]
+                    1     2   3   4   5    6     7     8    9
+        estado57 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, DOWN] 0.0
+recompensa: 0.052725315 estado: 0.0 valor atual: 26.59
+proximo estado58 = [SHORT, UP, UP, NOP, DOWN, DOWN, MAX, MAX, DOWN] 0.0
+prox recompensa: 0.03348773 estado: 0.0 valor prox: 27.13
+preco atual: 26.59 preco proximo: 27.13
+
+Escolhe acao
+key: [2117221125, 2117221126, 0]
+key1
+melhor acao
+antes: 0.21229832088431033 proximo: 0.17695815586889235 teste dict: 0.2119137417099753
+***************
+estado 58
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[26.54, 27.3, 26.22, 27.13, 5.06, 5.06]
+linha t0 Float32[27.08, 27.24, 26.25, 26.25, 4.52, 4.52]
+                    1     2   3   4   5    6     7     8    9
+        estado58 = [SHORT, UP, UP, NOP, DOWN, DOWN, MAX, MAX, DOWN] 0.0
+recompensa: 0.03348773 estado: 0.0 valor atual: 27.13
+proximo estado59 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MAX, UP] 0.0
+prox recompensa: 0.064837895 estado: 0.0 valor prox: 26.25
+preco atual: 27.13 preco proximo: 26.25
+
+Escolhe acao
+key: [2117211115, 2117211116, 0]
+key1
+melhor acao
+antes: 0.17695815586889235 proximo: 0.3118347162414984 teste dict: 0.17770130415472982
+***************
+estado 59
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[27.08, 27.24, 26.25, 26.25, 4.52, 4.52]
+linha t0 Float32[25.63, 26.3, 25.63, 26.15, 8.02, 8.02]
+                    1     2   3   4   5    6     7     8    9
+        estado59 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MAX, UP] 0.0
+recompensa: 0.064837895 estado: 0.0 valor atual: 26.25
+proximo estado60 = [SHORT, UP, DOWN, NOP, UP, DOWN, MAX, MIN, UP] 0.0
+prox recompensa: 0.06840043 estado: 0.0 valor prox: 26.15
+preco atual: 26.25 preco proximo: 26.15
+
+Escolhe acao
+key: [2127121215, 2127121216, 0]
+key1
+melhor acao
+antes: 0.3118347162414984 proximo: 0.2361133757123856 teste dict: 0.3112876317626922
+***************
+estado 60
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[25.63, 26.3, 25.63, 26.15, 8.02, 8.02]
+linha t0 Float32[26.07, 27.48, 26.03, 26.65, 13.95, 13.95]
+                    1     2   3   4   5    6     7     8    9
+        estado60 = [SHORT, UP, DOWN, NOP, UP, DOWN, MAX, MIN, UP] 0.0
+recompensa: 0.06840043 estado: 0.0 valor atual: 26.15
+proximo estado61 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, DOWN] 0.0
+prox recompensa: 0.050587818 estado: 0.0 valor prox: 26.65
+preco atual: 26.15 preco proximo: 26.65
+
+Escolhe acao
+key: [2217212125, 2217212126, 0]
+key1
+melhor acao
+antes: 0.2361133757123856 proximo: 0.24689941737317833 teste dict: 0.23602450395371327
+***************
+estado 61
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[26.07, 27.48, 26.03, 26.65, 13.95, 13.95]
+linha t0 Float32[26.69, 26.78, 25.97, 26.12, 14.89, 14.89]
+                    1     2   3   4   5    6     7     8    9
+        estado61 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, DOWN] 0.0
+recompensa: 0.050587818 estado: 0.0 valor atual: 26.65
+proximo estado62 = [SHORT, UP, UP, NOP, UP, UP, MAX, MIN, UP] 0.0
+prox recompensa: 0.06946915 estado: 0.0 valor prox: 26.12
+preco atual: 26.65 preco proximo: 26.12
+
+Escolhe acao
+key: [2117111215, 2117111216, 0]
+key1
+melhor acao
+antes: 0.24689941737317833 proximo: 0.5561733599753367 teste dict: 0.2483826549404587
+***************
+estado 62
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[26.69, 26.78, 25.97, 26.12, 14.89, 14.89]
+linha t0 Float32[26.12, 26.82, 25.92, 26.65, 20.62, 20.62]
+                    1     2   3   4   5    6     7     8    9
+        estado62 = [SHORT, UP, UP, NOP, UP, UP, MAX, MIN, UP] 0.0
+recompensa: 0.06946915 estado: 0.0 valor atual: 26.12
+proximo estado63 = [SHORT, UP, DOWN, NOP, UP, UP, MIN, MIN, DOWN] 0.0
+prox recompensa: 0.050587818 estado: 0.0 valor prox: 26.65
+preco atual: 26.12 preco proximo: 26.65
+
+Escolhe acao
+key: [2127112225, 2127112226, 0]
+key1
+melhor acao
+antes: 0.5561733599753367 proximo: -0.0464471556275996 teste dict: 0.5524066701191199
+***************
+estado 63
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[26.12, 26.82, 25.92, 26.65, 20.62, 20.62]
+linha t0 Float32[26.82, 26.85, 26.5, 26.5, 10.43, 10.43]
+                    1     2   3   4   5    6     7     8    9
+        estado63 = [SHORT, UP, DOWN, NOP, UP, UP, MIN, MIN, DOWN] 0.0
+recompensa: 0.050587818 estado: 0.0 valor atual: 26.65
+proximo estado64 = [SHORT, DOWN, UP, NOP, UP, UP, MIN, MAX, UP] 0.0
+prox recompensa: 0.05593159 estado: 0.0 valor prox: 26.5
+preco atual: 26.65 preco proximo: 26.5
+
+Escolhe acao
+key: [2217112115, 2217112116, 0]
+key1
+melhor acao
+antes: -0.0464471556275996 proximo: 0.2070188338576231 teste dict: -0.044716112118821594
+***************
+estado 64
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[26.82, 26.85, 26.5, 26.5, 10.43, 10.43]
+linha t0 Float32[26.5, 27.26, 26.5, 27.26, 38.43, 38.43]
+                    1     2   3   4   5    6     7     8    9
+        estado64 = [SHORT, DOWN, UP, NOP, UP, UP, MIN, MAX, UP] 0.0
+recompensa: 0.05593159 estado: 0.0 valor atual: 26.5
+proximo estado65 = [SHORT, UP, DOWN, NOP, UP, DOWN, MAX, MIN, DOWN] 0.0
+prox recompensa: 0.028856412 estado: 0.0 valor prox: 27.26
+preco atual: 26.5 preco proximo: 27.26
+
+Escolhe acao
+key: [2127121225, 2127121226, 0]
+key1
+melhor acao
+antes: 0.2070188338576231 proximo: 0.4600280821529745 teste dict: 0.2080258345042032
+***************
+estado 65
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[26.5, 27.26, 26.5, 27.26, 38.43, 38.43]
+linha t0 Float32[27.18, 27.55, 26.67, 26.78, 15.39, 15.39]
+                    1     2   3   4   5    6     7     8    9
+        estado65 = [SHORT, UP, DOWN, NOP, UP, DOWN, MAX, MIN, DOWN] 0.0
+recompensa: 0.028856412 estado: 0.0 valor atual: 27.26
+proximo estado66 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, UP] 0.0
+prox recompensa: 0.045956504 estado: 0.0 valor prox: 26.78
+preco atual: 27.26 preco proximo: 26.78
+
+Escolhe acao
+key: [2217212115, 2217212116, 0]
+key1
+melhor acao
+antes: 0.4600280821529745 proximo: 0.19368128907279467 teste dict: 0.4580786194195596
+***************
+estado 66
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[27.18, 27.55, 26.67, 26.78, 15.39, 15.39]
+linha t0 Float32[26.96, 27.18, 26.74, 26.96, 6.69, 6.69]
+                    1     2   3   4   5    6     7     8    9
+        estado66 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, UP] 0.0
+recompensa: 0.045956504 estado: 0.0 valor atual: 26.78
+proximo estado67 = [SHORT, UP, DOWN, NOP, UP, DOWN, MAX, MIN, DOWN] 0.0
+prox recompensa: 0.03954402 estado: 0.0 valor prox: 26.96
+preco atual: 26.78 preco proximo: 26.96
+
+Escolhe acao
+key: [2127121225, 2127121226, 0]
+key1
+melhor acao
+antes: 0.19368128907279467 proximo: 0.4580786194195596 teste dict: 0.1948469134233777
+***************
+estado 67
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[26.96, 27.18, 26.74, 26.96, 6.69, 6.69]
+linha t0 Float32[26.88, 27.22, 26.87, 26.92, 7.25, 7.25]
+                    1     2   3   4   5    6     7     8    9
+        estado67 = [SHORT, UP, DOWN, NOP, UP, DOWN, MAX, MIN, DOWN] 0.0
+recompensa: 0.03954402 estado: 0.0 valor atual: 26.96
+proximo estado68 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, UP] 0.0
+prox recompensa: 0.04096899 estado: 0.0 valor prox: 26.92
+preco atual: 26.96 preco proximo: 26.92
+
+Escolhe acao
+key: [2217222115, 2217222116, 0]
+key1
+melhor acao
+antes: 0.4580786194195596 proximo: 0.2545065765544432 teste dict: 0.45640593425145176
+***************
+estado 68
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[26.88, 27.22, 26.87, 26.92, 7.25, 7.25]
+linha t0 Float32[27.13, 27.19, 26.2, 26.77, 12.64, 12.64]
+                    1     2   3   4   5    6     7     8    9
+        estado68 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, UP] 0.0
+recompensa: 0.04096899 estado: 0.0 valor atual: 26.92
+proximo estado69 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MIN, UP] 0.0
+prox recompensa: 0.046312764 estado: 0.0 valor prox: 26.77
+preco atual: 26.92 preco proximo: 26.77
 
 Escolhe acao
 key: [2117211215, 2117211216, 0]
-i: -0.0006844968223251571
-i: 0.0
-melhor acao
 key2
-recompensa: 3.7551235440463757 estado: 27.329999923706055 valor atual: 24.75
-antes: 0.26803171039844303 proximo: 0.0 teste dict: 0.2924413532339786
+melhor acao
+antes: 0.2545065765544432 proximo: 0.6560561041367166 teste dict: 0.256263894778841
+***************
+estado 69
+
+acao: 6 - EXIT_SHORT
+linha t1 Float32[27.13, 27.19, 26.2, 26.77, 12.64, 12.64]
+linha t0 Float32[26.67, 26.68, 25.44, 25.7, 12.74, 12.74]
+                    1     2   3   4   5    6     7     8    9
+        estado69 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MIN, UP] 0.0
+recompensa: 0.046312764 estado: 0.0 valor atual: 26.77
+proximo estado70 = [NPOS, UP, DOWN, BUY, UP, UP, MIN, MAX, NPOS] 0.0
+prox recompensa: 0.08443174 estado: 0.0 valor prox: 25.7
+preco atual: 26.77 preco proximo: 25.7
+
+Escolhe acao
+key: [3121112131, 3121112134, 3121112137]
+key 3 != 0
+key 1
+melhor acao
+antes: 0.6560561041367166 proximo: -0.15371076133508388 teste dict: 0.6513015508408472
+***************
+estado 70
+
+acao: 1 - ENTER_LONG
+linha t1 Float32[26.67, 26.68, 25.44, 25.7, 12.74, 12.74]
+linha t0 Float32[25.84, 25.84, 24.3, 24.94, 14.38, 14.38]
+                    1     2   3   4   5    6     7     8    9
+        estado70 = [NPOS, UP, DOWN, BUY, UP, UP, MIN, MAX, NPOS] 0.0
+recompensa: 0.08443174 estado: 0.0 valor atual: 25.7
+proximo estado71 = [LONG, DOWN, DOWN, BUY, UP, UP, MAX, MIN, DOWN] 0.0
+prox recompensa: -0.029571993 estado: 0.0 valor prox: 24.94
+preco atual: 25.7 preco proximo: 24.94
+
+Escolhe acao
+key: [1221111222, 1221111223, 0]
+key1
+melhor acao
+antes: -0.15371076133508388 proximo: -0.04734300523661816 teste dict: -0.15307377068433306
+***************
+estado 71
+
+acao: 2 - STAY_LONG
+linha t1 Float32[25.84, 25.84, 24.3, 24.94, 14.38, 14.38]
+linha t0 Float32[24.62, 25.55, 24.59, 25.55, 9.18, 9.18]
+                    1     2   3   4   5    6     7     8    9
+        estado71 = [LONG, DOWN, DOWN, BUY, UP, UP, MAX, MIN, DOWN] 0.0
+recompensa: -0.029571993 estado: 0.0 valor atual: 24.94
+proximo estado72 = [LONG, DOWN, DOWN, NOP, UP, UP, MIN, MIN, UP] 0.0
+prox recompensa: -0.005836635 estado: 0.0 valor prox: 25.55
+preco atual: 24.94 preco proximo: 25.55
+
+Escolhe acao
+key: [1227112212, 1227112213, 0]
+key1
+melhor acao
+antes: -0.04734300523661816 proximo: 0.19017310590520578 teste dict: -0.046120612425303194
+***************
+estado 72
+
+acao: 2 - STAY_LONG
+linha t1 Float32[24.62, 25.55, 24.59, 25.55, 9.18, 9.18]
+linha t0 Float32[25.55, 25.68, 25.21, 25.32, 4.04, 4.04]
+                    1     2   3   4   5    6     7     8    9
+        estado72 = [LONG, DOWN, DOWN, NOP, UP, UP, MIN, MIN, UP] 0.0
+recompensa: -0.005836635 estado: 0.0 valor atual: 25.55
+proximo estado73 = [LONG, DOWN, UP, NOP, UP, DOWN, MIN, MAX, DOWN] 0.0
+prox recompensa: -0.014786033 estado: 0.0 valor prox: 25.32
+preco atual: 25.55 preco proximo: 25.32
+
+Escolhe acao
+key: [1217122122, 1217122123, 0]
+key2
+melhor acao
+antes: 0.19017310590520578 proximo: 0.15988147311755513 teste dict: 0.18952181115142663
+***************
+estado 73
+
+acao: 3 - EXIT_LONG
+linha t1 Float32[25.55, 25.68, 25.21, 25.32, 4.04, 4.04]
+linha t0 Float32[25.52, 25.52, 25.06, 25.19, 7.65, 7.65]
+                    1     2   3   4   5    6     7     8    9
+        estado73 = [LONG, DOWN, UP, NOP, UP, DOWN, MIN, MAX, DOWN] 0.0
+recompensa: -0.014786033 estado: 0.0 valor atual: 25.32
+proximo estado74 = [NPOS, UP, DOWN, SELL, DOWN, DOWN, MAX, MIN, NPOS] 0.0
+prox recompensa: -0.019844366 estado: 0.0 valor prox: 25.19
+preco atual: 25.32 preco proximo: 25.19
+
+Escolhe acao
+key: [3122221231, 3122221234, 3122221237]
+key 3 != 0
+key 2
+melhor acao
+antes: 0.15988147311755513 proximo: 0.15504158478680585 teste dict: 0.15938309600752495
+***************
+estado 74
+
+acao: 4 - ENTER_SHORT
+linha t1 Float32[25.52, 25.52, 25.06, 25.19, 7.65, 7.65]
+linha t0 Float32[25.19, 25.68, 24.9, 25.63, 14.48, 14.48]
+                    1     2   3   4   5    6     7     8    9
+        estado74 = [NPOS, UP, DOWN, SELL, DOWN, DOWN, MAX, MIN, NPOS] 0.0
+recompensa: -0.019844366 estado: 0.0 valor atual: 25.19
+proximo estado75 = [SHORT, DOWN, DOWN, SELL, DOWN, UP, MIN, MIN, DOWN] 0.0
+prox recompensa: -0.017467193 estado: 0.0 valor prox: 25.63
+preco atual: 25.19 preco proximo: 25.63
+
+Escolhe acao
+key: [2222212225, 2222212226, 0]
+key1
+melhor acao
+antes: 0.15504158478680585 proximo: 0.1584924472763809 teste dict: 0.15461063633181404
+***************
+estado 75
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[25.19, 25.68, 24.9, 25.63, 14.48, 14.48]
+linha t0 Float32[25.71, 25.8, 25.11, 25.23, 13.47, 13.47]
+                    1     2   3   4   5    6     7     8    9
+        estado75 = [SHORT, DOWN, DOWN, SELL, DOWN, UP, MIN, MIN, DOWN] 0.0
+recompensa: -0.017467193 estado: 0.0 valor atual: 25.63
+proximo estado76 = [SHORT, DOWN, UP, NOP, UP, UP, MIN, MAX, UP] 0.0
+prox recompensa: -0.0015878923 estado: 0.0 valor prox: 25.23
+preco atual: 25.63 preco proximo: 25.23
+
+Escolhe acao
+key: [2217112115, 2217112116, 0]
+key1
+melhor acao
+antes: 0.1584924472763809 proximo: 0.2080258345042032 teste dict: 0.15839121148841367
+***************
+estado 76
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[25.71, 25.8, 25.11, 25.23, 13.47, 13.47]
+linha t0 Float32[25.11, 25.34, 24.91, 25.28, 10.17, 10.17]
+                    1     2   3   4   5    6     7     8    9
+        estado76 = [SHORT, DOWN, UP, NOP, UP, UP, MIN, MAX, UP] 0.0
+recompensa: -0.0015878923 estado: 0.0 valor atual: 25.23
+proximo estado77 = [SHORT, UP, DOWN, NOP, UP, DOWN, MAX, MIN, DOWN] 0.0
+prox recompensa: -0.0035728524 estado: 0.0 valor prox: 25.28
+preco atual: 25.23 preco proximo: 25.28
+
+Escolhe acao
+key: [2127121225, 2127121226, 0]
+key1
+melhor acao
+antes: 0.2080258345042032 proximo: 0.45640593425145176 teste dict: 0.2087810327740505
+***************
+estado 77
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[25.11, 25.34, 24.91, 25.28, 10.17, 10.17]
+linha t0 Float32[24.89, 25.04, 23.77, 24.36, 7.85, 7.85]
+                    1     2   3   4   5    6     7     8    9
+        estado77 = [SHORT, UP, DOWN, NOP, UP, DOWN, MAX, MIN, DOWN] 0.0
+recompensa: -0.0035728524 estado: 0.0 valor atual: 25.28
+proximo estado78 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, UP] 0.0
+prox recompensa: 0.032949578 estado: 0.0 valor prox: 24.36
+preco atual: 25.28 preco proximo: 24.36
+
+Escolhe acao
+key: [2217222115, 2217222116, 0]
+key1
+melhor acao
+antes: 0.45640593425145176 proximo: 0.256263894778841 teste dict: 0.4546974328422269
+***************
+estado 78
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[24.89, 25.04, 23.77, 24.36, 7.85, 7.85]
+linha t0 Float32[24.45, 24.55, 24.22, 24.22, 5.74, 5.74]
+                    1     2   3   4   5    6     7     8    9
+        estado78 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, UP] 0.0
+recompensa: 0.032949578 estado: 0.0 valor atual: 24.36
+proximo estado79 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 0.0
+prox recompensa: 0.03850739 estado: 0.0 valor prox: 24.22
+preco atual: 24.36 preco proximo: 24.22
+
+Escolhe acao
+key: [2127221215, 2127221216, 0]
+key1
+melhor acao
+antes: 0.256263894778841 proximo: 0.29136184426484935 teste dict: 0.25616727228765823
+***************
+estado 79
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[24.45, 24.55, 24.22, 24.22, 5.74, 5.74]
+linha t0 Float32[24.18, 24.33, 23.41, 23.5, 10.27, 10.27]
+                    1     2   3   4   5    6     7     8    9
+        estado79 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 0.0
+recompensa: 0.03850739 estado: 0.0 valor atual: 24.22
+proximo estado80 = [SHORT, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, UP] 0.0
+prox recompensa: 0.06709013 estado: 0.0 valor prox: 23.5
+preco atual: 24.22 preco proximo: 23.5
+
+Escolhe acao
+key: [2227222215, 2227222216, 0]
+key1
+melhor acao
+antes: 0.29136184426484935 proximo: 0.38794289174551794 teste dict: 0.2916928624439453
+***************
+estado 80
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[24.18, 24.33, 23.41, 23.5, 10.27, 10.27]
+linha t0 Float32[23.78, 23.99, 23.21, 23.56, 8.47, 8.47]
+                    1     2   3   4   5    6     7     8    9
+        estado80 = [SHORT, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, UP] 0.0
+recompensa: 0.06709013 estado: 0.0 valor atual: 23.5
+proximo estado81 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, DOWN] 0.0
+prox recompensa: 0.064708255 estado: 0.0 valor prox: 23.56
+preco atual: 23.5 preco proximo: 23.56
+
+Escolhe acao
+key: [2227212225, 2227212226, 0]
+key1
+melhor acao
+antes: 0.38794289174551794 proximo: 0.26371188310182997 teste dict: 0.38697243751711796
+***************
+estado 81
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[23.78, 23.99, 23.21, 23.56, 8.47, 8.47]
+linha t0 Float32[23.7, 24.09, 23.63, 23.97, 6.5, 6.5]
+                    1     2   3   4   5    6     7     8    9
+        estado81 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, DOWN] 0.0
+recompensa: 0.064708255 estado: 0.0 valor atual: 23.56
+proximo estado82 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, DOWN] 0.0
+prox recompensa: 0.048431966 estado: 0.0 valor prox: 23.97
+preco atual: 23.56 preco proximo: 23.97
+
+Escolhe acao
+key: [2227122225, 2227122226, 0]
+key1
+melhor acao
+antes: 0.26371188310182997 proximo: 0.25928134830492344 teste dict: 0.2634754022919878
+***************
+estado 82
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[23.7, 24.09, 23.63, 23.97, 6.5, 6.5]
+linha t0 Float32[23.91, 25.27, 23.76, 25.06, 8.59, 8.59]
+                    1     2   3   4   5    6     7     8    9
+        estado82 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, DOWN] 0.0
+recompensa: 0.048431966 estado: 0.0 valor atual: 23.97
+proximo estado83 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, DOWN] 0.0
+prox recompensa: 0.00516082 estado: 0.0 valor prox: 25.06
+preco atual: 23.97 preco proximo: 25.06
+
+Escolhe acao
+key: [2217222125, 2217222126, 0]
+key2
+melhor acao
+antes: 0.25928134830492344 proximo: -0.11080849960830876 teste dict: 0.2569595429601416
+***************
+estado 83
+
+acao: 6 - EXIT_SHORT
+linha t1 Float32[23.91, 25.27, 23.76, 25.06, 8.59, 8.59]
+linha t0 Float32[24.92, 26.0, 24.55, 25.36, 7.86, 7.86]
+                    1     2   3   4   5    6     7     8    9
+        estado83 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, DOWN] 0.0
+recompensa: 0.00516082 estado: 0.0 valor atual: 25.06
+proximo estado84 = [NPOS, UP, UP, BUY, DOWN, UP, MAX, MAX, NPOS] 0.0
+prox recompensa: -0.0067487126 estado: 0.0 valor prox: 25.36
+preco atual: 25.06 preco proximo: 25.36
+
+Escolhe acao
+key: [3111211131, 3111211134, 3111211137]
+key 3 != 0
+key 2
+melhor acao
+antes: -0.11080849960830876 proximo: 0.1778574657856039 teste dict: -0.10920857951705254
+***************
+estado 84
+
+acao: 4 - ENTER_SHORT
+linha t1 Float32[24.92, 26.0, 24.55, 25.36, 7.86, 7.86]
+linha t0 Float32[25.67, 25.85, 25.08, 25.37, 7.44, 7.44]
+                    1     2   3   4   5    6     7     8    9
+        estado84 = [NPOS, UP, UP, BUY, DOWN, UP, MAX, MAX, NPOS] 0.0
+recompensa: -0.0067487126 estado: 0.0 valor atual: 25.36
+proximo estado85 = [SHORT, UP, UP, SELL, UP, DOWN, MAX, MAX, DOWN] 0.0
+prox recompensa: -0.0003943308 estado: 0.0 valor prox: 25.37
+preco atual: 25.36 preco proximo: 25.37
+
+Escolhe acao
+key: [2112121125, 2112121126, 0]
+key1
+melhor acao
+antes: 0.1778574657856039 proximo: 0.08427079760867733 teste dict: 0.17702263011781133
+***************
+estado 85
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[25.67, 25.85, 25.08, 25.37, 7.44, 7.44]
+linha t0 Float32[25.58, 25.63, 25.06, 25.15, 7.05, 7.05]
+                    1     2   3   4   5    6     7     8    9
+        estado85 = [SHORT, UP, UP, SELL, UP, DOWN, MAX, MAX, DOWN] 0.0
+recompensa: -0.0003943308 estado: 0.0 valor atual: 25.37
+proximo estado86 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 0.0
+prox recompensa: 0.008280796 estado: 0.0 valor prox: 25.15
+preco atual: 25.37 preco proximo: 25.15
+
+Escolhe acao
+key: [2127221215, 2127221216, 0]
+key1
+melhor acao
+antes: 0.08427079760867733 proximo: 0.2916928624439453 teste dict: 0.08516816262338402
+***************
+estado 86
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[25.58, 25.63, 25.06, 25.15, 7.05, 7.05]
+linha t0 Float32[25.37, 25.81, 25.19, 25.63, 4.14, 4.14]
+                    1     2   3   4   5    6     7     8    9
+        estado86 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 0.0
+recompensa: 0.008280796 estado: 0.0 valor atual: 25.15
+proximo estado87 = [SHORT, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, DOWN] 0.0
+prox recompensa: -0.01064663 estado: 0.0 valor prox: 25.63
+preco atual: 25.15 preco proximo: 25.63
+
+Escolhe acao
+key: [2227222225, 2227222226, 0]
+key1
+melhor acao
+antes: 0.2916928624439453 proximo: 0.33463350926805635 teste dict: 0.2912161901917013
+***************
+estado 87
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[25.37, 25.81, 25.19, 25.63, 4.14, 4.14]
+linha t0 Float32[25.93, 26.1, 25.68, 25.94, 8.1, 8.1]
+                    1     2   3   4   5    6     7     8    9
+        estado87 = [SHORT, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, DOWN] 0.0
+recompensa: -0.01064663 estado: 0.0 valor atual: 25.63
+proximo estado88 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, DOWN] 0.0
+prox recompensa: -0.02287066 estado: 0.0 valor prox: 25.94
+preco atual: 25.63 preco proximo: 25.94
+
+Escolhe acao
+key: [2217222125, 2217222126, 0]
+key2
+melhor acao
+antes: 0.33463350926805635 proximo: -0.10920857951705254 teste dict: 0.3315958580447491
+***************
+estado 88
+
+acao: 6 - EXIT_SHORT
+linha t1 Float32[25.93, 26.1, 25.68, 25.94, 8.1, 8.1]
+linha t0 Float32[26.29, 26.77, 26.11, 26.73, 6.74, 6.74]
+                    1     2   3   4   5    6     7     8    9
+        estado88 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, DOWN] 0.0
+recompensa: -0.02287066 estado: 0.0 valor atual: 25.94
+proximo estado89 = [NPOS, UP, UP, BUY, DOWN, UP, MAX, MAX, NPOS] 0.0
+prox recompensa: -0.05402204 estado: 0.0 valor prox: 26.73
+preco atual: 25.94 preco proximo: 26.73
+
+Escolhe acao
+key: [3111211131, 3111211134, 3111211137]
+key 3 != 0
+key 2
+melhor acao
+antes: -0.10920857951705254 proximo: 0.17702263011781133 teste dict: -0.1079548628543827
+***************
+estado 89
+
+acao: 4 - ENTER_SHORT
+linha t1 Float32[26.29, 26.77, 26.11, 26.73, 6.74, 6.74]
+linha t0 Float32[26.56, 26.85, 26.47, 26.51, 3.38, 3.38]
+                    1     2   3   4   5    6     7     8    9
+        estado89 = [NPOS, UP, UP, BUY, DOWN, UP, MAX, MAX, NPOS] 0.0
+recompensa: -0.05402204 estado: 0.0 valor atual: 26.73
+proximo estado90 = [SHORT, UP, UP, SELL, UP, DOWN, MAX, MAX, UP] 0.0
+prox recompensa: 0.008230427 estado: 0.0 valor prox: 26.51
+preco atual: 26.73 preco proximo: 26.51
+
+Escolhe acao
+key: [2112121115, 2112121116, 0]
+key1
+melhor acao
+antes: 0.17702263011781133 proximo: 0.13844038576550868 teste dict: 0.17651944258819813
+***************
+estado 90
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[26.56, 26.85, 26.47, 26.51, 3.38, 3.38]
+linha t0 Float32[26.34, 26.84, 26.34, 26.81, 3.33, 3.33]
+                    1     2   3   4   5    6     7     8    9
+        estado90 = [SHORT, UP, UP, SELL, UP, DOWN, MAX, MAX, UP] 0.0
+recompensa: 0.008230427 estado: 0.0 valor atual: 26.51
+proximo estado91 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, DOWN] 0.0
+prox recompensa: -0.0029928891 estado: 0.0 valor prox: 26.81
+preco atual: 26.51 preco proximo: 26.81
+
+Escolhe acao
+key: [2127221225, 2127221226, 0]
+key1
+melhor acao
+antes: 0.13844038576550868 proximo: 0.16095110180515426 teste dict: 0.13823901323997764
+***************
+estado 91
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[26.34, 26.84, 26.34, 26.81, 3.33, 3.33]
+linha t0 Float32[26.92, 27.05, 26.47, 26.47, 4.56, 4.56]
+                    1     2   3   4   5    6     7     8    9
+        estado91 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, DOWN] 0.0
+recompensa: -0.0029928891 estado: 0.0 valor atual: 26.81
+proximo estado92 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, UP] 0.0
+prox recompensa: 0.009726907 estado: 0.0 valor prox: 26.47
+preco atual: 26.81 preco proximo: 26.47
+
+Escolhe acao
+key: [2217222115, 2217222116, 0]
+key1
+melhor acao
+antes: 0.16095110180515426 proximo: 0.25616727228765823 teste dict: 0.16114775207661394
+***************
+estado 92
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[26.92, 27.05, 26.47, 26.47, 4.56, 4.56]
+linha t0 Float32[26.38, 26.59, 26.21, 26.5, 5.28, 5.28]
+                    1     2   3   4   5    6     7     8    9
+        estado92 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, UP] 0.0
+recompensa: 0.009726907 estado: 0.0 valor atual: 26.47
+proximo estado93 = [SHORT, UP, DOWN, NOP, DOWN, UP, MAX, MIN, DOWN] 0.0
+prox recompensa: 0.008604547 estado: 0.0 valor prox: 26.5
+preco atual: 26.47 preco proximo: 26.5
+
+Escolhe acao
+key: [2127211225, 2127211226, 0]
+key1
+melhor acao
+antes: 0.25616727228765823 proximo: 0.17697539970319912 teste dict: 0.2553015126692524
+***************
+estado 93
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[26.38, 26.59, 26.21, 26.5, 5.28, 5.28]
+linha t0 Float32[26.4, 26.45, 26.02, 26.11, 4.11, 4.11]
+                    1     2   3   4   5    6     7     8    9
+        estado93 = [SHORT, UP, DOWN, NOP, DOWN, UP, MAX, MIN, DOWN] 0.0
+recompensa: 0.008604547 estado: 0.0 valor atual: 26.5
+proximo estado94 = [SHORT, DOWN, UP, NOP, UP, UP, MIN, MAX, UP] 0.0
+prox recompensa: 0.023194872 estado: 0.0 valor prox: 26.11
+preco atual: 26.5 preco proximo: 26.11
+
+Escolhe acao
+key: [2217112115, 2217112116, 0]
+key1
+melhor acao
+antes: 0.17697539970319912 proximo: 0.2087810327740505 teste dict: 0.1769219630687696
+***************
+estado 94
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[26.4, 26.45, 26.02, 26.11, 4.11, 4.11]
+linha t0 Float32[25.76, 25.93, 25.22, 25.24, 4.11, 4.11]
+                    1     2   3   4   5    6     7     8    9
+        estado94 = [SHORT, DOWN, UP, NOP, UP, UP, MIN, MAX, UP] 0.0
+recompensa: 0.023194872 estado: 0.0 valor atual: 26.11
+proximo estado95 = [SHORT, UP, DOWN, NOP, UP, DOWN, MAX, MIN, UP] 0.0
+prox recompensa: 0.055742603 estado: 0.0 valor prox: 25.24
+preco atual: 26.11 preco proximo: 25.24
+
+Escolhe acao
+key: [2127121215, 2127121216, 0]
+key1
+melhor acao
+antes: 0.2087810327740505 proximo: 0.23602450395371327 teste dict: 0.20886628383357286
+***************
+estado 95
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[25.76, 25.93, 25.22, 25.24, 4.11, 4.11]
+linha t0 Float32[25.23, 25.26, 24.52, 24.75, 5.83, 5.83]
+                    1     2   3   4   5    6     7     8    9
+        estado95 = [SHORT, UP, DOWN, NOP, UP, DOWN, MAX, MIN, UP] 0.0
+recompensa: 0.055742603 estado: 0.0 valor atual: 25.24
+proximo estado96 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, UP] 0.0
+prox recompensa: 0.07407406 estado: 0.0 valor prox: 24.75
+preco atual: 25.24 preco proximo: 24.75
+
+Escolhe acao
+key: [2227212215, 2227212216, 0]
+key1
+melhor acao
+antes: 0.23602450395371327 proximo: 0.3417710404581703 teste dict: 0.23656552894235597
+***************
+estado 96
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[25.23, 25.26, 24.52, 24.75, 5.83, 5.83]
+linha t0 Float32[24.78, 25.06, 24.67, 24.86, 2.84, 2.84]
+                    1     2   3   4   5    6     7     8    9
+        estado96 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, UP] 0.0
+recompensa: 0.07407406 estado: 0.0 valor atual: 24.75
+proximo estado97 = [SHORT, DOWN, DOWN, NOP, UP, UP, MIN, MIN, DOWN] 0.0
+prox recompensa: 0.069958806 estado: 0.0 valor prox: 24.86
+preco atual: 24.75 preco proximo: 24.86
+
+Escolhe acao
+key: [2227112225, 2227112226, 0]
+key1
+melhor acao
+antes: 0.3417710404581703 proximo: 0.3489063058250614 teste dict: 0.34157799571577124
+***************
+estado 97
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[24.78, 25.06, 24.67, 24.86, 2.84, 2.84]
+linha t0 Float32[25.31, 25.41, 25.01, 25.25, 3.71, 3.71]
+                    1     2   3   4   5    6     7     8    9
+        estado97 = [SHORT, DOWN, DOWN, NOP, UP, UP, MIN, MIN, DOWN] 0.0
+recompensa: 0.069958806 estado: 0.0 valor atual: 24.86
+proximo estado98 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MIN, DOWN] 0.0
+prox recompensa: 0.055368483 estado: 0.0 valor prox: 25.25
+preco atual: 24.86 preco proximo: 25.25
+
+Escolhe acao
+key: [2217122225, 2217122226, 0]
+key2
+melhor acao
+antes: 0.3489063058250614 proximo: 0.5315433052125418 teste dict: 0.34945610326129334
+***************
+estado 98
+
+acao: 6 - EXIT_SHORT
+linha t1 Float32[25.31, 25.41, 25.01, 25.25, 3.71, 3.71]
+linha t0 Float32[25.17, 25.18, 24.76, 25.18, 2.93, 2.93]
+                    1     2   3   4   5    6     7     8    9
+        estado98 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MIN, DOWN] 0.0
+recompensa: 0.055368483 estado: 0.0 valor atual: 25.25
+proximo estado99 = [NPOS, UP, DOWN, BUY, DOWN, UP, MIN, MAX, NPOS] 0.0
+prox recompensa: 0.057987254 estado: 0.0 valor prox: 25.18
+preco atual: 25.25 preco proximo: 25.18
+
+Escolhe acao
+key: [3121212131, 3121212134, 3121212137]
+key 3 != 0
+key 1
+melhor acao
+antes: 0.5315433052125418 proximo: 0.06893160391498726 teste dict: 0.5285661777140281
+***************
+estado 99
+
+acao: 1 - ENTER_LONG
+linha t1 Float32[25.17, 25.18, 24.76, 25.18, 2.93, 2.93]
+linha t0 Float32[25.09, 25.18, 24.4, 24.43, 3.55, 3.55]
+                    1     2   3   4   5    6     7     8    9
+        estado99 = [NPOS, UP, DOWN, BUY, DOWN, UP, MIN, MAX, NPOS] 0.0
+recompensa: 0.057987254 estado: 0.0 valor atual: 25.18
+proximo estado100 = [LONG, DOWN, UP, BUY, UP, DOWN, MAX, MAX, DOWN] 0.0
+prox recompensa: -0.029785544 estado: 0.0 valor prox: 24.43
+preco atual: 25.18 preco proximo: 24.43
+
+Escolhe acao
+key: [1211121122, 1211121123, 0]
+key1
+melhor acao
+antes: 0.06893160391498726 proximo: 0.87758231396227 teste dict: 0.07254073722023613
+***************
+estado 100
+
+acao: 2 - STAY_LONG
+linha t1 Float32[25.09, 25.18, 24.4, 24.43, 3.55, 3.55]
+linha t0 Float32[24.17, 24.33, 23.95, 24.19, 6.06, 6.06]
+                    1     2   3   4   5    6     7     8    9
+        estado100 = [LONG, DOWN, UP, BUY, UP, DOWN, MAX, MAX, DOWN] 0.0
+recompensa: -0.029785544 estado: 0.0 valor atual: 24.43
+proximo estado101 = [LONG, UP, DOWN, NOP, DOWN, UP, MAX, MIN, DOWN] 0.0
+prox recompensa: -0.039316908 estado: 0.0 valor prox: 24.19
+preco atual: 24.43 preco proximo: 24.19
+
+Escolhe acao
+key: [1127211222, 1127211223, 0]
+key2
+melhor acao
+antes: 0.87758231396227 proximo: -0.028835079416228638 teste dict: 0.8710227275227191
+***************
+estado 101
+
+acao: 3 - EXIT_LONG
+linha t1 Float32[24.17, 24.33, 23.95, 24.19, 6.06, 6.06]
+linha t0 Float32[24.35, 24.8, 24.23, 24.68, 4.8, 4.8]
+                    1     2   3   4   5    6     7     8    9
+        estado101 = [LONG, UP, DOWN, NOP, DOWN, UP, MAX, MIN, DOWN] 0.0
+recompensa: -0.039316908 estado: 0.0 valor atual: 24.19
+proximo estado102 = [NPOS, DOWN, UP, SELL, UP, UP, MIN, MAX, NPOS] 0.0
+prox recompensa: -0.019857028 estado: 0.0 valor prox: 24.68
+preco atual: 24.19 preco proximo: 24.68
+
+Escolhe acao
+key: [3212112131, 3212112134, 3212112137]
+key 3 != 0
+key 3
+melhor acao
+antes: -0.028835079416228638 proximo: 0.036397224802642736 teste dict: -0.028593886658276807
+***************
+estado 102
+
+acao: 7 - NOPa
+linha t1 Float32[24.35, 24.8, 24.23, 24.68, 4.8, 4.8]
+linha t0 Float32[24.7, 24.78, 24.34, 24.34, 1.53, 1.53]
+                    1     2   3   4   5    6     7     8    9
+        estado102 = [NPOS, DOWN, UP, SELL, UP, UP, MIN, MAX, NPOS] 0.0
+recompensa: -0.019857028 estado: 0.0 valor atual: 24.68
+proximo estado103 = [NPOS, UP, UP, NOP, UP, DOWN, MAX, MAX, NPOS] 0.0
+prox recompensa: 0 estado: 0.0 valor prox: 24.34
+preco atual: 24.68 preco proximo: 24.34
+
+Escolhe acao
+key: [3117121131, 3117121134, 3117121137]
+key 3 != 0
+key 2
+melhor acao
+antes: 0.036397224802642736 proximo: 0.09941734185915037 teste dict: 0.036629589204134075
+***************
+estado 103
+
+acao: 4 - ENTER_SHORT
+linha t1 Float32[24.7, 24.78, 24.34, 24.34, 1.53, 1.53]
+linha t0 Float32[24.04, 24.31, 23.94, 24.1, 3.51, 3.51]
+                    1     2   3   4   5    6     7     8    9
+        estado103 = [NPOS, UP, UP, NOP, UP, DOWN, MAX, MAX, NPOS] 0.0
+recompensa: 0 estado: 0.0 valor atual: 24.34
+proximo estado104 = [SHORT, UP, DOWN, SELL, DOWN, DOWN, MAX, MIN, UP] 0.0
+prox recompensa: 0.009860302 estado: 0.0 valor prox: 24.1
+preco atual: 24.34 preco proximo: 24.1
+
+Escolhe acao
+key: [2122221215, 2122221216, 0]
+key1
+melhor acao
+antes: 0.09941734185915037 proximo: 0.1658228042760952 teste dict: 0.09960297432334048
+***************
+estado 104
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[24.04, 24.31, 23.94, 24.1, 3.51, 3.51]
+linha t0 Float32[24.0, 24.35, 24.0, 24.34, 5.67, 5.67]
+                    1     2   3   4   5    6     7     8    9
+        estado104 = [SHORT, UP, DOWN, SELL, DOWN, DOWN, MAX, MIN, UP] 0.0
+recompensa: 0.009860302 estado: 0.0 valor atual: 24.1
+proximo estado105 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MIN, DOWN] 0.0
+prox recompensa: 0.0 estado: 0.0 valor prox: 24.34
+preco atual: 24.1 preco proximo: 24.34
+
+Escolhe acao
+key: [2217212225, 2217212226, 0]
+key1
+melhor acao
+antes: 0.1658228042760952 proximo: -0.16068253137114685 teste dict: 0.1638747002424439
+***************
+estado 105
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[24.0, 24.35, 24.0, 24.34, 5.67, 5.67]
+linha t0 Float32[24.29, 24.59, 24.05, 24.23, 7.45, 7.45]
+                    1     2   3   4   5    6     7     8    9
+        estado105 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MIN, DOWN] 0.0
+recompensa: 0.0 estado: 0.0 valor atual: 24.34
+proximo estado106 = [SHORT, UP, UP, NOP, UP, UP, MIN, MAX, UP] 0.0
+prox recompensa: 0.004519335 estado: 0.0 valor prox: 24.23
+preco atual: 24.34 preco proximo: 24.23
+
+Escolhe acao
+key: [2117112115, 2117112116, 0]
+key2
+melhor acao
+antes: -0.16068253137114685 proximo: 0.27032997711172313 teste dict: -0.1582015014187416
+***************
+estado 106
+
+acao: 6 - EXIT_SHORT
+linha t1 Float32[24.29, 24.59, 24.05, 24.23, 7.45, 7.45]
+linha t0 Float32[24.57, 24.93, 24.47, 24.93, 4.2, 4.2]
+                    1     2   3   4   5    6     7     8    9
+        estado106 = [SHORT, UP, UP, NOP, UP, UP, MIN, MAX, UP] 0.0
+recompensa: 0.004519335 estado: 0.0 valor atual: 24.23
+proximo estado107 = [NPOS, UP, DOWN, BUY, UP, UP, MAX, MIN, NPOS] 0.0
+prox recompensa: -0.02423994 estado: 0.0 valor prox: 24.93
+preco atual: 24.23 preco proximo: 24.93
+
+Escolhe acao
+key: [3121111231, 3121111234, 3121111237]
+key 3 != 0
+key 2
+melhor acao
+antes: 0.27032997711172313 proximo: 0.1819329701939594 teste dict: 0.2691594592419098
+***************
+estado 107
+
+acao: 4 - ENTER_SHORT
+linha t1 Float32[24.57, 24.93, 24.47, 24.93, 4.2, 4.2]
+linha t0 Float32[25.09, 25.29, 24.9, 24.97, 3.64, 3.64]
+                    1     2   3   4   5    6     7     8    9
+        estado107 = [NPOS, UP, DOWN, BUY, UP, UP, MAX, MIN, NPOS] 0.0
+recompensa: -0.02423994 estado: 0.0 valor atual: 24.93
+proximo estado108 = [SHORT, DOWN, UP, SELL, UP, DOWN, MIN, MAX, DOWN] 0.0
+prox recompensa: -0.0016044527 estado: 0.0 valor prox: 24.97
+preco atual: 24.93 preco proximo: 24.97
+
+Escolhe acao
+key: [2212122125, 2212122126, 0]
+key1
+melhor acao
+antes: 0.1819329701939594 proximo: 0.1450144407678285 teste dict: 0.18135877899325947
+***************
+estado 108
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[25.09, 25.29, 24.9, 24.97, 3.64, 3.64]
+linha t0 Float32[24.97, 25.3, 24.83, 25.3, 3.2, 3.2]
+                    1     2   3   4   5    6     7     8    9
+        estado108 = [SHORT, DOWN, UP, SELL, UP, DOWN, MIN, MAX, DOWN] 0.0
+recompensa: -0.0016044527 estado: 0.0 valor atual: 24.97
+proximo estado109 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, DOWN] 0.0
+prox recompensa: -0.014841514 estado: 0.0 valor prox: 25.3
+preco atual: 24.97 preco proximo: 25.3
+
+Escolhe acao
+key: [2127221225, 2127221226, 0]
+key1
+melhor acao
+antes: 0.1450144407678285 proximo: 0.16114775207661394 teste dict: 0.14468507307167147
+***************
+estado 109
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[24.97, 25.3, 24.83, 25.3, 3.2, 3.2]
+linha t0 Float32[25.3, 25.59, 25.24, 25.42, 2.46, 2.46]
+                    1     2   3   4   5    6     7     8    9
+        estado109 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, DOWN] 0.0
+recompensa: -0.014841514 estado: 0.0 valor atual: 25.3
+proximo estado110 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, DOWN] 0.0
+prox recompensa: -0.019655025 estado: 0.0 valor prox: 25.42
+preco atual: 25.3 preco proximo: 25.42
+
+Escolhe acao
+key: [2217222125, 2217222126, 0]
+key2
+melhor acao
+antes: 0.16114775207661394 proximo: -0.1079548628543827 teste dict: 0.15935315381166149
+***************
+estado 110
+
+acao: 6 - EXIT_SHORT
+linha t1 Float32[25.3, 25.59, 25.24, 25.42, 2.46, 2.46]
+linha t0 Float32[25.74, 25.84, 24.79, 24.79, 7.08, 7.08]
+                    1     2   3   4   5    6     7     8    9
+        estado110 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, DOWN] 0.0
+recompensa: -0.019655025 estado: 0.0 valor atual: 25.42
+proximo estado111 = [NPOS, UP, UP, BUY, DOWN, DOWN, MAX, MAX, NPOS] 0.0
+prox recompensa: 0.0056156996 estado: 0.0 valor prox: 24.79
+preco atual: 25.42 preco proximo: 24.79
+
+Escolhe acao
+key: [3111221131, 3111221134, 3111221137]
+key 3 != 0
+key 2
+melhor acao
+antes: -0.1079548628543827 proximo: 0.09163299565237702 teste dict: -0.106710867238711
+***************
+estado 111
+
+acao: 4 - ENTER_SHORT
+linha t1 Float32[25.74, 25.84, 24.79, 24.79, 7.08, 7.08]
+linha t0 Float32[24.79, 25.0, 24.32, 24.51, 4.8, 4.8]
+                    1     2   3   4   5    6     7     8    9
+        estado111 = [NPOS, UP, UP, BUY, DOWN, DOWN, MAX, MAX, NPOS] 0.0
+recompensa: 0.0056156996 estado: 0.0 valor atual: 24.79
+proximo estado112 = [SHORT, UP, DOWN, SELL, DOWN, UP, MAX, MIN, UP] 0.0
+prox recompensa: 0.011294904 estado: 0.0 valor prox: 24.51
+preco atual: 24.79 preco proximo: 24.51
+
+Escolhe acao
+key: [2122211215, 2122211216, 0]
+key1
+melhor acao
+antes: 0.09163299565237702 proximo: 0.258124849294761 teste dict: 0.0923354407735095
+***************
+estado 112
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[24.79, 25.0, 24.32, 24.51, 4.8, 4.8]
+linha t0 Float32[24.56, 24.96, 24.56, 24.86, 6.05, 6.05]
+                    1     2   3   4   5    6     7     8    9
+        estado112 = [SHORT, UP, DOWN, SELL, DOWN, UP, MAX, MIN, UP] 0.0
+recompensa: 0.011294904 estado: 0.0 valor atual: 24.51
+proximo estado113 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, DOWN] 0.0
+prox recompensa: -0.0028237067 estado: 0.0 valor prox: 24.86
+preco atual: 24.51 preco proximo: 24.86
+
+Escolhe acao
+key: [2227122225, 2227122226, 0]
+key1
+melhor acao
+antes: 0.258124849294761 proximo: 0.2569595429601416 teste dict: 0.25755731116318825
+***************
+estado 113
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[24.56, 24.96, 24.56, 24.86, 6.05, 6.05]
+linha t0 Float32[24.96, 25.14, 24.85, 25.08, 3.95, 3.95]
+                    1     2   3   4   5    6     7     8    9
+        estado113 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, DOWN] 0.0
+recompensa: -0.0028237067 estado: 0.0 valor atual: 24.86
+proximo estado114 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, DOWN] 0.0
+prox recompensa: -0.011698225 estado: 0.0 valor prox: 25.08
+preco atual: 24.86 preco proximo: 25.08
+
+Escolhe acao
+key: [2217212125, 2217212126, 0]
+key1
+melhor acao
+antes: 0.2569595429601416 proximo: 0.2483826549404587 teste dict: 0.2562960135965564
+***************
+estado 114
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[24.96, 25.14, 24.85, 25.08, 3.95, 3.95]
+linha t0 Float32[25.23, 25.48, 25.08, 25.4, 2.46, 2.46]
+                    1     2   3   4   5    6     7     8    9
+        estado114 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, DOWN] 0.0
+recompensa: -0.011698225 estado: 0.0 valor atual: 25.08
+proximo estado115 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, DOWN] 0.0
+prox recompensa: -0.024606643 estado: 0.0 valor prox: 25.4
+preco atual: 25.08 preco proximo: 25.4
+
+Escolhe acao
+key: [2117121125, 2117121126, 0]
+key1
+melhor acao
+antes: 0.2483826549404587 proximo: 0.2119137417099753 teste dict: 0.247510107187542
+***************
+estado 115
+
+acao: 5 - STAY_SHORT
+linha t1 Float32[25.23, 25.48, 25.08, 25.4, 2.46, 2.46]
+linha t0 Float32[25.21, 25.38, 25.07, 25.22, 4.15, 4.15]
+                    1     2   3   4   5    6     7     8    9
+        estado115 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, DOWN] 0.0
+recompensa: -0.024606643 estado: 0.0 valor atual: 25.4
+proximo estado116 = [SHORT, UP, UP, NOP, DOWN, DOWN, MAX, MAX, UP] 0.0
+prox recompensa: -0.017345639 estado: 0.0 valor prox: 25.22
+preco atual: 25.4 preco proximo: 25.22
+
+Escolhe acao
+key: [2117221115, 2117221116, 0]
+key1
+melhor acao
+antes: 0.2119137417099753 proximo: 0.15692053781346507 teste dict: 0.21107783668067154
 ***************
 estado 116
 
-linha t1 Float32[24.98, 25.05, 24.75, 24.75, 4.8, 4.8]
-linha t0 Float32[24.87, 25.0, 24.66, 24.76, 2.65, 2.65]
-acao: 6 EXIT_SHORT
-linha t1 Float32[24.98, 25.05, 24.75, 24.75, 4.8, 4.8]
-linha t0 Float32[24.87, 25.0, 24.66, 24.76, 2.65, 2.65]
+acao: 5 - STAY_SHORT
+linha t1 Float32[25.21, 25.38, 25.07, 25.22, 4.15, 4.15]
+linha t0 Float32[24.98, 25.05, 24.75, 24.75, 4.8, 4.8]
                     1     2   3   4   5    6     7     8    9
-        estado116 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MIN, UP] 27.329999923706055
-proximo estado117 = [NPOS, UP, DOWN, BUY, UP, UP, MIN, MIN, NPOS] 0.0
-preco atual: 24.76
+        estado116 = [SHORT, UP, UP, NOP, DOWN, DOWN, MAX, MAX, UP] 0.0
+recompensa: -0.017345639 estado: 0.0 valor atual: 25.22
+proximo estado117 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MIN, UP] 0.0
+prox recompensa: 0.0016135907 estado: 0.0 valor prox: 24.75
+preco atual: 25.22 preco proximo: 24.75
 
 Escolhe acao
-key: [3121112231, 3121112234, 3121112237]
-i: 0.0
-i: 0.0
-i: 0.0
+key: [2117211215, 2117211216, 0]
+key2
 melhor acao
-key 3 != 0
-1
-recompensa: 3.8491593911740223 estado: 27.329999923706055 valor atual: 24.76
-antes: 0.0 proximo: 0.0 teste dict: 0.026944115738218158
+antes: 0.15692053781346507 proximo: 0.6513015508408472 teste dict: 0.15902476678314034
 ***************
 estado 117
 
-linha t1 Float32[24.87, 25.0, 24.66, 24.76, 2.65, 2.65]
-linha t0 Float32[24.69, 25.33, 24.59, 25.33, 3.03, 3.03]
-acao: 1 ENTER_LONG
-linha t1 Float32[24.87, 25.0, 24.66, 24.76, 2.65, 2.65]
-linha t0 Float32[24.69, 25.33, 24.59, 25.33, 3.03, 3.03]
+acao: 6 - EXIT_SHORT
+linha t1 Float32[24.98, 25.05, 24.75, 24.75, 4.8, 4.8]
+linha t0 Float32[24.87, 25.0, 24.66, 24.76, 2.65, 2.65]
                     1     2   3   4   5    6     7     8    9
-        estado117 = [NPOS, UP, DOWN, BUY, UP, UP, MIN, MIN, NPOS] 0.0
-proximo estado118 = [LONG, DOWN, DOWN, BUY, UP, DOWN, MIN, MIN, UP] 24.760000228881836
-preco atual: 25.33
+        estado117 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MIN, UP] 0.0
+recompensa: 0.0016135907 estado: 0.0 valor atual: 24.75
+proximo estado118 = [NPOS, UP, DOWN, BUY, UP, UP, MIN, MIN, NPOS] 0.0
+prox recompensa: 0.001210193 estado: 0.0 valor prox: 24.76
+preco atual: 24.75 preco proximo: 24.76
 
 Escolhe acao
-key: [1221122212, 1221122213, 0]
-i: 0.02064799918618252
-i: 0.039355122181907336
+key: [3121112231, 3121112234, 3121112237]
+key 3 != 0
+key 2
 melhor acao
-key2
-recompensa: 3.8491593911740223 estado: 0.0 valor atual: 25.33
-antes: 0.0 proximo: 0.039355122181907336 teste dict: 0.0271369558369095
+antes: 0.6513015508408472 proximo: 0.8104456623889822 teste dict: 0.6507220950819006
 ***************
 estado 118
 
-linha t1 Float32[24.69, 25.33, 24.59, 25.33, 3.03, 3.03]
-linha t0 Float32[25.4, 25.52, 25.08, 25.08, 6.99, 6.99]
-acao: 3 EXIT_LONG
-linha t1 Float32[24.69, 25.33, 24.59, 25.33, 3.03, 3.03]
-linha t0 Float32[25.4, 25.52, 25.08, 25.08, 6.99, 6.99]
+acao: 4 - ENTER_SHORT
+linha t1 Float32[24.87, 25.0, 24.66, 24.76, 2.65, 2.65]
+linha t0 Float32[24.69, 25.33, 24.59, 25.33, 3.03, 3.03]
                     1     2   3   4   5    6     7     8    9
-        estado118 = [LONG, DOWN, DOWN, BUY, UP, DOWN, MIN, MIN, UP] 24.760000228881836
-proximo estado119 = [NPOS, DOWN, UP, SELL, DOWN, UP, MIN, MAX, NPOS] 0.0
-preco atual: 25.08
+        estado118 = [NPOS, UP, DOWN, BUY, UP, UP, MIN, MIN, NPOS] 0.0
+recompensa: 0.001210193 estado: 0.0 valor atual: 24.76
+proximo estado119 = [SHORT, DOWN, DOWN, SELL, UP, DOWN, MIN, MIN, DOWN] 0.0
+prox recompensa: -0.023020988 estado: 0.0 valor prox: 25.33
+preco atual: 24.76 preco proximo: 25.33
 
 Escolhe acao
-key: [3212212131, 3212212134, 3212212137]
-i: 0.032042451137328745
-i: 0.01687777093360841
-i: 0.015323733259643221
+key: [2222122225, 2222122226, 0]
+key1
 melhor acao
-key 3 != 0
-1
-recompensa: 3.8620834498115886 estado: 24.760000228881836 valor atual: 25.08
-antes: 0.039355122181907336 proximo: 0.032042451137328745 teste dict: 0.06627122848588801
+antes: 0.8104456623889822 proximo: 0.1662072804199887 teste dict: 0.8054258115080055
 ***************
 estado 119
 
-linha t1 Float32[25.4, 25.52, 25.08, 25.08, 6.99, 6.99]
-linha t0 Float32[25.32, 25.42, 25.14, 25.18, 2.96, 2.96]
-acao: 1 ENTER_LONG
-linha t1 Float32[25.4, 25.52, 25.08, 25.08, 6.99, 6.99]
-linha t0 Float32[25.32, 25.42, 25.14, 25.18, 2.96, 2.96]
+acao: 5 - STAY_SHORT
+linha t1 Float32[24.69, 25.33, 24.59, 25.33, 3.03, 3.03]
+linha t0 Float32[25.4, 25.52, 25.08, 25.08, 6.99, 6.99]
                     1     2   3   4   5    6     7     8    9
-        estado119 = [NPOS, DOWN, UP, SELL, DOWN, UP, MIN, MAX, NPOS] 0.0
-proximo estado120 = [LONG, UP, DOWN, BUY, UP, UP, MAX, MIN, UP] 25.079999923706055
-preco atual: 25.18
+        estado119 = [SHORT, DOWN, DOWN, SELL, UP, DOWN, MIN, MIN, DOWN] 0.0
+recompensa: -0.023020988 estado: 0.0 valor atual: 25.33
+proximo estado120 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, UP] 0.0
+prox recompensa: -0.012924058 estado: 0.0 valor prox: 25.08
+preco atual: 25.33 preco proximo: 25.08
 
 Escolhe acao
-key: [1121111212, 1121111213, 0]
-i: 0.00971307848427827
-i: 0.049920635542005966
+key: [2217212115, 2217212116, 0]
+key1
 melhor acao
-key2
-recompensa: 3.8620834498115886 estado: 0.0 valor atual: 25.18
-antes: 0.032042451137328745 proximo: 0.049920635542005966 teste dict: 0.05909734924220439
+antes: 0.1662072804199887 proximo: 0.1948469134233777 teste dict: 0.16590811092428343
 ***************
 estado 120
 
-linha t1 Float32[25.32, 25.42, 25.14, 25.18, 2.96, 2.96]
-linha t0 Float32[25.14, 25.4, 25.05, 25.4, 3.15, 3.15]
-acao: 3 EXIT_LONG
-linha t1 Float32[25.32, 25.42, 25.14, 25.18, 2.96, 2.96]
-linha t0 Float32[25.14, 25.4, 25.05, 25.4, 3.15, 3.15]
+acao: 5 - STAY_SHORT
+linha t1 Float32[25.4, 25.52, 25.08, 25.08, 6.99, 6.99]
+linha t0 Float32[25.32, 25.42, 25.14, 25.18, 2.96, 2.96]
                     1     2   3   4   5    6     7     8    9
-        estado120 = [LONG, UP, DOWN, BUY, UP, UP, MAX, MIN, UP] 25.079999923706055
-proximo estado121 = [NPOS, DOWN, DOWN, SELL, UP, DOWN, MIN, MIN, NPOS] 0.0
-preco atual: 25.4
+        estado120 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, UP] 0.0
+recompensa: -0.012924058 estado: 0.0 valor atual: 25.08
+proximo estado121 = [SHORT, UP, DOWN, NOP, UP, UP, MAX, MIN, DOWN] 0.0
+prox recompensa: -0.016962847 estado: 0.0 valor prox: 25.18
+preco atual: 25.08 preco proximo: 25.18
 
 Escolhe acao
-key: [3222122231, 3222122234, 3222122237]
-i: 0.031514916001376576
-i: 0.13105961678369143
-i: 0.03786099337294557
+key: [2127111225, 2127111226, 0]
+key1
 melhor acao
-key 3 != 0
-key2
-recompensa: 3.874842608336216 estado: 25.079999923706055 valor atual: 25.4
-antes: 0.049920635542005966 proximo: 0.13105961678369143 teste dict: 0.07733728147380553
+antes: 0.1948469134233777 proximo: 0.3513568880567708 teste dict: 0.19508589385370467
 ***************
 estado 121
 
-linha t1 Float32[25.14, 25.4, 25.05, 25.4, 3.15, 3.15]
-linha t0 Float32[25.15, 25.49, 25.15, 25.44, 2.01, 2.01]
-acao: 4 ENTER_SHORT
-linha t1 Float32[25.14, 25.4, 25.05, 25.4, 3.15, 3.15]
-linha t0 Float32[25.15, 25.49, 25.15, 25.44, 2.01, 2.01]
+acao: 5 - STAY_SHORT
+linha t1 Float32[25.32, 25.42, 25.14, 25.18, 2.96, 2.96]
+linha t0 Float32[25.14, 25.4, 25.05, 25.4, 3.15, 3.15]
                     1     2   3   4   5    6     7     8    9
-        estado121 = [NPOS, DOWN, DOWN, SELL, UP, DOWN, MIN, MIN, NPOS] 0.0
-proximo estado122 = [SHORT, DOWN, UP, SELL, DOWN, UP, MIN, MAX, UP] 25.399999618530273
-preco atual: 25.44
+        estado121 = [SHORT, UP, DOWN, NOP, UP, UP, MAX, MIN, DOWN] 0.0
+recompensa: -0.016962847 estado: 0.0 valor atual: 25.18
+proximo estado122 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, DOWN] 0.0
+prox recompensa: -0.025848117 estado: 0.0 valor prox: 25.4
+preco atual: 25.18 preco proximo: 25.4
 
 Escolhe acao
-key: [2212212115, 2212212116, 0]
-i: 0.058304505086764054
-i: 0.11306045930580241
+key: [2227122225, 2227122226, 0]
+key1
 melhor acao
-key2
-recompensa: 3.874842608336216 estado: 0.0 valor atual: 25.44
-antes: 0.13105961678369143 proximo: 0.11306045930580241 teste dict: 0.15782009397515753
+antes: 0.3513568880567708 proximo: 0.2562960135965564 teste dict: 0.34997230348991676
 ***************
 estado 122
 
-linha t1 Float32[25.15, 25.49, 25.15, 25.44, 2.01, 2.01]
-linha t0 Float32[25.31, 25.77, 25.16, 25.62, 2.36, 2.36]
-acao: 6 EXIT_SHORT
-linha t1 Float32[25.15, 25.49, 25.15, 25.44, 2.01, 2.01]
-linha t0 Float32[25.31, 25.77, 25.16, 25.62, 2.36, 2.36]
+acao: 5 - STAY_SHORT
+linha t1 Float32[25.14, 25.4, 25.05, 25.4, 3.15, 3.15]
+linha t0 Float32[25.15, 25.49, 25.15, 25.44, 2.01, 2.01]
                     1     2   3   4   5    6     7     8    9
-        estado122 = [SHORT, DOWN, UP, SELL, DOWN, UP, MIN, MAX, UP] 25.399999618530273
-proximo estado123 = [NPOS, UP, UP, BUY, UP, DOWN, MAX, MAX, NPOS] 0.0
-preco atual: 25.62
+        estado122 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, DOWN] 0.0
+recompensa: -0.025848117 estado: 0.0 valor atual: 25.4
+proximo estado123 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, DOWN] 0.0
+prox recompensa: -0.027463663 estado: 0.0 valor prox: 25.44
+preco atual: 25.4 preco proximo: 25.44
 
 Escolhe acao
-key: [3111121131, 3111121134, 3111121137]
-i: 0.03215004786810445
-i: 0.12123646262681188
-i: 0.04198807154946135
+key: [2217212125, 2217212126, 0]
+key1
 melhor acao
-key 3 != 0
-key2
-recompensa: 3.866181142824121 estado: 25.399999618530273 valor atual: 25.62
-antes: 0.11306045930580241 proximo: 0.12123646262681188 teste dict: 0.13992636275730203
+antes: 0.2562960135965564 proximo: 0.247510107187542 teste dict: 0.2555224953830135
 ***************
 estado 123
 
-linha t1 Float32[25.31, 25.77, 25.16, 25.62, 2.36, 2.36]
-linha t0 Float32[25.87, 26.44, 25.85, 26.4, 4.81, 4.81]
-acao: 4 ENTER_SHORT
-linha t1 Float32[25.31, 25.77, 25.16, 25.62, 2.36, 2.36]
-linha t0 Float32[25.87, 26.44, 25.85, 26.4, 4.81, 4.81]
+acao: 5 - STAY_SHORT
+linha t1 Float32[25.15, 25.49, 25.15, 25.44, 2.01, 2.01]
+linha t0 Float32[25.31, 25.77, 25.16, 25.62, 2.36, 2.36]
                     1     2   3   4   5    6     7     8    9
-        estado123 = [NPOS, UP, UP, BUY, UP, DOWN, MAX, MAX, NPOS] 0.0
-proximo estado124 = [SHORT, UP, UP, SELL, DOWN, UP, MAX, MAX, UP] 25.6200008392334
-preco atual: 26.4
+        estado123 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, DOWN] 0.0
+recompensa: -0.027463663 estado: 0.0 valor atual: 25.44
+proximo estado124 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, DOWN] 0.0
+prox recompensa: -0.034733467 estado: 0.0 valor prox: 25.62
+preco atual: 25.44 preco proximo: 25.62
 
 Escolhe acao
-key: [2112211115, 2112211116, 0]
-i: 0.21063009881242284
-i: 0.10666960419768458
-melhor acao
+key: [2117121125, 2117121126, 0]
 key1
-recompensa: 3.866181142824121 estado: 0.0 valor atual: 26.4
-antes: 0.12123646262681188 proximo: 0.21063009881242284 teste dict: 0.14848316287237392
+melhor acao
+antes: 0.247510107187542 proximo: 0.21107783668067154 teste dict: 0.24656868356933628
 ***************
 estado 124
 
-linha t1 Float32[25.87, 26.44, 25.85, 26.4, 4.81, 4.81]
-linha t0 Float32[26.43, 26.98, 26.43, 26.83, 4.03, 4.03]
-acao: 5 STAY_SHORT
-linha t1 Float32[25.87, 26.44, 25.85, 26.4, 4.81, 4.81]
-linha t0 Float32[26.43, 26.98, 26.43, 26.83, 4.03, 4.03]
+acao: 5 - STAY_SHORT
+linha t1 Float32[25.31, 25.77, 25.16, 25.62, 2.36, 2.36]
+linha t0 Float32[25.87, 26.44, 25.85, 26.4, 4.81, 4.81]
                     1     2   3   4   5    6     7     8    9
-        estado124 = [SHORT, UP, UP, SELL, DOWN, UP, MAX, MAX, UP] 25.6200008392334
-proximo estado125 = [SHORT, UP, UP, NOP, UP, UP, MAX, MAX, DOWN] 25.6200008392334
-preco atual: 26.83
+        estado124 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, DOWN] 0.0
+recompensa: -0.034733467 estado: 0.0 valor atual: 25.62
+proximo estado125 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MAX, DOWN] 0.0
+prox recompensa: -0.06623584 estado: 0.0 valor prox: 26.4
+preco atual: 25.62 preco proximo: 26.4
 
 Escolhe acao
-key: [2117111125, 2117111126, 0]
-i: -0.0017876908016116692
-i: -0.0014516165312469
+key: [2117211125, 2117211126, 0]
+key1
 melhor acao
-key2
-recompensa: 3.8189524525494623 estado: 25.6200008392334 valor atual: 26.83
-antes: 0.21063009881242284 proximo: -0.0014516165312469 teste dict: 0.235881242367579
+antes: 0.21107783668067154 proximo: 0.16708986701591153 teste dict: 0.20995538129004068
 ***************
 estado 125
 
-linha t1 Float32[26.43, 26.98, 26.43, 26.83, 4.03, 4.03]
-linha t0 Float32[27.09, 27.38, 26.94, 27.23, 8.59, 8.59]
-acao: 6 EXIT_SHORT
+acao: 5 - STAY_SHORT
+linha t1 Float32[25.87, 26.44, 25.85, 26.4, 4.81, 4.81]
+linha t0 Float32[26.43, 26.98, 26.43, 26.83, 4.03, 4.03]
+                    1     2   3   4   5    6     7     8    9
+        estado125 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MAX, DOWN] 0.0
+recompensa: -0.06623584 estado: 0.0 valor atual: 26.4
+proximo estado126 = [SHORT, UP, UP, NOP, UP, UP, MAX, MAX, DOWN] 0.0
+prox recompensa: -0.08360257 estado: 0.0 valor prox: 26.83
+preco atual: 26.4 preco proximo: 26.83
+
+Escolhe acao
+key: [2117111125, 2117111126, 0]
+key1
+melhor acao
+antes: 0.16708986701591153 proximo: 0.1735407534887436 teste dict: 0.1661853696489138
+***************
+estado 126
+
+acao: 5 - STAY_SHORT
 linha t1 Float32[26.43, 26.98, 26.43, 26.83, 4.03, 4.03]
 linha t0 Float32[27.09, 27.38, 26.94, 27.23, 8.59, 8.59]
                     1     2   3   4   5    6     7     8    9
-        estado125 = [SHORT, UP, UP, NOP, UP, UP, MAX, MAX, DOWN] 25.6200008392334
-proximo estado126 = [NPOS, UP, UP, BUY, UP, DOWN, MAX, MAX, NPOS] 0.0
-preco atual: 27.23
+        estado126 = [SHORT, UP, UP, NOP, UP, UP, MAX, MAX, DOWN] 0.0
+recompensa: -0.08360257 estado: 0.0 valor atual: 26.83
+proximo estado127 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, DOWN] 0.0
+prox recompensa: -0.09975764 estado: 0.0 valor prox: 27.23
+preco atual: 26.83 preco proximo: 27.23
 
 Escolhe acao
-key: [3111121131, 3111121134, 3111121137]
-i: 0.03215004786810445
-i: 0.14848316287237392
-i: 0.04198807154946135
+key: [2117121125, 2117121126, 0]
+key1
 melhor acao
-key 3 != 0
-key2
-recompensa: 3.756110975177711 estado: 25.6200008392334 valor atual: 27.23
-antes: -0.0014516165312469 proximo: 0.14848316287237392 teste dict: 0.02557888910879044
+antes: 0.1735407534887436 proximo: 0.20995538129004068 teste dict: 0.17265644609176645
 ***************
-estado 126
+estado 127
 

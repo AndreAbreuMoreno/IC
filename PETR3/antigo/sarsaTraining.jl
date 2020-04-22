@@ -12,7 +12,7 @@ include("sarsaconstants.jl")
 #******************************************************************
 
 """ Declaracao de variaveis """
-qtd_iteracao = 300000
+qtd_iteracao = 350000
 dadosTraining = "dados/PETR3training.csv"
 iteracao = 0
 preco_long = 0
@@ -29,12 +29,12 @@ while iteracao < qtd_iteracao
       # DECLARACAO DE VARIAVEIS
       global iteracao
       global cont = 1    #variavel para verificar quantos estados já se passaram na iteracao atual
-      global preco_long = 0
-      global preco_short = 0
-      global dados = open(dadosTraining, "r")
+      global preco_long
+      global preco_short
       n = iteracao%5
       recompensa = 0
       recompensa_acumulada = 0
+      global dados = open(dadosTraining, "r")
       result = open("saida/resultado$(n).txt", "w")
 
       """ Inicializa estado e o proximo_estado"""
@@ -51,13 +51,13 @@ while iteracao < qtd_iteracao
       linhat0= parse.(Float32,linhat0[3:9])
       primeiroEstado(estado, linhat0, linhat1, linhat2, linhat3)
       # Imprime o primeiro estado em result
-      # printEstado(result, estado)
+      printEstado(result, estado)
 
       """ Escolhe a acao """
       acao = escolheAcao(result, estado)
 
-      # println(result, "***************")
-      # println(result, "estado ", cont, "\n")
+      println(result, "***************")
+      println(result, "estado ", cont, "\n")
 
       """ REPEAT """
       while !eof(dados)
@@ -67,23 +67,21 @@ while iteracao < qtd_iteracao
             linhat0 = split(readuntil(dados,"%"),";")
             linhat0 = parse.(Float64,linhat0[3:9])
 
-            """ Atualiza preco_short e preco_long de entrada (se for o caso)"""
-            preco_long, preco_short = atualizaPreco1(preco_long, preco_short, acao, linhat1)
-
             """ Executa a açao """
-            proximo_estado = executaAcao(result, estado, acao,linhat0, linhat1, linhat2, preco_long, preco_short)
+            proximo_estado = executaAcao(result, estado, acao,linhat0, linhat1, linhat2)
 
             # IMPRIME ESTADO E PROXIMO ESTADO
-            # println(result, "linha t1 ", linhat1)
-            # println(result, "linha t0 ", linhat0)
-            # println(result, "                    1     2   3   4   5    6     7     8    9")
-            # print(result, "        ")
-            # printEstado(result, estado)
+            println(result, "linha t1 ", linhat1)
+            println(result, "linha t0 ", linhat0)
+            println(result, "                    1     2   3   4   5    6     7     8    9")
+            print(result, "        ")
+            printEstado(result, estado)
             cont = cont + 1
-            # print(result, "proximo ")
-            # printEstado(result, proximo_estado)
+            print(result, "proximo ")
+            printEstado(result, proximo_estado)
 
-
+            """ Atualiza preco_short e preco_long de entrada (se for o caso)"""
+            preco_long, preco_short = atualizaPreco1(preco_long, preco_short, acao, linhat1)
 
             # """ Calcula recompensa r(proximo estado)"""
             # recompensa_acumulada = recompensa_acumulada + recompensa
@@ -91,33 +89,30 @@ while iteracao < qtd_iteracao
 
             """ Calcula recompensa r(proximo estado)"""
             recompensa_acumulada = recompensa_acumulada + recompensa
-            # proxima_recompensa = calculaRecompensa(preco_long, preco_short, acao, linhat0)
-
-            #calculo da recompensa uitlizando como condicao qual estado atual dele
-            proxima_recompensa = calculaRecompensa(preco_long, preco_short,estado, acao, linhat0)
+            proxima_recompensa = calculaRecompensa(preco_long, preco_short, acao, linhat0)
 
             """ Atualiza preco_short e preco_long na saida(se for o caso)"""
             preco_long, preco_short = atualizaPreco2(preco_long, preco_short, acao, linhat1)
 
-            # println(result, "long: ", preco_long, " short: ", preco_short, " atual: ", linhat0[4], " recompensa: ", proxima_recompensa)
+            println(result, "long: ", preco_long, " short: ", preco_short, " atual: ", linhat0[4], " recompensa: ", proxima_recompensa)
             """Escolhe a proxima acao"""
             proxima_acao = escolheAcao(result, proximo_estado)
 
-            # println(result, "recompensa: ", recompensa, " estado: ", estado[10], " valor atual: ", linhat1[4])
+            println(result, "recompensa: ", recompensa, " estado: ", estado[10], " valor atual: ", linhat1[4])
 
             """ Atualiza Q(e,a) """
             antes = Q_e_a[acao]
             proximo = Q_e_a[proxima_acao]
             Q_e_a[acao] = Q_e_a[acao] + taxa_aprendizado * (proxima_recompensa + fator_desconto * Q_e_a[proxima_acao] - Q_e_a[acao])
-            # println(result, "antes: ", antes," proximo: ", proximo, " teste dict: ", Q_e_a[acao])
+            println(result, "antes: ", antes," proximo: ", proximo, " teste dict: ", Q_e_a[acao])
 
             """ atualiza estado e acao """
             estado = proximo_estado
             acao = proxima_acao
             recompensa = proxima_recompensa
 
-            # println(result, "***************")
-            # println(result, "estado ", cont, "\n")
+            println(result, "***************")
+            println(result, "estado ", cont, "\n")
       end
       iteracao = iteracao + 1
 

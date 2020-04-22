@@ -82,7 +82,7 @@ while !eof(dados)
       append!(posicao, estado[1])
 
       """ Executa a açao """
-      proximo_estado = executaAcao(result, estado, acao,linhat0,linhat1, linhat2, preco_long,preco_short)
+      proximo_estado = executaAcao(result, estado, acao,linhat0,linhat1, linhat2)
       println(result, "linha t1 ", linhat1)
       println(result, "linha t0 ", linhat0)
       # IMPRIME ESTADO E PROXIMO ESTADO
@@ -103,9 +103,7 @@ while !eof(dados)
 
       """ Calcula recompensa r(proximo estado)"""
       recompensa_acumulada = recompensa_acumulada + recompensa
-      # proxima_recompensa = calculaRecompensa(preco_long, preco_short, acao, linhat0)
-      proxima_recompensa = calculaRecompensa(preco_long, preco_short,estado, acao, linhat0)
-
+      proxima_recompensa = calculaRecompensa(preco_long, preco_short, acao, linhat0)
       println(result, "prox recompensa: ", proxima_recompensa, " estado: ", proximo_estado[10], " valor prox: ", linhat0[4])
       println(result, "preco atual: ", linhat1[4], " preco proximo: ", linhat0[4])
 
