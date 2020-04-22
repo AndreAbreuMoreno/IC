@@ -1,1647 +1,711 @@
-estado1 = [NPOS, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, NPOS] 0
 
 Escolhe acao
 key: [3227122231, 3227122234, 3227122237]
+key 3 != 0
+key 3
 melhor acao
-key3
-***************
-estado 1
-
-acao: 4 ENTER_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado1 = [NPOS, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, NPOS] 0
-proximo estado2 = [SHORT, DOWN, UP, SELL, DOWN, UP, MIN, MAX, UP] 14.4399995803833
+acao: 7 - NOPa
 
 Escolhe acao
-key: [2212212115, 2212212116, 0]
+key: [3217212131, 3217212134, 3217212137]
+key 3 != 0
+key 2
 melhor acao
-key1
-recompensa: 0 estado: 0 valor atual: 14.58
-antes: 0.0912062612833673 proximo: 0.1303157567706227 teste dict: 0.09120636466255978
-***************
-estado 2
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado2 = [SHORT, DOWN, UP, SELL, DOWN, UP, MIN, MAX, UP] 14.4399995803833
-proximo estado3 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, DOWN] 14.4399995803833
+acao: 4 - ENTER_SHORT
 
 Escolhe acao
-key: [2117121125, 2117121126, 0]
-melhor acao
+key: [2112121125, 2112121126, 0]
 key1
-recompensa: 0.013850386855620097 estado: 14.4399995803833 valor atual: 14.24
-antes: 0.1303157567706227 proximo: 0.16640285396100735 teste dict: 0.13031587316562662
-***************
-estado 3
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado3 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, DOWN] 14.4399995803833
-proximo estado4 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 14.4399995803833
+melhor acao
+acao: 5 - STAY_SHORT
 
 Escolhe acao
-key: [2127221215, 2127221216, 0]
-melhor acao
+key: [2127221225, 2127221226, 0]
 key1
-recompensa: 0.007617699693892986 estado: 14.4399995803833 valor atual: 14.33
-antes: 0.16640285396100735 proximo: 0.19018568237747988 teste dict: 0.1662232677247872
-***************
-estado 4
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado4 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 14.4399995803833
-proximo estado5 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, DOWN] 14.4399995803833
+melhor acao
+acao: 5 - STAY_SHORT
 
 Escolhe acao
 key: [2217212125, 2217212126, 0]
-melhor acao
 key1
-recompensa: 0.016620470038609992 estado: 14.4399995803833 valor atual: 14.2
-antes: 0.19018568237747988 proximo: 0.16554746577724508 teste dict: 0.18978190847341628
-***************
-estado 5
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado5 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, DOWN] 14.4399995803833
-proximo estado6 = [SHORT, UP, DOWN, NOP, UP, DOWN, MAX, MIN, UP] 14.4399995803833
-
-Escolhe acao
-key: [2127121215, 2127121216, 0]
 melhor acao
-key1
-recompensa: 0.0041550957151556475 estado: 14.4399995803833 valor atual: 14.38
-antes: 0.16554746577724508 proximo: 0.09043726855151597 teste dict: 0.1648608618027129
-***************
-estado 6
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado6 = [SHORT, UP, DOWN, NOP, UP, DOWN, MAX, MIN, UP] 14.4399995803833
-proximo estado7 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, UP] 14.4399995803833
-
-Escolhe acao
-key: [2217212115, 2217212116, 0]
-melhor acao
-key1
-recompensa: 0.0041550957151556475 estado: 14.4399995803833 valor atual: 14.38
-antes: 0.09043726855151597 proximo: 0.17722326439672062 teste dict: 0.09070168733720538
-***************
-estado 7
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado7 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, UP] 14.4399995803833
-proximo estado8 = [SHORT, UP, DOWN, NOP, UP, DOWN, MAX, MIN, DOWN] 14.4399995803833
+acao: 5 - STAY_SHORT
 
 Escolhe acao
 key: [2127121225, 2127121226, 0]
-melhor acao
 key1
-recompensa: 0.017312990834357434 estado: 14.4399995803833 valor atual: 14.19
-antes: 0.17722326439672062 proximo: 0.12872454039941106 teste dict: 0.17673464272974118
-***************
-estado 8
+melhor acao
+acao: 5 - STAY_SHORT
 
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado8 = [SHORT, UP, DOWN, NOP, UP, DOWN, MAX, MIN, DOWN] 14.4399995803833
-proximo estado9 = [SHORT, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, DOWN] 14.4399995803833
+Escolhe acao
+key: [2217212125, 2217212126, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127121225, 2127121226, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
 
 Escolhe acao
 key: [2227222225, 2227222226, 0]
-melhor acao
 key1
-recompensa: 0.025623240383326872 estado: 14.4399995803833 valor atual: 14.07
-antes: 0.12872454039941106 proximo: 0.1390133522309681 teste dict: 0.1286839967252302
-***************
-estado 9
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado9 = [SHORT, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, DOWN] 14.4399995803833
-proximo estado10 = [SHORT, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, UP] 14.4399995803833
+melhor acao
+acao: 5 - STAY_SHORT
 
 Escolhe acao
-key: [2227222215, 2227222216, 0]
-melhor acao
+key: [2227222225, 2227222226, 0]
 key1
-recompensa: 0.022160636404589658 estado: 14.4399995803833 valor atual: 14.12
-antes: 0.1390133522309681 proximo: 0.1669392164741777 teste dict: 0.13901338538090693
-***************
-estado 10
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado10 = [SHORT, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, UP] 14.4399995803833
-proximo estado11 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, UP] 14.4399995803833
+melhor acao
+acao: 5 - STAY_SHORT
 
 Escolhe acao
-key: [2217222115, 2217222116, 0]
-melhor acao
+key: [2217222125, 2217222126, 0]
 key1
-recompensa: 0.01038778287688288 estado: 14.4399995803833 valor atual: 14.29
-antes: 0.1669392164741777 proximo: 0.13449533450381676 teste dict: 0.16650238357806535
-***************
-estado 11
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado11 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, UP] 14.4399995803833
-proximo estado12 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MIN, UP] 14.4399995803833
+melhor acao
+acao: 5 - STAY_SHORT
 
 Escolhe acao
-key: [2117211215, 2117211216, 0]
-melhor acao
+key: [2117211225, 2117211226, 0]
 key1
-recompensa: -0.004155153833813792 estado: 14.4399995803833 valor atual: 14.5
-antes: 0.13449533450381676 proximo: 0.11179933145223153 teste dict: 0.1340725978095693
-***************
-estado 12
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado12 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MIN, UP] 14.4399995803833
-proximo estado13 = [SHORT, UP, UP, NOP, UP, UP, MIN, MAX, DOWN] 14.4399995803833
+melhor acao
+acao: 5 - STAY_SHORT
 
 Escolhe acao
 key: [2117112125, 2117112126, 0]
-melhor acao
 key1
-recompensa: 0.030470885953559096 estado: 14.4399995803833 valor atual: 14.0
-antes: 0.11179933145223153 proximo: 0.16800555494418293 teste dict: 0.11205325955296733
-***************
-estado 13
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado13 = [SHORT, UP, UP, NOP, UP, UP, MIN, MAX, DOWN] 14.4399995803833
-proximo estado14 = [SHORT, UP, DOWN, NOP, UP, UP, MAX, MIN, DOWN] 14.4399995803833
+melhor acao
+acao: 5 - STAY_SHORT
 
 Escolhe acao
 key: [2127111225, 2127111226, 0]
-melhor acao
 key1
-recompensa: 0.03739609391103365 estado: 14.4399995803833 valor atual: 13.9
-antes: 0.16800555494418293 proximo: 0.18659912914236174 teste dict: 0.16800562444974845
-***************
-estado 14
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado14 = [SHORT, UP, DOWN, NOP, UP, UP, MAX, MIN, DOWN] 14.4399995803833
-proximo estado15 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MAX, DOWN] 14.4399995803833
+melhor acao
+acao: 5 - STAY_SHORT
 
 Escolhe acao
 key: [2227122125, 2227122126, 0]
-melhor acao
 key1
-recompensa: 0.06024928017069976 estado: 14.4399995803833 valor atual: 13.57
-antes: 0.18659912914236174 proximo: 0.19889872959146532 teste dict: 0.18668928397455828
-***************
-estado 15
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado15 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MAX, DOWN] 14.4399995803833
-proximo estado16 = [SHORT, DOWN, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 14.4399995803833
+melhor acao
+acao: 5 - STAY_SHORT
 
 Escolhe acao
-key: [2227221215, 2227221216, 0]
-melhor acao
+key: [2227221225, 2227221226, 0]
 key1
-recompensa: 0.056786676191962544 estado: 14.4399995803833 valor atual: 13.62
-antes: 0.19889872959146532 proximo: 0.21961472590712977 teste dict: 0.19898005737461374
-***************
-estado 16
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado16 = [SHORT, DOWN, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 14.4399995803833
-proximo estado17 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, DOWN] 14.4399995803833
+melhor acao
+acao: 5 - STAY_SHORT
 
 Escolhe acao
 key: [2227212225, 2227212226, 0]
-melhor acao
 key1
-recompensa: 0.06024928017069976 estado: 14.4399995803833 valor atual: 13.57
-antes: 0.21961472590712977 proximo: 0.1923402476335207 teste dict: 0.219441635000379
-***************
-estado 17
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado17 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, DOWN] 14.4399995803833
-proximo estado18 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, DOWN] 14.4399995803833
+melhor acao
+acao: 5 - STAY_SHORT
 
 Escolhe acao
 key: [2227122225, 2227122226, 0]
-melhor acao
 key1
-recompensa: 0.07063709210691166 estado: 14.4399995803833 valor atual: 13.42
-antes: 0.1923402476335207 proximo: 0.1932789375187103 teste dict: 0.19243539233867613
-***************
-estado 18
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado18 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, DOWN] 14.4399995803833
-proximo estado19 = [SHORT, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, UP] 14.4399995803833
+melhor acao
+acao: 5 - STAY_SHORT
 
 Escolhe acao
-key: [2227222215, 2227222216, 0]
-melhor acao
+key: [2227222225, 2227222226, 0]
 key1
-recompensa: 0.05747919698770999 estado: 14.4399995803833 valor atual: 13.61
-antes: 0.1932789375187103 proximo: 0.16650238357806535 teste dict: 0.19314420101452584
-***************
-estado 19
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado19 = [SHORT, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, UP] 14.4399995803833
-proximo estado20 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, DOWN] 14.4399995803833
+melhor acao
+acao: 5 - STAY_SHORT
 
 Escolhe acao
 key: [2217212125, 2217212126, 0]
-melhor acao
 key1
-recompensa: 0.09210523677508288 estado: 14.4399995803833 valor atual: 13.11
-antes: 0.16650238357806535 proximo: 0.1648608618027129 teste dict: 0.16678942177327777
-***************
-estado 20
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado20 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, DOWN] 14.4399995803833
-proximo estado21 = [SHORT, UP, DOWN, NOP, UP, UP, MAX, MIN, UP] 14.4399995803833
+melhor acao
+acao: 5 - STAY_SHORT
 
 Escolhe acao
-key: [2127111215, 2127111216, 0]
-melhor acao
+key: [2127111225, 2127111226, 0]
 key1
-recompensa: 0.0879501120005981 estado: 14.4399995803833 valor atual: 13.17
-antes: 0.1648608618027129 proximo: 0.16819214120497925 teste dict: 0.1651466280460025
-***************
-estado 21
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado21 = [SHORT, UP, DOWN, NOP, UP, UP, MAX, MIN, UP] 14.4399995803833
-proximo estado22 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MAX, DOWN] 14.4399995803833
+melhor acao
+acao: 5 - STAY_SHORT
 
 Escolhe acao
 key: [2227122125, 2227122126, 0]
-melhor acao
 key1
-recompensa: 0.09556784075382009 estado: 14.4399995803833 valor atual: 13.06
-antes: 0.16819214120497925 proximo: 0.19898005737461374 teste dict: 0.16865877338295673
-***************
-estado 22
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado22 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MAX, DOWN] 14.4399995803833
-proximo estado23 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MAX, MAX, UP] 14.4399995803833
+melhor acao
+acao: 5 - STAY_SHORT
 
 Escolhe acao
-key: [2227211115, 2227211116, 0]
-melhor acao
+key: [2227211125, 2227211126, 0]
 key1
-recompensa: 0.052631551417477766 estado: 14.4399995803833 valor atual: 13.68
-antes: 0.19898005737461374 proximo: 0.15988255998145623 teste dict: 0.19873904237682294
-***************
-estado 23
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado23 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MAX, MAX, UP] 14.4399995803833
-proximo estado24 = [SHORT, DOWN, UP, NOP, UP, UP, MAX, MAX, UP] 14.4399995803833
+melhor acao
+acao: 5 - STAY_SHORT
 
 Escolhe acao
-key: [2217111115, 2217111116, 0]
-melhor acao
+key: [2217111125, 2217111126, 0]
 key1
-recompensa: 0.04016617709402354 estado: 14.4399995803833 valor atual: 13.86
-antes: 0.15988255998145623 proximo: 0.17104911788033136 teste dict: 0.15988268597885782
-***************
-estado 24
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado24 = [SHORT, DOWN, UP, NOP, UP, UP, MAX, MAX, UP] 14.4399995803833
-proximo estado25 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, DOWN] 14.4399995803833
+melhor acao
+acao: 5 - STAY_SHORT
 
 Escolhe acao
 key: [2117121125, 2117121126, 0]
-melhor acao
 key1
-recompensa: 0.05470911380472009 estado: 14.4399995803833 valor atual: 13.65
-antes: 0.17104911788033136 proximo: 0.1662232677247872 teste dict: 0.17104923186365353
-***************
-estado 25
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado25 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, DOWN] 14.4399995803833
-proximo estado26 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 14.4399995803833
+melhor acao
+acao: 5 - STAY_SHORT
 
 Escolhe acao
-key: [2127221215, 2127221216, 0]
-melhor acao
+key: [2127221225, 2127221226, 0]
 key1
-recompensa: 0.027700802770569324 estado: 14.4399995803833 valor atual: 14.04
-antes: 0.1662232677247872 proximo: 0.18978190847341628 teste dict: 0.16618354182162742
-***************
-estado 26
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado26 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 14.4399995803833
-proximo estado27 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, DOWN] 14.4399995803833
+melhor acao
+acao: 5 - STAY_SHORT
 
 Escolhe acao
 key: [2217212125, 2217212126, 0]
-melhor acao
 key1
-recompensa: 0.05401659300897265 estado: 14.4399995803833 valor atual: 13.66
-antes: 0.18978190847341628 proximo: 0.1651466280460025 teste dict: 0.1896407697425906
-***************
-estado 27
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado27 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, DOWN] 14.4399995803833
-proximo estado28 = [SHORT, UP, DOWN, NOP, UP, UP, MAX, MIN, UP] 14.4399995803833
+melhor acao
+acao: 5 - STAY_SHORT
 
 Escolhe acao
-key: [2127111215, 2127111216, 0]
-melhor acao
+key: [2127111225, 2127111226, 0]
 key1
-recompensa: 0.04362878107276076 estado: 14.4399995803833 valor atual: 13.81
-antes: 0.1651466280460025 proximo: 0.16865877338295673 teste dict: 0.1651224311067663
-***************
-estado 28
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado28 = [SHORT, UP, DOWN, NOP, UP, UP, MAX, MIN, UP] 14.4399995803833
-proximo estado29 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MAX, UP] 14.4399995803833
-
-Escolhe acao
-key: [2217122115, 2217122116, 0]
 melhor acao
-key1
-recompensa: 0.0228531572003371 estado: 14.4399995803833 valor atual: 14.11
-antes: 0.16865877338295673 proximo: 0.11308666787495314 teste dict: 0.16819225874226568
-***************
-estado 29
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado29 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MAX, UP] 14.4399995803833
-proximo estado30 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MAX, DOWN] 14.4399995803833
-
-Escolhe acao
-key: [2117211125, 2117211126, 0]
-melhor acao
-key1
-recompensa: 0.029778365157811654 estado: 14.4399995803833 valor atual: 14.01
-antes: 0.11308666787495314 proximo: 0.16575275670974293 teste dict: 0.1133156982638109
-***************
-estado 30
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado30 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MAX, DOWN] 14.4399995803833
-proximo estado31 = [SHORT, UP, DOWN, NOP, UP, DOWN, MAX, MIN, DOWN] 14.4399995803833
-
-Escolhe acao
-key: [2127121225, 2127121226, 0]
-melhor acao
-key1
-recompensa: 0.05401659300897265 estado: 14.4399995803833 valor atual: 13.66
-antes: 0.16575275670974293 proximo: 0.1286839967252302 teste dict: 0.16560115514779117
-***************
-estado 31
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado31 = [SHORT, UP, DOWN, NOP, UP, DOWN, MAX, MIN, DOWN] 14.4399995803833
-proximo estado32 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, UP] 14.4399995803833
-
-Escolhe acao
-key: [2227212215, 2227212216, 0]
-melhor acao
-key1
-recompensa: 0.04293626027701332 estado: 14.4399995803833 valor atual: 13.82
-antes: 0.1286839967252302 proximo: 0.07764281394136593 teste dict: 0.12846421235840538
-***************
-estado 32
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado32 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, UP] 14.4399995803833
-proximo estado33 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MAX, UP] 14.4399995803833
-
-Escolhe acao
-key: [2217122115, 2217122116, 0]
-melhor acao
-key1
-recompensa: 0.03185592754505398 estado: 14.4399995803833 valor atual: 13.98
-antes: 0.07764281394136593 proximo: 0.1133156982638109 teste dict: 0.07787755265808442
-***************
-estado 33
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado33 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MAX, UP] 14.4399995803833
-proximo estado34 = [SHORT, UP, UP, NOP, DOWN, DOWN, MAX, MAX, UP] 14.4399995803833
-
-Escolhe acao
-key: [2117221115, 2117221116, 0]
-melhor acao
-key1
-recompensa: 0.02908584436206421 estado: 14.4399995803833 valor atual: 14.02
-antes: 0.1133156982638109 proximo: 0.1060961143910039 teste dict: 0.11324596024701458
-***************
-estado 34
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado34 = [SHORT, UP, UP, NOP, DOWN, DOWN, MAX, MAX, UP] 14.4399995803833
-proximo estado35 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MIN, UP] 14.4399995803833
-
-Escolhe acao
-key: [2117211215, 2117211216, 0]
-melhor acao
-key1
-recompensa: 0.027700802770569324 estado: 14.4399995803833 valor atual: 14.04
-antes: 0.1060961143910039 proximo: 0.11205325955296733 teste dict: 0.1060964081814704
-***************
-estado 35
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado35 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MIN, UP] 14.4399995803833
-proximo estado36 = [SHORT, UP, UP, NOP, UP, DOWN, MIN, MAX, UP] 14.4399995803833
-
-Escolhe acao
-key: [2117122115, 2117122116, 0]
-melhor acao
-key1
-recompensa: 0.027700802770569324 estado: 14.4399995803833 valor atual: 14.04
-antes: 0.11205325955296733 proximo: 0.09562297556220865 teste dict: 0.11193134493574536
-***************
-estado 36
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado36 = [SHORT, UP, UP, NOP, UP, DOWN, MIN, MAX, UP] 14.4399995803833
-proximo estado37 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MIN, UP] 14.4399995803833
-
-Escolhe acao
-key: [2117211215, 2117211216, 0]
-melhor acao
-key1
-recompensa: 0.017312990834357434 estado: 14.4399995803833 valor atual: 14.19
-antes: 0.09562297556220865 proximo: 0.11193134493574536 teste dict: 0.09562326925929884
-***************
-estado 37
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado37 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MIN, UP] 14.4399995803833
-proximo estado38 = [SHORT, UP, DOWN, NOP, UP, UP, MIN, MIN, UP] 14.4399995803833
-
-Escolhe acao
-key: [2127112215, 2127112216, 0]
-melhor acao
-key1
-recompensa: 0.01038778287688288 estado: 14.4399995803833 valor atual: 14.29
-antes: 0.11193134493574536 proximo: 0.11298057928899818 teste dict: 0.11177414483984942
-***************
-estado 38
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado38 = [SHORT, UP, DOWN, NOP, UP, UP, MIN, MIN, UP] 14.4399995803833
-proximo estado39 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MAX, DOWN] 14.4399995803833
+acao: 5 - STAY_SHORT
 
 Escolhe acao
 key: [2217122125, 2217122126, 0]
-melhor acao
 key1
-recompensa: 0.011080303672630324 estado: 14.4399995803833 valor atual: 14.28
-antes: 0.11298057928899818 proximo: 0.14561614426770167 teste dict: 0.11298079646659535
-***************
-estado 39
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado39 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MAX, DOWN] 14.4399995803833
-proximo estado40 = [SHORT, UP, DOWN, NOP, DOWN, UP, MAX, MAX, DOWN] 14.4399995803833
-
-Escolhe acao
-key: [2127211125, 2127211126, 0]
 melhor acao
-key1
-recompensa: 0.015927949242862425 estado: 14.4399995803833 valor atual: 14.21
-antes: 0.14561614426770167 proximo: 0.10063104630314423 teste dict: 0.1452014190294132
-***************
-estado 40
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado40 = [SHORT, UP, DOWN, NOP, DOWN, UP, MAX, MAX, DOWN] 14.4399995803833
-proximo estado41 = [SHORT, DOWN, UP, NOP, UP, DOWN, MAX, MAX, UP] 14.4399995803833
-
-Escolhe acao
-key: [2217121115, 2217121116, 0]
-melhor acao
-key1
-recompensa: 0.011772824468377767 estado: 14.4399995803833 valor atual: 14.27
-antes: 0.10063104630314423 proximo: 0.12695185378273224 teste dict: 0.10063110283383625
-***************
-estado 41
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado41 = [SHORT, DOWN, UP, NOP, UP, DOWN, MAX, MAX, UP] 14.4399995803833
-proximo estado42 = [SHORT, UP, UP, NOP, DOWN, DOWN, MAX, MAX, DOWN] 14.4399995803833
-
-Escolhe acao
-key: [2117221125, 2117221126, 0]
-melhor acao
-key1
-recompensa: 0.018005511630104876 estado: 14.4399995803833 valor atual: 14.18
-antes: 0.12695185378273224 proximo: 0.1556840967448868 teste dict: 0.1269520814617138
-***************
-estado 42
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado42 = [SHORT, UP, UP, NOP, DOWN, DOWN, MAX, MAX, DOWN] 14.4399995803833
-proximo estado43 = [SHORT, UP, DOWN, NOP, DOWN, UP, MAX, MIN, DOWN] 14.4399995803833
-
-Escolhe acao
-key: [2127211225, 2127211226, 0]
-melhor acao
-key1
-recompensa: 0.022160636404589658 estado: 14.4399995803833 valor atual: 14.12
-antes: 0.1556840967448868 proximo: 0.1579759815854552 teste dict: 0.15552351483227347
-***************
-estado 43
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado43 = [SHORT, UP, DOWN, NOP, DOWN, UP, MAX, MIN, DOWN] 14.4399995803833
-proximo estado44 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MAX, UP] 14.4399995803833
-
-Escolhe acao
-key: [2227122115, 2227122116, 0]
-melhor acao
-key1
-recompensa: 0.022160636404589658 estado: 14.4399995803833 valor atual: 14.12
-antes: 0.1579759815854552 proximo: 0.18676137574484322 teste dict: 0.15794040491033887
-***************
-estado 44
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado44 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MAX, UP] 14.4399995803833
-proximo estado45 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MAX, MIN, UP] 14.4399995803833
-
-Escolhe acao
-key: [2217221215, 2217221216, 0]
-melhor acao
-key1
-recompensa: 0.02077559481309465 estado: 14.4399995803833 valor atual: 14.14
-antes: 0.18676137574484322 proximo: 0.13411336723351516 teste dict: 0.18625663077776522
-***************
-estado 45
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado45 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MAX, MIN, UP] 14.4399995803833
-proximo estado46 = [SHORT, UP, UP, NOP, DOWN, DOWN, MIN, MAX, DOWN] 14.4399995803833
-
-Escolhe acao
-key: [2117222125, 2117222126, 0]
-melhor acao
-key1
-recompensa: 0.027700802770569324 estado: 14.4399995803833 valor atual: 14.04
-antes: 0.13411336723351516 proximo: 0.15207396466651515 teste dict: 0.13411364170914047
-***************
-estado 46
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado46 = [SHORT, UP, UP, NOP, DOWN, DOWN, MIN, MAX, DOWN] 14.4399995803833
-proximo estado47 = [SHORT, UP, DOWN, NOP, DOWN, UP, MAX, MIN, DOWN] 14.4399995803833
-
-Escolhe acao
-key: [2127211225, 2127211226, 0]
-melhor acao
-key1
-recompensa: 0.041551218685518435 estado: 14.4399995803833 valor atual: 13.84
-antes: 0.15207396466651515 proximo: 0.15794040491033887 teste dict: 0.15207421342870883
-***************
-estado 47
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado47 = [SHORT, UP, DOWN, NOP, DOWN, UP, MAX, MIN, DOWN] 14.4399995803833
-proximo estado48 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, UP] 14.4399995803833
-
-Escolhe acao
-key: [2227122215, 2227122216, 0]
-melhor acao
-key1
-recompensa: 0.023545677996084546 estado: 14.4399995803833 valor atual: 14.1
-antes: 0.15794040491033887 proximo: 0.19944131991497893 teste dict: 0.1579769042895225
-***************
-estado 48
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado48 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, UP] 14.4399995803833
-proximo estado49 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, UP] 14.4399995803833
-
-Escolhe acao
-key: [2217222115, 2217222116, 0]
-melhor acao
-key1
-recompensa: 0.016620470038609992 estado: 14.4399995803833 valor atual: 14.2
-antes: 0.19944131991497893 proximo: 0.1340725978095693 teste dict: 0.19881852969511124
-***************
-estado 49
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado49 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, UP] 14.4399995803833
-proximo estado50 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MAX, DOWN] 14.4399995803833
+acao: 5 - STAY_SHORT
 
 Escolhe acao
 key: [2117211125, 2117211126, 0]
-melhor acao
 key1
-recompensa: 0.018005511630104876 estado: 14.4399995803833 valor atual: 14.18
-antes: 0.1340725978095693 proximo: 0.16560115514779117 teste dict: 0.1340715738665372
-***************
-estado 50
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado50 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MAX, DOWN] 14.4399995803833
-proximo estado51 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, UP] 14.4399995803833
+melhor acao
+acao: 5 - STAY_SHORT
 
 Escolhe acao
-key: [2117121115, 2117121116, 0]
-melhor acao
+key: [2127121225, 2127121226, 0]
 key1
-recompensa: 0.018005511630104876 estado: 14.4399995803833 valor atual: 14.18
-antes: 0.16560115514779117 proximo: 0.13298831966169375 teste dict: 0.16521962840950966
-***************
-estado 51
+melhor acao
+acao: 5 - STAY_SHORT
 
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado51 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, UP] 14.4399995803833
-proximo estado52 = [SHORT, UP, UP, NOP, DOWN, DOWN, MAX, MAX, DOWN] 14.4399995803833
+Escolhe acao
+key: [2227212225, 2227212226, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217122125, 2217122126, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
 
 Escolhe acao
 key: [2117221125, 2117221126, 0]
-melhor acao
 key1
-recompensa: 0.024238198791831988 estado: 14.4399995803833 valor atual: 14.09
-antes: 0.13298831966169375 proximo: 0.15552351483227347 teste dict: 0.13298913403828286
-***************
-estado 52
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado52 = [SHORT, UP, UP, NOP, DOWN, DOWN, MAX, MAX, DOWN] 14.4399995803833
-proximo estado53 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MIN, UP] 14.4399995803833
+melhor acao
+acao: 5 - STAY_SHORT
 
 Escolhe acao
-key: [2117211215, 2117211216, 0]
-melhor acao
+key: [2117211225, 2117211226, 0]
 key1
-recompensa: 0.018005511630104876 estado: 14.4399995803833 valor atual: 14.18
-antes: 0.15552351483227347 proximo: 0.11177414483984942 teste dict: 0.15510858211957357
-***************
-estado 53
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado53 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MIN, UP] 14.4399995803833
-proximo estado54 = [SHORT, UP, UP, NOP, UP, DOWN, MIN, MAX, DOWN] 14.4399995803833
+melhor acao
+acao: 5 - STAY_SHORT
 
 Escolhe acao
 key: [2117122125, 2117122126, 0]
-melhor acao
 key1
-recompensa: 0.019390553221599764 estado: 14.4399995803833 valor atual: 14.16
-antes: 0.11177414483984942 proximo: 0.137225993994484 teste dict: 0.11179986706909464
-***************
-estado 54
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado54 = [SHORT, UP, UP, NOP, UP, DOWN, MIN, MAX, DOWN] 14.4399995803833
-proximo estado55 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, DOWN] 14.4399995803833
+melhor acao
+acao: 5 - STAY_SHORT
 
 Escolhe acao
-key: [2127221225, 2127221226, 0]
-melhor acao
+key: [2117211225, 2117211226, 0]
 key1
-recompensa: 0.02493071958757943 estado: 14.4399995803833 valor atual: 14.08
-antes: 0.137225993994484 proximo: 0.16052998299533444 teste dict: 0.13722652399031282
-***************
-estado 55
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado55 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, DOWN] 14.4399995803833
-proximo estado56 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, UP] 14.4399995803833
-
-Escolhe acao
-key: [2227212215, 2227212216, 0]
 melhor acao
-key1
-recompensa: 0.0013850125321658753 estado: 14.4399995803833 valor atual: 14.42
-antes: 0.16052998299533444 proximo: 0.07787755265808442 teste dict: 0.15979756821011687
-***************
-estado 56
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado56 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, UP] 14.4399995803833
-proximo estado57 = [SHORT, DOWN, UP, NOP, UP, UP, MIN, MAX, DOWN] 14.4399995803833
-
-Escolhe acao
-key: [2217112125, 2217112126, 0]
-melhor acao
-key1
-recompensa: 0.006925178898145543 estado: 14.4399995803833 valor atual: 14.34
-antes: 0.07787755265808442 proximo: 0.07033947722577251 teste dict: 0.07772554948017113
-***************
-estado 57
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado57 = [SHORT, DOWN, UP, NOP, UP, UP, MIN, MAX, DOWN] 14.4399995803833
-proximo estado58 = [SHORT, UP, DOWN, NOP, UP, DOWN, MAX, MIN, UP] 14.4399995803833
-
-Escolhe acao
-key: [2127121215, 2127121216, 0]
-melhor acao
-key1
-recompensa: 0.006925178898145543 estado: 14.4399995803833 valor atual: 14.34
-antes: 0.07033947722577251 proximo: 0.09070168733720538 teste dict: 0.07034001540543143
-***************
-estado 58
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado58 = [SHORT, UP, DOWN, NOP, UP, DOWN, MAX, MIN, UP] 14.4399995803833
-proximo estado59 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, UP] 14.4399995803833
-
-Escolhe acao
-key: [2227212215, 2227212216, 0]
-melhor acao
-key1
-recompensa: -0.0013850706508240199 estado: 14.4399995803833 valor atual: 14.46
-antes: 0.09070168733720538 proximo: 0.07772554948017113 teste dict: 0.09043793522374201
-***************
-estado 59
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado59 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, UP] 14.4399995803833
-proximo estado60 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MAX, UP] 14.4399995803833
-
-Escolhe acao
-key: [2217122115, 2217122116, 0]
-melhor acao
-key1
-recompensa: -0.013157924178530797 estado: 14.4399995803833 valor atual: 14.63
-antes: 0.07772554948017113 proximo: 0.11324596024701458 teste dict: 0.07764427036977059
-***************
-estado 60
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado60 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MAX, UP] 14.4399995803833
-proximo estado61 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MAX, UP] 14.4399995803833
-
-Escolhe acao
-key: [2117211115, 2117211116, 0]
-melhor acao
-key1
-recompensa: -0.01385044497427824 estado: 14.4399995803833 valor atual: 14.64
-antes: 0.11324596024701458 proximo: 0.11224850748513401 teste dict: 0.11290630309714268
-***************
-estado 61
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado61 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MAX, UP] 14.4399995803833
-proximo estado62 = [SHORT, UP, DOWN, NOP, UP, UP, MAX, MIN, DOWN] 14.4399995803833
-
-Escolhe acao
-key: [2127111225, 2127111226, 0]
-melhor acao
-key1
-recompensa: 0.0027700541236607614 estado: 14.4399995803833 valor atual: 14.4
-antes: 0.11224850748513401 proximo: 0.18668928397455828 teste dict: 0.11239693580307904
-***************
-estado 62
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado62 = [SHORT, UP, DOWN, NOP, UP, UP, MAX, MIN, DOWN] 14.4399995803833
-proximo estado63 = [SHORT, DOWN, DOWN, NOP, UP, UP, MIN, MIN, UP] 14.4399995803833
-
-Escolhe acao
-key: [2227112215, 2227112216, 0]
-melhor acao
-key1
-recompensa: 0.0027700541236607614 estado: 14.4399995803833 valor atual: 14.4
-antes: 0.18668928397455828 proximo: 0.14272950649581112 teste dict: 0.18610122394743148
-***************
-estado 63
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado63 = [SHORT, DOWN, DOWN, NOP, UP, UP, MIN, MIN, UP] 14.4399995803833
-proximo estado64 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, DOWN] 14.4399995803833
-
-Escolhe acao
-key: [2227122225, 2227122226, 0]
-melhor acao
-key1
-recompensa: 0.007617699693892986 estado: 14.4399995803833 valor atual: 14.33
-antes: 0.14272950649581112 proximo: 0.19314420101452584 teste dict: 0.14273013043316887
-***************
-estado 64
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado64 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, DOWN] 14.4399995803833
-proximo estado65 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, DOWN] 14.4399995803833
-
-Escolhe acao
-key: [2227212225, 2227212226, 0]
-melhor acao
-key1
-recompensa: 0.008310220489640429 estado: 14.4399995803833 valor atual: 14.32
-antes: 0.19314420101452584 proximo: 0.19243539233867613 teste dict: 0.19279329657331115
-***************
-estado 65
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado65 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, DOWN] 14.4399995803833
-proximo estado66 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MAX, UP] 14.4399995803833
-
-Escolhe acao
-key: [2217122115, 2217122116, 0]
-melhor acao
-key1
-recompensa: -0.0020775914465714627 estado: 14.4399995803833 valor atual: 14.47
-antes: 0.19243539233867613 proximo: 0.11290630309714268 teste dict: 0.1916270423373554
-***************
-estado 66
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado66 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MAX, UP] 14.4399995803833
-proximo estado67 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MAX, UP] 14.4399995803833
-
-Escolhe acao
-key: [2117211115, 2117211116, 0]
-melhor acao
-key1
-recompensa: -0.027008340093479903 estado: 14.4399995803833 valor atual: 14.83
-antes: 0.11290630309714268 proximo: 0.11239693580307904 teste dict: 0.11247764558024341
-***************
-estado 67
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado67 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MAX, UP] 14.4399995803833
-proximo estado68 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, DOWN] 14.4399995803833
-
-Escolhe acao
-key: [2117121125, 2117121126, 0]
-melhor acao
-key1
-recompensa: -0.024930777706237573 estado: 14.4399995803833 valor atual: 14.8
-antes: 0.11239693580307904 proximo: 0.16618354182162742 teste dict: 0.1122499411634398
-***************
-estado 68
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado68 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, DOWN] 14.4399995803833
-proximo estado69 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MAX, DOWN] 14.4399995803833
-
-Escolhe acao
-key: [2127221125, 2127221126, 0]
-melhor acao
-key1
-recompensa: -0.023545736114742567 estado: 14.4399995803833 valor atual: 14.78
-antes: 0.16618354182162742 proximo: 0.10885017299936657 teste dict: 0.16538880272376974
-***************
-estado 69
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado69 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MAX, DOWN] 14.4399995803833
-proximo estado70 = [SHORT, DOWN, UP, NOP, DOWN, UP, MAX, MAX, UP] 14.4399995803833
-
-Escolhe acao
-key: [2217211115, 2217211116, 0]
-melhor acao
-key2
-recompensa: -0.03185598566371213 estado: 14.4399995803833 valor atual: 14.9
-antes: 0.10885017299936657 proximo: 0.012763250667227909 teste dict: 0.10792776981699444
-***************
-estado 70
-
-acao: 6 EXIT_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado70 = [SHORT, DOWN, UP, NOP, DOWN, UP, MAX, MAX, UP] 14.4399995803833
-proximo estado71 = [NPOS, UP, UP, BUY, UP, UP, MAX, MAX, NPOS] 0.0
-
-Escolhe acao
-key: [3111111131, 3111111134, 3111111137]
-melhor acao
-key3
-recompensa: -0.02631581929773246 estado: 14.4399995803833 valor atual: 14.82
-antes: 0.012763250667227909 proximo: 0.05596798480259406 teste dict: 0.012763940303005896
-***************
-estado 71
-
-acao: 7 NOPa
-                    1     2   3   4   5    6     7     8    9
-        estado71 = [NPOS, UP, UP, BUY, UP, UP, MAX, MAX, NPOS] 0.0
-proximo estado72 = [NPOS, UP, DOWN, NOP, UP, DOWN, MAX, MIN, NPOS] 0.0
-
-Escolhe acao
-key: [3127121231, 3127121234, 3127121237]
-melhor acao
-key3
-recompensa: 0 estado: 0.0 valor atual: 15.2
-antes: 0.05596798480259406 proximo: 0.0799769630635761 teste dict: 0.05596809602798743
-***************
-estado 72
-
-acao: 4 ENTER_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado72 = [NPOS, UP, DOWN, NOP, UP, DOWN, MAX, MIN, NPOS] 0.0
-proximo estado73 = [SHORT, DOWN, UP, SELL, DOWN, UP, MIN, MAX, DOWN] 15.2
-
-Escolhe acao
-key: [2212212125, 2212212126, 0]
-melhor acao
-key1
-recompensa: 0 estado: 0.0 valor atual: 15.02
-antes: 0.0799769630635761 proximo: 0.11427321968048999 teste dict: 0.07997706309856546
-***************
-estado 73
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado73 = [SHORT, DOWN, UP, SELL, DOWN, UP, MIN, MAX, DOWN] 15.2
-proximo estado74 = [SHORT, UP, DOWN, NOP, UP, DOWN, MAX, MIN, DOWN] 15.2
-
-Escolhe acao
-key: [2127121225, 2127121226, 0]
-melhor acao
-key1
-recompensa: 0.024342105263157846 estado: 15.2 valor atual: 14.83
-antes: 0.11427321968048999 proximo: 0.12846421235840538 teste dict: 0.11427317652012485
-***************
-estado 74
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado74 = [SHORT, UP, DOWN, NOP, UP, DOWN, MAX, MIN, DOWN] 15.2
-proximo estado75 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, DOWN] 15.2
-
-Escolhe acao
-key: [2227212225, 2227212226, 0]
-melhor acao
-key1
-recompensa: 0.03157894736842096 estado: 15.2 valor atual: 14.72
-antes: 0.12846421235840538 proximo: 0.1916270423373554 teste dict: 0.12872498801092852
-***************
-estado 75
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado75 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, DOWN] 15.2
-proximo estado76 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MAX, DOWN] 15.2
-
-Escolhe acao
-key: [2227122125, 2227122126, 0]
-melhor acao
-key1
-recompensa: 0.033552631578947355 estado: 15.2 valor atual: 14.69
-antes: 0.1916270423373554 proximo: 0.19873904237682294 teste dict: 0.19149434276969296
-***************
-estado 76
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado76 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MAX, DOWN] 15.2
-proximo estado77 = [SHORT, DOWN, UP, NOP, DOWN, UP, MAX, MIN, DOWN] 15.2
-
-Escolhe acao
-key: [2217211225, 2217211226, 0]
-melhor acao
-key1
-recompensa: 0.0374999999999999 estado: 15.2 valor atual: 14.63
-antes: 0.19873904237682294 proximo: 0.2629430099929732 teste dict: 0.19889878982915074
-***************
-estado 77
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado77 = [SHORT, DOWN, UP, NOP, DOWN, UP, MAX, MIN, DOWN] 15.2
-proximo estado78 = [SHORT, UP, DOWN, NOP, UP, UP, MIN, MIN, DOWN] 15.2
+acao: 5 - STAY_SHORT
 
 Escolhe acao
 key: [2127112225, 2127112226, 0]
-melhor acao
 key1
-recompensa: 0.08618421052631571 estado: 15.2 valor atual: 13.89
-antes: 0.2629430099929732 proximo: 0.2525234201021488 teste dict: 0.26294306315520716
-***************
-estado 78
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado78 = [SHORT, UP, DOWN, NOP, UP, UP, MIN, MIN, DOWN] 15.2
-proximo estado79 = [SHORT, DOWN, DOWN, NOP, UP, UP, MIN, MIN, DOWN] 15.2
-
-Escolhe acao
-key: [2227112225, 2227112226, 0]
 melhor acao
-key1
-recompensa: 0.10263157894736834 estado: 15.2 valor atual: 13.64
-antes: 0.2525234201021488 proximo: 0.21412117642875855 teste dict: 0.25252337097856625
-***************
-estado 79
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado79 = [SHORT, DOWN, DOWN, NOP, UP, UP, MIN, MIN, DOWN] 15.2
-proximo estado80 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, UP] 15.2
-
-Escolhe acao
-key: [2227122215, 2227122216, 0]
-melhor acao
-key1
-recompensa: 0.07499999999999993 estado: 15.2 valor atual: 14.06
-antes: 0.21412117642875855 proximo: 0.19881852969511124 teste dict: 0.21412153898926328
-***************
-estado 80
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado80 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, UP] 15.2
-proximo estado81 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, UP] 15.2
-
-Escolhe acao
-key: [2217222115, 2217222116, 0]
-melhor acao
-key1
-recompensa: 0.06644736842105262 estado: 15.2 valor atual: 14.19
-antes: 0.19881852969511124 proximo: 0.1340715738665372 teste dict: 0.19854888227813886
-***************
-estado 81
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado81 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, UP] 15.2
-proximo estado82 = [SHORT, UP, UP, NOP, DOWN, DOWN, MAX, MAX, DOWN] 15.2
-
-Escolhe acao
-key: [2117221125, 2117221126, 0]
-melhor acao
-key1
-recompensa: 0.08618421052631571 estado: 15.2 valor atual: 13.89
-antes: 0.1340715738665372 proximo: 0.15510858211957357 teste dict: 0.13449639437554156
-***************
-estado 82
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado82 = [SHORT, UP, UP, NOP, DOWN, DOWN, MAX, MAX, DOWN] 15.2
-proximo estado83 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 15.2
-
-Escolhe acao
-key: [2127221215, 2127221216, 0]
-melhor acao
-key1
-recompensa: 0.08618421052631571 estado: 15.2 valor atual: 13.89
-antes: 0.15510858211957357 proximo: 0.1896407697425906 teste dict: 0.15555535129015946
-***************
-estado 83
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado83 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 15.2
-proximo estado84 = [SHORT, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, UP] 15.2
-
-Escolhe acao
-key: [2227222215, 2227222216, 0]
-melhor acao
-key1
-recompensa: 0.07302631578947365 estado: 15.2 valor atual: 14.09
-antes: 0.1896407697425906 proximo: 0.16678942177327777 teste dict: 0.18964173673160784
-***************
-estado 84
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado84 = [SHORT, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, UP] 15.2
-proximo estado85 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, UP] 15.2
-
-Escolhe acao
-key: [2217212115, 2217212116, 0]
-melhor acao
-key1
-recompensa: 0.06447368421052622 estado: 15.2 valor atual: 14.22
-antes: 0.16678942177327777 proximo: 0.17673464272974118 teste dict: 0.16693921135971423
-***************
-estado 85
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado85 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, UP] 15.2
-proximo estado86 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, DOWN] 15.2
-
-Escolhe acao
-key: [2117121125, 2117121126, 0]
-melhor acao
-key1
-recompensa: 0.06907894736842099 estado: 15.2 valor atual: 14.15
-antes: 0.17673464272974118 proximo: 0.16538880272376974 teste dict: 0.1767914579955584
-***************
-estado 86
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado86 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, DOWN] 15.2
-proximo estado87 = [SHORT, UP, DOWN, NOP, DOWN, UP, MAX, MIN, UP] 15.2
-
-Escolhe acao
-key: [2127211215, 2127211216, 0]
-melhor acao
-key1
-recompensa: 0.06381578947368415 estado: 15.2 valor atual: 14.23
-antes: 0.16538880272376974 proximo: 0.2009604411447289 teste dict: 0.16566249779262832
-***************
-estado 87
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado87 = [SHORT, UP, DOWN, NOP, DOWN, UP, MAX, MIN, UP] 15.2
-proximo estado88 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MAX, DOWN] 15.2
+acao: 5 - STAY_SHORT
 
 Escolhe acao
 key: [2217122125, 2217122126, 0]
-melhor acao
 key1
-recompensa: 0.07499999999999993 estado: 15.2 valor atual: 14.06
-antes: 0.2009604411447289 proximo: 0.1452014190294132 teste dict: 0.20079020500995992
-***************
-estado 88
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado88 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MAX, DOWN] 15.2
-proximo estado89 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 15.2
+melhor acao
+acao: 5 - STAY_SHORT
 
 Escolhe acao
-key: [2127221215, 2127221216, 0]
-melhor acao
+key: [2127211125, 2127211126, 0]
 key1
-recompensa: 0.07171052631578947 estado: 15.2 valor atual: 14.11
-antes: 0.1452014190294132 proximo: 0.18964173673160784 teste dict: 0.14561622729040272
-***************
-estado 89
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado89 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 15.2
-proximo estado90 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, DOWN] 15.2
-
-Escolhe acao
-key: [2217212125, 2217212126, 0]
 melhor acao
-key1
-recompensa: 0.07565789473684202 estado: 15.2 valor atual: 14.05
-antes: 0.18964173673160784 proximo: 0.1651224311067663 teste dict: 0.18965294975006763
-***************
-estado 90
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado90 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, DOWN] 15.2
-proximo estado91 = [SHORT, UP, DOWN, NOP, UP, DOWN, MAX, MAX, DOWN] 15.2
-
-Escolhe acao
-key: [2127121125, 2127121126, 0]
-melhor acao
-key1
-recompensa: 0.08618421052631571 estado: 15.2 valor atual: 13.89
-antes: 0.1651224311067663 proximo: 0.1995094754611821 teste dict: 0.16554745999246295
-***************
-estado 91
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado91 = [SHORT, UP, DOWN, NOP, UP, DOWN, MAX, MAX, DOWN] 15.2
-proximo estado92 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MAX, MIN, UP] 15.2
-
-Escolhe acao
-key: [2227211215, 2227211216, 0]
-melhor acao
-key1
-recompensa: 0.07499999999999993 estado: 15.2 valor atual: 14.06
-antes: 0.1995094754611821 proximo: 0.17787687650579587 teste dict: 0.19950950582783222
-***************
-estado 92
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado92 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MAX, MIN, UP] 15.2
-proximo estado93 = [SHORT, DOWN, UP, NOP, UP, UP, MIN, MAX, UP] 15.2
-
-Escolhe acao
-key: [2217112115, 2217112116, 0]
-melhor acao
-key1
-recompensa: 0.06315789473684205 estado: 15.2 valor atual: 14.24
-antes: 0.17787687650579587 proximo: 0.18634152573025373 teste dict: 0.17798691710949144
-***************
-estado 93
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado93 = [SHORT, DOWN, UP, NOP, UP, UP, MIN, MAX, UP] 15.2
-proximo estado94 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, DOWN] 15.2
-
-Escolhe acao
-key: [2117121125, 2117121126, 0]
-melhor acao
-key1
-recompensa: 0.07039473684210516 estado: 15.2 valor atual: 14.13
-antes: 0.18634152573025373 proximo: 0.16566249779262832 teste dict: 0.18634164444722057
-***************
-estado 94
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado94 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, DOWN] 15.2
-proximo estado95 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 15.2
-
-Escolhe acao
-key: [2127221215, 2127221216, 0]
-melhor acao
-key1
-recompensa: 0.06644736842105262 estado: 15.2 valor atual: 14.19
-antes: 0.16566249779262832 proximo: 0.18965294975006763 teste dict: 0.1658972913408026
-***************
-estado 95
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado95 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 15.2
-proximo estado96 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, DOWN] 15.2
-
-Escolhe acao
-key: [2217222125, 2217222126, 0]
-melhor acao
-key1
-recompensa: 0.0960526315789473 estado: 15.2 valor atual: 13.74
-antes: 0.18965294975006763 proximo: 0.24243227670131276 teste dict: 0.19018566567870623
-***************
-estado 96
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado96 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, DOWN] 15.2
-proximo estado97 = [SHORT, UP, DOWN, NOP, DOWN, UP, MAX, MIN, UP] 15.2
-
-Escolhe acao
-key: [2127211215, 2127211216, 0]
-melhor acao
-key1
-recompensa: 0.09473684210526313 estado: 15.2 valor atual: 13.76
-antes: 0.24243227670131276 proximo: 0.20079020500995992 teste dict: 0.24238228066368922
-***************
-estado 97
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado97 = [SHORT, UP, DOWN, NOP, DOWN, UP, MAX, MIN, UP] 15.2
-proximo estado98 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MAX, UP] 15.2
-
-Escolhe acao
-key: [2227122115, 2227122116, 0]
-melhor acao
-key1
-recompensa: 0.09473684210526313 estado: 15.2 valor atual: 13.76
-antes: 0.20079020500995992 proximo: 0.18625663077776522 teste dict: 0.20096048896043808
-***************
-estado 98
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado98 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MAX, UP] 15.2
-proximo estado99 = [SHORT, DOWN, DOWN, NOP, DOWN, DOWN, MAX, MAX, DOWN] 15.2
-
-Escolhe acao
-key: [2227221125, 2227221126, 0]
-melhor acao
-key1
-recompensa: 0.11052631578947367 estado: 15.2 valor atual: 13.52
-antes: 0.18625663077776522 proximo: 0.210770672937776 teste dict: 0.1867592948702423
-***************
-estado 99
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado99 = [SHORT, DOWN, DOWN, NOP, DOWN, DOWN, MAX, MAX, DOWN] 15.2
-proximo estado100 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MAX, MIN, UP] 15.2
-
-Escolhe acao
-key: [2227211215, 2227211216, 0]
-melhor acao
-key1
-recompensa: 0.08618421052631571 estado: 15.2 valor atual: 13.89
-antes: 0.210770672937776 proximo: 0.17798691710949144 teste dict: 0.21077070359473227
-***************
-estado 100
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado100 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MAX, MIN, UP] 15.2
-proximo estado101 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MAX, UP] 15.2
-
-Escolhe acao
-key: [2217122115, 2217122116, 0]
-melhor acao
-key1
-recompensa: 0.08355263157894735 estado: 15.2 valor atual: 13.93
-antes: 0.17798691710949144 proximo: 0.11247764558024341 teste dict: 0.17787701757412083
-***************
-estado 101
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado101 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MAX, UP] 15.2
-proximo estado102 = [SHORT, UP, UP, NOP, DOWN, DOWN, MAX, MAX, DOWN] 15.2
-
-Escolhe acao
-key: [2117221125, 2117221126, 0]
-melhor acao
-key1
-recompensa: 0.09078947368421046 estado: 15.2 valor atual: 13.82
-antes: 0.11247764558024341 proximo: 0.15555535129015946 teste dict: 0.11308804959829297
-***************
-estado 102
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado102 = [SHORT, UP, UP, NOP, DOWN, DOWN, MAX, MAX, DOWN] 15.2
-proximo estado103 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MAX, DOWN] 15.2
-
-Escolhe acao
-key: [2127221125, 2127221126, 0]
-melhor acao
-key1
-recompensa: 0.09868421052631579 estado: 15.2 valor atual: 13.7
-antes: 0.15555535129015946 proximo: 0.10792776981699444 teste dict: 0.15568609937691583
-***************
-estado 103
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado103 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MAX, DOWN] 15.2
-proximo estado104 = [SHORT, DOWN, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 15.2
-
-Escolhe acao
-key: [2227221215, 2227221216, 0]
-melhor acao
-key1
-recompensa: 0.08618421052631571 estado: 15.2 valor atual: 13.89
-antes: 0.10792776981699444 proximo: 0.219441635000379 teste dict: 0.10885082891346154
-***************
-estado 104
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado104 = [SHORT, DOWN, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 15.2
-proximo estado105 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MIN, MAX, UP] 15.2
-
-Escolhe acao
-key: [2227212115, 2227212116, 0]
-melhor acao
-key1
-recompensa: 0.08026315789473677 estado: 15.2 valor atual: 13.98
-antes: 0.219441635000379 proximo: 0.23422577119728313 teste dict: 0.21961509193950618
-***************
-estado 105
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado105 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MIN, MAX, UP] 15.2
-proximo estado106 = [SHORT, DOWN, UP, NOP, UP, DOWN, MAX, MAX, DOWN] 15.2
+acao: 5 - STAY_SHORT
 
 Escolhe acao
 key: [2217121125, 2217121126, 0]
-melhor acao
 key1
-recompensa: 0.08421052631578943 estado: 15.2 valor atual: 13.92
-antes: 0.23422577119728313 proximo: 0.21433669492590382 teste dict: 0.2342259142882496
-***************
-estado 106
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado106 = [SHORT, DOWN, UP, NOP, UP, DOWN, MAX, MAX, DOWN] 15.2
-proximo estado107 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MAX, DOWN] 15.2
+melhor acao
+acao: 5 - STAY_SHORT
 
 Escolhe acao
-key: [2117211125, 2117211126, 0]
-melhor acao
+key: [2117221125, 2117221126, 0]
 key1
-recompensa: 0.09868421052631579 estado: 15.2 valor atual: 13.7
-antes: 0.21433669492590382 proximo: 0.16521962840950966 teste dict: 0.2143367037143133
-***************
-estado 107
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado107 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MAX, DOWN] 15.2
-proximo estado108 = [SHORT, UP, DOWN, NOP, UP, UP, MAX, MIN, DOWN] 15.2
+melhor acao
+acao: 5 - STAY_SHORT
 
 Escolhe acao
-key: [2127111225, 2127111226, 0]
-melhor acao
+key: [2127211225, 2127211226, 0]
 key1
-recompensa: 0.11118421052631576 estado: 15.2 valor atual: 13.51
-antes: 0.16521962840950966 proximo: 0.18610122394743148 teste dict: 0.1657532764816697
-***************
-estado 108
+melhor acao
+acao: 5 - STAY_SHORT
 
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado108 = [SHORT, UP, DOWN, NOP, UP, UP, MAX, MIN, DOWN] 15.2
-proximo estado109 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, DOWN] 15.2
+Escolhe acao
+key: [2227122125, 2227122126, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217221225, 2217221226, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117222125, 2117222126, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127211225, 2127211226, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
 
 Escolhe acao
 key: [2227122225, 2227122226, 0]
-melhor acao
 key1
-recompensa: 0.12236842105263154 estado: 15.2 valor atual: 13.34
-antes: 0.18610122394743148 proximo: 0.19279329657331115 teste dict: 0.1865997814803771
-***************
-estado 109
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado109 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, DOWN] 15.2
-proximo estado110 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, DOWN] 15.2
-
-Escolhe acao
-key: [2227212225, 2227212226, 0]
 melhor acao
-key1
-recompensa: 0.12828947368421048 estado: 15.2 valor atual: 13.25
-antes: 0.19279329657331115 proximo: 0.19149434276969296 teste dict: 0.19328009209265895
-***************
-estado 110
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado110 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, DOWN] 15.2
-proximo estado111 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, UP] 15.2
-
-Escolhe acao
-key: [2227122215, 2227122216, 0]
-melhor acao
-key1
-recompensa: 0.10526315789473682 estado: 15.2 valor atual: 13.6
-antes: 0.19149434276969296 proximo: 0.19854888227813886 teste dict: 0.19186361399873114
-***************
-estado 111
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado111 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, UP] 15.2
-proximo estado112 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, UP] 15.2
-
-Escolhe acao
-key: [2217212115, 2217212116, 0]
-melhor acao
-key1
-recompensa: 0.10263157894736834 estado: 15.2 valor atual: 13.64
-antes: 0.19854888227813886 proximo: 0.1767914579955584 teste dict: 0.1987437392990017
-***************
-estado 112
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado112 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, UP] 15.2
-proximo estado113 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, DOWN] 15.2
-
-Escolhe acao
-key: [2117121125, 2117121126, 0]
-melhor acao
-key1
-recompensa: 0.12236842105263154 estado: 15.2 valor atual: 13.34
-antes: 0.1767914579955584 proximo: 0.1658972913408026 teste dict: 0.17722339346452784
-***************
-estado 113
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado113 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, DOWN] 15.2
-proximo estado114 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, DOWN] 15.2
-
-Escolhe acao
-key: [2127221225, 2127221226, 0]
-melhor acao
-key1
-recompensa: 0.12631578947368421 estado: 15.2 valor atual: 13.28
-antes: 0.1658972913408026 proximo: 0.15979756821011687 teste dict: 0.16640322891196235
-***************
-estado 114
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado114 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, DOWN] 15.2
-proximo estado115 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, DOWN] 15.2
-
-Escolhe acao
-key: [2227212225, 2227212226, 0]
-melhor acao
-key1
-recompensa: 0.13026315789473675 estado: 15.2 valor atual: 13.22
-antes: 0.15979756821011687 proximo: 0.19186361399873114 teste dict: 0.160530959046503
-***************
-estado 115
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado115 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, DOWN] 15.2
-proximo estado116 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, UP] 15.2
-
-Escolhe acao
-key: [2227122215, 2227122216, 0]
-melhor acao
-key1
-recompensa: 0.12105263157894737 estado: 15.2 valor atual: 13.36
-antes: 0.19186361399873114 proximo: 0.1987437392990017 teste dict: 0.19234178144435776
-***************
-estado 116
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado116 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, UP] 15.2
-proximo estado117 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, DOWN] 15.2
+acao: 5 - STAY_SHORT
 
 Escolhe acao
 key: [2217222125, 2217222126, 0]
-melhor acao
 key1
-recompensa: 0.1289473684210526 estado: 15.2 valor atual: 13.24
-antes: 0.1987437392990017 proximo: 0.24238228066368922 teste dict: 0.19944283787810813
-***************
-estado 117
-
-acao: 5 STAY_SHORT
-                    1     2   3   4   5    6     7     8    9
-        estado117 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, DOWN] 15.2
-proximo estado118 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 15.2
+melhor acao
+acao: 5 - STAY_SHORT
 
 Escolhe acao
-key: [2127221215, 2127221216, 0]
-melhor acao
+key: [2117211125, 2117211126, 0]
 key1
-recompensa: 0.1164473684210526 estado: 15.2 valor atual: 13.43
-antes: 0.24238228066368922 proximo: 0.19018566567870623 teste dict: 0.24243264603981643
-***************
-estado 118
+melhor acao
+acao: 5 - STAY_SHORT
 
+Escolhe acao
+key: [2117121125, 2117121126, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117221125, 2117221126, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117211225, 2117211226, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117122125, 2117122126, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127221225, 2127221226, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227212225, 2227212226, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217112125, 2217112126, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127121225, 2127121226, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227212225, 2227212226, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217122125, 2217122126, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117211115, 2117211116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127111215, 2127111216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227112225, 2227112226, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227122225, 2227122226, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227212225, 2227212226, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217122125, 2217122126, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117211125, 2117211126, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117121115, 2117121116, 0]
+key2
+melhor acao
+acao: 6 - EXIT_SHORT
+
+Escolhe acao
+key: [3121221131, 3121221134, 3121221137]
+key 3 != 0
+key 1
+melhor acao
+acao: 1 - ENTER_LONG
+
+Escolhe acao
+key: [1211211112, 1211211113, 0]
+key1
+melhor acao
+acao: 2 - STAY_LONG
+
+Escolhe acao
+key: [1117111122, 1117111123, 0]
+key2
+melhor acao
+acao: 3 - EXIT_LONG
+
+Escolhe acao
+key: [3122121231, 3122121234, 3122121237]
+key 3 != 0
+key 2
+melhor acao
+acao: 4 - ENTER_SHORT
+
+Escolhe acao
+key: [2212212125, 2212212126, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127121225, 2127121226, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227212225, 2227212226, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227122125, 2227122126, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217211225, 2217211226, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127112225, 2127112226, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227112225, 2227112226, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227122225, 2227122226, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217222125, 2217222126, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117221125, 2117221126, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127221225, 2127221226, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227222225, 2227222226, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217212125, 2217212126, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117121125, 2117121126, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127211225, 2127211226, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217122125, 2217122126, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127221225, 2127221226, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217212125, 2217212126, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127121125, 2127121126, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227211225, 2227211226, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217112125, 2217112126, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117121125, 2117121126, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127221225, 2127221226, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217222125, 2217222126, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127211225, 2127211226, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227122125, 2227122126, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227221125, 2227221126, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227211225, 2227211226, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217122125, 2217122126, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117221125, 2117221126, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127221125, 2127221126, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227221225, 2227221226, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227212125, 2227212126, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217121125, 2217121126, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117211125, 2117211126, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127111225, 2127111226, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227122225, 2227122226, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227212225, 2227212226, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227122225, 2227122226, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217212125, 2217212126, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117121125, 2117121126, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127221225, 2127221226, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227212225, 2227212226, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227122225, 2227122226, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217222125, 2217222126, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127221225, 2127221226, 0]
+key1
+melhor acao

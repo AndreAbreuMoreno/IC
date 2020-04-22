@@ -29,12 +29,12 @@ while iteracao < qtd_iteracao
       # DECLARACAO DE VARIAVEIS
       global iteracao
       global cont = 1    #variavel para verificar quantos estados já se passaram na iteracao atual
-      global preco_long = 0
-      global preco_short = 0
-      global dados = open(dadosTraining, "r")
+      global preco_long
+      global preco_short
       n = iteracao%5
       recompensa = 0
       recompensa_acumulada = 0
+      global dados = open(dadosTraining, "r")
       result = open("saida/resultado$(n).txt", "w")
 
       """ Inicializa estado e o proximo_estado"""
@@ -67,9 +67,6 @@ while iteracao < qtd_iteracao
             linhat0 = split(readuntil(dados,"%"),";")
             linhat0 = parse.(Float64,linhat0[3:9])
 
-            """ Atualiza preco_short e preco_long de entrada (se for o caso)"""
-            preco_long, preco_short = atualizaPreco1(preco_long, preco_short, acao, linhat1)
-
             """ Executa a açao """
             proximo_estado = executaAcao(result, estado, acao,linhat0, linhat1, linhat2, preco_long, preco_short)
 
@@ -83,7 +80,8 @@ while iteracao < qtd_iteracao
             # print(result, "proximo ")
             # printEstado(result, proximo_estado)
 
-
+            """ Atualiza preco_short e preco_long de entrada (se for o caso)"""
+            preco_long, preco_short = atualizaPreco1(preco_long, preco_short, acao, linhat1)
 
             # """ Calcula recompensa r(proximo estado)"""
             # recompensa_acumulada = recompensa_acumulada + recompensa
