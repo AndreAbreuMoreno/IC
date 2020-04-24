@@ -36,56 +36,35 @@ function criaQ(iteracao)
                                                                         append!(keys,aux)
                                                                         # append!(vals,rand())
                                                                         # append!(vals,rand()*0.000001)
-                                                                        # append!(vals,(rand()-rand(0:1))*0.000001)
-                                                                        append!(vals,(rand()-rand(0:1)))
+                                                                        append!(vals,(rand()-rand(0:1))*0.1)
+                                                                        # append!(vals,(rand()-rand(0:1)))
                                                                         aux = num + 3
                                                                         append!(keys,aux)
-                                                                        # append!(vals,rand())
-                                                                        # append!(vals,rand()*0.000001)
-                                                                        # append!(vals,(rand()-rand(0:1))*0.000001)
-                                                                        append!(vals,(rand()-rand(0:1)))
+                                                                        append!(vals,(rand()-rand(0:1))*0.1)
+                                                                        # append!(vals,(rand()-rand(0:1)))
                                                                   elseif a == 2
                                                                         aux = num + 5
                                                                         append!(keys,aux)
-                                                                        # append!(vals,rand())
-                                                                        # append!(vals,rand()*0.000001)
-                                                                        # append!(vals,(rand()-rand(0:1))*0.000001)
-                                                                        append!(vals,(rand()-rand(0:1)))
-
+                                                                        append!(vals,(rand()-rand(0:1))*0.1)
+                                                                        # append!(vals,(rand()-rand(0:1)))
                                                                         aux = num + 6
                                                                         append!(keys,aux)
-                                                                        # append!(vals,rand())
-                                                                        # append!(vals,rand()*0.000001)
-                                                                        # append!(vals,(rand()-rand(0:1))*0.000001)
-                                                                        append!(vals,(rand()-rand(0:1)))
-
+                                                                        append!(vals,(rand()-rand(0:1))*0.1)
+                                                                        # append!(vals,(rand()-rand(0:1)))
                                                                   elseif a == 3
                                                                         aux = num + 1
                                                                         append!(keys,aux)
-                                                                        # append!(vals,rand())
-                                                                        # append!(vals,rand()*0.000001)
-                                                                        # append!(vals,(rand()-rand(0:1))*0.000001)
-                                                                        append!(vals,(rand()-rand(0:1)))
-
+                                                                        append!(vals,(rand()-rand(0:1))*0.1)
+                                                                        # append!(vals,(rand()-rand(0:1)))
                                                                         aux = num + 4
                                                                         append!(keys,aux)
-                                                                        # append!(vals,rand())
-                                                                        # append!(vals,rand()*0.000001)
-                                                                        # append!(vals,(rand()-rand(0:1))*0.000001)
-                                                                        append!(vals,(rand()-rand(0:1)))
-
+                                                                        append!(vals,(rand()-rand(0:1))*0.1)
+                                                                        # append!(vals,(rand()-rand(0:1)))
                                                                         aux = num + 7
                                                                         append!(keys,aux)
-                                                                        # append!(vals,rand())
-                                                                        # append!(vals,rand()*0.000001)
-                                                                        # append!(vals,(rand()-rand(0:1))*0.000001)
-                                                                        append!(vals,(rand()-rand(0:1)))
-
+                                                                        append!(vals,(rand()-rand(0:1))*0.1)
+                                                                        # append!(vals,(rand()-rand(0:1)))
                                                                   end
-                                                                  # append!(vals,rand()*0.000001)
-                                                                  # append!(vals,(rand()-rand(0:1))*0.000001)
-                                                                  # append!(vals,(rand()-rand(0:1))*0.000001)
-
                                                             end
                                                       end
                                                 end
@@ -95,7 +74,6 @@ function criaQ(iteracao)
                         end
                   end
             end
-            # vals = zeros(size(keys)) nao compensa, resultado pior
             Q_e_a = Dict(zip(keys, vals))
             return Q_e_a
       else
@@ -106,7 +84,6 @@ function criaQ(iteracao)
             keys= []
             vals = []
             while !eof(chave)
-
                   k = parse.(Int64,readline(chave))
                   v = parse.(Float64,readline(valor))
                   append!(keys, k)
@@ -214,18 +191,7 @@ function escolheAcaoTeste(arq, estado)
       epsilon = rand()
       taxa_exploracao = 0
       acao = melhorAcao(arq,key)
-      if epsilon > 1.5*taxa_exploracao
-            println(arq, "melhor acao")
-            return acao
-      else
-            println(arq, "aleatorio")
-            num = rand(1:3)
-            while key[num] == 0 || key[num] == acao
-                  num = rand(1:3)
-            end
-            println(arq, "num ", num, " key: ", key[num])
-            return key[num]
-      end
+      return acao
 end
 
 function  calculaKey(estado)
@@ -335,16 +301,12 @@ function executaAcao(arq, estado,acao,linhat0, linhat1, linhat2, preco_long,prec
       proximo_estado = zeros(10)
       if acao == ENTER_LONG
             proximo_estado[1] = LONG
-            proximo_estado[10] = preco_long
       elseif acao == EXIT_LONG || acao == EXIT_SHORT
             proximo_estado[1] = NPOS
-            proximo_estado[10] = 0
       elseif acao == ENTER_SHORT
             proximo_estado[1] = SHORT
-            proximo_estado[10] = preco_short
       elseif acao == STAY_LONG || acao == STAY_SHORT || acao == NOPa
             proximo_estado[1] = estado[1]
-            proximo_estado[10] = estado[10]
       end
 
       #ESTADO 2
@@ -385,32 +347,34 @@ function executaAcao(arq, estado,acao,linhat0, linhat1, linhat2, preco_long,prec
       end
 
       #ESTADO 9
-      # if proximo_estado[1] == NPOS
-      #       proximo_estado[9] =  NPOS
-      # elseif proximo_estado[1] == LONG
-      #       if preco_long >= linhat1[4]
-      #             proximo_estado[9] = UP
-      #       else proximo_estado[9] = DOWN
-      #       end
-      # elseif proximo_estado[1] == SHORT
-      #       if preco_short >= linhat1[4]
-      #             proximo_estado[9] = DOWN
-      #       else proximo_estado[9] = UP
-      #       end
-      # end
       if proximo_estado[1] == NPOS
             proximo_estado[9] =  NPOS
       elseif proximo_estado[1] == LONG
-            if linhat0[4] >= linhat1[4]
+            if preco_long >= linhat1[4]
                   proximo_estado[9] = UP
             else proximo_estado[9] = DOWN
             end
       elseif proximo_estado[1] == SHORT
-            if linhat0[4] >= linhat1[4]
+            if preco_short >= linhat1[4]
                   proximo_estado[9] = DOWN
             else proximo_estado[9] = UP
             end
       end
+
+      # if proximo_estado[1] == NPOS
+      #       proximo_estado[9] =  NPOS
+      # elseif proximo_estado[1] == LONG
+      #       if linhat0[4] >= linhat1[4]
+      #             proximo_estado[9] = UP
+      #       else proximo_estado[9] = DOWN
+      #       end
+      # elseif proximo_estado[1] == SHORT
+      #       if linhat0[4] >= linhat1[4]
+      #             proximo_estado[9] = DOWN
+      #       else proximo_estado[9] = UP
+      #       end
+      # end
+
       return proximo_estado
 end
 
@@ -427,6 +391,10 @@ function calculaRecompensa(preco_long, preco_short,estado, acao, linhat0)
       return recomp
 end
 
+function atualizaQ(acao, proxima_acao, recompensa, taxa_aprendizado, fator_desconto)
+      val = Q_e_a[acao] + taxa_aprendizado * (recompensa + fator_desconto * Q_e_a[proxima_acao] - Q_e_a[acao])
+      return val
+end
 
 function atualizaPreco1(preco_long, preco_short,  acao, linhat1)
       n = acao%10
@@ -446,4 +414,32 @@ function atualizaPreco2(preco_long, preco_short, acao, linhat1)
             preco_short = 0
       end
       return preco_long, preco_short
+end
+
+function calculaEvolucao(preco_long, preco_short, estado, acao, linhat0, linhat1)
+      evolucao = 0
+      n = acao%10
+      if n == NOPa
+            evolucao = 0
+      elseif n == ENTER_LONG || n == STAY_LONG || n == EXIT_LONG
+            evolucao = (linhat0[4] - linhat1[4])/preco_long
+      elseif n == ENTER_SHORT || n == STAY_SHORT ||n == EXIT_SHORT
+            evolucao = (linhat1[4] - linhat0[4])/preco_short
+      end
+      return evolucao
+
+end
+
+function calculaEvolucao2(preco_long, preco_short, estado, acao, linhat0, linhat1)
+      evolucao = 0
+      n = acao%10
+      if n == NOPa
+            evolucao = 0
+      elseif n == ENTER_LONG || n == STAY_LONG || n == EXIT_LONG
+            evolucao = (linhat0[4] - linhat1[4])/linhat1[4]
+      elseif n == ENTER_SHORT || n == STAY_SHORT ||n == EXIT_SHORT
+            evolucao = (linhat1[4] - linhat0[4])/linhat1[4]
+      end
+      return evolucao
+
 end

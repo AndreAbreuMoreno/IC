@@ -347,33 +347,33 @@ function executaAcao(arq, estado,acao,linhat0, linhat1, linhat2, preco_long,prec
       end
 
       #ESTADO 9
-      if proximo_estado[1] == NPOS
-            proximo_estado[9] =  NPOS
-      elseif proximo_estado[1] == LONG
-            if preco_long >= linhat1[4]
-                  proximo_estado[9] = UP
-            else proximo_estado[9] = DOWN
-            end
-      elseif proximo_estado[1] == SHORT
-            if preco_short >= linhat1[4]
-                  proximo_estado[9] = DOWN
-            else proximo_estado[9] = UP
-            end
-      end
-
       # if proximo_estado[1] == NPOS
       #       proximo_estado[9] =  NPOS
       # elseif proximo_estado[1] == LONG
-      #       if linhat0[4] >= linhat1[4]
+      #       if preco_long >= linhat1[4]
       #             proximo_estado[9] = UP
       #       else proximo_estado[9] = DOWN
       #       end
       # elseif proximo_estado[1] == SHORT
-      #       if linhat0[4] >= linhat1[4]
+      #       if preco_short >= linhat1[4]
       #             proximo_estado[9] = DOWN
       #       else proximo_estado[9] = UP
       #       end
       # end
+
+      if proximo_estado[1] == NPOS
+            proximo_estado[9] =  NPOS
+      elseif proximo_estado[1] == LONG
+            if linhat0[4] >= linhat1[4]
+                  proximo_estado[9] = UP
+            else proximo_estado[9] = DOWN
+            end
+      elseif proximo_estado[1] == SHORT
+            if linhat0[4] >= linhat1[4]
+                  proximo_estado[9] = DOWN
+            else proximo_estado[9] = UP
+            end
+      end
 
       return proximo_estado
 end
