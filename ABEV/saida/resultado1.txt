@@ -424,25 +424,25 @@ acao: 2 - STAY_LONG
 
 Escolhe acao
 key: [1117111122, 1117111123, 0]
+key1
+melhor acao
+acao: 2 - STAY_LONG
+
+Escolhe acao
+key: [1127121222, 1127121223, 0]
 key2
 melhor acao
 acao: 3 - EXIT_LONG
 
 Escolhe acao
-key: [3122121231, 3122121234, 3122121237]
+key: [3212212131, 3212212134, 3212212137]
 key 3 != 0
 key 2
 melhor acao
 acao: 4 - ENTER_SHORT
 
 Escolhe acao
-key: [2212212125, 2212212126, 0]
-key1
-melhor acao
-acao: 5 - STAY_SHORT
-
-Escolhe acao
-key: [2127121225, 2127121226, 0]
+key: [2122121225, 2122121226, 0]
 key1
 melhor acao
 acao: 5 - STAY_SHORT
