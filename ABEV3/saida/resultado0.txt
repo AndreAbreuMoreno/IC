@@ -1,0 +1,1487 @@
+
+Escolhe acao
+key: [3127111231, 3127111234, 3127111237]
+key 3 != 0
+key 2
+melhor acao
+acao: 4 - ENTER_SHORT
+
+Escolhe acao
+key: [2222122225, 2222122226, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227212215, 2227212216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217122125, 2217122126, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117221125, 2117221126, 0]
+key2
+melhor acao
+acao: 6 - EXIT_SHORT
+
+Escolhe acao
+key: [3121211231, 3121211234, 3121211237]
+key 3 != 0
+key 2
+melhor acao
+acao: 4 - ENTER_SHORT
+
+Escolhe acao
+key: [2212122125, 2212122126, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127211215, 2127211216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217122125, 2217122126, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127221225, 2127221226, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227222215, 2227222216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227222215, 2227222216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217212115, 2217212116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117111215, 2117111216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117112125, 2117112126, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127121215, 2127121216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227222115, 2227222116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227211215, 2227211216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227122215, 2227122216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227222215, 2227222216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227212215, 2227212216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217112115, 2217112116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127121215, 2127121216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227212115, 2227212116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227111115, 2227111116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217121115, 2217121116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117221115, 2117221116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127211215, 2127211216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217112115, 2217112116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127121215, 2127121216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217212115, 2217212116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117121115, 2117121116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127211215, 2127211216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227122215, 2227122216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217222115, 2217222116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117211115, 2117211116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117121215, 2117121216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117212115, 2117212116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117111215, 2117111216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127122215, 2127122216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217212115, 2217212116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127121115, 2127121116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217221115, 2217221116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117211115, 2117211116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127121215, 2127121216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227222115, 2227222116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217221215, 2217221216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117212115, 2117212116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127121215, 2127121216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227222215, 2227222216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217212115, 2217212116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117121115, 2117121116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117221115, 2117221116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117211115, 2117211116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117121215, 2117121216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117222115, 2117222116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127211215, 2127211216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227112215, 2227112216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217122125, 2217122126, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127211225, 2127211226, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227122225, 2227122226, 0]
+key2
+melhor acao
+acao: 6 - EXIT_SHORT
+
+Escolhe acao
+key: [3211212131, 3211212134, 3211212137]
+key 3 != 0
+key 2
+melhor acao
+acao: 4 - ENTER_SHORT
+
+Escolhe acao
+key: [2112111125, 2112111126, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127111225, 2127111226, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227122215, 2227122216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227212215, 2227212216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227122215, 2227122216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217212115, 2217212116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117121115, 2117121116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117221125, 2117221126, 0]
+key2
+melhor acao
+acao: 6 - EXIT_SHORT
+
+Escolhe acao
+key: [3121211131, 3121211134, 3121211137]
+key 3 != 0
+key 1
+melhor acao
+acao: 1 - ENTER_LONG
+
+Escolhe acao
+key: [1211111112, 1211111113, 0]
+key1
+melhor acao
+acao: 2 - STAY_LONG
+
+Escolhe acao
+key: [1117121112, 1117121113, 0]
+key1
+melhor acao
+acao: 2 - STAY_LONG
+
+Escolhe acao
+key: [1127211212, 1127211213, 0]
+key2
+melhor acao
+acao: 3 - EXIT_LONG
+
+Escolhe acao
+key: [3212122131, 3212122134, 3212122137]
+key 3 != 0
+key 2
+melhor acao
+acao: 4 - ENTER_SHORT
+
+Escolhe acao
+key: [2122211225, 2122211226, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227122215, 2227122216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227212115, 2227212116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217111215, 2217111216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127112215, 2127112216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227122215, 2227122216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227222215, 2227222216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217222115, 2217222116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117221115, 2117221116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127221215, 2127221216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227212215, 2227212216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217122115, 2217122116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117211115, 2117211116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127121215, 2127121216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217222115, 2217222116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127211215, 2127211216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217122115, 2217122116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127211115, 2127211116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227111215, 2227111216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217122115, 2217122116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117221115, 2117221116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127221215, 2127221216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217212115, 2217212116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127121215, 2127121216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227222115, 2227222116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227211115, 2227211116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227121215, 2227121216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217222115, 2217222116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117221115, 2117221116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127221115, 2127221116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227211215, 2227211216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227122115, 2227122116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217211115, 2217211116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117111115, 2117111116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127121215, 2127121216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227212215, 2227212216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227122215, 2227122216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227212215, 2227212216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217122115, 2217122116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117221115, 2117221116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127211215, 2127211216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227122215, 2227122216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227222215, 2227222216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217222115, 2217222116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127211215, 2127211216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217122115, 2217122116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117211115, 2117211116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117111115, 2117111116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117121115, 2117121116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117211115, 2117211116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127121215, 2127121216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217212115, 2217212116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127121215, 2127121216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217212115, 2217212116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127121215, 2127121216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217222115, 2217222116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117221115, 2117221116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117211115, 2117211116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117121115, 2117121116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117221115, 2117221116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127221215, 2127221216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227222215, 2227222216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217212115, 2217212116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127121215, 2127121216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227222215, 2227222216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217212215, 2217212216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127112215, 2127112216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227122215, 2227122216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227212115, 2227212116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217111115, 2217111116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127111215, 2127111216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217122115, 2217122116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117211215, 2117211216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117122115, 2117122116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117221115, 2117221116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117211115, 2117211116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127121115, 2127121116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217211115, 2217211116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117111115, 2117111116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117111115, 2117111116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117121115, 2117121116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117211115, 2117211116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127111115, 2127111116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217121115, 2217121116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117221115, 2117221116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127211215, 2127211216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227122215, 2227122216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227212215, 2227212216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227122215, 2227122216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227212215, 2227212216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227122215, 2227122216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217212115, 2217212116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117121115, 2117121116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127211215, 2127211216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227112215, 2227112216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217122115, 2217122116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117221115, 2117221116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127211215, 2127211216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227122215, 2227122216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217212115, 2217212116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117121215, 2117121216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127212215, 2127212216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217122115, 2217122116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117221115, 2117221116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117221115, 2117221116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117211115, 2117211116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117111115, 2117111116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117121115, 2117121116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117211115, 2117211116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117121115, 2117121116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127211215, 2127211216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227122215, 2227122216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217222115, 2217222116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117211115, 2117211116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117121215, 2117121216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127212215, 2127212216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227122215, 2227122216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227222215, 2227222216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227212215, 2227212216, 0]
+key1
+aleatorio
+num 1 key: 2227212215
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227122215, 2227122216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217212215, 2217212216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127122215, 2127122216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217212215, 2217212216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117122115, 2117122116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127211215, 2127211216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227122215, 2227122216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227212215, 2227212216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227122215, 2227122216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217212115, 2217212116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117121115, 2117121116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117221115, 2117221116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117221215, 2117221216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117212115, 2117212116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117121115, 2117121116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117221115, 2117221116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117211115, 2117211116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117111115, 2117111116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117121115, 2117121116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117221115, 2117221116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127211215, 2127211216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227112215, 2227112216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217122115, 2217122116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127211215, 2127211216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227122215, 2227122216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217212215, 2217212216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117112115, 2117112116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117111115, 2117111116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117121115, 2117121116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127211215, 2127211216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227122215, 2227122216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227222215, 2227222216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217212215, 2217212216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117112115, 2117112116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127121215, 2127121216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227222215, 2227222216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227212215, 2227212216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227122115, 2227122116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217211115, 2217211116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127111215, 2127111216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227122115, 2227122116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217211115, 2217211116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117121115, 2117121116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127211215, 2127211216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227112115, 2227112116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217111215, 2217111216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117122115, 2117122116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127221215, 2127221216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2227222115, 2227222116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217221115, 2217221116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2117221115, 2117221116, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2127211215, 2127211216, 0]
+key1
+melhor acao
+acao: 5 - STAY_SHORT
+
+Escolhe acao
+key: [2217112115, 2217112116, 0]
+key1
+melhor acao

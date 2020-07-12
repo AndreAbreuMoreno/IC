@@ -1,0 +1,1836 @@
+
+Escolhe acao
+key: [3227122231, 3227122234, 3227122237]
+key 3 != 0
+key 1
+***************
+estado 1
+
+instante t1 Float32[13.78, 14.0, 14.05, 13.67, 13.55, -2.2]
+instante t0 Float32[14.18, 13.84, 14.27, 13.69, 18.16, 2.9]
+acao: 1 - ENTER_LONG
+        estado1 = [NPOS, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, NPOS] 
+proximo estado2 = [LONG, DOWN, DOWN, BUY, DOWN, UP, MIN, MIN, UP] 
+recompensa: 0.0 recomp_acumulada: 0 long: 13.78 short: 0.0
+preco em atual: 13.78 preco futuro: 14.18
+
+Escolhe acao
+key: [1221212212, 1221212213, 0]
+key2
+antes: 0.038174043936204084 proximo: 0.07260766797263245 teste dict: 0.03826260320171655
+***************
+estado 2
+
+instante t1 Float32[14.18, 13.84, 14.27, 13.69, 18.16, 2.9]
+instante t0 Float32[14.53, 14.38, 14.71, 14.2, 19.74, 2.47]
+acao: 3 - EXIT_LONG
+        estado2 = [LONG, DOWN, DOWN, BUY, DOWN, UP, MIN, MIN, UP] 
+proximo estado3 = [NPOS, DOWN, UP, SELL, UP, UP, MIN, MAX, NPOS] 
+recompensa: 0.029027618 recomp_acumulada: 0.0 long: 13.78 short: 0.0
+preco em atual: 14.18 preco futuro: 14.53
+
+Escolhe acao
+key: [3212112131, 3212112134, 3212112137]
+key 3 != 0
+key 2
+antes: 0.07260766797263245 proximo: 0.07496722163979427 teste dict: 0.07266994701213367
+***************
+estado 3
+
+instante t1 Float32[14.53, 14.38, 14.71, 14.2, 19.74, 2.47]
+instante t0 Float32[14.59, 14.54, 14.76, 14.39, 8.85, 0.41]
+acao: 4 - ENTER_SHORT
+        estado3 = [NPOS, DOWN, UP, SELL, UP, UP, MIN, MAX, NPOS] 
+proximo estado4 = [SHORT, UP, UP, SELL, UP, DOWN, MAX, MAX, DOWN] 
+recompensa: 0.0 recomp_acumulada: 0.029027618 long: 0 short: 14.53
+preco em atual: 14.53 preco futuro: 14.59
+
+Escolhe acao
+key: [2112121125, 2112121126, 0]
+key2
+antes: 0.07496722163979427 proximo: 0.05529364969651528 teste dict: 0.07471338997182864
+***************
+estado 4
+
+instante t1 Float32[14.59, 14.54, 14.76, 14.39, 8.85, 0.41]
+instante t0 Float32[14.58, 14.58, 14.74, 14.43, 10.73, -0.07]
+acao: 6 - EXIT_SHORT
+        estado4 = [SHORT, UP, UP, SELL, UP, DOWN, MAX, MAX, DOWN] 
+proximo estado5 = [NPOS, UP, UP, BUY, DOWN, UP, MAX, MAX, NPOS] 
+recompensa: -0.0041294163 recomp_acumulada: 0.029027618 long: 0 short: 14.53
+preco em atual: 14.59 preco futuro: 14.58
+
+Escolhe acao
+key: [3111211131, 3111211134, 3111211137]
+key 3 != 0
+key 2
+antes: 0.05529364969651528 proximo: 0.069642015594459 teste dict: 0.05521893411088744
+***************
+estado 5
+
+instante t1 Float32[14.58, 14.58, 14.74, 14.43, 10.73, -0.07]
+instante t0 Float32[14.85, 14.65, 14.89, 14.52, 11.13, 1.85]
+acao: 4 - ENTER_SHORT
+        estado5 = [NPOS, UP, UP, BUY, DOWN, UP, MAX, MAX, NPOS] 
+proximo estado6 = [SHORT, UP, UP, SELL, UP, UP, MAX, MIN, DOWN] 
+recompensa: 0.0 recomp_acumulada: 0.024898201 long: 0 short: 14.58
+preco em atual: 14.58 preco futuro: 14.85
+
+Escolhe acao
+key: [2112111225, 2112111226, 0]
+key2
+antes: 0.069642015594459 proximo: 0.010079269651007167 teste dict: 0.06920390990658772
+***************
+estado 6
+
+instante t1 Float32[14.85, 14.65, 14.89, 14.52, 11.13, 1.85]
+instante t0 Float32[14.8, 14.78, 15.04, 14.74, 19.05, -0.34]
+acao: 6 - EXIT_SHORT
+        estado6 = [SHORT, UP, UP, SELL, UP, UP, MAX, MIN, DOWN] 
+proximo estado7 = [NPOS, UP, UP, BUY, UP, UP, MIN, MAX, NPOS] 
+recompensa: -0.01851855 recomp_acumulada: 0.024898201 long: 0 short: 14.58
+preco em atual: 14.85 preco futuro: 14.8
+
+Escolhe acao
+key: [3111112131, 3111112134, 3111112137]
+key 3 != 0
+key 3
+antes: 0.010079269651007167 proximo: 0.03367317218354421 teste dict: 0.010044083454899265
+***************
+estado 7
+
+instante t1 Float32[14.8, 14.78, 15.04, 14.74, 19.05, -0.34]
+instante t0 Float32[14.75, 14.63, 14.86, 14.63, 9.18, -0.34]
+acao: 7 - NOPa
+        estado7 = [NPOS, UP, UP, BUY, UP, UP, MIN, MAX, NPOS] 
+proximo estado8 = [NPOS, UP, UP, NOP, UP, DOWN, MAX, MIN, NPOS] 
+recompensa: 0 recomp_acumulada: 0.006379651 long: 0 short: 0
+preco em atual: 14.8 preco futuro: 14.75
+
+Escolhe acao
+key: [3117121231, 3117121234, 3117121237]
+key 3 != 0
+key 1
+antes: 0.03367317218354421 proximo: 0.024194349276723398 teste dict: 0.033556012289715345
+***************
+estado 8
+
+instante t1 Float32[14.75, 14.63, 14.86, 14.63, 9.18, -0.34]
+instante t0 Float32[14.76, 14.77, 15.04, 14.7, 12.48, 0.07]
+acao: 1 - ENTER_LONG
+        estado8 = [NPOS, UP, UP, NOP, UP, DOWN, MAX, MIN, NPOS] 
+proximo estado9 = [LONG, UP, UP, BUY, DOWN, UP, MIN, MAX, UP] 
+recompensa: 0.0 recomp_acumulada: 0.006379651 long: 14.75 short: 0
+preco em atual: 14.75 preco futuro: 14.76
+
+Escolhe acao
+key: [1111212112, 1111212113, 0]
+key1
+antes: 0.024194349276723398 proximo: 0.03521616184070491 teste dict: 0.02419754802480579
+***************
+estado 9
+
+instante t1 Float32[14.76, 14.77, 15.04, 14.7, 12.48, 0.07]
+instante t0 Float32[14.96, 14.82, 15.05, 14.77, 9.03, 1.36]
+acao: 2 - STAY_LONG
+        estado9 = [LONG, UP, UP, BUY, DOWN, UP, MIN, MAX, UP] 
+proximo estado10 = [LONG, UP, DOWN, NOP, UP, DOWN, MAX, MIN, UP] 
+recompensa: 0.00067798165 recomp_acumulada: 0.006379651 long: 14.75 short: 0
+preco em atual: 14.76 preco futuro: 14.96
+
+Escolhe acao
+key: [1127121212, 1127121213, 0]
+key2
+antes: 0.03521616184070491 proximo: 0.023144658398388047 teste dict: 0.0350878034054992
+***************
+estado 10
+
+instante t1 Float32[14.96, 14.82, 15.05, 14.77, 9.03, 1.36]
+instante t0 Float32[14.73, 14.88, 14.96, 14.64, 6.13, -1.54]
+acao: 3 - EXIT_LONG
+        estado10 = [LONG, UP, DOWN, NOP, UP, DOWN, MAX, MIN, UP] 
+proximo estado11 = [NPOS, DOWN, UP, SELL, DOWN, DOWN, MIN, MAX, NPOS] 
+recompensa: 0.014237291 recomp_acumulada: 0.0070576323 long: 14.75 short: 0
+preco em atual: 14.96 preco futuro: 14.73
+
+Escolhe acao
+key: [3212222131, 3212222134, 3212222137]
+key 3 != 0
+key 2
+antes: 0.023144658398388047 proximo: 0.03900035982259249 teste dict: 0.023273408590987216
+***************
+estado 11
+
+instante t1 Float32[14.73, 14.88, 14.96, 14.64, 6.13, -1.54]
+instante t0 Float32[14.94, 14.85, 15.0, 14.77, 6.93, 1.43]
+acao: 4 - ENTER_SHORT
+        estado11 = [NPOS, DOWN, UP, SELL, DOWN, DOWN, MIN, MAX, NPOS] 
+proximo estado12 = [SHORT, UP, DOWN, SELL, DOWN, UP, MAX, MIN, DOWN] 
+recompensa: 0.0 recomp_acumulada: 0.021294923 long: 0 short: 14.73
+preco em atual: 14.73 preco futuro: 14.94
+
+Escolhe acao
+key: [2122211225, 2122211226, 0]
+key1
+antes: 0.03900035982259249 proximo: 0.16274798724073622 teste dict: 0.03952482244131395
+***************
+estado 12
+
+instante t1 Float32[14.94, 14.85, 15.0, 14.77, 6.93, 1.43]
+instante t0 Float32[15.13, 15.0, 15.22, 14.9, 9.28, 1.27]
+acao: 5 - STAY_SHORT
+        estado12 = [SHORT, UP, DOWN, SELL, DOWN, UP, MAX, MIN, DOWN] 
+proximo estado13 = [SHORT, DOWN, UP, NOP, UP, UP, MIN, MAX, DOWN] 
+recompensa: -0.014256623 recomp_acumulada: 0.021294923 long: 0 short: 14.73
+preco em atual: 14.94 preco futuro: 15.13
+
+Escolhe acao
+key: [2217112125, 2217112126, 0]
+key1
+antes: 0.16274798724073622 proximo: 0.09965893188411122 teste dict: 0.16199728373778727
+***************
+estado 13
+
+instante t1 Float32[15.13, 15.0, 15.22, 14.9, 9.28, 1.27]
+instante t0 Float32[15.24, 15.22, 15.4, 15.03, 10.96, 0.73]
+acao: 5 - STAY_SHORT
+        estado13 = [SHORT, DOWN, UP, NOP, UP, UP, MIN, MAX, DOWN] 
+proximo estado14 = [SHORT, UP, UP, NOP, UP, UP, MAX, MAX, DOWN] 
+recompensa: -0.027155505 recomp_acumulada: 0.007038301 long: 0 short: 14.73
+preco em atual: 15.13 preco futuro: 15.24
+
+Escolhe acao
+key: [2117111125, 2117111126, 0]
+key2
+antes: 0.09965893188411122 proximo: 0.018432548303161888 teste dict: 0.09886155030915496
+***************
+estado 14
+
+instante t1 Float32[15.24, 15.22, 15.4, 15.03, 10.96, 0.73]
+instante t0 Float32[15.13, 15.09, 15.23, 15.04, 7.15, -0.72]
+acao: 6 - EXIT_SHORT
+        estado14 = [SHORT, UP, UP, NOP, UP, UP, MAX, MAX, DOWN] 
+proximo estado15 = [NPOS, UP, UP, BUY, UP, DOWN, MAX, MAX, NPOS] 
+recompensa: -0.034623235 recomp_acumulada: -0.020117205 long: 0 short: 14.73
+preco em atual: 15.24 preco futuro: 15.13
+
+Escolhe acao
+key: [3111121131, 3111121134, 3111121137]
+key 3 != 0
+key 2
+antes: 0.018432548303161888 proximo: 0.1072696310531461 teste dict: 0.018586779008951497
+***************
+estado 15
+
+instante t1 Float32[15.13, 15.09, 15.23, 15.04, 7.15, -0.72]
+instante t0 Float32[15.06, 14.94, 15.15, 14.88, 7.2, -0.46]
+acao: 4 - ENTER_SHORT
+        estado15 = [NPOS, UP, UP, BUY, UP, DOWN, MAX, MAX, NPOS] 
+proximo estado16 = [SHORT, UP, UP, SELL, DOWN, UP, MAX, MIN, DOWN] 
+recompensa: 0.0 recomp_acumulada: -0.05474044 long: 0 short: 15.13
+preco em atual: 15.13 preco futuro: 15.06
+
+Escolhe acao
+key: [2112211225, 2112211226, 0]
+key2
+antes: 0.1072696310531461 proximo: 0.03879566515014627 teste dict: 0.1067088423950098
+***************
+estado 16
+
+instante t1 Float32[15.06, 14.94, 15.15, 14.88, 7.2, -0.46]
+instante t0 Float32[15.0, 14.93, 15.07, 14.84, 9.82, -0.4]
+acao: 6 - EXIT_SHORT
+        estado16 = [SHORT, UP, UP, SELL, DOWN, UP, MAX, MIN, DOWN] 
+proximo estado17 = [NPOS, UP, UP, BUY, UP, UP, MIN, MAX, NPOS] 
+recompensa: 0.0046265493 recomp_acumulada: -0.05474044 long: 0 short: 15.13
+preco em atual: 15.06 preco futuro: 15.0
+
+Escolhe acao
+key: [3111112131, 3111112134, 3111112137]
+key 3 != 0
+key 3
+antes: 0.03879566515014627 proximo: 0.033556012289715345 teste dict: 0.038720905799517806
+***************
+estado 17
+
+instante t1 Float32[15.0, 14.93, 15.07, 14.84, 9.82, -0.4]
+instante t0 Float32[15.14, 14.9, 15.21, 14.85, 9.54, 0.93]
+acao: 7 - NOPa
+        estado17 = [NPOS, UP, UP, BUY, UP, UP, MIN, MAX, NPOS] 
+proximo estado18 = [NPOS, UP, UP, NOP, UP, DOWN, MAX, MAX, NPOS] 
+recompensa: 0 recomp_acumulada: -0.05011389 long: 0 short: 0
+preco em atual: 15.0 preco futuro: 15.14
+
+Escolhe acao
+key: [3117121131, 3117121134, 3117121137]
+key 3 != 0
+key 2
+antes: 0.033556012289715345 proximo: 0.07044428844874423 teste dict: 0.03366629721708619
+***************
+estado 18
+
+instante t1 Float32[15.14, 14.9, 15.21, 14.85, 9.54, 0.93]
+instante t0 Float32[15.64, 15.12, 15.68, 15.0, 16.86, 3.3]
+acao: 4 - ENTER_SHORT
+        estado18 = [NPOS, UP, UP, NOP, UP, DOWN, MAX, MAX, NPOS] 
+proximo estado19 = [SHORT, UP, UP, SELL, DOWN, UP, MAX, MAX, DOWN] 
+recompensa: 0.0 recomp_acumulada: -0.05011389 long: 0 short: 15.14
+preco em atual: 15.14 preco futuro: 15.64
+
+Escolhe acao
+key: [2112211125, 2112211126, 0]
+key2
+antes: 0.07044428844874423 proximo: 0.052634510610944804 teste dict: 0.07020908753159665
+***************
+estado 19
+
+instante t1 Float32[15.64, 15.12, 15.68, 15.0, 16.86, 3.3]
+instante t0 Float32[15.6, 15.44, 15.82, 15.32, 18.61, -0.26]
+acao: 6 - EXIT_SHORT
+        estado19 = [SHORT, UP, UP, SELL, DOWN, UP, MAX, MAX, DOWN] 
+proximo estado20 = [NPOS, UP, UP, BUY, UP, UP, MAX, MAX, NPOS] 
+recompensa: -0.033025097 recomp_acumulada: -0.05011389 long: 0 short: 15.14
+preco em atual: 15.64 preco futuro: 15.6
+
+Escolhe acao
+key: [3111111131, 3111111134, 3111111137]
+key 3 != 0
+key 3
+antes: 0.052634510610944804 proximo: 0.04913775234715544 teste dict: 0.05227566834345576
+***************
+estado 20
+
+instante t1 Float32[15.6, 15.44, 15.82, 15.32, 18.61, -0.26]
+instante t0 Float32[15.39, 15.51, 15.6, 15.29, 9.33, -1.35]
+acao: 7 - NOPa
+        estado20 = [NPOS, UP, UP, BUY, UP, UP, MAX, MAX, NPOS] 
+proximo estado21 = [NPOS, UP, UP, NOP, UP, DOWN, MAX, MAX, NPOS] 
+recompensa: 0 recomp_acumulada: -0.08313899 long: 0 short: 0
+preco em atual: 15.6 preco futuro: 15.39
+
+Escolhe acao
+key: [3117121131, 3117121134, 3117121137]
+key 3 != 0
+key 2
+antes: 0.04913775234715544 proximo: 0.07020908753159665 teste dict: 0.049137812609630176
+***************
+estado 21
+
+instante t1 Float32[15.39, 15.51, 15.6, 15.29, 9.33, -1.35]
+instante t0 Float32[15.49, 15.56, 15.68, 15.38, 9.87, 0.65]
+acao: 4 - ENTER_SHORT
+        estado21 = [NPOS, UP, UP, NOP, UP, DOWN, MAX, MAX, NPOS] 
+proximo estado22 = [SHORT, UP, DOWN, SELL, DOWN, UP, MAX, MIN, DOWN] 
+recompensa: 0.0 recomp_acumulada: -0.08313899 long: 0 short: 15.39
+preco em atual: 15.39 preco futuro: 15.49
+
+Escolhe acao
+key: [2122211225, 2122211226, 0]
+key1
+antes: 0.07020908753159665 proximo: 0.16199728373778727 teste dict: 0.07051141060919063
+***************
+estado 22
+
+instante t1 Float32[15.49, 15.56, 15.68, 15.38, 9.87, 0.65]
+instante t0 Float32[15.34, 15.51, 15.67, 15.24, 11.26, -0.97]
+acao: 5 - STAY_SHORT
+        estado22 = [SHORT, UP, DOWN, SELL, DOWN, UP, MAX, MIN, DOWN] 
+proximo estado23 = [SHORT, DOWN, DOWN, NOP, UP, UP, MIN, MIN, DOWN] 
+recompensa: -0.0064976886 recomp_acumulada: -0.08313899 long: 0 short: 15.39
+preco em atual: 15.49 preco futuro: 15.34
+
+Escolhe acao
+key: [2227112225, 2227112226, 0]
+key1
+antes: 0.16199728373778727 proximo: 0.020404381674832123 teste dict: 0.16091780040168907
+***************
+estado 23
+
+instante t1 Float32[15.34, 15.51, 15.67, 15.24, 11.26, -0.97]
+instante t0 Float32[15.58, 15.35, 15.65, 15.19, 10.39, 1.56]
+acao: 5 - STAY_SHORT
+        estado23 = [SHORT, DOWN, DOWN, NOP, UP, UP, MIN, MIN, DOWN] 
+proximo estado24 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, UP] 
+recompensa: 0.0032488753 recomp_acumulada: -0.089636676 long: 0 short: 15.39
+preco em atual: 15.34 preco futuro: 15.58
+
+Escolhe acao
+key: [2227122215, 2227122216, 0]
+key1
+antes: 0.020404381674832123 proximo: 0.21579836305857722 teste dict: 0.021341705108930836
+***************
+estado 24
+
+instante t1 Float32[15.58, 15.35, 15.65, 15.19, 10.39, 1.56]
+instante t0 Float32[15.8, 15.57, 15.86, 15.36, 9.87, 1.41]
+acao: 5 - STAY_SHORT
+        estado24 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, UP] 
+proximo estado25 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, DOWN] 
+recompensa: -0.012345651 recomp_acumulada: -0.0863878 long: 0 short: 15.39
+preco em atual: 15.58 preco futuro: 15.8
+
+Escolhe acao
+key: [2217222125, 2217222126, 0]
+key2
+antes: 0.21579836305857722 proximo: 0.04129770209519725 teste dict: 0.2144037136992811
+***************
+estado 25
+
+instante t1 Float32[15.8, 15.57, 15.86, 15.36, 9.87, 1.41]
+instante t0 Float32[16.07, 15.82, 16.07, 15.71, 10.0, 1.71]
+acao: 6 - EXIT_SHORT
+        estado25 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, DOWN] 
+proximo estado26 = [NPOS, UP, UP, BUY, DOWN, UP, MAX, MAX, NPOS] 
+recompensa: -0.026640665 recomp_acumulada: -0.09873345 long: 0 short: 15.39
+preco em atual: 15.8 preco futuro: 16.07
+
+Escolhe acao
+key: [3111211131, 3111211134, 3111211137]
+key 3 != 0
+key 2
+antes: 0.04129770209519725 proximo: 0.06920390990658772 teste dict: 0.04116123268557045
+***************
+estado 26
+
+instante t1 Float32[16.07, 15.82, 16.07, 15.71, 10.0, 1.71]
+instante t0 Float32[15.91, 15.98, 16.05, 15.78, 10.12, -1.0]
+acao: 4 - ENTER_SHORT
+        estado26 = [NPOS, UP, UP, BUY, DOWN, UP, MAX, MAX, NPOS] 
+proximo estado27 = [SHORT, UP, UP, SELL, UP, UP, MAX, MAX, DOWN] 
+recompensa: 0.0 recomp_acumulada: -0.12537411 long: 0 short: 16.07
+preco em atual: 16.07 preco futuro: 15.91
+
+Escolhe acao
+key: [2112111125, 2112111126, 0]
+key1
+antes: 0.06920390990658772 proximo: 0.1158712672405262 teste dict: 0.06928725174672018
+***************
+estado 27
+
+instante t1 Float32[15.91, 15.98, 16.05, 15.78, 10.12, -1.0]
+instante t0 Float32[15.79, 15.9, 15.99, 15.65, 12.09, -0.75]
+acao: 5 - STAY_SHORT
+        estado27 = [SHORT, UP, UP, SELL, UP, UP, MAX, MAX, DOWN] 
+proximo estado28 = [SHORT, UP, DOWN, NOP, UP, UP, MAX, MIN, UP] 
+recompensa: 0.009956432 recomp_acumulada: -0.12537411 long: 0 short: 16.07
+preco em atual: 15.91 preco futuro: 15.79
+
+Escolhe acao
+key: [2127111215, 2127111216, 0]
+key1
+antes: 0.1158712672405262 proximo: 0.2604353368320124 teste dict: 0.11640599654134522
+***************
+estado 28
+
+instante t1 Float32[15.79, 15.9, 15.99, 15.65, 12.09, -0.75]
+instante t0 Float32[16.02, 16.01, 16.1, 15.9, 9.61, 1.46]
+acao: 5 - STAY_SHORT
+        estado28 = [SHORT, UP, DOWN, NOP, UP, UP, MAX, MIN, UP] 
+proximo estado29 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, UP] 
+recompensa: 0.017423755 recomp_acumulada: -0.115417674 long: 0 short: 16.07
+preco em atual: 15.79 preco futuro: 16.02
+
+Escolhe acao
+key: [2227122215, 2227122216, 0]
+key1
+antes: 0.2604353368320124 proximo: 0.2144037136992811 teste dict: 0.2597848339532206
+***************
+estado 29
+
+instante t1 Float32[16.02, 16.01, 16.1, 15.9, 9.61, 1.46]
+instante t0 Float32[15.9, 16.05, 16.13, 15.76, 8.8, -0.75]
+acao: 5 - STAY_SHORT
+        estado29 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, UP] 
+proximo estado30 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, UP] 
+recompensa: 0.0031113403 recomp_acumulada: -0.09799392 long: 0 short: 16.07
+preco em atual: 16.02 preco futuro: 15.9
+
+Escolhe acao
+key: [2217222115, 2217222116, 0]
+key1
+antes: 0.2144037136992811 proximo: 0.21327827959999526 teste dict: 0.21396973065579467
+***************
+estado 30
+
+instante t1 Float32[15.9, 16.05, 16.13, 15.76, 8.8, -0.75]
+instante t0 Float32[16.15, 16.05, 16.27, 15.98, 12.73, 1.57]
+acao: 5 - STAY_SHORT
+        estado30 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, UP] 
+proximo estado31 = [SHORT, UP, DOWN, NOP, DOWN, UP, MAX, MIN, UP] 
+recompensa: 0.010578723 recomp_acumulada: -0.09488258 long: 0 short: 16.07
+preco em atual: 15.9 preco futuro: 16.15
+
+Escolhe acao
+key: [2127211215, 2127211216, 0]
+key1
+antes: 0.21327827959999526 proximo: 0.20821355281638784 teste dict: 0.21287962911044678
+***************
+estado 31
+
+instante t1 Float32[16.15, 16.05, 16.27, 15.98, 12.73, 1.57]
+instante t0 Float32[16.14, 16.07, 16.25, 15.98, 4.41, -0.06]
+acao: 5 - STAY_SHORT
+        estado31 = [SHORT, UP, DOWN, NOP, DOWN, UP, MAX, MIN, UP] 
+proximo estado32 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MAX, DOWN] 
+recompensa: -0.004978216 recomp_acumulada: -0.084303856 long: 0 short: 16.07
+preco em atual: 16.15 preco futuro: 16.14
+
+Escolhe acao
+key: [2217122125, 2217122126, 0]
+key1
+antes: 0.20821355281638784 proximo: 0.03900309393063883 teste dict: 0.20691232559642034
+***************
+estado 32
+
+instante t1 Float32[16.14, 16.07, 16.25, 15.98, 4.41, -0.06]
+instante t0 Float32[16.11, 16.19, 16.2, 15.98, 5.36, -0.19]
+acao: 5 - STAY_SHORT
+        estado32 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MAX, DOWN] 
+proximo estado33 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MAX, DOWN] 
+recompensa: -0.0043559237 recomp_acumulada: -0.08928207 long: 0 short: 16.07
+preco em atual: 16.14 preco futuro: 16.11
+
+Escolhe acao
+key: [2117211125, 2117211126, 0]
+key2
+antes: 0.03900309393063883 proximo: 0.025083898540560576 teste dict: 0.038822491909804795
+***************
+estado 33
+
+instante t1 Float32[16.11, 16.19, 16.2, 15.98, 5.36, -0.19]
+instante t0 Float32[16.27, 16.07, 16.36, 16.07, 9.03, 0.99]
+acao: 6 - EXIT_SHORT
+        estado33 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MAX, DOWN] 
+proximo estado34 = [NPOS, UP, DOWN, BUY, UP, UP, MAX, MAX, NPOS] 
+recompensa: -0.0024891673 recomp_acumulada: -0.093637995 long: 0 short: 16.07
+preco em atual: 16.11 preco futuro: 16.27
+
+Escolhe acao
+key: [3121111131, 3121111134, 3121111137]
+key 3 != 0
+key 1
+antes: 0.025083898540560576 proximo: 0.047601239728888044 teste dict: 0.025124133154589046
+***************
+estado 34
+
+instante t1 Float32[16.27, 16.07, 16.36, 16.07, 9.03, 0.99]
+instante t0 Float32[16.41, 16.36, 16.46, 16.25, 9.16, 0.86]
+acao: 1 - ENTER_LONG
+        estado34 = [NPOS, UP, DOWN, BUY, UP, UP, MAX, MAX, NPOS] 
+proximo estado35 = [LONG, DOWN, UP, BUY, UP, UP, MAX, MAX, UP] 
+recompensa: 0.0 recomp_acumulada: -0.09612716 long: 16.27 short: 0
+preco em atual: 16.27 preco futuro: 16.41
+
+Escolhe acao
+key: [1211111112, 1211111113, 0]
+key1
+antes: 0.047601239728888044 proximo: 0.0629586913694021 teste dict: 0.047576528638495895
+***************
+estado 35
+
+instante t1 Float32[16.41, 16.36, 16.46, 16.25, 9.16, 0.86]
+instante t0 Float32[16.2, 16.32, 16.32, 16.08, 9.61, -1.28]
+acao: 2 - STAY_LONG
+        estado35 = [LONG, DOWN, UP, BUY, UP, UP, MAX, MAX, UP] 
+proximo estado36 = [LONG, UP, UP, NOP, UP, UP, MAX, MAX, UP] 
+recompensa: 0.008604757 recomp_acumulada: -0.09612716 long: 16.27 short: 0
+preco em atual: 16.41 preco futuro: 16.2
+
+Escolhe acao
+key: [1117111112, 1117111113, 0]
+key2
+antes: 0.0629586913694021 proximo: 0.04119741859126596 teste dict: 0.06278008117680865
+***************
+estado 36
+
+instante t1 Float32[16.2, 16.32, 16.32, 16.08, 9.61, -1.28]
+instante t0 Float32[16.2, 16.28, 16.28, 16.0, 14.93, 0.0]
+acao: 3 - EXIT_LONG
+        estado36 = [LONG, UP, UP, NOP, UP, UP, MAX, MAX, UP] 
+proximo estado37 = [NPOS, UP, DOWN, SELL, UP, UP, MAX, MAX, NPOS] 
+recompensa: -0.0043023783 recomp_acumulada: -0.0875224 long: 16.27 short: 0
+preco em atual: 16.2 preco futuro: 16.2
+
+Escolhe acao
+key: [3122111131, 3122111134, 3122111137]
+key 3 != 0
+key 1
+antes: 0.04119741859126596 proximo: 0.036879471498844366 teste dict: 0.041059629423523855
+***************
+estado 37
+
+instante t1 Float32[16.2, 16.28, 16.28, 16.0, 14.93, 0.0]
+instante t0 Float32[16.23, 16.21, 16.71, 16.19, 18.42, 0.19]
+acao: 1 - ENTER_LONG
+        estado37 = [NPOS, UP, DOWN, SELL, UP, UP, MAX, MAX, NPOS] 
+proximo estado38 = [LONG, DOWN, DOWN, BUY, UP, UP, MAX, MAX, UP] 
+recompensa: 0.0 recomp_acumulada: -0.09182478 long: 16.2 short: 0
+preco em atual: 16.2 preco futuro: 16.23
+
+Escolhe acao
+key: [1221111112, 1221111113, 0]
+key1
+antes: 0.036879471498844366 proximo: 0.11796365578333809 teste dict: 0.03719933711169081
+***************
+estado 38
+
+instante t1 Float32[16.23, 16.21, 16.71, 16.19, 18.42, 0.19]
+instante t0 Float32[16.08, 16.29, 16.3, 16.04, 8.7, -0.92]
+acao: 2 - STAY_LONG
+        estado38 = [LONG, DOWN, DOWN, BUY, UP, UP, MAX, MAX, UP] 
+proximo estado39 = [LONG, DOWN, UP, NOP, UP, DOWN, MAX, MIN, UP] 
+recompensa: 0.0018517764 recomp_acumulada: -0.09182478 long: 16.2 short: 0
+preco em atual: 16.23 preco futuro: 16.08
+
+Escolhe acao
+key: [1217121212, 1217121213, 0]
+key2
+antes: 0.11796365578333809 proximo: 0.08107430281170605 teste dict: 0.11754813671130576
+***************
+estado 39
+
+instante t1 Float32[16.08, 16.29, 16.3, 16.04, 8.7, -0.92]
+instante t0 Float32[16.39, 16.17, 16.47, 16.05, 8.91, 1.93]
+acao: 3 - EXIT_LONG
+        estado39 = [LONG, DOWN, UP, NOP, UP, DOWN, MAX, MIN, UP] 
+proximo estado40 = [NPOS, UP, DOWN, SELL, DOWN, UP, MIN, MIN, NPOS] 
+recompensa: -0.007407459 recomp_acumulada: -0.089973 long: 16.2 short: 0
+preco em atual: 16.08 preco futuro: 16.39
+
+Escolhe acao
+key: [3122212231, 3122212234, 3122212237]
+key 3 != 0
+key 1
+antes: 0.08107430281170605 proximo: 0.019692622176111053 teste dict: 0.0805514243279339
+***************
+estado 40
+
+instante t1 Float32[16.39, 16.17, 16.47, 16.05, 8.91, 1.93]
+instante t0 Float32[16.21, 16.13, 16.38, 16.01, 12.39, -1.1]
+acao: 1 - ENTER_LONG
+        estado40 = [NPOS, UP, DOWN, SELL, DOWN, UP, MIN, MIN, NPOS] 
+proximo estado41 = [LONG, DOWN, UP, BUY, UP, UP, MIN, MAX, UP] 
+recompensa: 0.0 recomp_acumulada: -0.09738046 long: 16.39 short: 0
+preco em atual: 16.39 preco futuro: 16.21
+
+Escolhe acao
+key: [1211112112, 1211112113, 0]
+key2
+antes: 0.019692622176111053 proximo: 0.0016202669387438602 teste dict: 0.01956271312887812
+***************
+estado 41
+
+instante t1 Float32[16.21, 16.13, 16.38, 16.01, 12.39, -1.1]
+instante t0 Float32[16.29, 16.31, 16.48, 16.2, 11.62, 0.49]
+acao: 3 - EXIT_LONG
+        estado41 = [LONG, DOWN, UP, BUY, UP, UP, MIN, MAX, UP] 
+proximo estado42 = [NPOS, UP, UP, SELL, UP, DOWN, MAX, MAX, NPOS] 
+recompensa: -0.010982325 recomp_acumulada: -0.09738046 long: 16.39 short: 0
+preco em atual: 16.21 preco futuro: 16.29
+
+Escolhe acao
+key: [3112121131, 3112121134, 3112121137]
+key 3 != 0
+key 2
+antes: 0.0016202669387438602 proximo: 0.10671019707157212 teste dict: 0.0020549287587193366
+***************
+estado 42
+
+instante t1 Float32[16.29, 16.31, 16.48, 16.2, 11.62, 0.49]
+instante t0 Float32[16.21, 16.34, 16.4, 16.11, 7.19, -0.49]
+acao: 4 - ENTER_SHORT
+        estado42 = [NPOS, UP, UP, SELL, UP, DOWN, MAX, MAX, NPOS] 
+proximo estado43 = [SHORT, UP, DOWN, SELL, DOWN, DOWN, MAX, MIN, DOWN] 
+recompensa: 0.0 recomp_acumulada: -0.10836279 long: 0 short: 16.29
+preco em atual: 16.29 preco futuro: 16.21
+
+Escolhe acao
+key: [2122221225, 2122221226, 0]
+key1
+antes: 0.10671019707157212 proximo: 0.08217522055823126 teste dict: 0.10636588427280644
+***************
+estado 43
+
+instante t1 Float32[16.21, 16.34, 16.4, 16.11, 7.19, -0.49]
+instante t0 Float32[16.26, 16.11, 16.29, 16.03, 10.32, 0.31]
+acao: 5 - STAY_SHORT
+        estado43 = [SHORT, UP, DOWN, SELL, DOWN, DOWN, MAX, MIN, DOWN] 
+proximo estado44 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, UP] 
+recompensa: 0.0049111005 recomp_acumulada: -0.10836279 long: 0 short: 16.29
+preco em atual: 16.21 preco futuro: 16.26
+
+Escolhe acao
+key: [2227212215, 2227212216, 0]
+key1
+antes: 0.08217522055823126 proximo: 0.2115935917465866 teste dict: 0.08267118031732508
+***************
+estado 44
+
+instante t1 Float32[16.26, 16.11, 16.29, 16.03, 10.32, 0.31]
+instante t0 Float32[15.74, 16.17, 16.27, 15.74, 13.01, -3.2]
+acao: 5 - STAY_SHORT
+        estado44 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, UP] 
+proximo estado45 = [SHORT, DOWN, UP, NOP, UP, UP, MIN, MAX, UP] 
+recompensa: 0.0018416627 recomp_acumulada: -0.103451684 long: 0 short: 16.29
+preco em atual: 16.26 preco futuro: 15.74
+
+Escolhe acao
+key: [2217112115, 2217112116, 0]
+key1
+antes: 0.2115935917465866 proximo: 0.21104344796864472 teste dict: 0.21115944113819804
+***************
+estado 45
+
+instante t1 Float32[15.74, 16.17, 16.27, 15.74, 13.01, -3.2]
+instante t0 Float32[16.11, 15.7, 16.14, 15.65, 9.87, 2.35]
+acao: 5 - STAY_SHORT
+        estado45 = [SHORT, DOWN, UP, NOP, UP, UP, MIN, MAX, UP] 
+proximo estado46 = [SHORT, UP, DOWN, NOP, UP, DOWN, MAX, MIN, UP] 
+recompensa: 0.033763114 recomp_acumulada: -0.10161002 long: 0 short: 16.29
+preco em atual: 15.74 preco futuro: 16.11
+
+Escolhe acao
+key: [2127121215, 2127121216, 0]
+key1
+antes: 0.21104344796864472 proximo: 0.20765434260929017 teste dict: 0.21081999191219042
+***************
+estado 46
+
+instante t1 Float32[16.11, 15.7, 16.14, 15.65, 9.87, 2.35]
+instante t0 Float32[16.06, 16.28, 16.34, 15.87, 11.59, -0.31]
+acao: 5 - STAY_SHORT
+        estado46 = [SHORT, UP, DOWN, NOP, UP, DOWN, MAX, MIN, UP] 
+proximo estado47 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, UP] 
+recompensa: 0.011049742 recomp_acumulada: -0.06784691 long: 0 short: 16.29
+preco em atual: 16.11 preco futuro: 16.06
+
+Escolhe acao
+key: [2217212115, 2217212116, 0]
+key1
+antes: 0.20765434260929017 proximo: 0.1865803201176524 teste dict: 0.20719235397275537
+***************
+estado 47
+
+instante t1 Float32[16.06, 16.28, 16.34, 15.87, 11.59, -0.31]
+instante t0 Float32[16.09, 15.64, 16.18, 15.56, 16.19, 0.19]
+acao: 5 - STAY_SHORT
+        estado47 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, UP] 
+proximo estado48 = [SHORT, UP, DOWN, NOP, UP, UP, MAX, MIN, UP] 
+recompensa: 0.01411918 recomp_acumulada: -0.05679717 long: 0 short: 16.29
+preco em atual: 16.06 preco futuro: 16.09
+
+Escolhe acao
+key: [2127111215, 2127111216, 0]
+key1
+antes: 0.1865803201176524 proximo: 0.2597848339532206 teste dict: 0.18664603782263517
+***************
+estado 48
+
+instante t1 Float32[16.09, 15.64, 16.18, 15.56, 16.19, 0.19]
+instante t0 Float32[16.04, 16.23, 16.33, 15.97, 7.74, -0.31]
+acao: 5 - STAY_SHORT
+        estado48 = [SHORT, UP, DOWN, NOP, UP, UP, MAX, MIN, UP] 
+proximo estado49 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MAX, UP] 
+recompensa: 0.012277517 recomp_acumulada: -0.04267799 long: 0 short: 16.29
+preco em atual: 16.09 preco futuro: 16.04
+
+Escolhe acao
+key: [2217122115, 2217122116, 0]
+key1
+antes: 0.2597848339532206 proximo: 0.22439680893658867 teste dict: 0.25915182709509227
+***************
+estado 49
+
+instante t1 Float32[16.04, 16.23, 16.33, 15.97, 7.74, -0.31]
+instante t0 Float32[16.21, 16.17, 16.29, 16.04, 11.03, 1.06]
+acao: 5 - STAY_SHORT
+        estado49 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MAX, UP] 
+proximo estado50 = [SHORT, UP, DOWN, NOP, DOWN, UP, MAX, MIN, UP] 
+recompensa: 0.015346837 recomp_acumulada: -0.030400474 long: 0 short: 16.29
+preco em atual: 16.04 preco futuro: 16.21
+
+Escolhe acao
+key: [2127211215, 2127211216, 0]
+key1
+antes: 0.22439680893658867 proximo: 0.20691232559642034 teste dict: 0.2239473295300652
+***************
+estado 50
+
+instante t1 Float32[16.21, 16.17, 16.29, 16.04, 11.03, 1.06]
+instante t0 Float32[16.42, 16.13, 16.63, 16.08, 14.07, 1.3]
+acao: 5 - STAY_SHORT
+        estado50 = [SHORT, UP, DOWN, NOP, DOWN, UP, MAX, MIN, UP] 
+proximo estado51 = [SHORT, DOWN, UP, NOP, UP, UP, MIN, MAX, UP] 
+recompensa: 0.0049111005 recomp_acumulada: -0.015053636 long: 0 short: 16.29
+preco em atual: 16.21 preco futuro: 16.42
+
+Escolhe acao
+key: [2217112115, 2217112116, 0]
+key1
+antes: 0.20691232559642034 proximo: 0.21081999191219042 teste dict: 0.2065313349810583
+***************
+estado 51
+
+instante t1 Float32[16.42, 16.13, 16.63, 16.08, 14.07, 1.3]
+instante t0 Float32[16.45, 16.36, 16.54, 16.28, 7.15, 0.18]
+acao: 5 - STAY_SHORT
+        estado51 = [SHORT, DOWN, UP, NOP, UP, UP, MIN, MAX, UP] 
+proximo estado52 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, DOWN] 
+recompensa: -0.007980304 recomp_acumulada: -0.010142536 long: 0 short: 16.29
+preco em atual: 16.42 preco futuro: 16.45
+
+Escolhe acao
+key: [2117121125, 2117121126, 0]
+key1
+antes: 0.21081999191219042 proximo: 0.06881535242884264 teste dict: 0.20962558506883447
+***************
+estado 52
+
+instante t1 Float32[16.45, 16.36, 16.54, 16.28, 7.15, 0.18]
+instante t0 Float32[16.58, 16.6, 16.81, 16.52, 16.54, 0.79]
+acao: 5 - STAY_SHORT
+        estado52 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, DOWN] 
+proximo estado53 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MAX, DOWN] 
+recompensa: -0.009821966 recomp_acumulada: -0.01812284 long: 0 short: 16.29
+preco em atual: 16.45 preco futuro: 16.58
+
+Escolhe acao
+key: [2117211125, 2117211126, 0]
+key2
+antes: 0.06881535242884264 proximo: 0.025124133154589046 teste dict: 0.06838799945026491
+***************
+estado 53
+
+instante t1 Float32[16.58, 16.6, 16.81, 16.52, 16.54, 0.79]
+instante t0 Float32[16.72, 16.64, 16.87, 16.52, 8.73, 0.84]
+acao: 6 - EXIT_SHORT
+        estado53 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MAX, DOWN] 
+proximo estado54 = [NPOS, UP, DOWN, BUY, UP, DOWN, MAX, MIN, NPOS] 
+recompensa: -0.01780227 recomp_acumulada: -0.027944807 long: 0 short: 16.29
+preco em atual: 16.58 preco futuro: 16.72
+
+Escolhe acao
+key: [3121121231, 3121121234, 3121121237]
+key 3 != 0
+key 2
+antes: 0.025124133154589046 proximo: 0.07418825152396426 teste dict: 0.025187170764069088
+***************
+estado 54
+
+instante t1 Float32[16.72, 16.64, 16.87, 16.52, 8.73, 0.84]
+instante t0 Float32[16.48, 16.77, 16.8, 16.38, 7.74, -1.44]
+acao: 4 - ENTER_SHORT
+        estado54 = [NPOS, UP, DOWN, BUY, UP, DOWN, MAX, MIN, NPOS] 
+proximo estado55 = [SHORT, DOWN, UP, SELL, DOWN, DOWN, MIN, MAX, DOWN] 
+recompensa: 0.0 recomp_acumulada: -0.04574708 long: 0 short: 16.72
+preco em atual: 16.72 preco futuro: 16.48
+
+Escolhe acao
+key: [2212222125, 2212222126, 0]
+key1
+antes: 0.07418825152396426 proximo: 0.11918203257462218 teste dict: 0.07425292572291216
+***************
+estado 55
+
+instante t1 Float32[16.48, 16.77, 16.8, 16.38, 7.74, -1.44]
+instante t0 Float32[16.39, 16.67, 16.81, 16.35, 10.36, -0.55]
+acao: 5 - STAY_SHORT
+        estado55 = [SHORT, DOWN, UP, SELL, DOWN, DOWN, MIN, MAX, DOWN] 
+proximo estado56 = [SHORT, UP, DOWN, NOP, DOWN, UP, MAX, MIN, UP] 
+recompensa: 0.014354054 recomp_acumulada: -0.04574708 long: 0 short: 16.72
+preco em atual: 16.48 preco futuro: 16.39
+
+Escolhe acao
+key: [2127211215, 2127211216, 0]
+key1
+antes: 0.11918203257462218 proximo: 0.2065313349810583 teste dict: 0.11946024026520022
+***************
+estado 56
+
+instante t1 Float32[16.39, 16.67, 16.81, 16.35, 10.36, -0.55]
+instante t0 Float32[16.1, 16.3, 16.35, 16.03, 15.6, -1.77]
+acao: 5 - STAY_SHORT
+        estado56 = [SHORT, UP, DOWN, NOP, DOWN, UP, MAX, MIN, UP] 
+proximo estado57 = [SHORT, DOWN, DOWN, NOP, UP, UP, MIN, MIN, UP] 
+recompensa: 0.019736838 recomp_acumulada: -0.031393025 long: 0 short: 16.72
+preco em atual: 16.39 preco futuro: 16.1
+
+Escolhe acao
+key: [2227112215, 2227112216, 0]
+key1
+antes: 0.2065313349810583 proximo: 0.16176180944622606 teste dict: 0.2060164063656473
+***************
+estado 57
+
+instante t1 Float32[16.1, 16.3, 16.35, 16.03, 15.6, -1.77]
+instante t0 Float32[16.22, 16.08, 16.34, 16.01, 9.18, 0.75]
+acao: 5 - STAY_SHORT
+        estado57 = [SHORT, DOWN, DOWN, NOP, UP, UP, MIN, MIN, UP] 
+proximo estado58 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, UP] 
+recompensa: 0.03708128 recomp_acumulada: -0.0116561875 long: 0 short: 16.72
+preco em atual: 16.1 preco futuro: 16.22
+
+Escolhe acao
+key: [2227122215, 2227122216, 0]
+key1
+antes: 0.16176180944622606 proximo: 0.21396973065579467 teste dict: 0.16193749741233987
+***************
+estado 58
+
+instante t1 Float32[16.22, 16.08, 16.34, 16.01, 9.18, 0.75]
+instante t0 Float32[16.58, 16.25, 16.59, 16.25, 7.54, 2.22]
+acao: 5 - STAY_SHORT
+        estado58 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, UP] 
+proximo estado59 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, UP] 
+recompensa: 0.029904308 recomp_acumulada: 0.025425091 long: 0 short: 16.72
+preco em atual: 16.22 preco futuro: 16.58
+
+Escolhe acao
+key: [2217222115, 2217222116, 0]
+key1
+antes: 0.21396973065579467 proximo: 0.21287962911044678 teste dict: 0.21372438287842815
+***************
+estado 59
+
+instante t1 Float32[16.58, 16.25, 16.59, 16.25, 7.54, 2.22]
+instante t0 Float32[16.41, 16.37, 16.55, 16.29, 8.45, -1.03]
+acao: 5 - STAY_SHORT
+        estado59 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, UP] 
+proximo estado60 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MAX, UP] 
+recompensa: 0.008373169 recomp_acumulada: 0.055329397 long: 0 short: 16.72
+preco em atual: 16.58 preco futuro: 16.41
+
+Escolhe acao
+key: [2117211115, 2117211116, 0]
+key1
+antes: 0.21287962911044678 proximo: 0.19131967085368892 teste dict: 0.21238555027845576
+***************
+estado 60
+
+instante t1 Float32[16.41, 16.37, 16.55, 16.29, 8.45, -1.03]
+instante t0 Float32[16.79, 16.59, 16.9, 16.38, 19.41, 2.32]
+acao: 5 - STAY_SHORT
+        estado60 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MAX, UP] 
+proximo estado61 = [SHORT, UP, UP, NOP, UP, UP, MAX, MIN, UP] 
+recompensa: 0.01854064 recomp_acumulada: 0.06370257 long: 0 short: 16.72
+preco em atual: 16.41 preco futuro: 16.79
+
+Escolhe acao
+key: [2117111215, 2117111216, 0]
+key1
+antes: 0.19131967085368892 proximo: 0.12612396420843067 teste dict: 0.1907282250583464
+***************
+estado 61
+
+instante t1 Float32[16.79, 16.59, 16.9, 16.38, 19.41, 2.32]
+instante t0 Float32[16.77, 16.77, 16.95, 16.62, 16.12, -0.12]
+acao: 5 - STAY_SHORT
+        estado61 = [SHORT, UP, UP, NOP, UP, UP, MAX, MIN, UP] 
+proximo estado62 = [SHORT, UP, UP, NOP, UP, DOWN, MIN, MAX, DOWN] 
+recompensa: -0.0041866987 recomp_acumulada: 0.082243204 long: 0 short: 16.72
+preco em atual: 16.79 preco futuro: 16.77
+
+Escolhe acao
+key: [2117122125, 2117122126, 0]
+key1
+antes: 0.12612396420843067 proximo: 0.13522891081187438 teste dict: 0.1258744112310412
+***************
+estado 62
+
+instante t1 Float32[16.77, 16.77, 16.95, 16.62, 16.12, -0.12]
+instante t0 Float32[17.1, 16.89, 17.24, 16.83, 10.22, 1.97]
+acao: 5 - STAY_SHORT
+        estado62 = [SHORT, UP, UP, NOP, UP, DOWN, MIN, MAX, DOWN] 
+proximo estado63 = [SHORT, UP, UP, NOP, DOWN, DOWN, MAX, MIN, DOWN] 
+recompensa: -0.0029904991 recomp_acumulada: 0.07805651 long: 0 short: 16.72
+preco em atual: 16.77 preco futuro: 17.1
+
+Escolhe acao
+key: [2117221225, 2117221226, 0]
+key2
+antes: 0.13522891081187438 proximo: 0.022055237747853573 teste dict: 0.13436944560718392
+***************
+estado 63
+
+instante t1 Float32[17.1, 16.89, 17.24, 16.83, 10.22, 1.97]
+instante t0 Float32[17.28, 17.25, 17.43, 17.12, 10.73, 1.05]
+acao: 6 - EXIT_SHORT
+        estado63 = [SHORT, UP, UP, NOP, DOWN, DOWN, MAX, MIN, DOWN] 
+proximo estado64 = [NPOS, UP, UP, BUY, DOWN, UP, MIN, MAX, NPOS] 
+recompensa: -0.022727337 recomp_acumulada: 0.07506601 long: 0 short: 16.72
+preco em atual: 17.1 preco futuro: 17.28
+
+Escolhe acao
+key: [3111212131, 3111212134, 3111212137]
+key 3 != 0
+key 3
+antes: 0.022055237747853573 proximo: 0.041364144871697865 teste dict: 0.021944444036348185
+***************
+estado 64
+
+instante t1 Float32[17.28, 17.25, 17.43, 17.12, 10.73, 1.05]
+instante t0 Float32[17.3, 17.47, 17.51, 17.17, 10.82, 0.12]
+acao: 7 - NOPa
+        estado64 = [NPOS, UP, UP, BUY, DOWN, UP, MIN, MAX, NPOS] 
+proximo estado65 = [NPOS, UP, UP, NOP, UP, UP, MAX, MAX, NPOS] 
+recompensa: 0 recomp_acumulada: 0.05233867 long: 0 short: 0
+preco em atual: 17.28 preco futuro: 17.3
+
+Escolhe acao
+key: [3117111131, 3117111134, 3117111137]
+key 3 != 0
+key 2
+antes: 0.041364144871697865 proximo: 0.04499836312218423 teste dict: 0.04129508783689468
+***************
+estado 65
+
+instante t1 Float32[17.3, 17.47, 17.51, 17.17, 10.82, 0.12]
+instante t0 Float32[17.21, 17.24, 17.45, 17.09, 8.77, -0.52]
+acao: 4 - ENTER_SHORT
+        estado65 = [NPOS, UP, UP, NOP, UP, UP, MAX, MAX, NPOS] 
+proximo estado66 = [SHORT, UP, DOWN, SELL, UP, DOWN, MAX, MIN, DOWN] 
+recompensa: 0.0 recomp_acumulada: 0.05233867 long: 0 short: 17.3
+preco em atual: 17.3 preco futuro: 17.21
+
+Escolhe acao
+key: [2122121225, 2122121226, 0]
+key1
+antes: 0.04499836312218423 proximo: 0.10950494460793975 teste dict: 0.04521994880890784
+***************
+estado 66
+
+instante t1 Float32[17.21, 17.24, 17.45, 17.09, 8.77, -0.52]
+instante t0 Float32[17.34, 17.16, 17.42, 17.12, 10.29, 0.76]
+acao: 5 - STAY_SHORT
+        estado66 = [SHORT, UP, DOWN, SELL, UP, DOWN, MAX, MIN, DOWN] 
+proximo estado67 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, UP] 
+recompensa: 0.0052023213 recomp_acumulada: 0.05233867 long: 0 short: 17.3
+preco em atual: 17.21 preco futuro: 17.34
+
+Escolhe acao
+key: [2227212215, 2227212216, 0]
+key1
+antes: 0.10950494460793975 proximo: 0.21115944113819804 teste dict: 0.10980950750661106
+***************
+estado 67
+
+instante t1 Float32[17.34, 17.16, 17.42, 17.12, 10.29, 0.76]
+instante t0 Float32[17.32, 17.26, 17.44, 17.26, 7.72, -0.12]
+acao: 5 - STAY_SHORT
+        estado67 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, UP] 
+proximo estado68 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MAX, DOWN] 
+recompensa: -0.0023121918 recomp_acumulada: 0.05754099 long: 0 short: 17.3
+preco em atual: 17.34 preco futuro: 17.32
+
+Escolhe acao
+key: [2217122125, 2217122126, 0]
+key1
+antes: 0.21115944113819804 proximo: 0.038822491909804795 teste dict: 0.2098553699182545
+***************
+estado 68
+
+instante t1 Float32[17.32, 17.26, 17.44, 17.26, 7.72, -0.12]
+instante t0 Float32[16.99, 17.36, 17.38, 16.95, 8.86, -1.91]
+acao: 5 - STAY_SHORT
+        estado68 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MAX, DOWN] 
+proximo estado69 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MIN, DOWN] 
+recompensa: -0.0011560959 recomp_acumulada: 0.0552288 long: 0 short: 17.3
+preco em atual: 17.32 preco futuro: 16.99
+
+Escolhe acao
+key: [2117211225, 2117211226, 0]
+key2
+antes: 0.038822491909804795 proximo: 0.02163598494034344 teste dict: 0.03864865812147674
+***************
+estado 69
+
+instante t1 Float32[16.99, 17.36, 17.38, 16.95, 8.86, -1.91]
+instante t0 Float32[16.99, 17.16, 17.22, 16.9, 11.15, 0.0]
+acao: 6 - EXIT_SHORT
+        estado69 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MIN, DOWN] 
+proximo estado70 = [NPOS, UP, DOWN, BUY, UP, UP, MIN, MIN, NPOS] 
+recompensa: 0.017919045 recomp_acumulada: 0.054072704 long: 0 short: 17.3
+preco em atual: 16.99 preco futuro: 16.99
+
+Escolhe acao
+key: [3121112231, 3121112234, 3121112237]
+key 3 != 0
+key 2
+antes: 0.02163598494034344 proximo: 0.09293245392301376 teste dict: 0.02206533538457545
+***************
+estado 70
+
+instante t1 Float32[16.99, 17.16, 17.22, 16.9, 11.15, 0.0]
+instante t0 Float32[16.99, 16.93, 17.01, 16.84, 10.07, 0.0]
+acao: 4 - ENTER_SHORT
+        estado70 = [NPOS, UP, DOWN, BUY, UP, UP, MIN, MIN, NPOS] 
+proximo estado71 = [SHORT, DOWN, DOWN, SELL, UP, DOWN, MIN, MIN, DOWN] 
+recompensa: 0.0 recomp_acumulada: 0.07199175 long: 0 short: 16.99
+preco em atual: 16.99 preco futuro: 16.99
+
+Escolhe acao
+key: [2222122225, 2222122226, 0]
+key1
+antes: 0.09293245392301376 proximo: 0.15372367205870374 teste dict: 0.09303517273864031
+***************
+estado 71
+
+instante t1 Float32[16.99, 16.93, 17.01, 16.84, 10.07, 0.0]
+instante t0 Float32[16.85, 16.9, 17.07, 16.85, 9.31, -0.82]
+acao: 5 - STAY_SHORT
+        estado71 = [SHORT, DOWN, DOWN, SELL, UP, DOWN, MIN, MIN, DOWN] 
+proximo estado72 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, DOWN] 
+recompensa: 0.0 recomp_acumulada: 0.07199175 long: 0 short: 16.99
+preco em atual: 16.99 preco futuro: 16.85
+
+Escolhe acao
+key: [2217222125, 2217222126, 0]
+key2
+antes: 0.15372367205870374 proximo: 0.04116123268557045 teste dict: 0.1528492963944521
+***************
+estado 72
+
+instante t1 Float32[16.85, 16.9, 17.07, 16.85, 9.31, -0.82]
+instante t0 Float32[16.81, 16.9, 17.06, 16.68, 9.63, -0.24]
+acao: 6 - EXIT_SHORT
+        estado72 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, DOWN] 
+proximo estado73 = [NPOS, UP, DOWN, BUY, DOWN, UP, MAX, MIN, NPOS] 
+recompensa: 0.008240106 recomp_acumulada: 0.07199175 long: 0 short: 16.99
+preco em atual: 16.85 preco futuro: 16.81
+
+Escolhe acao
+key: [3121211231, 3121211234, 3121211237]
+key 3 != 0
+key 2
+antes: 0.04116123268557045 proximo: 0.10836846178977114 teste dict: 0.04146179025863118
+***************
+estado 73
+
+instante t1 Float32[16.81, 16.9, 17.06, 16.68, 9.63, -0.24]
+instante t0 Float32[16.85, 16.87, 16.9, 16.66, 10.21, 0.24]
+acao: 4 - ENTER_SHORT
+        estado73 = [NPOS, UP, DOWN, BUY, DOWN, UP, MAX, MIN, NPOS] 
+proximo estado74 = [SHORT, DOWN, DOWN, SELL, UP, UP, MIN, MIN, DOWN] 
+recompensa: 0.0 recomp_acumulada: 0.08023185 long: 0 short: 16.81
+preco em atual: 16.81 preco futuro: 16.85
+
+Escolhe acao
+key: [2222112225, 2222112226, 0]
+key2
+antes: 0.10836846178977114 proximo: 0.04991712222181745 teste dict: 0.10785447645612964
+***************
+estado 74
+
+instante t1 Float32[16.85, 16.87, 16.9, 16.66, 10.21, 0.24]
+instante t0 Float32[16.79, 16.83, 16.94, 16.64, 11.42, -0.36]
+acao: 6 - EXIT_SHORT
+        estado74 = [SHORT, DOWN, DOWN, SELL, UP, UP, MIN, MIN, DOWN] 
+proximo estado75 = [NPOS, DOWN, DOWN, BUY, UP, UP, MIN, MAX, NPOS] 
+recompensa: -0.0023795906 recomp_acumulada: 0.08023185 long: 0 short: 16.81
+preco em atual: 16.85 preco futuro: 16.79
+
+Escolhe acao
+key: [3221112131, 3221112134, 3221112137]
+key 3 != 0
+key 3
+antes: 0.04991712222181745 proximo: 0.041147483848144394 teste dict: 0.049752667902602604
+***************
+estado 75
+
+instante t1 Float32[16.79, 16.83, 16.94, 16.64, 11.42, -0.36]
+instante t0 Float32[16.81, 16.93, 16.99, 16.77, 9.04, 0.12]
+acao: 7 - NOPa
+        estado75 = [NPOS, DOWN, DOWN, BUY, UP, UP, MIN, MAX, NPOS] 
+proximo estado76 = [NPOS, DOWN, DOWN, NOP, UP, DOWN, MAX, MAX, NPOS] 
+recompensa: 0 recomp_acumulada: 0.077852264 long: 0 short: 0
+preco em atual: 16.79 preco futuro: 16.81
+
+Escolhe acao
+key: [3227121131, 3227121134, 3227121137]
+key 3 != 0
+key 3
+antes: 0.041147483848144394 proximo: 0.06303704118754723 teste dict: 0.04116833296302636
+***************
+estado 76
+
+instante t1 Float32[16.81, 16.93, 16.99, 16.77, 9.04, 0.12]
+instante t0 Float32[16.72, 16.89, 16.94, 16.64, 12.54, -0.54]
+acao: 7 - NOPa
+        estado76 = [NPOS, DOWN, DOWN, NOP, UP, DOWN, MAX, MAX, NPOS] 
+proximo estado77 = [NPOS, DOWN, DOWN, NOP, DOWN, UP, MAX, MIN, NPOS] 
+recompensa: 0 recomp_acumulada: 0.077852264 long: 0 short: 0
+preco em atual: 16.81 preco futuro: 16.72
+
+Escolhe acao
+key: [3227211231, 3227211234, 3227211237]
+key 3 != 0
+key 1
+antes: 0.06303704118754723 proximo: 0.03941553228034229 teste dict: 0.06278891800740807
+***************
+estado 77
+
+instante t1 Float32[16.72, 16.89, 16.94, 16.64, 12.54, -0.54]
+instante t0 Float32[16.8, 16.89, 16.89, 16.55, 10.11, 0.48]
+acao: 1 - ENTER_LONG
+        estado77 = [NPOS, DOWN, DOWN, NOP, DOWN, UP, MAX, MIN, NPOS] 
+proximo estado78 = [LONG, DOWN, DOWN, BUY, UP, DOWN, MIN, MIN, UP] 
+recompensa: 0.0 recomp_acumulada: 0.077852264 long: 16.72 short: 0
+preco em atual: 16.72 preco futuro: 16.8
+
+Escolhe acao
+key: [1221122212, 1221122213, 0]
+key2
+antes: 0.03941553228034229 proximo: 0.07004574323677501 teste dict: 0.03948284769624009
+***************
+estado 78
+
+instante t1 Float32[16.8, 16.89, 16.89, 16.55, 10.11, 0.48]
+instante t0 Float32[16.75, 16.69, 16.82, 16.66, 8.73, -0.3]
+acao: 3 - EXIT_LONG
+        estado78 = [LONG, DOWN, DOWN, BUY, UP, DOWN, MIN, MIN, UP] 
+proximo estado79 = [NPOS, DOWN, DOWN, SELL, DOWN, DOWN, MIN, MAX, NPOS] 
+recompensa: 0.0047846846 recomp_acumulada: 0.077852264 long: 16.72 short: 0
+preco em atual: 16.8 preco futuro: 16.75
+
+Escolhe acao
+key: [3222222131, 3222222134, 3222222137]
+key 3 != 0
+key 3
+antes: 0.07004574323677501 proximo: 0.020769621115244052 teste dict: 0.06969068696998001
+***************
+estado 79
+
+instante t1 Float32[16.75, 16.69, 16.82, 16.66, 8.73, -0.3]
+instante t0 Float32[16.85, 16.68, 16.9, 16.68, 9.19, 0.6]
+acao: 7 - NOPa
+        estado79 = [NPOS, DOWN, DOWN, SELL, DOWN, DOWN, MIN, MAX, NPOS] 
+proximo estado80 = [NPOS, DOWN, UP, NOP, DOWN, UP, MAX, MAX, NPOS] 
+recompensa: 0 recomp_acumulada: 0.08263695 long: 0 short: 0
+preco em atual: 16.75 preco futuro: 16.85
+
+Escolhe acao
+key: [3217211131, 3217211134, 3217211137]
+key 3 != 0
+key 1
+antes: 0.020769621115244052 proximo: 0.02074387841996585 teste dict: 0.020725878771695176
+***************
+estado 80
+
+instante t1 Float32[16.85, 16.68, 16.9, 16.68, 9.19, 0.6]
+instante t0 Float32[17.21, 16.93, 17.33, 16.9, 9.76, 2.14]
+acao: 1 - ENTER_LONG
+        estado80 = [NPOS, DOWN, UP, NOP, DOWN, UP, MAX, MAX, NPOS] 
+proximo estado81 = [LONG, UP, UP, BUY, UP, UP, MAX, MAX, UP] 
+recompensa: 0.0 recomp_acumulada: 0.08263695 long: 16.85 short: 0
+preco em atual: 16.85 preco futuro: 17.21
+
+Escolhe acao
+key: [1111111112, 1111111113, 0]
+key1
+antes: 0.02074387841996585 proximo: 0.030828309718478244 teste dict: 0.02074972998864663
+***************
+estado 81
+
+instante t1 Float32[17.21, 16.93, 17.33, 16.9, 9.76, 2.14]
+instante t0 Float32[17.44, 17.08, 17.55, 17.01, 11.32, 1.34]
+acao: 2 - STAY_LONG
+        estado81 = [LONG, UP, UP, BUY, UP, UP, MAX, MAX, UP] 
+proximo estado82 = [LONG, UP, UP, NOP, UP, UP, MAX, MAX, UP] 
+recompensa: 0.021364907 recomp_acumulada: 0.08263695 long: 16.85 short: 0
+preco em atual: 17.21 preco futuro: 17.44
+
+Escolhe acao
+key: [1117111112, 1117111113, 0]
+key2
+antes: 0.030828309718478244 proximo: 0.041059629423523855 teste dict: 0.030963258082243577
+***************
+estado 82
+
+instante t1 Float32[17.44, 17.08, 17.55, 17.01, 11.32, 1.34]
+instante t0 Float32[17.52, 17.57, 18.05, 17.38, 19.2, 0.46]
+acao: 3 - EXIT_LONG
+        estado82 = [LONG, UP, UP, NOP, UP, UP, MAX, MAX, UP] 
+proximo estado83 = [NPOS, UP, UP, SELL, UP, UP, MAX, MAX, NPOS] 
+recompensa: 0.035014845 recomp_acumulada: 0.10400186 long: 16.85 short: 0
+preco em atual: 17.44 preco futuro: 17.52
+
+Escolhe acao
+key: [3112111131, 3112111134, 3112111137]
+key 3 != 0
+key 2
+antes: 0.041059629423523855 proximo: 0.07413025164981686 teste dict: 0.041380554168659246
+***************
+estado 83
+
+instante t1 Float32[17.52, 17.57, 18.05, 17.38, 19.2, 0.46]
+instante t0 Float32[17.43, 17.54, 17.59, 17.31, 6.53, -0.51]
+acao: 4 - ENTER_SHORT
+        estado83 = [NPOS, UP, UP, SELL, UP, UP, MAX, MAX, NPOS] 
+proximo estado84 = [SHORT, UP, DOWN, SELL, UP, DOWN, MAX, MIN, DOWN] 
+recompensa: 0.0 recomp_acumulada: 0.1390167 long: 0 short: 17.52
+preco em atual: 17.52 preco futuro: 17.43
+
+Escolhe acao
+key: [2122121225, 2122121226, 0]
+key1
+antes: 0.07413025164981686 proximo: 0.10980950750661106 teste dict: 0.07414940647505054
+***************
+estado 84
+
+instante t1 Float32[17.43, 17.54, 17.59, 17.31, 6.53, -0.51]
+instante t0 Float32[17.65, 17.59, 17.72, 17.36, 10.5, 1.26]
+acao: 5 - STAY_SHORT
+        estado84 = [SHORT, UP, DOWN, SELL, UP, DOWN, MAX, MIN, DOWN] 
+proximo estado85 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, UP] 
+recompensa: 0.0051369946 recomp_acumulada: 0.1390167 long: 0 short: 17.52
+preco em atual: 17.43 preco futuro: 17.65
+
+Escolhe acao
+key: [2227212215, 2227212216, 0]
+key1
+antes: 0.10980950750661106 proximo: 0.2098553699182545 teste dict: 0.11010509122917922
+***************
+estado 85
+
+instante t1 Float32[17.65, 17.59, 17.72, 17.36, 10.5, 1.26]
+instante t0 Float32[17.63, 17.57, 17.68, 17.48, 4.96, -0.11]
+acao: 5 - STAY_SHORT
+        estado85 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, UP] 
+proximo estado86 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MAX, DOWN] 
+recompensa: -0.0074200435 recomp_acumulada: 0.1441537 long: 0 short: 17.52
+preco em atual: 17.65 preco futuro: 17.63
+
+Escolhe acao
+key: [2217122125, 2217122126, 0]
+key1
+antes: 0.2098553699182545 proximo: 0.03864865812147674 teste dict: 0.20852382044939477
+***************
+estado 86
+
+instante t1 Float32[17.63, 17.57, 17.68, 17.48, 4.96, -0.11]
+instante t0 Float32[17.38, 17.5, 17.6, 17.29, 10.02, -1.42]
+acao: 5 - STAY_SHORT
+        estado86 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MAX, DOWN] 
+proximo estado87 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MAX, DOWN] 
+recompensa: -0.0062784646 recomp_acumulada: 0.13673365 long: 0 short: 17.52
+preco em atual: 17.63 preco futuro: 17.38
+
+Escolhe acao
+key: [2117211125, 2117211126, 0]
+key2
+antes: 0.03864865812147674 proximo: 0.025187170764069088 teste dict: 0.038457585399375854
+***************
+estado 87
+
+instante t1 Float32[17.38, 17.5, 17.6, 17.29, 10.02, -1.42]
+instante t0 Float32[17.27, 17.33, 17.36, 17.13, 6.85, -0.63]
+acao: 6 - EXIT_SHORT
+        estado87 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MAX, DOWN] 
+proximo estado88 = [NPOS, UP, DOWN, BUY, UP, DOWN, MAX, MIN, NPOS] 
+recompensa: 0.007990941 recomp_acumulada: 0.13045518 long: 0 short: 17.52
+preco em atual: 17.38 preco futuro: 17.27
+
+Escolhe acao
+key: [3121121231, 3121121234, 3121121237]
+key 3 != 0
+key 2
+antes: 0.025187170764069088 proximo: 0.07425292572291216 teste dict: 0.025430636494599947
+***************
+estado 88
+
+instante t1 Float32[17.27, 17.33, 17.36, 17.13, 6.85, -0.63]
+instante t0 Float32[17.29, 17.39, 17.49, 17.18, 7.16, 0.12]
+acao: 4 - ENTER_SHORT
+        estado88 = [NPOS, UP, DOWN, BUY, UP, DOWN, MAX, MIN, NPOS] 
+proximo estado89 = [SHORT, DOWN, DOWN, SELL, DOWN, UP, MIN, MAX, DOWN] 
+recompensa: 0.0 recomp_acumulada: 0.13844612 long: 0 short: 17.27
+preco em atual: 17.27 preco futuro: 17.29
+
+Escolhe acao
+key: [2222212125, 2222212126, 0]
+key1
+antes: 0.07425292572291216 proximo: 0.12624648955187392 teste dict: 0.07435176304165596
+***************
+estado 89
+
+instante t1 Float32[17.29, 17.39, 17.49, 17.18, 7.16, 0.12]
+instante t0 Float32[17.41, 17.2, 17.48, 17.2, 9.2, 0.69]
+acao: 5 - STAY_SHORT
+        estado89 = [SHORT, DOWN, DOWN, SELL, DOWN, UP, MIN, MAX, DOWN] 
+proximo estado90 = [SHORT, DOWN, DOWN, NOP, UP, UP, MAX, MIN, DOWN] 
+recompensa: -0.001158104 recomp_acumulada: 0.13844612 long: 0 short: 17.27
+preco em atual: 17.29 preco futuro: 17.41
+
+Escolhe acao
+key: [2227111225, 2227111226, 0]
+key2
+antes: 0.12624648955187392 proximo: 0.04521155223645047 teste dict: 0.12557619400265219
+***************
+estado 90
+
+instante t1 Float32[17.41, 17.2, 17.48, 17.2, 9.2, 0.69]
+instante t0 Float32[17.22, 17.41, 17.57, 17.12, 11.17, -1.09]
+acao: 6 - EXIT_SHORT
+        estado90 = [SHORT, DOWN, DOWN, NOP, UP, UP, MAX, MIN, DOWN] 
+proximo estado91 = [NPOS, DOWN, UP, BUY, UP, UP, MIN, MAX, NPOS] 
+recompensa: -0.008106507 recomp_acumulada: 0.13728802 long: 0 short: 17.27
+preco em atual: 17.41 preco futuro: 17.22
+
+Escolhe acao
+key: [3211112131, 3211112134, 3211112137]
+key 3 != 0
+key 2
+antes: 0.04521155223645047 proximo: 0.07034488050941229 teste dict: 0.045183015733764896
+***************
+estado 91
+
+instante t1 Float32[17.22, 17.41, 17.57, 17.12, 11.17, -1.09]
+instante t0 Float32[17.13, 17.24, 17.28, 17.03, 7.84, -0.52]
+acao: 4 - ENTER_SHORT
+        estado91 = [NPOS, DOWN, UP, BUY, UP, UP, MIN, MAX, NPOS] 
+proximo estado92 = [SHORT, UP, DOWN, SELL, UP, DOWN, MAX, MIN, DOWN] 
+recompensa: 0.0 recomp_acumulada: 0.1291815 long: 0 short: 17.22
+preco em atual: 17.22 preco futuro: 17.13
+
+Escolhe acao
+key: [2122121225, 2122121226, 0]
+key1
+antes: 0.07034488050941229 proximo: 0.11010509122917922 teste dict: 0.07039198129286937
+***************
+estado 92
+
+instante t1 Float32[17.13, 17.24, 17.28, 17.03, 7.84, -0.52]
+instante t0 Float32[16.64, 16.9, 16.98, 16.6, 10.65, -2.86]
+acao: 5 - STAY_SHORT
+        estado92 = [SHORT, UP, DOWN, SELL, UP, DOWN, MAX, MIN, DOWN] 
+proximo estado93 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, UP] 
+recompensa: 0.00522649 recomp_acumulada: 0.1291815 long: 0 short: 17.22
+preco em atual: 17.13 preco futuro: 16.64
+
+Escolhe acao
+key: [2227212215, 2227212216, 0]
+key1
+antes: 0.11010509122917922 proximo: 0.20852382044939477 teste dict: 0.11039270774139165
+***************
+estado 93
+
+instante t1 Float32[16.64, 16.9, 16.98, 16.6, 10.65, -2.86]
+instante t0 Float32[16.7, 16.46, 16.8, 16.41, 10.05, 0.36]
+acao: 5 - STAY_SHORT
+        estado93 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, UP] 
+proximo estado94 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, UP] 
+recompensa: 0.03368176 recomp_acumulada: 0.134408 long: 0 short: 17.22
+preco em atual: 16.64 preco futuro: 16.7
+
+Escolhe acao
+key: [2227122215, 2227122216, 0]
+key1
+antes: 0.20852382044939477 proximo: 0.21372438287842815 teste dict: 0.20834717551266724
+***************
+estado 94
+
+instante t1 Float32[16.7, 16.46, 16.8, 16.41, 10.05, 0.36]
+instante t0 Float32[16.7, 16.79, 16.89, 16.53, 12.22, 0.0]
+acao: 5 - STAY_SHORT
+        estado94 = [SHORT, DOWN, DOWN, NOP, UP, DOWN, MIN, MIN, UP] 
+proximo estado95 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, UP] 
+recompensa: 0.030197361 recomp_acumulada: 0.16808976 long: 0 short: 17.22
+preco em atual: 16.7 preco futuro: 16.7
+
+Escolhe acao
+key: [2217212115, 2217212116, 0]
+key1
+antes: 0.21372438287842815 proximo: 0.18664603782263517 teste dict: 0.21335425931399926
+***************
+estado 95
+
+instante t1 Float32[16.7, 16.79, 16.89, 16.53, 12.22, 0.0]
+instante t0 Float32[16.75, 16.67, 16.85, 16.53, 2.54, 0.3]
+acao: 5 - STAY_SHORT
+        estado95 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, UP] 
+proximo estado96 = [SHORT, UP, DOWN, NOP, UP, DOWN, MAX, MIN, UP] 
+recompensa: 0.030197361 recomp_acumulada: 0.19828713 long: 0 short: 17.22
+preco em atual: 16.7 preco futuro: 16.75
+
+Escolhe acao
+key: [2127121215, 2127121216, 0]
+key1
+antes: 0.18664603782263517 proximo: 0.20719235397275537 teste dict: 0.1865661396227324
+***************
+estado 96
+
+instante t1 Float32[16.75, 16.67, 16.85, 16.53, 2.54, 0.3]
+instante t0 Float32[16.49, 16.61, 16.81, 16.41, 9.76, -1.55]
+acao: 5 - STAY_SHORT
+        estado96 = [SHORT, UP, DOWN, NOP, UP, DOWN, MAX, MIN, UP] 
+proximo estado97 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, UP] 
+recompensa: 0.027293805 recomp_acumulada: 0.2284845 long: 0 short: 17.22
+preco em atual: 16.75 preco futuro: 16.49
+
+Escolhe acao
+key: [2217212115, 2217212116, 0]
+key1
+antes: 0.20719235397275537 proximo: 0.1865661396227324 teste dict: 0.20684723821432827
+***************
+estado 97
+
+instante t1 Float32[16.49, 16.61, 16.81, 16.41, 9.76, -1.55]
+instante t0 Float32[16.43, 16.41, 16.52, 16.25, 9.09, -0.36]
+acao: 5 - STAY_SHORT
+        estado97 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MAX, UP] 
+proximo estado98 = [SHORT, UP, DOWN, NOP, UP, DOWN, MAX, MIN, UP] 
+recompensa: 0.04239254 recomp_acumulada: 0.2557783 long: 0 short: 17.22
+preco em atual: 16.49 preco futuro: 16.43
+
+Escolhe acao
+key: [2127121215, 2127121216, 0]
+key1
+antes: 0.1865661396227324 proximo: 0.20684723821432827 teste dict: 0.1865704758976851
+***************
+estado 98
+
+instante t1 Float32[16.43, 16.41, 16.52, 16.25, 9.09, -0.36]
+instante t0 Float32[16.44, 16.28, 16.49, 16.14, 8.89, 0.06]
+acao: 5 - STAY_SHORT
+        estado98 = [SHORT, UP, DOWN, NOP, UP, DOWN, MAX, MIN, UP] 
+proximo estado99 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, UP] 
+recompensa: 0.04587683 recomp_acumulada: 0.29817086 long: 0 short: 17.22
+preco em atual: 16.43 preco futuro: 16.44
+
+Escolhe acao
+key: [2217222115, 2217222116, 0]
+key1
+antes: 0.20684723821432827 proximo: 0.21238555027845576 teste dict: 0.2067611345589063
+***************
+estado 99
+
+instante t1 Float32[16.44, 16.28, 16.49, 16.14, 8.89, 0.06]
+instante t0 Float32[16.37, 16.32, 16.5, 16.21, 19.33, -0.43]
+acao: 5 - STAY_SHORT
+        estado99 = [SHORT, DOWN, UP, NOP, DOWN, DOWN, MIN, MAX, UP] 
+proximo estado100 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MAX, UP] 
+recompensa: 0.0452961 recomp_acumulada: 0.3440477 long: 0 short: 17.22
+preco em atual: 16.44 preco futuro: 16.37
+
+Escolhe acao
+key: [2117211115, 2117211116, 0]
+key1
+antes: 0.21238555027845576 proximo: 0.1907282250583464 teste dict: 0.212150492422551
+***************
+estado 100
+
+instante t1 Float32[16.37, 16.32, 16.5, 16.21, 19.33, -0.43]
+instante t0 Float32[16.48, 16.45, 16.61, 16.44, 7.81, 0.67]
+acao: 5 - STAY_SHORT
+        estado100 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MAX, UP] 
+proximo estado101 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, UP] 
+recompensa: 0.04936112 recomp_acumulada: 0.3893438 long: 0 short: 17.22
+preco em atual: 16.37 preco futuro: 16.48
+
+Escolhe acao
+key: [2117121115, 2117121116, 0]
+key1
+antes: 0.1907282250583464 proximo: 0.1882254355707804 teste dict: 0.19066095996360097
+***************
+estado 101
+
+instante t1 Float32[16.48, 16.45, 16.61, 16.44, 7.81, 0.67]
+instante t0 Float32[16.62, 16.62, 16.65, 16.45, 11.72, 0.85]
+acao: 5 - STAY_SHORT
+        estado101 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, UP] 
+proximo estado102 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MIN, UP] 
+recompensa: 0.042973276 recomp_acumulada: 0.4387049 long: 0 short: 17.22
+preco em atual: 16.48 preco futuro: 16.62
+
+Escolhe acao
+key: [2117211215, 2117211216, 0]
+key1
+antes: 0.1882254355707804 proximo: 0.2618805959945753 teste dict: 0.18849188537575234
+***************
+estado 102
+
+instante t1 Float32[16.62, 16.62, 16.65, 16.45, 11.72, 0.85]
+instante t0 Float32[16.45, 16.61, 16.61, 16.18, 11.66, -1.02]
+acao: 5 - STAY_SHORT
+        estado102 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MIN, UP] 
+proximo estado103 = [SHORT, UP, UP, NOP, UP, DOWN, MIN, MAX, UP] 
+recompensa: 0.034843117 recomp_acumulada: 0.4816782 long: 0 short: 17.22
+preco em atual: 16.62 preco futuro: 16.45
+
+Escolhe acao
+key: [2117122115, 2117122116, 0]
+key1
+antes: 0.2618805959945753 proximo: 0.23077682822226575 teste dict: 0.26142214009989306
+***************
+estado 103
+
+instante t1 Float32[16.45, 16.61, 16.61, 16.18, 11.66, -1.02]
+instante t0 Float32[16.68, 16.54, 16.68, 16.4, 14.78, 1.4]
+acao: 5 - STAY_SHORT
+        estado103 = [SHORT, UP, UP, NOP, UP, DOWN, MIN, MAX, UP] 
+proximo estado104 = [SHORT, UP, DOWN, NOP, DOWN, UP, MAX, MAX, UP] 
+recompensa: 0.044715364 recomp_acumulada: 0.51652133 long: 0 short: 17.22
+preco em atual: 16.45 preco futuro: 16.68
+
+Escolhe acao
+key: [2127211115, 2127211116, 0]
+key1
+antes: 0.23077682822226575 proximo: 0.22980976170232517 teste dict: 0.23060046580177743
+***************
+estado 104
+
+instante t1 Float32[16.68, 16.54, 16.68, 16.4, 14.78, 1.4]
+instante t0 Float32[16.57, 16.69, 16.82, 16.53, 12.83, -0.66]
+acao: 5 - STAY_SHORT
+        estado104 = [SHORT, UP, DOWN, NOP, DOWN, UP, MAX, MAX, UP] 
+proximo estado105 = [SHORT, DOWN, UP, NOP, UP, DOWN, MAX, MAX, UP] 
+recompensa: 0.031358827 recomp_acumulada: 0.5612367 long: 0 short: 17.22
+preco em atual: 16.68 preco futuro: 16.57
+
+Escolhe acao
+key: [2217121115, 2217121116, 0]
+key1
+antes: 0.22980976170232517 proximo: 0.1858427791969155 teste dict: 0.2293312347768122
+***************
+estado 105
+
+instante t1 Float32[16.57, 16.69, 16.82, 16.53, 12.83, -0.66]
+instante t0 Float32[16.51, 16.5, 16.6, 16.45, 15.66, -0.36]
+acao: 5 - STAY_SHORT
+        estado105 = [SHORT, DOWN, UP, NOP, UP, DOWN, MAX, MAX, UP] 
+proximo estado106 = [SHORT, UP, DOWN, NOP, DOWN, UP, MAX, MIN, UP] 
+recompensa: 0.037746787 recomp_acumulada: 0.5925955 long: 0 short: 17.22
+preco em atual: 16.57 preco futuro: 16.51
+
+Escolhe acao
+key: [2127211215, 2127211216, 0]
+key1
+antes: 0.1858427791969155 proximo: 0.2060164063656473 teste dict: 0.18581558764322736
+***************
+estado 106
+
+instante t1 Float32[16.51, 16.5, 16.6, 16.45, 15.66, -0.36]
+instante t0 Float32[16.81, 16.7, 16.84, 16.55, 10.23, 1.82]
+acao: 5 - STAY_SHORT
+        estado106 = [SHORT, UP, DOWN, NOP, DOWN, UP, MAX, MIN, UP] 
+proximo estado107 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MIN, UP] 
+recompensa: 0.041231073 recomp_acumulada: 0.6303423 long: 0 short: 17.22
+preco em atual: 16.51 preco futuro: 16.81
+
+Escolhe acao
+key: [2217122215, 2217122216, 0]
+key1
+antes: 0.2060164063656473 proximo: -0.07517950037015658 teste dict: 0.20449452948334784
+***************
+estado 107
+
+instante t1 Float32[16.81, 16.7, 16.84, 16.55, 10.23, 1.82]
+instante t0 Float32[16.77, 16.82, 16.98, 16.7, 12.09, -0.24]
+acao: 5 - STAY_SHORT
+        estado107 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MIN, UP] 
+proximo estado108 = [SHORT, UP, UP, NOP, DOWN, UP, MIN, MAX, UP] 
+recompensa: 0.023809517 recomp_acumulada: 0.6715734 long: 0 short: 17.22
+preco em atual: 16.81 preco futuro: 16.77
+
+Escolhe acao
+key: [2117212115, 2117212116, 0]
+key1
+antes: -0.07517950037015658 proximo: 0.15048388895801754 teste dict: -0.07374920619405419
+***************
+estado 108
+
+instante t1 Float32[16.77, 16.82, 16.98, 16.7, 12.09, -0.24]
+instante t0 Float32[16.7, 16.66, 16.82, 16.64, 6.76, -0.42]
+acao: 5 - STAY_SHORT
+        estado108 = [SHORT, UP, UP, NOP, DOWN, UP, MIN, MAX, UP] 
+proximo estado109 = [SHORT, UP, DOWN, NOP, UP, DOWN, MAX, MIN, UP] 
+recompensa: 0.02613234 recomp_acumulada: 0.6953829 long: 0 short: 17.22
+preco em atual: 16.77 preco futuro: 16.7
+
+Escolhe acao
+key: [2127121215, 2127121216, 0]
+key1
+antes: 0.15048388895801754 proximo: 0.2067611345589063 teste dict: 0.1506265576719316
+***************
+estado 109
+
+instante t1 Float32[16.7, 16.66, 16.82, 16.64, 6.76, -0.42]
+instante t0 Float32[16.47, 16.57, 16.6, 16.41, 9.2, -1.38]
+acao: 5 - STAY_SHORT
+        estado109 = [SHORT, UP, DOWN, NOP, UP, DOWN, MAX, MIN, UP] 
+proximo estado110 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MIN, UP] 
+recompensa: 0.030197361 recomp_acumulada: 0.72151524 long: 0 short: 17.22
+preco em atual: 16.7 preco futuro: 16.47
+
+Escolhe acao
+key: [2217212215, 2217212216, 0]
+key1
+antes: 0.2067611345589063 proximo: 0.2103080220517381 teste dict: 0.20655569745543667
+***************
+estado 110
+
+instante t1 Float32[16.47, 16.57, 16.6, 16.41, 9.2, -1.38]
+instante t0 Float32[16.76, 16.59, 16.87, 16.52, 12.98, 1.76]
+acao: 5 - STAY_SHORT
+        estado110 = [SHORT, DOWN, UP, NOP, DOWN, UP, MIN, MIN, UP] 
+proximo estado111 = [SHORT, UP, DOWN, NOP, UP, UP, MIN, MIN, UP] 
+recompensa: 0.043554008 recomp_acumulada: 0.7517126 long: 0 short: 17.22
+preco em atual: 16.47 preco futuro: 16.76
+
+Escolhe acao
+key: [2127112215, 2127112216, 0]
+key1
+antes: 0.2103080220517381 proximo: 0.23878334026895476 teste dict: 0.21031078232074316
+***************
+estado 111
+
+instante t1 Float32[16.76, 16.59, 16.87, 16.52, 12.98, 1.76]
+instante t0 Float32[16.71, 16.68, 16.76, 16.54, 9.26, -0.3]
+acao: 5 - STAY_SHORT
+        estado111 = [SHORT, UP, DOWN, NOP, UP, UP, MIN, MIN, UP] 
+proximo estado112 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MAX, UP] 
+recompensa: 0.026713071 recomp_acumulada: 0.7952666 long: 0 short: 17.22
+preco em atual: 16.76 preco futuro: 16.71
+
+Escolhe acao
+key: [2217122115, 2217122116, 0]
+key1
+antes: 0.23878334026895476 proximo: 0.2239473295300652 teste dict: 0.2383961903015063
+***************
+estado 112
+
+instante t1 Float32[16.71, 16.68, 16.76, 16.54, 9.26, -0.3]
+instante t0 Float32[16.81, 16.76, 16.93, 16.51, 10.7, 0.6]
+acao: 5 - STAY_SHORT
+        estado112 = [SHORT, DOWN, UP, NOP, UP, DOWN, MIN, MAX, UP] 
+proximo estado113 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MAX, UP] 
+recompensa: 0.02961674 recomp_acumulada: 0.8219797 long: 0 short: 17.22
+preco em atual: 16.71 preco futuro: 16.81
+
+Escolhe acao
+key: [2117211115, 2117211116, 0]
+key1
+antes: 0.2239473295300652 proximo: 0.19066095996360097 teste dict: 0.22352125410438264
+***************
+estado 113
+
+instante t1 Float32[16.81, 16.76, 16.93, 16.51, 10.7, 0.6]
+instante t0 Float32[16.9, 16.62, 16.91, 16.62, 11.93, 0.54]
+acao: 5 - STAY_SHORT
+        estado113 = [SHORT, UP, UP, NOP, DOWN, UP, MAX, MAX, UP] 
+proximo estado114 = [SHORT, UP, UP, NOP, UP, UP, MAX, MAX, UP] 
+recompensa: 0.023809517 recomp_acumulada: 0.8515964 long: 0 short: 17.22
+preco em atual: 16.81 preco futuro: 16.9
+
+Escolhe acao
+key: [2117111115, 2117111116, 0]
+key1
+antes: 0.19066095996360097 proximo: 0.19402099549749932 teste dict: 0.19044370273941053
+***************
+estado 114
+
+instante t1 Float32[16.9, 16.62, 16.91, 16.62, 11.93, 0.54]
+instante t0 Float32[16.96, 16.97, 17.13, 16.88, 10.32, 0.36]
+acao: 5 - STAY_SHORT
+        estado114 = [SHORT, UP, UP, NOP, UP, UP, MAX, MAX, UP] 
+proximo estado115 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, UP] 
+recompensa: 0.018583026 recomp_acumulada: 0.8754059 long: 0 short: 17.22
+preco em atual: 16.9 preco futuro: 16.96
+
+Escolhe acao
+key: [2117121115, 2117121116, 0]
+key1
+antes: 0.19402099549749932 proximo: 0.18849188537575234 teste dict: 0.1937165399478411
+***************
+estado 115
+
+instante t1 Float32[16.96, 16.97, 17.13, 16.88, 10.32, 0.36]
+instante t0 Float32[16.97, 17.08, 17.17, 16.96, 6.45, 0.06]
+acao: 5 - STAY_SHORT
+        estado115 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, UP] 
+proximo estado116 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 
+recompensa: 0.015098737 recomp_acumulada: 0.8939889 long: 0 short: 17.22
+preco em atual: 16.96 preco futuro: 16.97
+
+Escolhe acao
+key: [2127221215, 2127221216, 0]
+key1
+antes: 0.18849188537575234 proximo: 0.20304460110920555 teste dict: 0.18827305187990725
+***************
+estado 116
+
+instante t1 Float32[16.97, 17.08, 17.17, 16.96, 6.45, 0.06]
+instante t0 Float32[16.95, 17.01, 17.11, 16.89, 6.4, -0.12]
+acao: 5 - STAY_SHORT
+        estado116 = [SHORT, UP, DOWN, NOP, DOWN, DOWN, MAX, MIN, UP] 
+proximo estado117 = [SHORT, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, UP] 
+recompensa: 0.014518003 recomp_acumulada: 0.90908766 long: 0 short: 17.22
+preco em atual: 16.97 preco futuro: 16.95
+
+Escolhe acao
+key: [2227222215, 2227222216, 0]
+key1
+antes: 0.20304460110920555 proximo: 0.19904291530412616 teste dict: 0.20270022520728753
+***************
+estado 117
+
+instante t1 Float32[16.95, 17.01, 17.11, 16.89, 6.4, -0.12]
+instante t0 Float32[16.94, 16.93, 16.97, 16.77, 8.47, -0.06]
+acao: 5 - STAY_SHORT
+        estado117 = [SHORT, DOWN, DOWN, NOP, DOWN, DOWN, MIN, MIN, UP] 
+proximo estado118 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, UP] 
+recompensa: 0.01567936 recomp_acumulada: 0.9236057 long: 0 short: 17.22
+preco em atual: 16.95 preco futuro: 16.94
+
+Escolhe acao
+key: [2227212215, 2227212216, 0]
+key1
+antes: 0.19904291530412616 proximo: 0.20834717551266724 teste dict: 0.19878027157306158
+***************
+estado 118
+
+instante t1 Float32[16.94, 16.93, 16.97, 16.77, 8.47, -0.06]
+instante t0 Float32[17.15, 16.89, 17.21, 16.87, 9.69, 1.24]
+acao: 5 - STAY_SHORT
+        estado118 = [SHORT, DOWN, DOWN, NOP, DOWN, UP, MIN, MIN, UP] 
+proximo estado119 = [SHORT, DOWN, UP, NOP, UP, UP, MIN, MAX, UP] 
+recompensa: 0.016260093 recomp_acumulada: 0.93928504 long: 0 short: 17.22
+preco em atual: 16.94 preco futuro: 17.15
+
+Escolhe acao
+key: [2217112115, 2217112116, 0]
+key1
+antes: 0.20834717551266724 proximo: 0.20962558506883447 teste dict: 0.20802973130246197
+***************
+estado 119
+
+instante t1 Float32[17.15, 16.89, 17.21, 16.87, 9.69, 1.24]
+instante t0 Float32[16.99, 17.08, 17.08, 16.91, 5.84, -0.93]
+acao: 5 - STAY_SHORT
+        estado119 = [SHORT, DOWN, UP, NOP, UP, UP, MIN, MAX, UP] 
+proximo estado120 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, UP] 
+recompensa: 0.0040650233 recomp_acumulada: 0.9555451 long: 0 short: 17.22
+preco em atual: 17.15 preco futuro: 16.99
+
+Escolhe acao
+key: [2117121115, 2117121116, 0]
+key1
+antes: 0.20962558506883447 proximo: 0.18827305187990725 teste dict: 0.2091091990904507
+***************
+estado 120
+
+instante t1 Float32[16.99, 17.08, 17.08, 16.91, 5.84, -0.93]
+instante t0 Float32[17.08, 16.99, 17.14, 16.94, 19.37, 0.53]
+acao: 5 - STAY_SHORT
+        estado120 = [SHORT, UP, UP, NOP, UP, DOWN, MAX, MAX, UP] 
+proximo estado121 = [SHORT, UP, DOWN, NOP, DOWN, UP, MAX, MIN, UP] 
+recompensa: 0.013356536 recomp_acumulada: 0.95961016 long: 0 short: 17.22
+preco em atual: 16.99 preco futuro: 17.08
+
+Escolhe acao
+key: [2127211215, 2127211216, 0]
+key1
+antes: 0.18827305187990725 proximo: 0.20449452948334784 teste dict: 0.18805065946108476
+***************
+estado 121
+
