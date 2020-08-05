@@ -194,6 +194,7 @@ draw(PNG(ativo * "/grafico/Teste/DataVsRetorno.png", 40cm, 15cm), gretorno)
 gretornoAcum = plot(df, x = :Data, y = :RetornoAcumulado, Geom.line)
 draw(PNG(ativo * "/grafico/Teste/DataVsRetornoAcumulado.png", 40cm, 15cm), gretornoAcum)
 
+println(ativo)
 print(df)
 close(dados)
 close(result)

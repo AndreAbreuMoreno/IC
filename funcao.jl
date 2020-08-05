@@ -16,7 +16,6 @@ function inicializaQ(iteracao, ativo)
             f1 = 0
             g1 = 0
             h1 = 0
-            i1 = 0
             keys = []
             vals = []
             for a in [1 2 3]

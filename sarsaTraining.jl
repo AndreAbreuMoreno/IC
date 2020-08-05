@@ -17,8 +17,8 @@ include("constantes.jl")
 # """ Declaracao de variaveis """
 # Escolher o ativo (mesmo nome da pasta)
 ativo = "PETR3" 
-# iteracao = 0 # colocar 0 para iniciar um treinamento
-iteracao = 1 # utilizar um modelo ja treinado (ler um dicionario)
+iteracao = 0 # colocar 0 para iniciar um treinamento
+# iteracao = 1 # utilizar um modelo ja treinado (ler um dicionario)
 
 # """ Inicializa todos os valores de Q(e,a) arbitrariamente """
 Q_e_a = inicializaQ(iteracao, ativo)
